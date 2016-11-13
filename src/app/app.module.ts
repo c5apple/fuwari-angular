@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { TopComponent } from './top/top.component';
-import { WhatIsAngularComponent } from './what-is-angular/what-is-angular.component';
-import { EcoSystemComponent } from './eco-system/eco-system.component';
+import { FooterComponent } from './parts/footer.component';
+import { HeaderComponent } from './parts/header.component';
+import { TopComponent } from './articles/top.component';
+import { WhatIsAngularComponent } from './articles/what-is-angular.component';
+import { EcoSystemComponent } from './articles/eco-system.component';
 
 @NgModule({
   declarations: [

@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TopComponent } from './top/top.component';
-import { WhatIsAngularComponent } from './what-is-angular/what-is-angular.component';
-import { EcoSystemComponent } from './eco-system/eco-system.component';
+import { TopComponent } from './articles/top.component';
+import { WhatIsAngularComponent } from './articles/what-is-angular.component';
+import { EcoSystemComponent } from './articles/eco-system.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
