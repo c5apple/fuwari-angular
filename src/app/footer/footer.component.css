@@ -1,0 +1,7 @@
+#go-top {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  position: fixed;
+  left: calc(100% - 140px);
+  bottom: 40px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
