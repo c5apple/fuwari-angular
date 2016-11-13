@@ -1,14 +1,45 @@
 /* tslint:disable:no-unused-variable */
 
+import { Component, NgModule } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { Routes, RouterModule } from '@angular/router';
+
+import { AppComponent } from '../app/app.component';
+
+@Component({
+  selector: 'app-header',
+  template: ''
+})
+class HeaderWrapperComponent { }
+
+const routes: Routes = [
+  { path: '', component: HeaderWrapperComponent }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+  providers: []
+})
+export class AppRoutingWrapperModule { }
+
+@Component({
+  selector: 'app-footer',
+  template: ''
+})
+class FooterWrapperComponent { }
 
 describe('App: FuwariAngular', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        HeaderWrapperComponent,
+        FooterWrapperComponent
       ],
+      imports: [
+        AppRoutingWrapperModule
+      ]
     });
   });
 
@@ -18,16 +49,4 @@ describe('App: FuwariAngular', () => {
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'app works!'`, async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    let app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('app works!');
-  }));
-
-  it('should render title in a h1 tag', async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    let compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('app works!');
-  }));
 });

@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { WhatIsAngularComponent } from './what-is-angular.component';
+import { WhatIsAngularComponent } from '../app/what-is-angular/what-is-angular.component';
 
 describe('WhatIsAngularComponent', () => {
   let component: WhatIsAngularComponent;

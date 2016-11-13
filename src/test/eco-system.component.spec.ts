@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { EcoSystemComponent } from './eco-system.component';
+import { EcoSystemComponent } from '../app/eco-system/eco-system.component';
 
 describe('EcoSystemComponent', () => {
   let component: EcoSystemComponent;
