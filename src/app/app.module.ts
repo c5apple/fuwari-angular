@@ -10,6 +10,7 @@ import { HeaderComponent } from './parts/header.component';
 import { TopComponent } from './articles/top.component';
 import { WhatIsAngularComponent } from './articles/what-is-angular.component';
 import { EcoSystemComponent } from './articles/eco-system.component';
+import { AdsenseComponent } from './parts/adsense.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EcoSystemComponent } from './articles/eco-system.component';
     HeaderComponent,
     TopComponent,
     WhatIsAngularComponent,
-    EcoSystemComponent
+    EcoSystemComponent,
+    AdsenseComponent
   ],
   imports: [
     BrowserModule,
