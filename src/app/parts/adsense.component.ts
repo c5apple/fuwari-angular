@@ -8,6 +8,9 @@ import { Component, AfterViewInit } from '@angular/core';
 export class AdsenseComponent implements AfterViewInit {
 
   ngAfterViewInit() {
+    if (location.hostname === 'localhost') {
+      return;
+    }
     try {
       (adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
