@@ -574,6 +574,10 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
     this._AdsenseComponent_30_3.ngDoCheck(this,this._el_30,throwOnChange);
     this._RouterLinkWithHref_8_3.checkHost(this,this,this._el_8,throwOnChange);
     this.compView_30.detectChanges(throwOnChange);
+    if (!throwOnChange) {
+      this.debug(30,21,8);
+      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_30_3.context.ngAfterViewInit(); }
+    }
   }
   destroyInternal():void {
     this.compView_30.destroy();

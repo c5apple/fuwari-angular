@@ -834,6 +834,10 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
     this._AdsenseComponent_27_3.ngDoCheck(this,this._el_27,throwOnChange);
     this._RouterLinkWithHref_8_3.checkHost(this,this,this._el_8,throwOnChange);
     this.compView_27.detectChanges(throwOnChange);
+    if (!throwOnChange) {
+      this.debug(27,20,8);
+      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_27_3.context.ngAfterViewInit(); }
+    }
   }
   destroyInternal():void {
     this.compView_27.destroy();

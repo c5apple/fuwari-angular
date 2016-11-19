@@ -30,7 +30,6 @@ export class Wrapper_AdsenseComponent {
   ngDoCheck(view:import1.AppView<any>,el:any,throwOnChange:boolean):boolean {
     var changed:any = this._changed;
     this._changed = false;
-    if (!throwOnChange) { if ((view.numberOfChecks === 0)) { this.context.ngOnInit(); } }
     return changed;
   }
   checkHost(view:import1.AppView<any>,componentView:import1.AppView<any>,el:any,throwOnChange:boolean):void {
@@ -68,6 +67,10 @@ class View_AdsenseComponent_Host0 extends import1.DebugAppView<any> {
     this.debug(0,0,0);
     this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
     this.compView_0.detectChanges(throwOnChange);
+    if (!throwOnChange) {
+      this.debug(0,0,0);
+      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_0_3.context.ngAfterViewInit(); }
+    }
   }
   destroyInternal():void {
     this.compView_0.destroy();
