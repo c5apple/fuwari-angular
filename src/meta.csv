@@ -1,3 +1,4 @@
 name,title,description
 what-is-angular,Angularって何？,Angularとは何かを知る前に、W3Cが提唱するWebComponentsやSPA(SinglePageApplication)を知る必要があります。
 eco-system,Angularエコシステム,Angularのエコシステムはたくさんあり、中でもAngular-CLIは有用なツールです。
+install,必要なツールをインストールしよう,Angularで開発するために必要なツールをインストールしてみましょう。キャプチャ付きで説明します。

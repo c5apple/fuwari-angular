@@ -11,6 +11,7 @@ import { TopComponent } from './articles/top.component';
 import { WhatIsAngularComponent } from './articles/what-is-angular.component';
 import { EcoSystemComponent } from './articles/eco-system.component';
 import { AdsenseComponent } from './parts/adsense.component';
+import { InstallComponent } from './articles/install.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AdsenseComponent } from './parts/adsense.component';
     TopComponent,
     WhatIsAngularComponent,
     EcoSystemComponent,
-    AdsenseComponent
+    AdsenseComponent,
+    InstallComponent
   ],
   imports: [
     BrowserModule,
