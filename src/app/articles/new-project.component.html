@@ -1,0 +1,197 @@
+<section class="section">
+  <div class="container">
+
+    <article class="article ">
+      <p class="subtitle is-4">
+        2016/11/22
+      </p>
+      <h1 class="title is-2">
+        プロジェクトを作ってみよう
+      </h1>
+      <hr>
+      <div class="content is-medium">
+
+        <p>angular-cli を使用すると、新規ファイルを作るときに”コピペ”をする必要がありません。</p>
+        <p>コマンドひとつでソースが自動生成されます。</p>
+
+        <br>
+
+        <ads></ads>
+
+        <ul>
+          <li><code>ng new</code> してプロジェクトを作る。</li>
+          <li><code>build</code> してビルドする。</li>
+          <li><code>ng serve</code> してブラウザで確認する。</li>
+        </ul>
+
+        <br>
+        <h3><code>ng new</code> してプロジェクトを作る。</h3>
+        <hr>
+
+        <p>まずはプロジェクトを作りましょう。</p>
+        <p><code>ng new [プロジェクト名]</code> を実行してみます。</p>
+
+        <div class="console">
+          $ pwd
+          <br>/c/work
+          <br>
+          <br>$ ls -l
+          <br>total 0
+          <br>
+          <br>$ ng new SampleApp
+          <br>installing ng2
+          <br>
+          <br> ～ 中略 ～
+          <br>
+          <br><span class="green">Successfully initialized git.</span>
+          <br><span class="green">Installing packages for tooling via npm.</span>
+          <br><span class="green">Installed packages for tooling via npm.</span>
+          <br>
+        </div>
+
+        <p>※けっこう時間がかかります。</p>
+
+        <div class="console">
+          $ ls
+          <br><span class="blue">SampleApp</span>/
+          <br>
+          <br>$ ls SampleApp/
+          <br>angular-cli.json <span class="blue">e2e</span>/ karma.conf.js <span class="blue">node_modules</span>/ package.json
+          protractor.conf.js README.md <span class="blue">src</span>/ tslint.json
+        </div>
+
+        <p>プロジェクトが作られました。</p>
+
+        <div class="console">
+          $ cd SampleApp/
+        </div>
+
+        <p>作業のためにプロジェクトディレクトリに移動しておきましょう。</p>
+
+        <br>
+        <h3><code>build</code> してビルドする。</h3>
+        <hr>
+
+        <p>ビルドするには、<code>ng build</code> コマンドを実行します。</p>
+
+        <div class="console">
+          $ ng build
+          <br>
+          <br>～ 中略 ～
+          <br>
+          <br>Child html-webpack-plugin for "index.html":
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asset&nbsp;&nbsp;&nbsp;&nbsp; Size&nbsp;&nbsp;Chunks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Chunk Names
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">index.html</span>&nbsp;&nbsp;2.81 kB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;chunk&nbsp;&nbsp;&nbsp;&nbsp;[<span class="yellow">0</span>] <span class="green">index.html</span>          343 bytes <span class="yellow">[entry]</span> <span class="green">[rendered]</span>
+        </div>
+
+        <div class="console">
+          $ ls
+          <br><span class="blue">SampleApp</span>/
+          <br>
+          <br>$ ls SampleApp/
+          <br>angular-cli.json <span>dist</span>/ <span class="blue">e2e</span>/ karma.conf.js <span class="blue">node_modules</span>/
+          package.json protractor.conf.js README.md <span class="blue">src</span>/ tslint.json
+          <br>
+          <br>$ ls dist/
+          <br>favicon.ico index.html inline.js inline.map main.bundle.js main.map styles.bundle.js styles.map
+        </div>
+
+        <p>SampleApp/dist/ というディレクトリができました。</p>
+
+        <p>ここにビルド後のモジュールが生成されます。</p>
+
+        <p>ディレクトリを変更するには、angular-cli.json の apps.outDir を修正します。</p>
+
+        <br>
+        <h3><code>ng serve</code> してブラウザで確認する。</h3>
+        <hr>
+
+        <p>ブラウザで確認するには、<code>ng serve</code> コマンドを実行します。</p>
+        <p>
+          前述で、<code>ng build</code> コマンドを実行してビルドをしましたが、<code>ng serve</code> コマンドは自動でビルドしてくれますので、確認のたびに毎回ビルドする必要はありません。
+        </p>
+
+        <div class="console">
+          $ ng serve
+          <br>Child html-webpack-plugin for "index.html":
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asset&nbsp;&nbsp;&nbsp;&nbsp; Size&nbsp;&nbsp;Chunks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Chunk Names
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">index.html</span>&nbsp;&nbsp;2.81 kB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0
+          <br>webpack: bundle is now VALID.
+        </div>
+
+        <p>処理が終わったようですので、ブラウザで確認してみましょう。</p>
+        <p><code>ng serve</code> のデフォルトポートは4200です。</p>
+
+        <p>
+          <img src="/assets/new-project/localhost.gif">
+        </p>
+
+        <p>”app works!” と表示されればOKです。</p>
+
+        <p>せっかくなので、この文字列を修正してみましょう。</p>
+
+        <p><code>ng serve</code> を起動させたまま、app.component.ts を修正してみてください。</p>
+
+        <div class="console">
+          $ vi src/app/app.component.ts
+          <br>
+          <br>&nbsp;&nbsp;title = 'app works!'; <span class="red">// ここを'ふわりAngular!'に変えてみてください。</span>
+          <br>
+        </div>
+
+        <div class="console">
+          webpack: bundle is now INVALID.
+          <br>
+          <br>～ 中略 ～
+          <br>
+          <br>Child html-webpack-plugin for "index.html":
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asset&nbsp;&nbsp;&nbsp;&nbsp; Size&nbsp;&nbsp;Chunks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Chunk Names
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">index.html</span>&nbsp;&nbsp;2.81 kB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0
+          <br>webpack: bundle is now VALID.
+        </div>
+
+        <p>すると、ファイルが変更されたことを検知し、自動ビルドが走ります。</p>
+
+        <p>ブラウザを見てみると・・・</p>
+
+        <p>
+          <img src="/assets/new-project/localhost-angular.gif">
+        </p>
+
+        <p>なんということでしょう。</p>
+
+        <p>ブラウザを更新していないにも関わらず、修正が反映されました。</p>
+
+        <p>とても便利な仕組みで開発が捗りますね。</p>
+
+        <br>
+        <h3>続きは...</h3>
+
+        <nav class="tile is-ancestor">
+          <div class="tile is-parent is-vertical">
+            <a routerLink="/install.html" class="button">
+              <span class="icon"><i class="fa fa-angle-left"></i></span>
+              <span>必要なツールをインストールしよう</span>
+            </a>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <a class="button">
+              <span>TODOリストを作ってみよう ※未作成</span>
+              <span class="icon"><i class="fa fa-angle-right"></i></span>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!-- /.content -->
+    </article>
+
+  </div>
+  <!-- /.container -->
+</section>

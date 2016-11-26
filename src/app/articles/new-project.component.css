@@ -1,0 +1,22 @@
+.console {
+    background-color: #111;
+    border: 1px solid #666;
+    color: #EEE;
+    font-family: Inconsolata,Consolas,Monaco,monospace;
+    font-size:     10pt;
+    margin-bottom: 0.4em;
+    padding:       0.4em 0.4em;
+    min-width: 50%;
+}
+.green {
+  color: #23d160;
+}
+.blue {
+  color: #3273dc;
+}
+.yellow {
+  color: #ffdd57;
+}
+.red {
+  color: #ff3860;
+}

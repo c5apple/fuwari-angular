@@ -12,6 +12,7 @@ import { WhatIsAngularComponent } from './articles/what-is-angular.component';
 import { EcoSystemComponent } from './articles/eco-system.component';
 import { AdsenseComponent } from './parts/adsense.component';
 import { InstallComponent } from './articles/install.component';
+import { NewProjectComponent } from './articles/new-project.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InstallComponent } from './articles/install.component';
     WhatIsAngularComponent,
     EcoSystemComponent,
     AdsenseComponent,
-    InstallComponent
+    InstallComponent,
+    NewProjectComponent
   ],
   imports: [
     BrowserModule,

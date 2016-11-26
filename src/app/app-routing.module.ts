@@ -5,13 +5,15 @@ import { TopComponent } from './articles/top.component';
 import { WhatIsAngularComponent } from './articles/what-is-angular.component';
 import { EcoSystemComponent } from './articles/eco-system.component';
 import { InstallComponent } from './articles/install.component';
+import { NewProjectComponent } from './articles/new-project.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
   { path: 'top', component: TopComponent },
   { path: 'what-is-angular.html', component: WhatIsAngularComponent },
   { path: 'eco-system.html', component: EcoSystemComponent },
-  { path: 'install.html', component: InstallComponent }
+  { path: 'install.html', component: InstallComponent },
+  { path: 'new-project.html', component: NewProjectComponent }
 ];
 
 @NgModule({
