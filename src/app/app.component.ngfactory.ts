@@ -97,7 +97,7 @@ const nodeDebugInfos_AppComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_AppComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/Users/ari/Documents/OKINISHI/onyx-web/fuwari-angular/src/app/app.component.html',0,import5.ViewEncapsulation.Emulated,styles_AppComponent,{});
+var renderType_AppComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/app.component.html',0,import5.ViewEncapsulation.Emulated,styles_AppComponent,{});
 export class View_AppComponent0 extends import1.DebugAppView<import0.AppComponent> {
   _el_0:any;
   _text_1:any;

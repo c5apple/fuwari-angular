@@ -15,6 +15,8 @@ import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
 import * as import9 from './adsense.component.css.shim';
+import * as import10 from 'ng2-adsense/ng2-adsense';
+import * as import11 from '../../../node_modules/ng2-adsense/ng2-adsense.ngfactory';
 export class Wrapper_AdsenseComponent {
   /*private*/ _eventHandler:Function;
   context:import0.AdsenseComponent;
@@ -67,10 +69,6 @@ class View_AdsenseComponent_Host0 extends import1.DebugAppView<any> {
     this.debug(0,0,0);
     this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
     this.compView_0.detectChanges(throwOnChange);
-    if (!throwOnChange) {
-      this.debug(0,0,0);
-      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_0_3.context.ngAfterViewInit(); }
-    }
   }
   destroyInternal():void {
     this.compView_0.destroy();
@@ -82,26 +80,52 @@ class View_AdsenseComponent_Host0 extends import1.DebugAppView<any> {
 export const AdsenseComponentNgFactory:import8.ComponentFactory<import0.AdsenseComponent> = new import8.ComponentFactory<import0.AdsenseComponent>('ads',View_AdsenseComponent_Host0,import0.AdsenseComponent);
 const styles_AdsenseComponent:any[] = [import9.styles];
 const nodeDebugInfos_AdsenseComponent0:import2.StaticNodeDebugInfo[] = [
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import10.AdsenseComponent],import10.AdsenseComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_AdsenseComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/Users/ari/Documents/OKINISHI/onyx-web/fuwari-angular/src/app/parts/adsense.component.html',0,import5.ViewEncapsulation.Emulated,styles_AdsenseComponent,{});
+var renderType_AdsenseComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/parts/adsense.component.html',0,import5.ViewEncapsulation.Emulated,styles_AdsenseComponent,{});
 export class View_AdsenseComponent0 extends import1.DebugAppView<import0.AdsenseComponent> {
   _el_0:any;
+  compView_0:import1.AppView<import10.AdsenseComponent>;
+  _AdsenseComponent_0_3:import11.Wrapper_AdsenseComponent;
   _text_1:any;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_AdsenseComponent0,renderType_AdsenseComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_AdsenseComponent0);
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
     const parentRenderNode:any = this.renderer.createViewRoot(this.parentElement);
-    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'ins',new import4.InlineArray8(8,'class','adsbygoogle','data-ad-client','ca-pub-4398400415874126','data-ad-format','auto','data-ad-slot','7651079037'),this.debug(0,0,0));
-    this._text_1 = this.renderer.createText(parentRenderNode,'\n',this.debug(1,0,120));
+    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'ng2-adsense',import4.EMPTY_INLINE_ARRAY,this.debug(0,0,0));
+    this.compView_0 = new import11.View_AdsenseComponent0(this.viewUtils,this,0,this._el_0);
+    this._AdsenseComponent_0_3 = new import11.Wrapper_AdsenseComponent();
+    this._text_1 = this.renderer.createText((null as any),'\n',this.debug(1,2,24));
+    this.compView_0.create(this._AdsenseComponent_0_3.context);
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1
     ]
     ),(null as any));
     return (null as any);
+  }
+  injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
+    if (((token === import10.AdsenseComponent) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 1)))) { return this._AdsenseComponent_0_3.context; }
+    return notFoundResult;
+  }
+  detectChangesInternal(throwOnChange:boolean):void {
+    this.debug(0,1,2);
+    const currVal_0_0_0:any = 'ca-pub-4398400415874126';
+    this._AdsenseComponent_0_3.check_adClient(currVal_0_0_0,throwOnChange,false);
+    this.debug(0,2,2);
+    const currVal_0_0_1:any = 7651079037;
+    this._AdsenseComponent_0_3.check_adSlot(currVal_0_0_1,throwOnChange,false);
+    this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
+    this.compView_0.detectChanges(throwOnChange);
+    if (!throwOnChange) {
+      this.debug(0,0,0);
+      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_0_3.context.ngAfterViewInit(); }
+    }
+  }
+  destroyInternal():void {
+    this.compView_0.destroy();
   }
 }

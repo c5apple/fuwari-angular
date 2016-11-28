@@ -5,4 +5,4 @@
  */
  /* tslint:disable */
 
-export const styles:any[] = ['.adsbygoogle[_ngcontent-%COMP%] {\n  display:block;\n}'];
+export const styles:any[] = [''];

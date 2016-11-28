@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { AdsenseModule } from 'ng2-adsense';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -30,7 +31,8 @@ import { NewProjectComponent } from './articles/new-project.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdsenseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

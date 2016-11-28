@@ -107,7 +107,7 @@ const nodeDebugInfos_FooterComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_FooterComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/Users/ari/Documents/OKINISHI/onyx-web/fuwari-angular/src/app/parts/footer.component.html',0,import5.ViewEncapsulation.Emulated,styles_FooterComponent,{});
+var renderType_FooterComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/parts/footer.component.html',0,import5.ViewEncapsulation.Emulated,styles_FooterComponent,{});
 export class View_FooterComponent0 extends import1.DebugAppView<import0.FooterComponent> {
   _el_0:any;
   _text_1:any;

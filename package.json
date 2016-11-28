@@ -6,7 +6,7 @@
   "scripts": {
     "ngc": "ngc -p ./tsconfig.aot.json",
     "build": "ng build",
-    "build:prod": "ng build -prod && .\\script\\make_html.sh",
+    "build:prod": "ng build --prod && .\\script\\make_html.sh",
     "start": "ng serve",
     "webpack": "webpack --config webpack.config.js",
     "webpack:aot": "webpack --config webpack.config.aot.js",
@@ -28,6 +28,7 @@
     "@angular/platform-server": "^2.2.0",
     "@angular/router": "^3.1.2",
     "core-js": "^2.4.1",
+    "ng2-adsense": "^1.0.1",
     "rxjs": "^5.0.0-rc.3",
     "ts-helpers": "^1.1.2",
     "typescript": "^2.0.10",

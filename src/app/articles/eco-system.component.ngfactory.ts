@@ -15,13 +15,17 @@ import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
 import * as import9 from './eco-system.component.css.shim';
-import * as import10 from '@angular/router/src/directives/router_link';
-import * as import11 from '../parts/adsense.component';
-import * as import12 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
-import * as import13 from '../parts/adsense.component.ngfactory';
-import * as import14 from '@angular/router/src/router';
-import * as import15 from '@angular/router/src/router_state';
-import * as import16 from '@angular/common/src/location/location_strategy';
+import * as import10 from '@angular/core/src/linker/template_ref';
+import * as import11 from '@angular/common/src/directives/ng_if';
+import * as import12 from '@angular/router/src/directives/router_link';
+import * as import13 from '@angular/core/src/linker/view_container';
+import * as import14 from '../../../node_modules/@angular/common/src/directives/ng_if.ngfactory';
+import * as import15 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
+import * as import16 from '@angular/router/src/router';
+import * as import17 from '@angular/router/src/router_state';
+import * as import18 from '@angular/common/src/location/location_strategy';
+import * as import19 from '../parts/adsense.component';
+import * as import20 from '../parts/adsense.component.ngfactory';
 export class Wrapper_EcoSystemComponent {
   /*private*/ _eventHandler:Function;
   context:import0.EcoSystemComponent;
@@ -94,7 +98,6 @@ const nodeDebugInfos_EcoSystemComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import10.RouterLinkWithHref],(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -108,12 +111,16 @@ const nodeDebugInfos_EcoSystemComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([
+    import10.TemplateRef,
+    import11.NgIf
+  ]
+  ,(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import11.AdsenseComponent],import11.AdsenseComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -249,6 +256,33 @@ const nodeDebugInfos_EcoSystemComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -266,7 +300,7 @@ const nodeDebugInfos_EcoSystemComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_EcoSystemComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/Users/ari/Documents/OKINISHI/onyx-web/fuwari-angular/src/app/articles/eco-system.component.html',0,import5.ViewEncapsulation.Emulated,styles_EcoSystemComponent,{});
+var renderType_EcoSystemComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/eco-system.component.html',0,import5.ViewEncapsulation.Emulated,styles_EcoSystemComponent,{});
 export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSystemComponent> {
   _el_0:any;
   _text_1:any;
@@ -276,31 +310,31 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
   _text_5:any;
   _el_6:any;
   _text_7:any;
-  _el_8:any;
-  _RouterLinkWithHref_8_3:import12.Wrapper_RouterLinkWithHref;
-  _text_9:any;
+  _text_8:any;
+  _el_9:any;
   _text_10:any;
   _text_11:any;
   _el_12:any;
   _text_13:any;
-  _text_14:any;
-  _el_15:any;
-  _text_16:any;
+  _el_14:any;
+  _text_15:any;
+  _el_16:any;
   _text_17:any;
-  _el_18:any;
-  _text_19:any;
-  _el_20:any;
-  _text_21:any;
-  _el_22:any;
-  _text_23:any;
+  _text_18:any;
+  _el_19:any;
+  _text_20:any;
+  _anchor_21:any;
+  /*private*/ _vc_21:import13.ViewContainer;
+  _TemplateRef_21_5:any;
+  _NgIf_21_6:import14.Wrapper_NgIf;
+  _text_22:any;
+  _el_23:any;
   _text_24:any;
   _el_25:any;
   _text_26:any;
-  _el_27:any;
-  compView_27:import1.AppView<import11.AdsenseComponent>;
-  _AdsenseComponent_27_3:import13.Wrapper_AdsenseComponent;
-  _text_28:any;
-  _el_29:any;
+  _text_27:any;
+  _el_28:any;
+  _text_29:any;
   _text_30:any;
   _el_31:any;
   _text_32:any;
@@ -329,126 +363,154 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
   _el_55:any;
   _text_56:any;
   _text_57:any;
-  _el_58:any;
-  _text_59:any;
+  _text_58:any;
+  _el_59:any;
   _text_60:any;
-  _el_61:any;
-  _text_62:any;
+  _text_61:any;
+  _el_62:any;
   _text_63:any;
-  _text_64:any;
-  _el_65:any;
+  _el_64:any;
+  _text_65:any;
   _text_66:any;
-  _text_67:any;
-  _el_68:any;
-  _text_69:any;
-  _el_70:any;
+  _el_67:any;
+  _text_68:any;
+  _el_69:any;
+  _text_70:any;
   _text_71:any;
-  _text_72:any;
-  _el_73:any;
+  _el_72:any;
+  _text_73:any;
   _text_74:any;
   _el_75:any;
   _text_76:any;
-  _text_77:any;
-  _el_78:any;
+  _el_77:any;
+  _text_78:any;
   _text_79:any;
-  _text_80:any;
-  _el_81:any;
-  _text_82:any;
-  _el_83:any;
+  _el_80:any;
+  _text_81:any;
+  _el_82:any;
+  _text_83:any;
   _text_84:any;
-  _text_85:any;
-  _el_86:any;
-  _text_87:any;
-  _el_88:any;
+  _el_85:any;
+  _text_86:any;
+  _el_87:any;
+  _text_88:any;
   _text_89:any;
-  _text_90:any;
-  _el_91:any;
+  _el_90:any;
+  _text_91:any;
   _text_92:any;
   _el_93:any;
   _text_94:any;
-  _text_95:any;
-  _el_96:any;
+  _el_95:any;
+  _text_96:any;
   _text_97:any;
-  _text_98:any;
-  _el_99:any;
+  _el_98:any;
+  _text_99:any;
   _text_100:any;
   _el_101:any;
   _text_102:any;
   _text_103:any;
-  _el_104:any;
-  _text_105:any;
+  _text_104:any;
+  _el_105:any;
   _text_106:any;
-  _el_107:any;
-  _text_108:any;
+  _text_107:any;
+  _el_108:any;
   _text_109:any;
   _text_110:any;
   _el_111:any;
   _text_112:any;
-  _text_113:any;
-  _el_114:any;
+  _el_113:any;
+  _text_114:any;
   _text_115:any;
-  _text_116:any;
-  _el_117:any;
-  _text_118:any;
-  _el_119:any;
+  _el_116:any;
+  _text_117:any;
+  _el_118:any;
+  _text_119:any;
   _text_120:any;
-  _text_121:any;
-  _el_122:any;
+  _el_121:any;
+  _text_122:any;
   _text_123:any;
   _el_124:any;
   _text_125:any;
-  _text_126:any;
-  _el_127:any;
+  _el_126:any;
+  _text_127:any;
   _text_128:any;
-  _text_129:any;
-  _el_130:any;
-  _text_131:any;
-  _el_132:any;
+  _el_129:any;
+  _text_130:any;
+  _el_131:any;
+  _text_132:any;
   _text_133:any;
-  _text_134:any;
-  _el_135:any;
-  _text_136:any;
-  _el_137:any;
+  _el_134:any;
+  _text_135:any;
+  _el_136:any;
+  _text_137:any;
   _text_138:any;
-  _text_139:any;
-  _el_140:any;
-  _text_141:any;
-  _el_142:any;
+  _el_139:any;
+  _text_140:any;
+  _el_141:any;
+  _text_142:any;
   _text_143:any;
-  _text_144:any;
-  _el_145:any;
-  _text_146:any;
-  _el_147:any;
+  _el_144:any;
+  _text_145:any;
+  _el_146:any;
+  _text_147:any;
   _text_148:any;
-  _text_149:any;
-  _el_150:any;
-  _text_151:any;
-  _el_152:any;
+  _el_149:any;
+  _text_150:any;
+  _el_151:any;
+  _text_152:any;
   _text_153:any;
-  _text_154:any;
-  _el_155:any;
+  _el_154:any;
+  _text_155:any;
   _text_156:any;
   _el_157:any;
   _text_158:any;
-  _text_159:any;
-  _el_160:any;
+  _el_159:any;
+  _text_160:any;
   _text_161:any;
-  _text_162:any;
-  _el_163:any;
-  _text_164:any;
-  _el_165:any;
+  _el_162:any;
+  _text_163:any;
+  _el_164:any;
+  _text_165:any;
   _text_166:any;
-  _text_167:any;
-  _el_168:any;
-  _text_169:any;
-  _el_170:any;
+  _el_167:any;
+  _text_168:any;
+  _el_169:any;
+  _text_170:any;
   _text_171:any;
-  _text_172:any;
+  _el_172:any;
   _text_173:any;
-  _text_174:any;
+  _el_174:any;
   _text_175:any;
-  _text_176:any;
+  _el_176:any;
+  _RouterLinkWithHref_176_3:import15.Wrapper_RouterLinkWithHref;
   _text_177:any;
+  _el_178:any;
+  _el_179:any;
+  _text_180:any;
+  _el_181:any;
+  _text_182:any;
+  _text_183:any;
+  _text_184:any;
+  _text_185:any;
+  _el_186:any;
+  _text_187:any;
+  _el_188:any;
+  _RouterLinkWithHref_188_3:import15.Wrapper_RouterLinkWithHref;
+  _text_189:any;
+  _el_190:any;
+  _text_191:any;
+  _text_192:any;
+  _el_193:any;
+  _el_194:any;
+  _text_195:any;
+  _text_196:any;
+  _text_197:any;
+  _text_198:any;
+  _text_199:any;
+  _text_200:any;
+  _text_201:any;
+  _text_202:any;
+  _text_203:any;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_EcoSystemComponent0,renderType_EcoSystemComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_EcoSystemComponent0);
   }
@@ -460,183 +522,211 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
     this._text_3 = this.renderer.createText(this._el_2,'\n\n    ',this.debug(3,1,25));
     this._el_4 = import4.createRenderElement(this.renderer,this._el_2,'article',new import4.InlineArray2(2,'class','article '),this.debug(4,3,4));
     this._text_5 = this.renderer.createText(this._el_4,'\n      ',this.debug(5,3,30));
-    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'p',new import4.InlineArray2(2,'class','subtitle'),this.debug(6,4,6));
-    this._text_7 = this.renderer.createText(this._el_6,'\n        ',this.debug(7,4,26));
-    this._el_8 = import4.createRenderElement(this.renderer,this._el_6,'a',new import4.InlineArray2(2,'routerLink','/'),this.debug(8,5,8));
-    this._RouterLinkWithHref_8_3 = new import12.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import14.Router,this.parentIndex),this.parentView.injectorGet(import15.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import16.LocationStrategy,this.parentIndex));
-    this._text_9 = this.renderer.createText(this._el_8,'戻る',this.debug(9,5,26));
-    this._text_10 = this.renderer.createText(this._el_6,'\n      ',this.debug(10,5,32));
-    this._text_11 = this.renderer.createText(this._el_4,'\n      ',this.debug(11,6,10));
-    this._el_12 = import4.createRenderElement(this.renderer,this._el_4,'p',new import4.InlineArray2(2,'class','subtitle is-4'),this.debug(12,7,6));
-    this._text_13 = this.renderer.createText(this._el_12,'\n        2016/11/10\n      ',this.debug(13,7,31));
-    this._text_14 = this.renderer.createText(this._el_4,'\n      ',this.debug(14,9,10));
-    this._el_15 = import4.createRenderElement(this.renderer,this._el_4,'h1',new import4.InlineArray2(2,'class','title is-2'),this.debug(15,10,6));
-    this._text_16 = this.renderer.createText(this._el_15,'\n        Angularエコシステム\n      ',this.debug(16,10,29));
-    this._text_17 = this.renderer.createText(this._el_4,'\n      ',this.debug(17,12,11));
-    this._el_18 = import4.createRenderElement(this.renderer,this._el_4,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(18,13,6));
-    this._text_19 = this.renderer.createText(this._el_4,'\n      ',this.debug(19,13,10));
-    this._el_20 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(20,14,6));
-    this._text_21 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(21,14,37));
-    this._el_22 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(22,16,8));
-    this._text_23 = this.renderer.createText(this._el_22,'種類はたくさん。理解する前に廃れる物もあるのかも・・・。',this.debug(23,16,11));
-    this._text_24 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(24,16,43));
-    this._el_25 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(25,18,8));
-    this._text_26 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(26,18,12));
-    this._el_27 = import4.createRenderElement(this.renderer,this._el_20,'ads',import4.EMPTY_INLINE_ARRAY,this.debug(27,20,8));
-    this.compView_27 = new import13.View_AdsenseComponent0(this.viewUtils,this,27,this._el_27);
-    this._AdsenseComponent_27_3 = new import13.Wrapper_AdsenseComponent();
-    this.compView_27.create(this._AdsenseComponent_27_3.context);
-    this._text_28 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(28,20,19));
-    this._el_29 = import4.createRenderElement(this.renderer,this._el_20,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(29,22,8));
-    this._text_30 = this.renderer.createText(this._el_29,'\n          ',this.debug(30,22,12));
-    this._el_31 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(31,23,10));
-    this._text_32 = this.renderer.createText(this._el_31,'Angular 2 Release Candidate',this.debug(32,23,14));
-    this._text_33 = this.renderer.createText(this._el_29,'\n          ',this.debug(33,23,46));
-    this._el_34 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(34,24,10));
-    this._text_35 = this.renderer.createText(this._el_34,'Angular CLI',this.debug(35,24,14));
-    this._text_36 = this.renderer.createText(this._el_29,'\n          ',this.debug(36,24,30));
-    this._el_37 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(37,25,10));
-    this._text_38 = this.renderer.createText(this._el_37,'Angular Universal',this.debug(38,25,14));
-    this._text_39 = this.renderer.createText(this._el_29,'\n          ',this.debug(39,25,36));
-    this._el_40 = import4.createRenderElement(this.renderer,this._el_29,'li',new import4.InlineArray2(2,'class','gray'),this.debug(40,26,10));
-    this._text_41 = this.renderer.createText(this._el_40,'Angular Mobile Tool Kit※',this.debug(41,26,27));
-    this._text_42 = this.renderer.createText(this._el_29,'\n          ',this.debug(42,26,56));
-    this._el_43 = import4.createRenderElement(this.renderer,this._el_29,'li',new import4.InlineArray2(2,'class','gray'),this.debug(43,27,10));
-    this._text_44 = this.renderer.createText(this._el_43,'Angular Augury※',this.debug(44,27,27));
-    this._text_45 = this.renderer.createText(this._el_29,'\n          ',this.debug(45,27,47));
-    this._el_46 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(46,28,10));
-    this._text_47 = this.renderer.createText(this._el_46,'Angular Material 2',this.debug(47,28,14));
-    this._text_48 = this.renderer.createText(this._el_29,'\n          ',this.debug(48,28,37));
-    this._el_49 = import4.createRenderElement(this.renderer,this._el_29,'li',new import4.InlineArray2(2,'class','gray'),this.debug(49,29,10));
-    this._text_50 = this.renderer.createText(this._el_49,'Angular Firebase 2※',this.debug(50,29,27));
-    this._text_51 = this.renderer.createText(this._el_29,'\n          ',this.debug(51,29,51));
-    this._el_52 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(52,30,10));
-    this._text_53 = this.renderer.createText(this._el_52,'Angular 2 Style Guide',this.debug(53,30,14));
-    this._text_54 = this.renderer.createText(this._el_29,'\n          ',this.debug(54,30,40));
-    this._el_55 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(55,31,10));
-    this._text_56 = this.renderer.createText(this._el_55,'Angular References',this.debug(56,31,14));
-    this._text_57 = this.renderer.createText(this._el_29,'\n          ',this.debug(57,31,37));
-    this._el_58 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(58,32,10));
-    this._text_59 = this.renderer.createText(this._el_58,'Native Script 2.0',this.debug(59,32,14));
-    this._text_60 = this.renderer.createText(this._el_29,'\n          ',this.debug(60,32,36));
-    this._el_61 = import4.createRenderElement(this.renderer,this._el_29,'li',import4.EMPTY_INLINE_ARRAY,this.debug(61,33,10));
-    this._text_62 = this.renderer.createText(this._el_61,'Codelyzer',this.debug(62,33,14));
-    this._text_63 = this.renderer.createText(this._el_29,'\n        ',this.debug(63,33,28));
-    this._text_64 = this.renderer.createText(this._el_20,'\n        ',this.debug(64,34,13));
-    this._el_65 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(65,35,8));
-    this._text_66 = this.renderer.createText(this._el_65,'※灰色の字のものはなんとなくすらわかってないので書いてないです。。',this.debug(66,35,11));
-    this._text_67 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(67,35,48));
-    this._el_68 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(68,37,8));
-    this._text_69 = this.renderer.createText(this._el_20,'\n        ',this.debug(69,37,12));
-    this._el_70 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(70,38,8));
-    this._text_71 = this.renderer.createText(this._el_70,'Angular CLI',this.debug(71,38,12));
-    this._text_72 = this.renderer.createText(this._el_20,'\n        ',this.debug(72,38,28));
-    this._el_73 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(73,39,8));
-    this._text_74 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(74,39,12));
-    this._el_75 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(75,41,8));
-    this._text_76 = this.renderer.createText(this._el_75,'Command Line Interface (コマンドラインインターフェース)',this.debug(76,41,11));
-    this._text_77 = this.renderer.createText(this._el_20,'\n        ',this.debug(77,41,55));
-    this._el_78 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(78,42,8));
-    this._text_79 = this.renderer.createText(this._el_78,'Angularでやりたいことは全部できるらしい。',this.debug(79,42,11));
-    this._text_80 = this.renderer.createText(this._el_20,'\n        ',this.debug(80,42,39));
-    this._el_81 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(81,43,8));
-    this._text_82 = this.renderer.createText(this._el_81,'\n          yeomon とか bower とか grunt/gulp とか使わなくてもまかなえるらしい。',this.debug(82,43,11));
-    this._el_83 = import4.createRenderElement(this.renderer,this._el_81,'br',import4.EMPTY_INLINE_ARRAY,this.debug(83,44,57));
-    this._text_84 = this.renderer.createText(this._el_81,'ひとつにまとまるのはいいこと。\n        ',this.debug(84,44,61));
-    this._text_85 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(85,45,12));
-    this._el_86 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(86,47,8));
-    this._text_87 = this.renderer.createText(this._el_20,'\n        ',this.debug(87,47,12));
-    this._el_88 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(88,48,8));
-    this._text_89 = this.renderer.createText(this._el_88,'Angular Universal',this.debug(89,48,12));
-    this._text_90 = this.renderer.createText(this._el_20,'\n        ',this.debug(90,48,34));
-    this._el_91 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(91,49,8));
-    this._text_92 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(92,49,12));
-    this._el_93 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(93,51,8));
-    this._text_94 = this.renderer.createText(this._el_93,'サーバサイドレンダリング',this.debug(94,51,11));
-    this._text_95 = this.renderer.createText(this._el_20,'\n        ',this.debug(95,51,27));
-    this._el_96 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(96,52,8));
-    this._text_97 = this.renderer.createText(this._el_96,'ソースを書くときはAngularの文法で書くのだが、それをJavaScriptにコンパイルする必要がある。',this.debug(97,52,11));
-    this._text_98 = this.renderer.createText(this._el_20,'\n        ',this.debug(98,52,68));
-    this._el_99 = import4.createRenderElement(this.renderer,this._el_20,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(99,53,8));
-    this._text_100 = this.renderer.createText(this._el_99,'\n          ',this.debug(100,53,12));
-    this._el_101 = import4.createRenderElement(this.renderer,this._el_99,'li',import4.EMPTY_INLINE_ARRAY,this.debug(101,54,10));
-    this._text_102 = this.renderer.createText(this._el_101,'ブラウザでやる ・・・ 遅い',this.debug(102,54,14));
-    this._text_103 = this.renderer.createText(this._el_99,'\n          ',this.debug(103,54,33));
-    this._el_104 = import4.createRenderElement(this.renderer,this._el_99,'li',import4.EMPTY_INLINE_ARRAY,this.debug(104,55,10));
-    this._text_105 = this.renderer.createText(this._el_104,'サーバでやる ・・・ 早い',this.debug(105,55,14));
-    this._text_106 = this.renderer.createText(this._el_99,'\n          ',this.debug(106,55,32));
-    this._el_107 = import4.createRenderElement(this.renderer,this._el_99,'li',import4.EMPTY_INLINE_ARRAY,this.debug(107,56,10));
-    this._text_108 = this.renderer.createText(this._el_107,'初回起動時にやる ・・・ めちゃ早い！！',this.debug(108,56,14));
-    this._text_109 = this.renderer.createText(this._el_99,'\n        ',this.debug(109,56,39));
-    this._text_110 = this.renderer.createText(this._el_20,'\n        ',this.debug(110,57,13));
-    this._el_111 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(111,58,8));
-    this._text_112 = this.renderer.createText(this._el_111,'データ表示するfor文なども事前ロードできるのでSEO対策にも役立つ。',this.debug(112,58,11));
-    this._text_113 = this.renderer.createText(this._el_20,'\n        ',this.debug(113,58,50));
-    this._el_114 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(114,59,8));
-    this._text_115 = this.renderer.createText(this._el_114,'AoT (Ahead-of-Time) と組み合わせてさらに高速に。',this.debug(115,59,11));
-    this._text_116 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(116,59,49));
-    this._el_117 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(117,61,8));
-    this._text_118 = this.renderer.createText(this._el_20,'\n        ',this.debug(118,61,12));
-    this._el_119 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(119,62,8));
-    this._text_120 = this.renderer.createText(this._el_119,'Angular Material 2',this.debug(120,62,12));
-    this._text_121 = this.renderer.createText(this._el_20,'\n        ',this.debug(121,62,35));
-    this._el_122 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(122,63,8));
-    this._text_123 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(123,63,12));
-    this._el_124 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(124,65,8));
-    this._text_125 = this.renderer.createText(this._el_124,'マテリアルデザイン (Material Design) を提供するライブラリ。',this.debug(125,65,11));
-    this._text_126 = this.renderer.createText(this._el_20,'\n        ',this.debug(126,65,54));
-    this._el_127 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(127,66,8));
-    this._text_128 = this.renderer.createText(this._el_127,'流行りの感じなのでおしゃれ。',this.debug(128,66,11));
-    this._text_129 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(129,66,29));
-    this._el_130 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(130,68,8));
-    this._text_131 = this.renderer.createText(this._el_20,'\n        ',this.debug(131,68,12));
-    this._el_132 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(132,69,8));
-    this._text_133 = this.renderer.createText(this._el_132,'Angular 2 Style Guide',this.debug(133,69,12));
-    this._text_134 = this.renderer.createText(this._el_20,'\n        ',this.debug(134,69,38));
-    this._el_135 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(135,70,8));
-    this._text_136 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(136,70,12));
-    this._el_137 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(137,72,8));
-    this._text_138 = this.renderer.createText(this._el_137,'Angularのお作法とか。',this.debug(138,72,11));
-    this._text_139 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(139,72,29));
-    this._el_140 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(140,74,8));
-    this._text_141 = this.renderer.createText(this._el_20,'\n        ',this.debug(141,74,12));
-    this._el_142 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(142,75,8));
-    this._text_143 = this.renderer.createText(this._el_142,'Angular Reference',this.debug(143,75,12));
-    this._text_144 = this.renderer.createText(this._el_20,'\n        ',this.debug(144,75,34));
-    this._el_145 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(145,76,8));
-    this._text_146 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(146,76,12));
-    this._el_147 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(147,78,8));
-    this._text_148 = this.renderer.createText(this._el_147,'Angularのリファレンスとか。',this.debug(148,78,11));
-    this._text_149 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(149,78,32));
-    this._el_150 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(150,80,8));
-    this._text_151 = this.renderer.createText(this._el_20,'\n        ',this.debug(151,80,12));
-    this._el_152 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(152,81,8));
-    this._text_153 = this.renderer.createText(this._el_152,'Native Script 2.0',this.debug(153,81,12));
-    this._text_154 = this.renderer.createText(this._el_20,'\n        ',this.debug(154,81,34));
-    this._el_155 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(155,82,8));
-    this._text_156 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(156,82,12));
-    this._el_157 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(157,84,8));
-    this._text_158 = this.renderer.createText(this._el_157,'JavaScriptからNative出力してくれる。',this.debug(158,84,11));
-    this._text_159 = this.renderer.createText(this._el_20,'\n        ',this.debug(159,84,41));
-    this._el_160 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(160,85,8));
-    this._text_161 = this.renderer.createText(this._el_160,'ソースから各プラットフォームへのマッピングをしてくれるので、IEとかiOSとかAndroidとか意識する必要がない。',this.debug(161,85,11));
-    this._text_162 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(162,85,73));
-    this._el_163 = import4.createRenderElement(this.renderer,this._el_20,'br',import4.EMPTY_INLINE_ARRAY,this.debug(163,87,8));
-    this._text_164 = this.renderer.createText(this._el_20,'\n        ',this.debug(164,87,12));
-    this._el_165 = import4.createRenderElement(this.renderer,this._el_20,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(165,88,8));
-    this._text_166 = this.renderer.createText(this._el_165,'Codelyzer',this.debug(166,88,12));
-    this._text_167 = this.renderer.createText(this._el_20,'\n        ',this.debug(167,88,26));
-    this._el_168 = import4.createRenderElement(this.renderer,this._el_20,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(168,89,8));
-    this._text_169 = this.renderer.createText(this._el_20,'\n\n        ',this.debug(169,89,12));
-    this._el_170 = import4.createRenderElement(this.renderer,this._el_20,'p',import4.EMPTY_INLINE_ARRAY,this.debug(170,91,8));
-    this._text_171 = this.renderer.createText(this._el_170,'静的コード分析ができる。eslint。',this.debug(171,91,11));
-    this._text_172 = this.renderer.createText(this._el_20,'\n\n      ',this.debug(172,91,34));
-    this._text_173 = this.renderer.createText(this._el_4,'\n      ',this.debug(173,93,12));
-    this._text_174 = this.renderer.createText(this._el_4,'\n    ',this.debug(174,94,24));
-    this._text_175 = this.renderer.createText(this._el_2,'\n\n  ',this.debug(175,95,14));
-    this._text_176 = this.renderer.createText(this._el_0,'\n  ',this.debug(176,97,8));
-    this._text_177 = this.renderer.createText(this._el_0,'\n',this.debug(177,98,22));
-    var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_8,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_8));
+    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'p',new import4.InlineArray2(2,'class','subtitle is-4'),this.debug(6,4,6));
+    this._text_7 = this.renderer.createText(this._el_6,'\n        2016/11/10\n      ',this.debug(7,4,31));
+    this._text_8 = this.renderer.createText(this._el_4,'\n      ',this.debug(8,6,10));
+    this._el_9 = import4.createRenderElement(this.renderer,this._el_4,'h1',new import4.InlineArray2(2,'class','title is-2'),this.debug(9,7,6));
+    this._text_10 = this.renderer.createText(this._el_9,'\n        Angularエコシステム\n      ',this.debug(10,7,29));
+    this._text_11 = this.renderer.createText(this._el_4,'\n      ',this.debug(11,9,11));
+    this._el_12 = import4.createRenderElement(this.renderer,this._el_4,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(12,10,6));
+    this._text_13 = this.renderer.createText(this._el_4,'\n      ',this.debug(13,10,10));
+    this._el_14 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(14,11,6));
+    this._text_15 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(15,11,37));
+    this._el_16 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(16,13,8));
+    this._text_17 = this.renderer.createText(this._el_16,'種類はたくさん。理解する前に廃れる物もあるのかも・・・。',this.debug(17,13,11));
+    this._text_18 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(18,13,43));
+    this._el_19 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(19,15,8));
+    this._text_20 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(20,15,12));
+    this._anchor_21 = this.renderer.createTemplateAnchor(this._el_14,this.debug(21,17,8));
+    this._vc_21 = new import13.ViewContainer(21,14,this,this._anchor_21);
+    this._TemplateRef_21_5 = new import10.TemplateRef_(this,21,this._anchor_21);
+    this._NgIf_21_6 = new import14.Wrapper_NgIf(this._vc_21.vcRef,this._TemplateRef_21_5);
+    this._text_22 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(22,17,35));
+    this._el_23 = import4.createRenderElement(this.renderer,this._el_14,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(23,19,8));
+    this._text_24 = this.renderer.createText(this._el_23,'\n          ',this.debug(24,19,12));
+    this._el_25 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(25,20,10));
+    this._text_26 = this.renderer.createText(this._el_25,'Angular 2 Release Candidate',this.debug(26,20,14));
+    this._text_27 = this.renderer.createText(this._el_23,'\n          ',this.debug(27,20,46));
+    this._el_28 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(28,21,10));
+    this._text_29 = this.renderer.createText(this._el_28,'Angular CLI',this.debug(29,21,14));
+    this._text_30 = this.renderer.createText(this._el_23,'\n          ',this.debug(30,21,30));
+    this._el_31 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(31,22,10));
+    this._text_32 = this.renderer.createText(this._el_31,'Angular Universal',this.debug(32,22,14));
+    this._text_33 = this.renderer.createText(this._el_23,'\n          ',this.debug(33,22,36));
+    this._el_34 = import4.createRenderElement(this.renderer,this._el_23,'li',new import4.InlineArray2(2,'class','gray'),this.debug(34,23,10));
+    this._text_35 = this.renderer.createText(this._el_34,'Angular Mobile Tool Kit※',this.debug(35,23,27));
+    this._text_36 = this.renderer.createText(this._el_23,'\n          ',this.debug(36,23,56));
+    this._el_37 = import4.createRenderElement(this.renderer,this._el_23,'li',new import4.InlineArray2(2,'class','gray'),this.debug(37,24,10));
+    this._text_38 = this.renderer.createText(this._el_37,'Angular Augury※',this.debug(38,24,27));
+    this._text_39 = this.renderer.createText(this._el_23,'\n          ',this.debug(39,24,47));
+    this._el_40 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(40,25,10));
+    this._text_41 = this.renderer.createText(this._el_40,'Angular Material 2',this.debug(41,25,14));
+    this._text_42 = this.renderer.createText(this._el_23,'\n          ',this.debug(42,25,37));
+    this._el_43 = import4.createRenderElement(this.renderer,this._el_23,'li',new import4.InlineArray2(2,'class','gray'),this.debug(43,26,10));
+    this._text_44 = this.renderer.createText(this._el_43,'Angular Firebase 2※',this.debug(44,26,27));
+    this._text_45 = this.renderer.createText(this._el_23,'\n          ',this.debug(45,26,51));
+    this._el_46 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(46,27,10));
+    this._text_47 = this.renderer.createText(this._el_46,'Angular 2 Style Guide',this.debug(47,27,14));
+    this._text_48 = this.renderer.createText(this._el_23,'\n          ',this.debug(48,27,40));
+    this._el_49 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(49,28,10));
+    this._text_50 = this.renderer.createText(this._el_49,'Angular References',this.debug(50,28,14));
+    this._text_51 = this.renderer.createText(this._el_23,'\n          ',this.debug(51,28,37));
+    this._el_52 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(52,29,10));
+    this._text_53 = this.renderer.createText(this._el_52,'Native Script 2.0',this.debug(53,29,14));
+    this._text_54 = this.renderer.createText(this._el_23,'\n          ',this.debug(54,29,36));
+    this._el_55 = import4.createRenderElement(this.renderer,this._el_23,'li',import4.EMPTY_INLINE_ARRAY,this.debug(55,30,10));
+    this._text_56 = this.renderer.createText(this._el_55,'Codelyzer',this.debug(56,30,14));
+    this._text_57 = this.renderer.createText(this._el_23,'\n        ',this.debug(57,30,28));
+    this._text_58 = this.renderer.createText(this._el_14,'\n        ',this.debug(58,31,13));
+    this._el_59 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(59,32,8));
+    this._text_60 = this.renderer.createText(this._el_59,'※灰色の字のものはなんとなくすらわかってないので書いてないです。。',this.debug(60,32,11));
+    this._text_61 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(61,32,48));
+    this._el_62 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(62,34,8));
+    this._text_63 = this.renderer.createText(this._el_14,'\n        ',this.debug(63,34,12));
+    this._el_64 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(64,35,8));
+    this._text_65 = this.renderer.createText(this._el_64,'Angular CLI',this.debug(65,35,12));
+    this._text_66 = this.renderer.createText(this._el_14,'\n        ',this.debug(66,35,28));
+    this._el_67 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(67,36,8));
+    this._text_68 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(68,36,12));
+    this._el_69 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(69,38,8));
+    this._text_70 = this.renderer.createText(this._el_69,'Command Line Interface (コマンドラインインターフェース)',this.debug(70,38,11));
+    this._text_71 = this.renderer.createText(this._el_14,'\n        ',this.debug(71,38,55));
+    this._el_72 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(72,39,8));
+    this._text_73 = this.renderer.createText(this._el_72,'Angularでやりたいことは全部できるらしい。',this.debug(73,39,11));
+    this._text_74 = this.renderer.createText(this._el_14,'\n        ',this.debug(74,39,39));
+    this._el_75 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(75,40,8));
+    this._text_76 = this.renderer.createText(this._el_75,'\n          yeomon とか bower とか grunt/gulp とか使わなくてもまかなえるらしい。',this.debug(76,40,11));
+    this._el_77 = import4.createRenderElement(this.renderer,this._el_75,'br',import4.EMPTY_INLINE_ARRAY,this.debug(77,41,57));
+    this._text_78 = this.renderer.createText(this._el_75,'ひとつにまとまるのはいいこと。\n        ',this.debug(78,41,61));
+    this._text_79 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(79,42,12));
+    this._el_80 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(80,44,8));
+    this._text_81 = this.renderer.createText(this._el_14,'\n        ',this.debug(81,44,12));
+    this._el_82 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(82,45,8));
+    this._text_83 = this.renderer.createText(this._el_82,'Angular Universal',this.debug(83,45,12));
+    this._text_84 = this.renderer.createText(this._el_14,'\n        ',this.debug(84,45,34));
+    this._el_85 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(85,46,8));
+    this._text_86 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(86,46,12));
+    this._el_87 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(87,48,8));
+    this._text_88 = this.renderer.createText(this._el_87,'サーバサイドレンダリング',this.debug(88,48,11));
+    this._text_89 = this.renderer.createText(this._el_14,'\n        ',this.debug(89,48,27));
+    this._el_90 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(90,49,8));
+    this._text_91 = this.renderer.createText(this._el_90,'ソースを書くときはAngularの文法で書くのだが、それをJavaScriptにコンパイルする必要がある。',this.debug(91,49,11));
+    this._text_92 = this.renderer.createText(this._el_14,'\n        ',this.debug(92,49,68));
+    this._el_93 = import4.createRenderElement(this.renderer,this._el_14,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(93,50,8));
+    this._text_94 = this.renderer.createText(this._el_93,'\n          ',this.debug(94,50,12));
+    this._el_95 = import4.createRenderElement(this.renderer,this._el_93,'li',import4.EMPTY_INLINE_ARRAY,this.debug(95,51,10));
+    this._text_96 = this.renderer.createText(this._el_95,'ブラウザでやる ・・・ 遅い',this.debug(96,51,14));
+    this._text_97 = this.renderer.createText(this._el_93,'\n          ',this.debug(97,51,33));
+    this._el_98 = import4.createRenderElement(this.renderer,this._el_93,'li',import4.EMPTY_INLINE_ARRAY,this.debug(98,52,10));
+    this._text_99 = this.renderer.createText(this._el_98,'サーバでやる ・・・ 早い',this.debug(99,52,14));
+    this._text_100 = this.renderer.createText(this._el_93,'\n          ',this.debug(100,52,32));
+    this._el_101 = import4.createRenderElement(this.renderer,this._el_93,'li',import4.EMPTY_INLINE_ARRAY,this.debug(101,53,10));
+    this._text_102 = this.renderer.createText(this._el_101,'初回起動時にやる ・・・ めちゃ早い！！',this.debug(102,53,14));
+    this._text_103 = this.renderer.createText(this._el_93,'\n        ',this.debug(103,53,39));
+    this._text_104 = this.renderer.createText(this._el_14,'\n        ',this.debug(104,54,13));
+    this._el_105 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(105,55,8));
+    this._text_106 = this.renderer.createText(this._el_105,'データ表示するfor文なども事前ロードできるのでSEO対策にも役立つ。',this.debug(106,55,11));
+    this._text_107 = this.renderer.createText(this._el_14,'\n        ',this.debug(107,55,50));
+    this._el_108 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(108,56,8));
+    this._text_109 = this.renderer.createText(this._el_108,'AoT (Ahead-of-Time) と組み合わせてさらに高速に。',this.debug(109,56,11));
+    this._text_110 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(110,56,49));
+    this._el_111 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(111,58,8));
+    this._text_112 = this.renderer.createText(this._el_14,'\n        ',this.debug(112,58,12));
+    this._el_113 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(113,59,8));
+    this._text_114 = this.renderer.createText(this._el_113,'Angular Material 2',this.debug(114,59,12));
+    this._text_115 = this.renderer.createText(this._el_14,'\n        ',this.debug(115,59,35));
+    this._el_116 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(116,60,8));
+    this._text_117 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(117,60,12));
+    this._el_118 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(118,62,8));
+    this._text_119 = this.renderer.createText(this._el_118,'マテリアルデザイン (Material Design) を提供するライブラリ。',this.debug(119,62,11));
+    this._text_120 = this.renderer.createText(this._el_14,'\n        ',this.debug(120,62,54));
+    this._el_121 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(121,63,8));
+    this._text_122 = this.renderer.createText(this._el_121,'流行りの感じなのでおしゃれ。',this.debug(122,63,11));
+    this._text_123 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(123,63,29));
+    this._el_124 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(124,65,8));
+    this._text_125 = this.renderer.createText(this._el_14,'\n        ',this.debug(125,65,12));
+    this._el_126 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(126,66,8));
+    this._text_127 = this.renderer.createText(this._el_126,'Angular 2 Style Guide',this.debug(127,66,12));
+    this._text_128 = this.renderer.createText(this._el_14,'\n        ',this.debug(128,66,38));
+    this._el_129 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(129,67,8));
+    this._text_130 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(130,67,12));
+    this._el_131 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(131,69,8));
+    this._text_132 = this.renderer.createText(this._el_131,'Angularのお作法とか。',this.debug(132,69,11));
+    this._text_133 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(133,69,29));
+    this._el_134 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(134,71,8));
+    this._text_135 = this.renderer.createText(this._el_14,'\n        ',this.debug(135,71,12));
+    this._el_136 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(136,72,8));
+    this._text_137 = this.renderer.createText(this._el_136,'Angular Reference',this.debug(137,72,12));
+    this._text_138 = this.renderer.createText(this._el_14,'\n        ',this.debug(138,72,34));
+    this._el_139 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(139,73,8));
+    this._text_140 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(140,73,12));
+    this._el_141 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(141,75,8));
+    this._text_142 = this.renderer.createText(this._el_141,'Angularのリファレンスとか。',this.debug(142,75,11));
+    this._text_143 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(143,75,32));
+    this._el_144 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(144,77,8));
+    this._text_145 = this.renderer.createText(this._el_14,'\n        ',this.debug(145,77,12));
+    this._el_146 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(146,78,8));
+    this._text_147 = this.renderer.createText(this._el_146,'Native Script 2.0',this.debug(147,78,12));
+    this._text_148 = this.renderer.createText(this._el_14,'\n        ',this.debug(148,78,34));
+    this._el_149 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(149,79,8));
+    this._text_150 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(150,79,12));
+    this._el_151 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(151,81,8));
+    this._text_152 = this.renderer.createText(this._el_151,'JavaScriptからNative出力してくれる。',this.debug(152,81,11));
+    this._text_153 = this.renderer.createText(this._el_14,'\n        ',this.debug(153,81,41));
+    this._el_154 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(154,82,8));
+    this._text_155 = this.renderer.createText(this._el_154,'ソースから各プラットフォームへのマッピングをしてくれるので、IEとかiOSとかAndroidとか意識する必要がない。',this.debug(155,82,11));
+    this._text_156 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(156,82,73));
+    this._el_157 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(157,84,8));
+    this._text_158 = this.renderer.createText(this._el_14,'\n        ',this.debug(158,84,12));
+    this._el_159 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(159,85,8));
+    this._text_160 = this.renderer.createText(this._el_159,'Codelyzer',this.debug(160,85,12));
+    this._text_161 = this.renderer.createText(this._el_14,'\n        ',this.debug(161,85,26));
+    this._el_162 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(162,86,8));
+    this._text_163 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(163,86,12));
+    this._el_164 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(164,88,8));
+    this._text_165 = this.renderer.createText(this._el_164,'静的コード分析ができる。eslint。',this.debug(165,88,11));
+    this._text_166 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(166,88,34));
+    this._el_167 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(167,90,8));
+    this._text_168 = this.renderer.createText(this._el_14,'\n        ',this.debug(168,90,12));
+    this._el_169 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(169,91,8));
+    this._text_170 = this.renderer.createText(this._el_169,'続きは...',this.debug(170,91,12));
+    this._text_171 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(171,91,23));
+    this._el_172 = import4.createRenderElement(this.renderer,this._el_14,'nav',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(172,93,8));
+    this._text_173 = this.renderer.createText(this._el_172,'\n          ',this.debug(173,93,38));
+    this._el_174 = import4.createRenderElement(this.renderer,this._el_172,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(174,94,10));
+    this._text_175 = this.renderer.createText(this._el_174,'\n            ',this.debug(175,94,50));
+    this._el_176 = import4.createRenderElement(this.renderer,this._el_174,'a',new import4.InlineArray4(4,'class','button','routerLink','/what-is-angular.html'),this.debug(176,95,12));
+    this._RouterLinkWithHref_176_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
+    this._text_177 = this.renderer.createText(this._el_176,'\n              ',this.debug(177,95,65));
+    this._el_178 = import4.createRenderElement(this.renderer,this._el_176,'span',new import4.InlineArray2(2,'class','icon'),this.debug(178,96,14));
+    this._el_179 = import4.createRenderElement(this.renderer,this._el_178,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(179,96,33));
+    this._text_180 = this.renderer.createText(this._el_176,'\n              ',this.debug(180,96,72));
+    this._el_181 = import4.createRenderElement(this.renderer,this._el_176,'span',import4.EMPTY_INLINE_ARRAY,this.debug(181,97,14));
+    this._text_182 = this.renderer.createText(this._el_181,'Angularって何？',this.debug(182,97,20));
+    this._text_183 = this.renderer.createText(this._el_176,'\n            ',this.debug(183,97,38));
+    this._text_184 = this.renderer.createText(this._el_174,'\n          ',this.debug(184,98,16));
+    this._text_185 = this.renderer.createText(this._el_172,'\n          ',this.debug(185,99,16));
+    this._el_186 = import4.createRenderElement(this.renderer,this._el_172,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(186,100,10));
+    this._text_187 = this.renderer.createText(this._el_186,'\n            ',this.debug(187,100,50));
+    this._el_188 = import4.createRenderElement(this.renderer,this._el_186,'a',new import4.InlineArray4(4,'class','button','routerLink','/install.html'),this.debug(188,101,12));
+    this._RouterLinkWithHref_188_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
+    this._text_189 = this.renderer.createText(this._el_188,'\n              ',this.debug(189,101,57));
+    this._el_190 = import4.createRenderElement(this.renderer,this._el_188,'span',import4.EMPTY_INLINE_ARRAY,this.debug(190,102,14));
+    this._text_191 = this.renderer.createText(this._el_190,'必要なツールをインストールしよう',this.debug(191,102,20));
+    this._text_192 = this.renderer.createText(this._el_188,'\n              ',this.debug(192,102,43));
+    this._el_193 = import4.createRenderElement(this.renderer,this._el_188,'span',new import4.InlineArray2(2,'class','icon'),this.debug(193,103,14));
+    this._el_194 = import4.createRenderElement(this.renderer,this._el_193,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(194,103,33));
+    this._text_195 = this.renderer.createText(this._el_188,'\n            ',this.debug(195,103,73));
+    this._text_196 = this.renderer.createText(this._el_186,'\n          ',this.debug(196,104,16));
+    this._text_197 = this.renderer.createText(this._el_172,'\n        ',this.debug(197,105,16));
+    this._text_198 = this.renderer.createText(this._el_14,'\n      ',this.debug(198,106,14));
+    this._text_199 = this.renderer.createText(this._el_4,'\n      ',this.debug(199,107,12));
+    this._text_200 = this.renderer.createText(this._el_4,'\n    ',this.debug(200,108,24));
+    this._text_201 = this.renderer.createText(this._el_2,'\n\n  ',this.debug(201,109,14));
+    this._text_202 = this.renderer.createText(this._el_0,'\n  ',this.debug(202,111,8));
+    this._text_203 = this.renderer.createText(this._el_0,'\n',this.debug(203,112,22));
+    var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_176,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_176));
+    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_188,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_188));
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1,
@@ -646,28 +736,28 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
       this._text_5,
       this._el_6,
       this._text_7,
-      this._el_8,
-      this._text_9,
+      this._text_8,
+      this._el_9,
       this._text_10,
       this._text_11,
       this._el_12,
       this._text_13,
-      this._text_14,
-      this._el_15,
-      this._text_16,
+      this._el_14,
+      this._text_15,
+      this._el_16,
       this._text_17,
-      this._el_18,
-      this._text_19,
-      this._el_20,
-      this._text_21,
-      this._el_22,
-      this._text_23,
+      this._text_18,
+      this._el_19,
+      this._text_20,
+      this._anchor_21,
+      this._text_22,
+      this._el_23,
       this._text_24,
       this._el_25,
       this._text_26,
-      this._el_27,
-      this._text_28,
-      this._el_29,
+      this._text_27,
+      this._el_28,
+      this._text_29,
       this._text_30,
       this._el_31,
       this._text_32,
@@ -696,159 +786,239 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
       this._el_55,
       this._text_56,
       this._text_57,
-      this._el_58,
-      this._text_59,
+      this._text_58,
+      this._el_59,
       this._text_60,
-      this._el_61,
-      this._text_62,
+      this._text_61,
+      this._el_62,
       this._text_63,
-      this._text_64,
-      this._el_65,
+      this._el_64,
+      this._text_65,
       this._text_66,
-      this._text_67,
-      this._el_68,
-      this._text_69,
-      this._el_70,
+      this._el_67,
+      this._text_68,
+      this._el_69,
+      this._text_70,
       this._text_71,
-      this._text_72,
-      this._el_73,
+      this._el_72,
+      this._text_73,
       this._text_74,
       this._el_75,
       this._text_76,
-      this._text_77,
-      this._el_78,
+      this._el_77,
+      this._text_78,
       this._text_79,
-      this._text_80,
-      this._el_81,
-      this._text_82,
-      this._el_83,
+      this._el_80,
+      this._text_81,
+      this._el_82,
+      this._text_83,
       this._text_84,
-      this._text_85,
-      this._el_86,
-      this._text_87,
-      this._el_88,
+      this._el_85,
+      this._text_86,
+      this._el_87,
+      this._text_88,
       this._text_89,
-      this._text_90,
-      this._el_91,
+      this._el_90,
+      this._text_91,
       this._text_92,
       this._el_93,
       this._text_94,
-      this._text_95,
-      this._el_96,
+      this._el_95,
+      this._text_96,
       this._text_97,
-      this._text_98,
-      this._el_99,
+      this._el_98,
+      this._text_99,
       this._text_100,
       this._el_101,
       this._text_102,
       this._text_103,
-      this._el_104,
-      this._text_105,
+      this._text_104,
+      this._el_105,
       this._text_106,
-      this._el_107,
-      this._text_108,
+      this._text_107,
+      this._el_108,
       this._text_109,
       this._text_110,
       this._el_111,
       this._text_112,
-      this._text_113,
-      this._el_114,
+      this._el_113,
+      this._text_114,
       this._text_115,
-      this._text_116,
-      this._el_117,
-      this._text_118,
-      this._el_119,
+      this._el_116,
+      this._text_117,
+      this._el_118,
+      this._text_119,
       this._text_120,
-      this._text_121,
-      this._el_122,
+      this._el_121,
+      this._text_122,
       this._text_123,
       this._el_124,
       this._text_125,
-      this._text_126,
-      this._el_127,
+      this._el_126,
+      this._text_127,
       this._text_128,
-      this._text_129,
-      this._el_130,
-      this._text_131,
-      this._el_132,
+      this._el_129,
+      this._text_130,
+      this._el_131,
+      this._text_132,
       this._text_133,
-      this._text_134,
-      this._el_135,
-      this._text_136,
-      this._el_137,
+      this._el_134,
+      this._text_135,
+      this._el_136,
+      this._text_137,
       this._text_138,
-      this._text_139,
-      this._el_140,
-      this._text_141,
-      this._el_142,
+      this._el_139,
+      this._text_140,
+      this._el_141,
+      this._text_142,
       this._text_143,
-      this._text_144,
-      this._el_145,
-      this._text_146,
-      this._el_147,
+      this._el_144,
+      this._text_145,
+      this._el_146,
+      this._text_147,
       this._text_148,
-      this._text_149,
-      this._el_150,
-      this._text_151,
-      this._el_152,
+      this._el_149,
+      this._text_150,
+      this._el_151,
+      this._text_152,
       this._text_153,
-      this._text_154,
-      this._el_155,
+      this._el_154,
+      this._text_155,
       this._text_156,
       this._el_157,
       this._text_158,
-      this._text_159,
-      this._el_160,
+      this._el_159,
+      this._text_160,
       this._text_161,
-      this._text_162,
-      this._el_163,
-      this._text_164,
-      this._el_165,
+      this._el_162,
+      this._text_163,
+      this._el_164,
+      this._text_165,
       this._text_166,
-      this._text_167,
-      this._el_168,
-      this._text_169,
-      this._el_170,
+      this._el_167,
+      this._text_168,
+      this._el_169,
+      this._text_170,
       this._text_171,
-      this._text_172,
+      this._el_172,
       this._text_173,
-      this._text_174,
+      this._el_174,
       this._text_175,
-      this._text_176,
-      this._text_177
+      this._el_176,
+      this._text_177,
+      this._el_178,
+      this._el_179,
+      this._text_180,
+      this._el_181,
+      this._text_182,
+      this._text_183,
+      this._text_184,
+      this._text_185,
+      this._el_186,
+      this._text_187,
+      this._el_188,
+      this._text_189,
+      this._el_190,
+      this._text_191,
+      this._text_192,
+      this._el_193,
+      this._el_194,
+      this._text_195,
+      this._text_196,
+      this._text_197,
+      this._text_198,
+      this._text_199,
+      this._text_200,
+      this._text_201,
+      this._text_202,
+      this._text_203
     ]
-    ),[disposable_0]);
+    ),[
+      disposable_0,
+      disposable_1
+    ]
+    );
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.RouterLinkWithHref) && ((8 <= requestNodeIndex) && (requestNodeIndex <= 9)))) { return this._RouterLinkWithHref_8_3.context; }
-    if (((token === import11.AdsenseComponent) && (27 === requestNodeIndex))) { return this._AdsenseComponent_27_3.context; }
+    if (((token === import10.TemplateRef) && (21 === requestNodeIndex))) { return this._TemplateRef_21_5; }
+    if (((token === import11.NgIf) && (21 === requestNodeIndex))) { return this._NgIf_21_6.context; }
+    if (((token === import12.RouterLinkWithHref) && ((176 <= requestNodeIndex) && (requestNodeIndex <= 183)))) { return this._RouterLinkWithHref_176_3.context; }
+    if (((token === import12.RouterLinkWithHref) && ((188 <= requestNodeIndex) && (requestNodeIndex <= 195)))) { return this._RouterLinkWithHref_188_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(8,5,11);
-    const currVal_8_0_0:any = '/';
-    this._RouterLinkWithHref_8_3.check_routerLink(currVal_8_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_8_3.ngDoCheck(this,this._el_8,throwOnChange);
-    this.debug(27,20,8);
-    this._AdsenseComponent_27_3.ngDoCheck(this,this._el_27,throwOnChange);
-    this._RouterLinkWithHref_8_3.checkHost(this,this,this._el_8,throwOnChange);
-    this.compView_27.detectChanges(throwOnChange);
-    if (!throwOnChange) {
-      this.debug(27,20,8);
-      if ((this.numberOfChecks === 0)) { this._AdsenseComponent_27_3.context.ngAfterViewInit(); }
-    }
+    this.debug(21,17,13);
+    const currVal_21_0_0:any = this.context.display;
+    this._NgIf_21_6.check_ngIf(currVal_21_0_0,throwOnChange,false);
+    this._NgIf_21_6.ngDoCheck(this,this._anchor_21,throwOnChange);
+    this.debug(176,95,15);
+    const currVal_176_0_0:any = '/what-is-angular.html';
+    this._RouterLinkWithHref_176_3.check_routerLink(currVal_176_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_176_3.ngDoCheck(this,this._el_176,throwOnChange);
+    this.debug(188,101,15);
+    const currVal_188_0_0:any = '/install.html';
+    this._RouterLinkWithHref_188_3.check_routerLink(currVal_188_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_188_3.ngDoCheck(this,this._el_188,throwOnChange);
+    this._vc_21.detectChangesInNestedViews(throwOnChange);
+    this._RouterLinkWithHref_176_3.checkHost(this,this,this._el_176,throwOnChange);
+    this._RouterLinkWithHref_188_3.checkHost(this,this,this._el_188,throwOnChange);
   }
   destroyInternal():void {
-    this.compView_27.destroy();
-    this._RouterLinkWithHref_8_3.ngOnDestroy();
-    this.debug(8,5,8);
+    this._vc_21.destroyNestedViews();
+    this.debug(21,17,8);
+    this._RouterLinkWithHref_176_3.ngOnDestroy();
+    this.debug(176,95,12);
+    this._RouterLinkWithHref_188_3.ngOnDestroy();
   }
-  handleEvent_8(eventName:string,$event:any):boolean {
-    this.debug(8,5,8);
+  createEmbeddedViewInternal(nodeIndex:number):import1.AppView<any> {
+    if ((nodeIndex == 21)) { return new View_EcoSystemComponent1(this.viewUtils,this,21,this._anchor_21,this._vc_21); }
+    return (null as any);
+  }
+  handleEvent_176(eventName:string,$event:any):boolean {
+    this.debug(176,95,12);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
-    result = (this._RouterLinkWithHref_8_3.handleEvent(eventName,$event) && result);
+    result = (this._RouterLinkWithHref_176_3.handleEvent(eventName,$event) && result);
     return result;
+  }
+  handleEvent_188(eventName:string,$event:any):boolean {
+    this.debug(188,101,12);
+    this.markPathToRootAsCheckOnce();
+    var result:boolean = true;
+    result = (this._RouterLinkWithHref_188_3.handleEvent(eventName,$event) && result);
+    return result;
+  }
+}
+const nodeDebugInfos_EcoSystemComponent1:import2.StaticNodeDebugInfo[] = [new import2.StaticNodeDebugInfo([import19.AdsenseComponent],import19.AdsenseComponent,{})];
+class View_EcoSystemComponent1 extends import1.DebugAppView<any> {
+  _el_0:any;
+  compView_0:import1.AppView<import19.AdsenseComponent>;
+  _AdsenseComponent_0_3:import20.Wrapper_AdsenseComponent;
+  constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any,declaredViewContainer:import13.ViewContainer) {
+    super(View_EcoSystemComponent1,renderType_EcoSystemComponent,import6.ViewType.EMBEDDED,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_EcoSystemComponent1,declaredViewContainer);
+  }
+  createInternal(rootSelector:string):import8.ComponentRef<any> {
+    this._el_0 = import4.createRenderElement(this.renderer,(null as any),'ads',import4.EMPTY_INLINE_ARRAY,this.debug(0,17,8));
+    this.compView_0 = new import20.View_AdsenseComponent0(this.viewUtils,this,0,this._el_0);
+    this._AdsenseComponent_0_3 = new import20.Wrapper_AdsenseComponent();
+    this.compView_0.create(this._AdsenseComponent_0_3.context);
+    this.init(this._el_0,((<any>this.renderer).directRenderer? (null as any): [this._el_0]),(null as any));
+    return (null as any);
+  }
+  injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
+    if (((token === import19.AdsenseComponent) && (0 === requestNodeIndex))) { return this._AdsenseComponent_0_3.context; }
+    return notFoundResult;
+  }
+  detectChangesInternal(throwOnChange:boolean):void {
+    this.debug(0,17,8);
+    this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
+    this.compView_0.detectChanges(throwOnChange);
+  }
+  destroyInternal():void {
+    this.compView_0.destroy();
+  }
+  visitRootNodesInternal(cb:any,ctx:any):void {
+    cb(this._el_0,ctx);
   }
 }

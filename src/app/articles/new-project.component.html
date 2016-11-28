@@ -16,11 +16,11 @@
 
         <br>
 
-        <ads></ads>
+        <ads *ngIf="display"></ads>
 
         <ul>
           <li><code>ng new</code> してプロジェクトを作る。</li>
-          <li><code>build</code> してビルドする。</li>
+          <li><code>ng build</code> してビルドする。</li>
           <li><code>ng serve</code> してブラウザで確認する。</li>
         </ul>
 
@@ -69,7 +69,7 @@
         <p>作業のためにプロジェクトディレクトリに移動しておきましょう。</p>
 
         <br>
-        <h3><code>build</code> してビルドする。</h3>
+        <h3><code>ng build</code> してビルドする。</h3>
         <hr>
 
         <p>ビルドするには、<code>ng build</code> コマンドを実行します。</p>
