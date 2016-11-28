@@ -1,9 +1,15 @@
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+import { Component, DebugElement } from '@angular/core';
 
-import { EcoSystemComponent } from '../app/eco-system/eco-system.component';
+import { EcoSystemComponent } from '../app/articles/eco-system.component';
+
+@Component({
+  selector: 'ads',
+  template: ''
+})
+class AdsenseWrapperComponent { }
 
 describe('EcoSystemComponent', () => {
   let component: EcoSystemComponent;
@@ -11,9 +17,12 @@ describe('EcoSystemComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EcoSystemComponent ]
+      declarations: [
+        EcoSystemComponent,
+        AdsenseWrapperComponent
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

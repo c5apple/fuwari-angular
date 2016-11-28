@@ -13,7 +13,7 @@ export class InstallComponent implements OnInit {
     window.scrollTo(0, 0);
   }
 
-  public showOriginalImage(element): void {
+  public showOriginalImage(element: any): void {
     let modal = document.getElementById('image-modal');
 
     modal.className = 'modal animated fadeIn is-active';
