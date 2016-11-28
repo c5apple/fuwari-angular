@@ -13,6 +13,7 @@ do
   name=${arg1}.html
   title="<title>"${arg2}" - ふわりAngular<\/title>"
   description="<meta name=\"description\" content=\""${arg3}"\" \/>"
+  url="http:\/\/www.banana-juice.com\/angular\/"
 
-  cat $DISTDIR/index.html | sed -e "s/<title>.*$/${title}/g;s/<meta name=\"description\".*$/${description}/g" > $DISTDIR/$name
+  cat $DISTDIR/index.html | sed -e "s/<title>.*$/${title}/g;s/<meta name=\"description\".*$/${description}/g;s/${url}/${url}${name}/g" > $DISTDIR/$name
 done
