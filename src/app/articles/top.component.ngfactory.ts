@@ -840,10 +840,10 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._el_206 = import4.createRenderElement(this.renderer,this._el_204,'div',new import4.InlineArray2(2,'class','content'),this.debug(206,135,6));
     this._text_207 = this.renderer.createText(this._el_206,'\n							',this.debug(207,135,27));
     this._el_208 = import4.createRenderElement(this.renderer,this._el_206,'code',import4.EMPTY_INLINE_ARRAY,this.debug(208,136,7));
-    this._text_209 = this.renderer.createText(this._el_208,'ng g',this.debug(209,136,13));
-    this._text_210 = this.renderer.createText(this._el_206,' して部品を自動生成する。',this.debug(210,136,24));
-    this._el_211 = import4.createRenderElement(this.renderer,this._el_206,'br',import4.EMPTY_INLINE_ARRAY,this.debug(211,136,37));
-    this._text_212 = this.renderer.createText(this._el_206,'\n							',this.debug(212,136,41));
+    this._text_209 = this.renderer.createText(this._el_208,'ng generate',this.debug(209,136,13));
+    this._text_210 = this.renderer.createText(this._el_206,' して部品を自動生成する。',this.debug(210,136,31));
+    this._el_211 = import4.createRenderElement(this.renderer,this._el_206,'br',import4.EMPTY_INLINE_ARRAY,this.debug(211,136,44));
+    this._text_212 = this.renderer.createText(this._el_206,'\n							',this.debug(212,136,48));
     this._el_213 = import4.createRenderElement(this.renderer,this._el_206,'code',import4.EMPTY_INLINE_ARRAY,this.debug(213,137,7));
     this._text_214 = this.renderer.createText(this._el_213,'@Input()',this.debug(214,137,13));
     this._text_215 = this.renderer.createText(this._el_206,',',this.debug(215,137,28));

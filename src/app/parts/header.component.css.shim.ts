@@ -5,4 +5,4 @@
  */
  /* tslint:disable */
 
-export const styles:any[] = ['.subtitle[_ngcontent-%COMP%] {\n  font-size: 14px;\n}'];
+export const styles:any[] = ['.subtitle[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n.hero[_ngcontent-%COMP%] {\n  background-color: transparent;\n  background-repeat: repeat;\n  background-size: cover;\n  background-position-y: 290px;\n  background-image: url(http://cdn.banana-juice.com/angular/img/blake-richard-verdoorn.jpg);\n}\n.hero-body[_ngcontent-%COMP%] {\n  text-shadow: #966 1px 1px;\n}\n@media screen and (max-width: 768px) {\n  .hero[_ngcontent-%COMP%] {\n    background-position-y: 270px;\n  }\n}\n@media screen and (max-width: 480px) {\n  .hero[_ngcontent-%COMP%] {\n    background-position-y: 240px;\n  }\n}'];

@@ -1,3 +1,23 @@
 .subtitle {
   font-size: 14px;
 }
+.hero {
+  background-color: transparent;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position-y: 290px;
+  background-image: url(http://cdn.banana-juice.com/angular/img/blake-richard-verdoorn.jpg);
+}
+.hero-body {
+  text-shadow: #966 1px 1px;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    background-position-y: 270px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    background-position-y: 240px;
+  }
+}

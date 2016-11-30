@@ -885,9 +885,9 @@ export class View_NewProjectComponent0 extends import1.DebugAppView<import0.NewP
     this._text_32 = this.renderer.createText(this._el_26,'\n          ',this.debug(32,21,51));
     this._el_33 = import4.createRenderElement(this.renderer,this._el_26,'li',import4.EMPTY_INLINE_ARRAY,this.debug(33,22,10));
     this._el_34 = import4.createRenderElement(this.renderer,this._el_33,'code',import4.EMPTY_INLINE_ARRAY,this.debug(34,22,14));
-    this._text_35 = this.renderer.createText(this._el_34,'build',this.debug(35,22,20));
-    this._text_36 = this.renderer.createText(this._el_33,' してビルドする。',this.debug(36,22,32));
-    this._text_37 = this.renderer.createText(this._el_26,'\n          ',this.debug(37,22,46));
+    this._text_35 = this.renderer.createText(this._el_34,'ng build',this.debug(35,22,20));
+    this._text_36 = this.renderer.createText(this._el_33,' してビルドする。',this.debug(36,22,35));
+    this._text_37 = this.renderer.createText(this._el_26,'\n          ',this.debug(37,22,49));
     this._el_38 = import4.createRenderElement(this.renderer,this._el_26,'li',import4.EMPTY_INLINE_ARRAY,this.debug(38,23,10));
     this._el_39 = import4.createRenderElement(this.renderer,this._el_38,'code',import4.EMPTY_INLINE_ARRAY,this.debug(39,23,14));
     this._text_40 = this.renderer.createText(this._el_39,'ng serve',this.debug(40,23,20));
@@ -986,9 +986,9 @@ export class View_NewProjectComponent0 extends import1.DebugAppView<import0.NewP
     this._text_133 = this.renderer.createText(this._el_14,'\n        ',this.debug(133,70,12));
     this._el_134 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(134,71,8));
     this._el_135 = import4.createRenderElement(this.renderer,this._el_134,'code',import4.EMPTY_INLINE_ARRAY,this.debug(135,71,12));
-    this._text_136 = this.renderer.createText(this._el_135,'build',this.debug(136,71,18));
-    this._text_137 = this.renderer.createText(this._el_134,' してビルドする。',this.debug(137,71,30));
-    this._text_138 = this.renderer.createText(this._el_14,'\n        ',this.debug(138,71,44));
+    this._text_136 = this.renderer.createText(this._el_135,'ng build',this.debug(136,71,18));
+    this._text_137 = this.renderer.createText(this._el_134,' してビルドする。',this.debug(137,71,33));
+    this._text_138 = this.renderer.createText(this._el_14,'\n        ',this.debug(138,71,47));
     this._el_139 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(139,72,8));
     this._text_140 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(140,72,12));
     this._el_141 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(141,74,8));
