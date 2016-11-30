@@ -637,9 +637,9 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._text_7 = this.renderer.createText(this._el_6,'\n				',this.debug(7,4,48));
     this._el_8 = import4.createRenderElement(this.renderer,this._el_6,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(8,5,4));
     this._text_9 = this.renderer.createText(this._el_8,'\n					',this.debug(9,5,54));
-    this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'a',new import4.InlineArray2(2,'routerLink','/what-is-angular.html'),this.debug(10,6,5));
+    this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'a',new import4.InlineArray4(4,'href','/what-is-angular.html','routerLink','/what-is-angular.html'),this.debug(10,6,5));
     this._RouterLinkWithHref_10_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_11 = this.renderer.createText(this._el_10,'\n						',this.debug(11,6,43));
+    this._text_11 = this.renderer.createText(this._el_10,'\n						',this.debug(11,6,72));
     this._el_12 = import4.createRenderElement(this.renderer,this._el_10,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(12,7,6));
     this._text_13 = this.renderer.createText(this._el_12,'\n							',this.debug(13,7,49));
     this._el_14 = import4.createRenderElement(this.renderer,this._el_12,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(14,8,7));
@@ -666,9 +666,9 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._text_35 = this.renderer.createText(this._el_34,'\n				',this.debug(35,24,48));
     this._el_36 = import4.createRenderElement(this.renderer,this._el_34,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(36,25,4));
     this._text_37 = this.renderer.createText(this._el_36,'\n					',this.debug(37,25,54));
-    this._el_38 = import4.createRenderElement(this.renderer,this._el_36,'a',new import4.InlineArray2(2,'routerLink','/eco-system.html'),this.debug(38,26,5));
+    this._el_38 = import4.createRenderElement(this.renderer,this._el_36,'a',new import4.InlineArray4(4,'href','/eco-system.html','routerLink','/eco-system.html'),this.debug(38,26,5));
     this._RouterLinkWithHref_38_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_39 = this.renderer.createText(this._el_38,'\n						',this.debug(39,26,38));
+    this._text_39 = this.renderer.createText(this._el_38,'\n						',this.debug(39,26,62));
     this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(40,27,6));
     this._text_41 = this.renderer.createText(this._el_40,'\n							',this.debug(41,27,49));
     this._el_42 = import4.createRenderElement(this.renderer,this._el_40,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(42,28,7));
@@ -705,9 +705,9 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._text_73 = this.renderer.createText(this._el_72,'\n				',this.debug(73,51,36));
     this._el_74 = import4.createRenderElement(this.renderer,this._el_72,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(74,52,4));
     this._text_75 = this.renderer.createText(this._el_74,'\n					',this.debug(75,52,54));
-    this._el_76 = import4.createRenderElement(this.renderer,this._el_74,'a',new import4.InlineArray2(2,'routerLink','/install.html'),this.debug(76,53,5));
+    this._el_76 = import4.createRenderElement(this.renderer,this._el_74,'a',new import4.InlineArray4(4,'href','/install.html','routerLink','/install.html'),this.debug(76,53,5));
     this._RouterLinkWithHref_76_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_77 = this.renderer.createText(this._el_76,'\n						',this.debug(77,53,35));
+    this._text_77 = this.renderer.createText(this._el_76,'\n						',this.debug(77,53,56));
     this._el_78 = import4.createRenderElement(this.renderer,this._el_76,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(78,54,6));
     this._text_79 = this.renderer.createText(this._el_78,'\n							',this.debug(79,54,49));
     this._el_80 = import4.createRenderElement(this.renderer,this._el_78,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(80,55,7));
@@ -760,9 +760,9 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._text_127 = this.renderer.createText(this._el_126,'\n				',this.debug(127,82,48));
     this._el_128 = import4.createRenderElement(this.renderer,this._el_126,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(128,83,4));
     this._text_129 = this.renderer.createText(this._el_128,'\n					',this.debug(129,83,54));
-    this._el_130 = import4.createRenderElement(this.renderer,this._el_128,'a',new import4.InlineArray2(2,'routerLink','/new-project.html'),this.debug(130,84,5));
+    this._el_130 = import4.createRenderElement(this.renderer,this._el_128,'a',new import4.InlineArray4(4,'href','/new-project.html','routerLink','/new-project.html'),this.debug(130,84,5));
     this._RouterLinkWithHref_130_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_131 = this.renderer.createText(this._el_130,'\n						',this.debug(131,84,39));
+    this._text_131 = this.renderer.createText(this._el_130,'\n						',this.debug(131,84,64));
     this._el_132 = import4.createRenderElement(this.renderer,this._el_130,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(132,85,6));
     this._text_133 = this.renderer.createText(this._el_132,'\n							',this.debug(133,85,49));
     this._el_134 = import4.createRenderElement(this.renderer,this._el_132,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(134,86,7));
@@ -1184,19 +1184,19 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(10,6,8);
+    this.debug(10,6,37);
     const currVal_10_0_0:any = '/what-is-angular.html';
     this._RouterLinkWithHref_10_3.check_routerLink(currVal_10_0_0,throwOnChange,false);
     this._RouterLinkWithHref_10_3.ngDoCheck(this,this._el_10,throwOnChange);
-    this.debug(38,26,8);
+    this.debug(38,26,32);
     const currVal_38_0_0:any = '/eco-system.html';
     this._RouterLinkWithHref_38_3.check_routerLink(currVal_38_0_0,throwOnChange,false);
     this._RouterLinkWithHref_38_3.ngDoCheck(this,this._el_38,throwOnChange);
-    this.debug(76,53,8);
+    this.debug(76,53,29);
     const currVal_76_0_0:any = '/install.html';
     this._RouterLinkWithHref_76_3.check_routerLink(currVal_76_0_0,throwOnChange,false);
     this._RouterLinkWithHref_76_3.ngDoCheck(this,this._el_76,throwOnChange);
-    this.debug(130,84,8);
+    this.debug(130,84,33);
     const currVal_130_0_0:any = '/new-project.html';
     this._RouterLinkWithHref_130_3.check_routerLink(currVal_130_0_0,throwOnChange,false);
     this._RouterLinkWithHref_130_3.ngDoCheck(this,this._el_130,throwOnChange);

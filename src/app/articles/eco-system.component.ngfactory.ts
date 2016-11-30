@@ -695,9 +695,9 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
     this._text_173 = this.renderer.createText(this._el_172,'\n          ',this.debug(173,93,38));
     this._el_174 = import4.createRenderElement(this.renderer,this._el_172,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(174,94,10));
     this._text_175 = this.renderer.createText(this._el_174,'\n            ',this.debug(175,94,50));
-    this._el_176 = import4.createRenderElement(this.renderer,this._el_174,'a',new import4.InlineArray4(4,'class','button','routerLink','/what-is-angular.html'),this.debug(176,95,12));
+    this._el_176 = import4.createRenderElement(this.renderer,this._el_174,'a',new import4.InlineArray8(6,'class','button','href','/what-is-angular.html','routerLink','/what-is-angular.html'),this.debug(176,95,12));
     this._RouterLinkWithHref_176_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_177 = this.renderer.createText(this._el_176,'\n              ',this.debug(177,95,65));
+    this._text_177 = this.renderer.createText(this._el_176,'\n              ',this.debug(177,95,94));
     this._el_178 = import4.createRenderElement(this.renderer,this._el_176,'span',new import4.InlineArray2(2,'class','icon'),this.debug(178,96,14));
     this._el_179 = import4.createRenderElement(this.renderer,this._el_178,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(179,96,33));
     this._text_180 = this.renderer.createText(this._el_176,'\n              ',this.debug(180,96,72));
@@ -708,9 +708,9 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
     this._text_185 = this.renderer.createText(this._el_172,'\n          ',this.debug(185,99,16));
     this._el_186 = import4.createRenderElement(this.renderer,this._el_172,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(186,100,10));
     this._text_187 = this.renderer.createText(this._el_186,'\n            ',this.debug(187,100,50));
-    this._el_188 = import4.createRenderElement(this.renderer,this._el_186,'a',new import4.InlineArray4(4,'class','button','routerLink','/install.html'),this.debug(188,101,12));
+    this._el_188 = import4.createRenderElement(this.renderer,this._el_186,'a',new import4.InlineArray8(6,'class','button','href','/install.html','routerLink','/install.html'),this.debug(188,101,12));
     this._RouterLinkWithHref_188_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_189 = this.renderer.createText(this._el_188,'\n              ',this.debug(189,101,57));
+    this._text_189 = this.renderer.createText(this._el_188,'\n              ',this.debug(189,101,78));
     this._el_190 = import4.createRenderElement(this.renderer,this._el_188,'span',import4.EMPTY_INLINE_ARRAY,this.debug(190,102,14));
     this._text_191 = this.renderer.createText(this._el_190,'必要なツールをインストールしよう',this.debug(191,102,20));
     this._text_192 = this.renderer.createText(this._el_188,'\n              ',this.debug(192,102,43));
@@ -952,11 +952,11 @@ export class View_EcoSystemComponent0 extends import1.DebugAppView<import0.EcoSy
     const currVal_21_0_0:any = this.context.display;
     this._NgIf_21_6.check_ngIf(currVal_21_0_0,throwOnChange,false);
     this._NgIf_21_6.ngDoCheck(this,this._anchor_21,throwOnChange);
-    this.debug(176,95,15);
+    this.debug(176,95,44);
     const currVal_176_0_0:any = '/what-is-angular.html';
     this._RouterLinkWithHref_176_3.check_routerLink(currVal_176_0_0,throwOnChange,false);
     this._RouterLinkWithHref_176_3.ngDoCheck(this,this._el_176,throwOnChange);
-    this.debug(188,101,15);
+    this.debug(188,101,36);
     const currVal_188_0_0:any = '/install.html';
     this._RouterLinkWithHref_188_3.check_routerLink(currVal_188_0_0,throwOnChange,false);
     this._RouterLinkWithHref_188_3.ngDoCheck(this,this._el_188,throwOnChange);

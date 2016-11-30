@@ -147,10 +147,10 @@ export class View_FooterComponent0 extends import1.DebugAppView<import0.FooterCo
     this._el_8 = import4.createRenderElement(this.renderer,this._el_6,'div',new import4.InlineArray2(2,'class','content has-text-centered'),this.debug(8,4,4));
     this._text_9 = this.renderer.createText(this._el_8,'\n      ',this.debug(9,4,43));
     this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(10,5,6));
-    this._el_11 = import4.createRenderElement(this.renderer,this._el_10,'a',new import4.InlineArray2(2,'routerLink','/'),this.debug(11,5,9));
+    this._el_11 = import4.createRenderElement(this.renderer,this._el_10,'a',new import4.InlineArray4(4,'href','/','routerLink','/'),this.debug(11,5,9));
     this._RouterLinkWithHref_11_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_12 = this.renderer.createText(this._el_11,'- Copyright © 20016 ふわりAngular All Rights Reserved. -',this.debug(12,5,27));
-    this._text_13 = this.renderer.createText(this._el_8,'\n      ',this.debug(13,5,88));
+    this._text_12 = this.renderer.createText(this._el_11,'- Copyright © 20016 ふわりAngular All Rights Reserved. -',this.debug(12,5,36));
+    this._text_13 = this.renderer.createText(this._el_8,'\n      ',this.debug(13,5,97));
     this._el_14 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(14,6,6));
     this._text_15 = this.renderer.createText(this._el_14,'Thanks to ',this.debug(15,6,9));
     this._el_16 = import4.createRenderElement(this.renderer,this._el_14,'a',new import4.InlineArray2(2,'href','https://angular.io/'),this.debug(16,6,19));
@@ -195,7 +195,7 @@ export class View_FooterComponent0 extends import1.DebugAppView<import0.FooterCo
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(11,5,12);
+    this.debug(11,5,21);
     const currVal_11_0_0:any = '/';
     this._RouterLinkWithHref_11_3.check_routerLink(currVal_11_0_0,throwOnChange,false);
     this._RouterLinkWithHref_11_3.ngDoCheck(this,this._el_11,throwOnChange);

@@ -1192,9 +1192,9 @@ export class View_NewProjectComponent0 extends import1.DebugAppView<import0.NewP
     this._text_339 = this.renderer.createText(this._el_338,'\n          ',this.debug(339,176,38));
     this._el_340 = import4.createRenderElement(this.renderer,this._el_338,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(340,177,10));
     this._text_341 = this.renderer.createText(this._el_340,'\n            ',this.debug(341,177,50));
-    this._el_342 = import4.createRenderElement(this.renderer,this._el_340,'a',new import4.InlineArray4(4,'class','button','routerLink','/install.html'),this.debug(342,178,12));
+    this._el_342 = import4.createRenderElement(this.renderer,this._el_340,'a',new import4.InlineArray8(6,'class','button','href','/install.html','routerLink','/install.html'),this.debug(342,178,12));
     this._RouterLinkWithHref_342_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_343 = this.renderer.createText(this._el_342,'\n              ',this.debug(343,178,57));
+    this._text_343 = this.renderer.createText(this._el_342,'\n              ',this.debug(343,178,78));
     this._el_344 = import4.createRenderElement(this.renderer,this._el_342,'span',new import4.InlineArray2(2,'class','icon'),this.debug(344,179,14));
     this._el_345 = import4.createRenderElement(this.renderer,this._el_344,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(345,179,33));
     this._text_346 = this.renderer.createText(this._el_342,'\n              ',this.debug(346,179,72));
@@ -1608,7 +1608,7 @@ export class View_NewProjectComponent0 extends import1.DebugAppView<import0.NewP
     const currVal_24_0_0:any = this.context.display;
     this._NgIf_24_6.check_ngIf(currVal_24_0_0,throwOnChange,false);
     this._NgIf_24_6.ngDoCheck(this,this._anchor_24,throwOnChange);
-    this.debug(342,178,15);
+    this.debug(342,178,36);
     const currVal_342_0_0:any = '/install.html';
     this._RouterLinkWithHref_342_3.check_routerLink(currVal_342_0_0,throwOnChange,false);
     this._RouterLinkWithHref_342_3.ngDoCheck(this,this._el_342,throwOnChange);

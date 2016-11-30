@@ -222,9 +222,9 @@ export class View_HeaderComponent0 extends import1.DebugAppView<import0.HeaderCo
     this._text_8 = this.renderer.createText(this._el_7,'\n				',this.debug(8,4,26));
     this._el_9 = import4.createRenderElement(this.renderer,this._el_7,'div',new import4.InlineArray2(2,'class','nav-left'),this.debug(9,5,4));
     this._text_10 = this.renderer.createText(this._el_9,'\n					',this.debug(10,5,26));
-    this._el_11 = import4.createRenderElement(this.renderer,this._el_9,'a',new import4.InlineArray4(4,'class','nav-item','routerLink','/'),this.debug(11,6,5));
+    this._el_11 = import4.createRenderElement(this.renderer,this._el_9,'a',new import4.InlineArray8(6,'class','nav-item','href','/','routerLink','/'),this.debug(11,6,5));
     this._RouterLinkWithHref_11_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_12 = this.renderer.createText(this._el_11,'\n                ふわりAngular\n              ',this.debug(12,6,40));
+    this._text_12 = this.renderer.createText(this._el_11,'\n                ふわりAngular\n              ',this.debug(12,6,49));
     this._text_13 = this.renderer.createText(this._el_9,'\n				',this.debug(13,8,18));
     this._text_14 = this.renderer.createText(this._el_7,'\n				',this.debug(14,9,10));
     this._text_15 = this.renderer.createText(this._el_7,'\n				',this.debug(15,16,11));
@@ -252,10 +252,10 @@ export class View_HeaderComponent0 extends import1.DebugAppView<import0.HeaderCo
     this._text_37 = this.renderer.createText(this._el_36,'\n			',this.debug(37,32,25));
     this._el_38 = import4.createRenderElement(this.renderer,this._el_36,'h1',new import4.InlineArray2(2,'class','title'),this.debug(38,33,3));
     this._text_39 = this.renderer.createText(this._el_38,'\n				',this.debug(39,33,21));
-    this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'a',new import4.InlineArray2(2,'routerLink','/'),this.debug(40,34,4));
+    this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'a',new import4.InlineArray4(4,'href','/','routerLink','/'),this.debug(40,34,4));
     this._RouterLinkWithHref_40_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_41 = this.renderer.createText(this._el_40,'ふわりAngular',this.debug(41,34,22));
-    this._text_42 = this.renderer.createText(this._el_38,'\n			',this.debug(42,34,36));
+    this._text_41 = this.renderer.createText(this._el_40,'ふわりAngular',this.debug(41,34,31));
+    this._text_42 = this.renderer.createText(this._el_38,'\n			',this.debug(42,34,45));
     this._text_43 = this.renderer.createText(this._el_36,'\n			',this.debug(43,35,8));
     this._el_44 = import4.createRenderElement(this.renderer,this._el_36,'h2',new import4.InlineArray2(2,'class','subtitle'),this.debug(44,36,3));
     this._text_45 = this.renderer.createText(this._el_44,'\n				',this.debug(45,36,24));
@@ -346,11 +346,11 @@ export class View_HeaderComponent0 extends import1.DebugAppView<import0.HeaderCo
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(11,6,8);
+    this.debug(11,6,17);
     const currVal_11_0_0:any = '/';
     this._RouterLinkWithHref_11_3.check_routerLink(currVal_11_0_0,throwOnChange,false);
     this._RouterLinkWithHref_11_3.ngDoCheck(this,this._el_11,throwOnChange);
-    this.debug(40,34,7);
+    this.debug(40,34,16);
     const currVal_40_0_0:any = '/';
     this._RouterLinkWithHref_40_3.check_routerLink(currVal_40_0_0,throwOnChange,false);
     this._RouterLinkWithHref_40_3.ngDoCheck(this,this._el_40,throwOnChange);

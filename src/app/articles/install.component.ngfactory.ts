@@ -1878,9 +1878,9 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     this._text_566 = this.renderer.createText(this._el_565,'\n					',this.debug(566,280,34));
     this._el_567 = import4.createRenderElement(this.renderer,this._el_565,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(567,281,5));
     this._text_568 = this.renderer.createText(this._el_567,'\n						',this.debug(568,281,45));
-    this._el_569 = import4.createRenderElement(this.renderer,this._el_567,'a',new import4.InlineArray4(4,'class','button','routerLink','/eco-system.html'),this.debug(569,282,6));
+    this._el_569 = import4.createRenderElement(this.renderer,this._el_567,'a',new import4.InlineArray8(6,'class','button','href','/eco-system.html','routerLink','/eco-system.html'),this.debug(569,282,6));
     this._RouterLinkWithHref_569_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_570 = this.renderer.createText(this._el_569,'\n							',this.debug(570,282,54));
+    this._text_570 = this.renderer.createText(this._el_569,'\n							',this.debug(570,282,78));
     this._el_571 = import4.createRenderElement(this.renderer,this._el_569,'span',new import4.InlineArray2(2,'class','icon'),this.debug(571,283,7));
     this._el_572 = import4.createRenderElement(this.renderer,this._el_571,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(572,283,26));
     this._text_573 = this.renderer.createText(this._el_569,'\n							',this.debug(573,283,65));
@@ -1891,9 +1891,9 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     this._text_578 = this.renderer.createText(this._el_565,'\n					',this.debug(578,286,11));
     this._el_579 = import4.createRenderElement(this.renderer,this._el_565,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(579,287,5));
     this._text_580 = this.renderer.createText(this._el_579,'\n						',this.debug(580,287,45));
-    this._el_581 = import4.createRenderElement(this.renderer,this._el_579,'a',new import4.InlineArray4(4,'class','button','routerLink','/new-project.html'),this.debug(581,288,6));
+    this._el_581 = import4.createRenderElement(this.renderer,this._el_579,'a',new import4.InlineArray8(6,'class','button','href','/new-project.html','routerLink','/new-project.html'),this.debug(581,288,6));
     this._RouterLinkWithHref_581_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_582 = this.renderer.createText(this._el_581,'\n							',this.debug(582,288,55));
+    this._text_582 = this.renderer.createText(this._el_581,'\n							',this.debug(582,288,80));
     this._el_583 = import4.createRenderElement(this.renderer,this._el_581,'span',import4.EMPTY_INLINE_ARRAY,this.debug(583,289,7));
     this._text_584 = this.renderer.createText(this._el_583,'プロジェクトを作ってみよう',this.debug(584,289,13));
     this._text_585 = this.renderer.createText(this._el_581,'\n							',this.debug(585,289,33));
@@ -2626,11 +2626,11 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     const currVal_21_0_0:any = this.context.display;
     this._NgIf_21_6.check_ngIf(currVal_21_0_0,throwOnChange,false);
     this._NgIf_21_6.ngDoCheck(this,this._anchor_21,throwOnChange);
-    this.debug(569,282,9);
+    this.debug(569,282,33);
     const currVal_569_0_0:any = '/eco-system.html';
     this._RouterLinkWithHref_569_3.check_routerLink(currVal_569_0_0,throwOnChange,false);
     this._RouterLinkWithHref_569_3.ngDoCheck(this,this._el_569,throwOnChange);
-    this.debug(581,288,9);
+    this.debug(581,288,34);
     const currVal_581_0_0:any = '/new-project.html';
     this._RouterLinkWithHref_581_3.check_routerLink(currVal_581_0_0,throwOnChange,false);
     this._RouterLinkWithHref_581_3.ngDoCheck(this,this._el_581,throwOnChange);
