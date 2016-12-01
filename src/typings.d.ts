@@ -6,6 +6,7 @@ declare var System: any;
 
 // for google adsense
 declare interface Window {
-  adsbygoogle: any[];
+  adsbygoogle: any[],
+  PR: any
 }
 declare var adsbygoogle: any[];

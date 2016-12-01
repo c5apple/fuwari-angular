@@ -30,4 +30,10 @@
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>http://www.banana-juice.com/angular/todos.html</loc>
+        <lastmod>2016-12-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

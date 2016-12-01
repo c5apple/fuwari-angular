@@ -6,6 +6,7 @@ import { WhatIsAngularComponent } from './articles/what-is-angular.component';
 import { EcoSystemComponent } from './articles/eco-system.component';
 import { InstallComponent } from './articles/install.component';
 import { NewProjectComponent } from './articles/new-project.component';
+import { TodosComponent } from './articles/todos.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'what-is-angular.html', component: WhatIsAngularComponent },
   { path: 'eco-system.html', component: EcoSystemComponent },
   { path: 'install.html', component: InstallComponent },
-  { path: 'new-project.html', component: NewProjectComponent }
+  { path: 'new-project.html', component: NewProjectComponent },
+  { path: 'todos.html', component: TodosComponent }
 ];
 
 @NgModule({

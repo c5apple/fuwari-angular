@@ -3,3 +3,4 @@ what-is-angular,Angularって何？,Angularとは何かを知る前に、W3Cが�
 eco-system,Angularエコシステム,Angularのエコシステムはたくさんあり、中でもAngular-CLIは有用なツールです。
 install,必要なツールをインストールしよう,Angularで開発するために必要なツールをインストールしてみましょう。キャプチャ付きで説明します。
 new-project,プロジェクトを作ってみよう,Angularのプロジェクトを作ってみましょう。ngコマンドを使うと簡単にプロジェクトを作ることができます。
+todos,TODOリストを作ってみよう,AngularでTODOリストを作ってみましょう。一から作り方を説明します。初心者向けなので最初のアプリとして作ってみてはいかがでしょうか。

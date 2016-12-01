@@ -1,0 +1,243 @@
+<section class="section">
+  <div class="container">
+
+    <article class="article ">
+      <p class="subtitle is-4">
+        2016/12/01
+      </p>
+      <h1 class="title is-2">
+        TODOリストを作ってみよう
+      </h1>
+      <hr>
+      <div class="content is-medium">
+
+        <p>TODOリストを作りながら、Angular の基本的な書き方を学びましょう。</p>
+        <p>今回は Angular 2 です。</p>
+        <p>バージョンが異なると書き方も違うかもしれませんのでご注意ください。</p>
+
+        <br>
+
+        <ads *ngIf="display"></ads>
+
+        <p>プロジェクトは、<code>ng new</code>した直後の状態から進めます。</p>
+        <p>プロジェクトの作り方は<a routerLink="/new-project.html">プロジェクトを作ってみよう</a>を参考にしてください。</p>
+
+        <p>今回修正するソースは以下の3つです。</p>
+
+        <ul>
+          <li>app.component.ts</li>
+          <li>app.component.html</li>
+          <li>app.component.css</li>
+        </ul>
+
+        <br>
+        <h3>まずはレイアウトを書いてみる。</h3>
+        <hr>
+
+        <p>TODOリストに必要な画面の部品を HTML に書いてみます。</p>
+
+        <p>修正するファイルは、htmlファイルとcssファイルです。</p>
+
+        <ul>
+          <li>app.component.html</li>
+          <li>app.component.css</li>
+        </ul>
+
+        <p>app.component.html</p>
+
+        <pre class="prettyprint linenums"><code class="lang-html">&lt;h1&gt;TODOリスト&lt;/h1&gt;
+&lt;form&gt;
+  &lt;input type="text" name="title" value="" placeholder="title"&gt;
+  &lt;textarea name="desc" placeholder="desc"&gt;&lt;/textarea&gt;
+  &lt;button&gt;登録&lt;/button&gt;
+&lt;/form&gt;
+&lt;div class="todos"&gt;
+  &lt;p class="no"&gt;1&lt;/p&gt;
+  &lt;p&gt;タイトル&lt;/p&gt;
+  &lt;pre&gt;説明&lt;/pre&gt;
+  &lt;button&gt;削除&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+
+        <p>app.component.css</p>
+
+        <pre class="prettyprint linenums"><code ngClass="lang-css">/* 入力エリア */
+form ｛
+  margin-bottom: 10px;
+｝
+input, textarea ｛
+  width: 80%;
+  display: block;
+｝
+/* TODOリスト */
+.todos ｛
+  border: 1px solid #ccc;
+  clear: both;
+  width: 80%;
+  padding: 10px;
+｝
+.no ｛
+  font-size: x-large;
+  font-weight: bold;
+  color: #999;
+  padding: 20px;
+  margin-right: 10px;
+  float: left;
+｝
+</code></pre>
+
+        <p>すると、このような画面が表示されるかと思います。</p>
+
+        <p><img src="//cdn.banana-juice.com/angular/img/todos/1.png" width="481" height="564"></p>
+
+        <p>レイアウトは適当に簡素な形にしています。</p>
+
+        <p>本記事では修正することはありませんので、ご自身で好きなレイアウトにしてみてもいいでしょう。</p>
+
+        <br>
+        <h3>TODOクラスを作成する。</h3>
+        <hr>
+
+        <p>次に、データモデルクラスと、それを表示するための処理を書いてみます。</p>
+
+        <p>修正するファイルは、tsファイルとhtmlファイルです。</p>
+
+        <ul>
+          <li>app.component.ts</li>
+          <li>app.component.html</li>
+        </ul>
+
+        <p>app.component.ts</p>
+
+        <pre class="prettyprint linenums"><code class="lang-js">import ｛ Component ｝ from '@angular/core';
+
+class Todo ｛
+  title: string;
+  desc: string;
+｝
+
+@Component(｛
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+｝)
+export class AppComponent ｛
+  private todo: Todo;
+  private todos: Todo[];
+
+  ngOnInit(): void ｛
+    this.todo = new Todo;
+    this.todos = [];
+  ｝
+｝</code></pre>
+
+        <p>app.component.html</p>
+
+        <pre class="prettyprint linenums:7"><code class="lang-html">&lt;div class="todos" *ngFor="let todo of todos; let i = index"&gt;
+  &lt;p class="no"&gt;｛｛i+1｝｝&lt;/p&gt;
+  &lt;p&gt;｛｛todo.title｝｝&lt;/p&gt;
+  &lt;pre&gt;｛｛todo.desc｝｝&lt;/pre&gt;
+  &lt;button&gt;削除&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+
+        <p><code>class Todo</code>で、Todo という名前のクラスを定義し、その配列を Component の内部メンバ<code>todos</code>に定義しています。</p>
+
+        <p>さらに、<code>*ngFor</code>で内部メンバ<code>todos</code>をループして表示させるようにしています。</p>
+
+        <br>
+        <h3>イベントを作成する。</h3>
+        <hr>
+
+        <p>最後にボタンクリック時の処理を書いてみます。</p>
+
+        <p>登録ボタンのクリック処理には、内部メンバ<code>todos</code>に入力値を追加する処理を書きます。</p>
+
+        <p>削除ボタンのクリック処理には、内部メンバ<code>todos</code>から1レコード削除する処理を書きます。</p>
+
+        <p>修正するファイルは、tsファイルとhtmlファイルです。</p>
+
+        <ul>
+          <li>app.component.ts</li>
+          <li>app.component.html</li>
+        </ul>
+
+        <p>app.component.ts</p>
+
+        <pre class="prettyprint linenums:22"><code class="lang-js">  public onSubmit(): void ｛
+    this.todos.push(this.todo);
+    this.todo = new Todo;
+  ｝
+
+  public onDelete(index: number): void ｛
+    this.todos.splice(index, 1);
+  ｝
+</code></pre>
+
+        <p>app.component.html</p>
+
+        <pre class="prettyprint linenums:2"><code class="lang-html">&lt;form (ngSubmit)="onSubmit()" #todoForm="ngForm"&gt;
+  &lt;input type="text" name="title" [(ngModel)]="todo.title" value="" required placeholder="title"&gt;
+  &lt;textarea name="desc" [(ngModel)]="todo.desc" required placeholder="desc"&gt;&lt;/textarea&gt;
+  &lt;button [disabled]="!todoForm.form.valid"&gt;登録&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+
+        <pre class="prettyprint linenums:11"><code class="lang-html">  &lt;button (click)="onDelete(i)"&gt;削除&lt;/button&gt;
+</code></pre>
+
+        <p>一気に気持ちが悪いソースになりましたね。</p>
+
+        <p>
+          <code>｛｝</code><code>[]</code>や<code>()</code>は、双方向データバインディングといって、モデルとビューの結び付けを行ってくれる機能のようです。
+          <br><span class="gray">※理解できたら別途記事にします。</span>
+        </p>
+
+        <br>
+        <h3>動作を確認する。</h3>
+        <hr>
+
+        <p>コードを保存して、<code>ng serve</code>で動かしてみましょう。</p>
+
+        <p>登録ボタンをクリックするとTODOリストが1行増え、削除ボタンをクリックするとTODOが一つ消えるようになったかと思います。</p>
+
+        <p><img src="//cdn.banana-juice.com/angular/img/todos/2.png" width="481" height="564"></p>
+
+        <p>いかがでしょうか。</p>
+
+        <p>少ないコード量で動的なページを簡単に作ることができました。</p>
+
+        <p>次回からは、このTODOリストを機能拡張しながら、新たな要素を盛り込んでいきたいと思います。</p>
+
+        <p>ソースコードはGitHubに登録しておきますので参考にしてください。</p>
+
+        <p>
+          <a href="https://github.com/c5apple/angular2-todos" target="_blank">
+            <img src="https://assets-cdn.github.com/favicon.ico" width="18px" height="18px" /> c5apple/angular2-todos
+            <span class="icon"><i class="fa fa-external-link-square"></i></span>
+          </a>
+        </p>
+
+        <h3>続きは...</h3>
+
+        <nav class="tile is-ancestor">
+          <div class="tile is-parent is-vertical">
+            <a routerLink="/new-project.html" class="button">
+              <span class="icon"><i class="fa fa-angle-left"></i></span>
+              <span>プロジェクトを作ってみよう</span>
+            </a>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <a class="button">
+              <span>コンポーネント分割してみよう ※未作成</span>
+              <span class="icon"><i class="fa fa-angle-right"></i></span>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!-- /.content -->
+    </article>
+
+  </div>
+  <!-- /.container -->
+</section>

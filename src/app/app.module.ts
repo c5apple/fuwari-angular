@@ -14,6 +14,7 @@ import { EcoSystemComponent } from './articles/eco-system.component';
 import { AdsenseComponent } from './parts/adsense.component';
 import { InstallComponent } from './articles/install.component';
 import { NewProjectComponent } from './articles/new-project.component';
+import { TodosComponent } from './articles/todos.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NewProjectComponent } from './articles/new-project.component';
     EcoSystemComponent,
     AdsenseComponent,
     InstallComponent,
-    NewProjectComponent
+    NewProjectComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
