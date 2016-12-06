@@ -1,0 +1,17 @@
+.section {
+  background-color: #f5f5f5
+}
+
+.date {
+  font-size: 11px;
+}
+
+.date:before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.date:after {
+  content: "-";
+  margin-left: 5px;
+}
