@@ -2,13 +2,8 @@
   <div class="container">
 
     <article class="article ">
-      <p class="subtitle is-4">
-        2016/12/01
-      </p>
-      <h1 class="title is-2">
-        TODOリストを作ってみよう
-      </h1>
-      <hr>
+      <article-header [title]="title" [date]="date"></article-header>
+
       <div class="content is-medium">
 
         <p>TODOリストを作りながら、Angular の基本的な書き方を学びましょう。</p>
@@ -218,22 +213,7 @@ export class AppComponent ｛
           </a>
         </p>
 
-        <h3>続きは...</h3>
-
-        <nav class="tile is-ancestor">
-          <div class="tile is-parent is-vertical">
-            <a routerLink="/new-project.html" class="button">
-              <span class="icon"><i class="fa fa-angle-left"></i></span>
-              <span>プロジェクトを作ってみよう</span>
-            </a>
-          </div>
-          <div class="tile is-parent is-vertical">
-            <a class="button">
-              <span>コンポーネント分割してみよう ※未作成</span>
-              <span class="icon"><i class="fa fa-angle-right"></i></span>
-            </a>
-          </div>
-        </nav>
+        <next-nav [pref-link]="prefLink" [next-link]="nextLink"></next-nav>
       </div>
       <!-- /.content -->
     </article>

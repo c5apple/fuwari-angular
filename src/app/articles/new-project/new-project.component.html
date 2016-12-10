@@ -2,13 +2,8 @@
   <div class="container">
 
     <article class="article ">
-      <p class="subtitle is-4">
-        2016/11/22
-      </p>
-      <h1 class="title is-2">
-        プロジェクトを作ってみよう
-      </h1>
-      <hr>
+      <article-header [title]="title" [date]="date"></article-header>
+
       <div class="content is-medium">
 
         <p>angular-cli を使用すると、新規ファイルを作るときに”コピペ”をする必要がありません。</p>
@@ -171,23 +166,7 @@
 
         <p>とても便利な仕組みで開発が捗りますね。</p>
 
-        <br>
-        <h3>続きは...</h3>
-
-        <nav class="tile is-ancestor">
-          <div class="tile is-parent is-vertical">
-            <a href="/install.html" routerLink="/install.html" class="button">
-              <span class="icon"><i class="fa fa-angle-left"></i></span>
-              <span>必要なツールをインストールしよう</span>
-            </a>
-          </div>
-          <div class="tile is-parent is-vertical">
-            <a href="/todos.html" routerLink="/todos.html" class="button">
-              <span>TODOリストを作ってみよう</span>
-              <span class="icon"><i class="fa fa-angle-right"></i></span>
-            </a>
-          </div>
-        </nav>
+        <next-nav [pref-link]="prefLink" [next-link]="nextLink"></next-nav>
       </div>
       <!-- /.content -->
     </article>
