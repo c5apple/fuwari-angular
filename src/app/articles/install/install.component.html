@@ -6,16 +6,16 @@
 
 			<div class="content is-medium">
 
-				<p>Angularを始めるにあたり、必要なツールがいくつもありますので一つずつインストールしましょう。</p>
+				<p>Angularを始めるにあたり、必要なツールがいくつもありますのでひとつずつインストールしましょう。</p>
 
 				<br>
 
         <ads *ngIf="display"></ads>
 
 				<p>
-					私は最初、Windows7でやろうとしたのですが、コンパイルが通らず結局できませんでした。<br> 色々調べた結果、StackOverflow に英語で
+					私は最初、Windows 7でやろうとしたのですが、コンパイルが通らず結局できませんでした。<br>いろいろ調べた結果、StackOverflow に英語で
 				</p>
-				<p>「Windows7？そんな古いOSのことなんて知らねーよ」</p>
+				<p>「Windows 7？ そんな古いOSのことなんて知らねーよ」</p>
 				<p>と書いてあったので、Windows10 にアップデートして再インストールをしたら、ようやくできました。</p>
 
 				<p>Mac の場合は少し違いますので注意してください。</p>
@@ -25,8 +25,8 @@
 				<hr>
 
 				<ul>
-					<li>git bash</li>
-					<li>python2.7</li>
+					<li>Git bash</li>
+					<li>Python2.7</li>
 					<li>Ruby</li>
 					<li>Visual Studio 2015 Community</li>
 					<li>Windows 10 SDK</li>
@@ -36,10 +36,10 @@
 				</ul>
 
 				<br>
-				<h3>git bash</h3>
+				<h3>Git bash</h3>
 				<hr>
 
-				<p>Windows で git を利用するためのツール。</p>
+				<p>Windows で Git を利用するためのツール。</p>
 				<p>
 					<a href="https://git-for-windows.github.io/" target="_blank">
 						<img src="https://git-for-windows.github.io/favicon.ico" alt="Git for Windows" width="18px" height="18px" /> https://git-for-windows.github.io/
@@ -61,10 +61,10 @@
 				<p>※画像をクリックすると拡大表示します。</p>
 
 				<br>
-				<h3>python2.7</h3>
+				<h3>Python2.7</h3>
 				<hr>
 
-				<p>npm ライブラリの中の一部で、pythonを利用しているため。</p>
+				<p>npm ライブラリの中の一部で、Pythonを利用しているため。</p>
 				<p>3系ではなく2系ですので注意してください。</p>
 				<p>
 					<a href="https://www.python.org/downloads/" target="_blank">
@@ -92,7 +92,7 @@
 
 				<p>Sassコンパイルで利用されています。</p>
 				<p>
-					Downloads の中にいくつかありますが、「RubyInstallers」を使います。<br>バージョンは(2.3.1)です
+					Downloads の中にいくつかありますが、「RubyInstallers」を使います。<br>バージョンは（2.3.1）です
 				</p>
 				<p>
 					<a href="http://rubyinstaller.org/" target="_blank">
@@ -198,9 +198,9 @@
 
 				<p>インストール後、環境変数にPATHを追加します。</p>
 				<p>
-					また、npm を動かすために、~/.bash_profile に以下の設定を追記します。<br>
+					また、npm を動かすため、~/.bash_profile に次の設定を追記します。<br>
 					<code>set NODIST_X64=0</code><br>
-					<code>npm config set python "python.exeのPATH"</code><br>
+					<code>npm config set python "Python.exeのPATH"</code><br>
 					<code>npm config set msvs_version 2015</code><br>
 				</p>
 
@@ -220,23 +220,23 @@
 				<h3>angular-cli</h3>
 				<hr>
 
+				<p>以下コマンドを実行し、angular-cli をインストールします。</p>
 				<p>
-					以下コマンドを実行し、angular-cli をインストールします。<br>
 					<code>npm cache clean</code><br>
 					<code>npm install -g angular-cli</code><br>
 					<code>npm cache clean</code><br>
 					<code>npm install -g node-gyp</code><br>
 					<code>npm install -g node-pre-gyp</code><br>
 					<code>npm install -g angular-cli</code><br>
-					<code>ng --help</code><br> ※確認方法はなんでもいいですが、今回はヘルプ表示で確認。
-					<br>
+					<code>ng --help</code>
 				</p>
+				<p>※確認方法はなんでもいいですが、今回はヘルプ表示で確認。</p>
 
 				<br>
 				<h3>Visual Studio Code</h3>
 				<hr>
 
-				<p>エディタは基本的になんでも良いです。</p>
+				<p>エディタは基本的になんでもよいです。</p>
 				<p>今回はその場のノリで、Visual Studio Code を使ってみます。</p>
 				<p>
 					<a href="https://code.visualstudio.com/" target="_blank">
