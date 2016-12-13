@@ -1,6 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
-
-import { Link } from '../../classes/link';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-eco-system',
@@ -14,21 +12,9 @@ export class EcoSystemComponent implements OnInit {
   public title: string;
   public date: Date;
 
-  public prefLink: Link;
-  public nextLink: Link;
-
   constructor() {
     this.title = 'Angularエコシステム';
     this.date = new Date('2016/11/10');
-
-    this.prefLink = new Link({
-      href: '/what-is-angular.html',
-      name: 'Angularって何？'
-    });
-    this.nextLink = new Link({
-      href: '/install.html',
-      name: '必要なツールをインストールしよう'
-    });
   }
 
   ngOnInit() {

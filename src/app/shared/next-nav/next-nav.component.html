@@ -1,17 +1,19 @@
-<br>
-<h3>続きは...</h3>
+<div *ngIf="prefLink || nextLink">
+  <br>
+  <h3>続きは...</h3>
 
-<nav class="tile is-ancestor">
-  <div class="tile is-parent is-vertical">
-    <a href="{{prefLink.href}}" routerLink="{{prefLink.href}}" class="button">
-      <span class="icon"><i class="fa fa-angle-left"></i></span>
-      <span>{{prefLink.name}}</span>
-    </a>
-  </div>
-  <div class="tile is-parent is-vertical">
-    <a href="{{nextLink.href}}" routerLink="{{nextLink.href}}" class="button">
-      <span>{{nextLink.name}}</span>
-      <span class="icon"><i class="fa fa-angle-right"></i></span>
-    </a>
-  </div>
-</nav>
+  <nav class="tile is-ancestor">
+    <div class="tile is-parent is-vertical" *ngIf="prefLink">
+      <a href="{{prefLink.href}}" routerLink="{{prefLink.href}}" class="button">
+        <span class="icon"><i class="fa fa-angle-left"></i></span>
+        <span>{{prefLink.name}}</span>
+      </a>
+    </div>
+    <div class="tile is-parent is-vertical" *ngIf="nextLink">
+      <a href="{{nextLink.href}}" routerLink="{{nextLink.href}}" class="button">
+        <span>{{nextLink.name}}</span>
+        <span class="icon"><i class="fa fa-angle-right"></i></span>
+      </a>
+    </div>
+  </nav>
+</div>

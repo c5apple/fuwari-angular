@@ -14,6 +14,8 @@ import { ArticleHeaderComponent } from '../shared/article-header/article-header.
 import { AdsenseComponent } from '../shared/adsense/adsense.component';
 import { NextNavComponent } from '../shared/next-nav/next-nav.component';
 
+import { NextNavService } from '../shared/next-nav/next-nav.service';
+
 import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.routes';
 
 @NgModule({
@@ -34,7 +36,8 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
     TodosComponent
   ],
   providers: [
-    ArticlesRoutingProviders
+    ArticlesRoutingProviders,
+    NextNavService
   ],
 })
 export class ArticlesModule { }

@@ -1,0 +1,52 @@
+{
+  "what-is-angular.html": {
+    "prefLink": {
+      "href": "/",
+      "name": "ふわりAngular"
+    },
+    "nextLink": {
+      "href": "/eco-system.html",
+      "name": "Angularエコシステム"
+    }
+  },
+  "eco-system.html": {
+    "prefLink": {
+      "href": "/what-is-angular.html",
+      "name": "Angularって何？"
+    },
+    "nextLink": {
+      "href": "/install.html",
+      "name": "必要なツールをインストールしよう"
+    }
+  },
+  "install.html": {
+    "prefLink": {
+      "href": "/eco-system.html",
+      "name": "Angularエコシステム"
+    },
+    "nextLink": {
+      "href": "/new-project.html",
+      "name": "プロジェクトを作ってみよう"
+    }
+  },
+  "new-project.html": {
+    "prefLink": {
+      "href": "/install.html",
+      "name": "必要なツールをインストールしよう"
+    },
+    "nextLink": {
+      "href": "/todos.html",
+      "name": "TODOリストを作ってみよう"
+    }
+  },
+  "todos.html": {
+    "prefLink": {
+      "href": "/new-project.html",
+      "name": "プロジェクトを作ってみよう"
+    },
+    "nextLink": {
+      "href": "/todos.html",
+      "name": "コンポーネント分割してみよう※未作成"
+    }
+  }
+}
