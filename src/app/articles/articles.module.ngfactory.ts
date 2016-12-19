@@ -58,27 +58,32 @@ class ArticlesModuleInjector extends import0.NgModuleInjector<import1.ArticlesMo
           children: [
             {
               path: 'what-is-angular.html',
-              component: import16.WhatIsAngularComponent
+              component: import16.WhatIsAngularComponent,
+              data: {title: 'Angularって何？ - ふわりAngular'}
             }
             ,
             {
               path: 'eco-system.html',
-              component: import17.EcoSystemComponent
+              component: import17.EcoSystemComponent,
+              data: {title: 'Angularエコシステム - ふわりAngular'}
             }
             ,
             {
               path: 'install.html',
-              component: import18.InstallComponent
+              component: import18.InstallComponent,
+              data: {title: '必要なツールをインストールしよう - ふわりAngular'}
             }
             ,
             {
               path: 'new-project.html',
-              component: import19.NewProjectComponent
+              component: import19.NewProjectComponent,
+              data: {title: 'プロジェクトを作ってみよう - ふわりAngular'}
             }
             ,
             {
               path: 'todos.html',
-              component: import20.TodosComponent
+              component: import20.TodosComponent,
+              data: {title: 'TODOリストを作ってみよう - ふわりAngular'}
             }
 
           ]

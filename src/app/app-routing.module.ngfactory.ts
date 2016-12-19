@@ -75,7 +75,8 @@ class AppRoutingModuleInjector extends import0.NgModuleInjector<import1.AppRouti
   get _ROUTES_9():any[] {
         if ((this.__ROUTES_9 == null)) { (this.__ROUTES_9 = [[{
           path: '',
-          component: import13.TopComponent
+          component: import13.TopComponent,
+          data: {title: 'ふわりAngular'}
         }
     ]]); }
     return this.__ROUTES_9;

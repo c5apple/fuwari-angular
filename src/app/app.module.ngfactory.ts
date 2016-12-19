@@ -293,7 +293,8 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((this.__ROUTES_49 == null)) { (this.__ROUTES_49 = [
         [{
           path: '',
-          component: import51.TopComponent
+          component: import51.TopComponent,
+          data: {title: 'ふわりAngular'}
         }
       ],
         [{
@@ -302,27 +303,32 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
           children: [
             {
               path: 'what-is-angular.html',
-              component: import53.WhatIsAngularComponent
+              component: import53.WhatIsAngularComponent,
+              data: {title: 'Angularって何？ - ふわりAngular'}
             }
             ,
             {
               path: 'eco-system.html',
-              component: import54.EcoSystemComponent
+              component: import54.EcoSystemComponent,
+              data: {title: 'Angularエコシステム - ふわりAngular'}
             }
             ,
             {
               path: 'install.html',
-              component: import55.InstallComponent
+              component: import55.InstallComponent,
+              data: {title: '必要なツールをインストールしよう - ふわりAngular'}
             }
             ,
             {
               path: 'new-project.html',
-              component: import56.NewProjectComponent
+              component: import56.NewProjectComponent,
+              data: {title: 'プロジェクトを作ってみよう - ふわりAngular'}
             }
             ,
             {
               path: 'todos.html',
-              component: import57.TodosComponent
+              component: import57.TodosComponent,
+              data: {title: 'TODOリストを作ってみよう - ふわりAngular'}
             }
 
           ]

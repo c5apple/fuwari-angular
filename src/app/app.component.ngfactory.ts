@@ -14,23 +14,26 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './app.component.scss.shim';
-import * as import10 from './header/header.component';
-import * as import11 from '@angular/router/src/directives/router_outlet';
-import * as import12 from './footer/footer.component';
-import * as import13 from './header/header.component.ngfactory';
-import * as import14 from '@angular/core/src/linker/view_container';
-import * as import15 from '../../node_modules/@angular/router/src/directives/router_outlet.ngfactory';
-import * as import16 from './footer/footer.component.ngfactory';
-import * as import17 from '@angular/router/src/router_outlet_map';
-import * as import18 from '@angular/core/src/linker/component_factory_resolver';
+import * as import9 from '@angular/platform-browser/src/browser/title';
+import * as import10 from '@angular/router/src/router';
+import * as import11 from '@angular/router/src/router_state';
+import * as import12 from './app.component.scss.shim';
+import * as import13 from './header/header.component';
+import * as import14 from '@angular/router/src/directives/router_outlet';
+import * as import15 from './footer/footer.component';
+import * as import16 from './header/header.component.ngfactory';
+import * as import17 from '@angular/core/src/linker/view_container';
+import * as import18 from '../../node_modules/@angular/router/src/directives/router_outlet.ngfactory';
+import * as import19 from './footer/footer.component.ngfactory';
+import * as import20 from '@angular/router/src/router_outlet_map';
+import * as import21 from '@angular/core/src/linker/component_factory_resolver';
 export class Wrapper_AppComponent {
   /*private*/ _eventHandler:Function;
   context:import0.AppComponent;
   /*private*/ _changed:boolean;
-  constructor() {
+  constructor(p0:any,p1:any,p2:any) {
     this._changed = false;
-    this.context = new import0.AppComponent();
+    this.context = new import0.AppComponent(p0,p1,p2);
   }
   ngOnDetach(view:import1.AppView<any>,componentView:import1.AppView<any>,el:any):void {
   }
@@ -63,7 +66,7 @@ class View_AppComponent_Host0 extends import1.DebugAppView<any> {
   createInternal(rootSelector:string):import8.ComponentRef<any> {
     this._el_0 = import4.selectOrCreateRenderHostElement(this.renderer,'app-root',import4.EMPTY_INLINE_ARRAY,rootSelector,this.debug(0,0,0));
     this.compView_0 = new View_AppComponent0(this.viewUtils,this,0,this._el_0);
-    this._AppComponent_0_3 = new Wrapper_AppComponent();
+    this._AppComponent_0_3 = new Wrapper_AppComponent(this.injectorGet(import9.Title,this.parentIndex),this.injectorGet(import10.Router,this.parentIndex),this.injectorGet(import11.ActivatedRoute,this.parentIndex));
     this.compView_0.create(this._AppComponent_0_3.context);
     this.init(this._el_0,((<any>this.renderer).directRenderer? (null as any): [this._el_0]),(null as any));
     return new import8.ComponentRef_<any>(0,this,this._el_0,this._AppComponent_0_3.context);
@@ -85,45 +88,45 @@ class View_AppComponent_Host0 extends import1.DebugAppView<any> {
   }
 }
 export const AppComponentNgFactory:import8.ComponentFactory<import0.AppComponent> = new import8.ComponentFactory<import0.AppComponent>('app-root',View_AppComponent_Host0,import0.AppComponent);
-const styles_AppComponent:any[] = [import9.styles];
+const styles_AppComponent:any[] = [import12.styles];
 const nodeDebugInfos_AppComponent0:import2.StaticNodeDebugInfo[] = [
-  new import2.StaticNodeDebugInfo([import10.HeaderComponent],import10.HeaderComponent,{}),
+  new import2.StaticNodeDebugInfo([import13.HeaderComponent],import13.HeaderComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import11.RouterOutlet],(null as any),{}),
+  new import2.StaticNodeDebugInfo([import14.RouterOutlet],(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.FooterComponent],import12.FooterComponent,{})
+  new import2.StaticNodeDebugInfo([import15.FooterComponent],import15.FooterComponent,{})
 ]
 ;
 var renderType_AppComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/app.component.html',0,import5.ViewEncapsulation.Emulated,styles_AppComponent,{});
 export class View_AppComponent0 extends import1.DebugAppView<import0.AppComponent> {
   _el_0:any;
-  compView_0:import1.AppView<import10.HeaderComponent>;
-  _HeaderComponent_0_3:import13.Wrapper_HeaderComponent;
+  compView_0:import1.AppView<import13.HeaderComponent>;
+  _HeaderComponent_0_3:import16.Wrapper_HeaderComponent;
   _text_1:any;
   _el_2:any;
-  /*private*/ _vc_2:import14.ViewContainer;
-  _RouterOutlet_2_5:import15.Wrapper_RouterOutlet;
+  /*private*/ _vc_2:import17.ViewContainer;
+  _RouterOutlet_2_5:import18.Wrapper_RouterOutlet;
   _text_3:any;
   _el_4:any;
-  compView_4:import1.AppView<import12.FooterComponent>;
-  _FooterComponent_4_3:import16.Wrapper_FooterComponent;
+  compView_4:import1.AppView<import15.FooterComponent>;
+  _FooterComponent_4_3:import19.Wrapper_FooterComponent;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_AppComponent0,renderType_AppComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_AppComponent0);
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
     const parentRenderNode:any = this.renderer.createViewRoot(this.parentElement);
     this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'app-header',import4.EMPTY_INLINE_ARRAY,this.debug(0,0,0));
-    this.compView_0 = new import13.View_HeaderComponent0(this.viewUtils,this,0,this._el_0);
-    this._HeaderComponent_0_3 = new import13.Wrapper_HeaderComponent();
+    this.compView_0 = new import16.View_HeaderComponent0(this.viewUtils,this,0,this._el_0);
+    this._HeaderComponent_0_3 = new import16.Wrapper_HeaderComponent();
     this.compView_0.create(this._HeaderComponent_0_3.context);
     this._text_1 = this.renderer.createText(parentRenderNode,'\n',this.debug(1,0,25));
     this._el_2 = import4.createRenderElement(this.renderer,parentRenderNode,'router-outlet',import4.EMPTY_INLINE_ARRAY,this.debug(2,1,0));
-    this._vc_2 = new import14.ViewContainer(2,(null as any),this,this._el_2);
-    this._RouterOutlet_2_5 = new import15.Wrapper_RouterOutlet(this.parentView.injectorGet(import17.RouterOutletMap,this.parentIndex),this._vc_2.vcRef,this.parentView.injectorGet(import18.ComponentFactoryResolver,this.parentIndex),(null as any));
+    this._vc_2 = new import17.ViewContainer(2,(null as any),this,this._el_2);
+    this._RouterOutlet_2_5 = new import18.Wrapper_RouterOutlet(this.parentView.injectorGet(import20.RouterOutletMap,this.parentIndex),this._vc_2.vcRef,this.parentView.injectorGet(import21.ComponentFactoryResolver,this.parentIndex),(null as any));
     this._text_3 = this.renderer.createText(parentRenderNode,'\n',this.debug(3,1,31));
     this._el_4 = import4.createRenderElement(this.renderer,parentRenderNode,'app-footer',import4.EMPTY_INLINE_ARRAY,this.debug(4,2,0));
-    this.compView_4 = new import16.View_FooterComponent0(this.viewUtils,this,4,this._el_4);
-    this._FooterComponent_4_3 = new import16.Wrapper_FooterComponent();
+    this.compView_4 = new import19.View_FooterComponent0(this.viewUtils,this,4,this._el_4);
+    this._FooterComponent_4_3 = new import19.Wrapper_FooterComponent();
     this.compView_4.create(this._FooterComponent_4_3.context);
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
@@ -136,9 +139,9 @@ export class View_AppComponent0 extends import1.DebugAppView<import0.AppComponen
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.HeaderComponent) && (0 === requestNodeIndex))) { return this._HeaderComponent_0_3.context; }
-    if (((token === import11.RouterOutlet) && (2 === requestNodeIndex))) { return this._RouterOutlet_2_5.context; }
-    if (((token === import12.FooterComponent) && (4 === requestNodeIndex))) { return this._FooterComponent_4_3.context; }
+    if (((token === import13.HeaderComponent) && (0 === requestNodeIndex))) { return this._HeaderComponent_0_3.context; }
+    if (((token === import14.RouterOutlet) && (2 === requestNodeIndex))) { return this._RouterOutlet_2_5.context; }
+    if (((token === import15.FooterComponent) && (4 === requestNodeIndex))) { return this._FooterComponent_4_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
