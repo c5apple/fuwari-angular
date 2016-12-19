@@ -4,7 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { TopComponent } from './top/top.component';
 
 const routes: Routes = [
-  { path: '', component: TopComponent }
+  {
+    path: '',
+    component: TopComponent,
+    data: { title: 'ふわりAngular' }
+  }
 ];
 
 @NgModule({

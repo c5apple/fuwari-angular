@@ -14,11 +14,31 @@ const routes: Routes = [
     path: '',
     component: ArticlesComponent,
     children: [
-      { path: 'what-is-angular.html', component: WhatIsAngularComponent },
-      { path: 'eco-system.html', component: EcoSystemComponent },
-      { path: 'install.html', component: InstallComponent },
-      { path: 'new-project.html', component: NewProjectComponent },
-      { path: 'todos.html', component: TodosComponent }
+      {
+        path: 'what-is-angular.html',
+        component: WhatIsAngularComponent,
+        data: { title: 'Angularって何？ - ふわりAngular' }
+      },
+      {
+        path: 'eco-system.html',
+        component: EcoSystemComponent,
+        data: { title: 'Angularエコシステム - ふわりAngular' }
+      },
+      {
+        path: 'install.html',
+        component: InstallComponent,
+        data: { title: '必要なツールをインストールしよう - ふわりAngular' }
+      },
+      {
+        path: 'new-project.html',
+        component: NewProjectComponent,
+        data: { title: 'プロジェクトを作ってみよう - ふわりAngular' }
+      },
+      {
+        path: 'todos.html',
+        component: TodosComponent,
+        data: { title: 'TODOリストを作ってみよう - ふわりAngular' }
+      }
     ]
   }
 ];
