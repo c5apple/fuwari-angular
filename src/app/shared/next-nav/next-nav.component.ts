@@ -7,7 +7,7 @@ import { NextNavService } from './next-nav.service';
 @Component({
   selector: 'next-nav',
   templateUrl: './next-nav.component.html',
-  styleUrls: ['./next-nav.component.css']
+  styleUrls: ['./next-nav.component.scss']
 })
 export class NextNavComponent implements OnInit {
 

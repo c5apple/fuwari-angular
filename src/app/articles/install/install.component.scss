@@ -3,16 +3,17 @@
   margin-left: 0;
 }
 .thumbnail-list {
-  float: left;
   margin: 0 5px 1px 0;
+  float: left;
   height: 100px;
   overflow: hidden;
 }
 .thumbnail-image {
   width: 100px;
-}
-.thumbnail-image:hover {
-  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 .clear {
   clear: both;
