@@ -20,7 +20,7 @@ export class TodosComponent implements AfterViewInit {
   ngAfterViewInit() {
     window.scrollTo(0, 0);
     try {
-      window.PR.prettyPrint();
+      (<any>window).PR.prettyPrint();
     } catch (e) {
       console.log(e);
     }
