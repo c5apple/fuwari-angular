@@ -14,7 +14,7 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './footer.component.css.shim';
+import * as import9 from './footer.component.scss.shim';
 import * as import10 from '@angular/router/src/directives/router_link';
 import * as import11 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
 import * as import12 from '@angular/router/src/router';
@@ -107,7 +107,7 @@ const nodeDebugInfos_FooterComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_FooterComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/parts/footer.component.html',0,import5.ViewEncapsulation.Emulated,styles_FooterComponent,{});
+var renderType_FooterComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/footer/footer.component.html',0,import5.ViewEncapsulation.Emulated,styles_FooterComponent,{});
 export class View_FooterComponent0 extends import1.DebugAppView<import0.FooterComponent> {
   _el_0:any;
   _text_1:any;
@@ -136,10 +136,10 @@ export class View_FooterComponent0 extends import1.DebugAppView<import0.FooterCo
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
     const parentRenderNode:any = this.renderer.createViewRoot(this.parentElement);
-    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'button',new import4.InlineArray4(4,'class','button is-success','id','go-top'),this.debug(0,0,0));
-    this._text_1 = this.renderer.createText(this._el_0,'ページTOPへ ',this.debug(1,0,68));
-    this._el_2 = import4.createRenderElement(this.renderer,this._el_0,'i',new import4.InlineArray2(2,'class','fa fa-arrow-up'),this.debug(2,0,76));
-    this._text_3 = this.renderer.createText(parentRenderNode,'\n\n',this.debug(3,0,115));
+    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'button',new import4.InlineArray2(2,'class','go-top button is-success'),this.debug(0,0,0));
+    this._text_1 = this.renderer.createText(this._el_0,'ページTOPへ ',this.debug(1,0,63));
+    this._el_2 = import4.createRenderElement(this.renderer,this._el_0,'i',new import4.InlineArray2(2,'class','fa fa-arrow-up'),this.debug(2,0,71));
+    this._text_3 = this.renderer.createText(parentRenderNode,'\n\n',this.debug(3,0,110));
     this._el_4 = import4.createRenderElement(this.renderer,parentRenderNode,'footer',new import4.InlineArray2(2,'class','footer'),this.debug(4,2,0));
     this._text_5 = this.renderer.createText(this._el_4,'\n  ',this.debug(5,2,23));
     this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','container'),this.debug(6,3,2));

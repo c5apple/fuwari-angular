@@ -14,9 +14,9 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './adsense.component.css.shim';
+import * as import9 from './adsense.component.scss.shim';
 import * as import10 from 'ng2-adsense/ng2-adsense';
-import * as import11 from '../../../node_modules/ng2-adsense/ng2-adsense.ngfactory';
+import * as import11 from '../../../../node_modules/ng2-adsense/ng2-adsense.ngfactory';
 export class Wrapper_AdsenseComponent {
   /*private*/ _eventHandler:Function;
   context:import0.AdsenseComponent;
@@ -84,7 +84,7 @@ const nodeDebugInfos_AdsenseComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_AdsenseComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/parts/adsense.component.html',0,import5.ViewEncapsulation.Emulated,styles_AdsenseComponent,{});
+var renderType_AdsenseComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/shared/adsense/adsense.component.html',0,import5.ViewEncapsulation.Emulated,styles_AdsenseComponent,{});
 export class View_AdsenseComponent0 extends import1.DebugAppView<import0.AdsenseComponent> {
   _el_0:any;
   compView_0:import1.AppView<import10.AdsenseComponent>;

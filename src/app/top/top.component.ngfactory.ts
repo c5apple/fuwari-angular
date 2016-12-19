@@ -14,7 +14,7 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './top.component.css.shim';
+import * as import9 from './top.component.scss.shim';
 import * as import10 from '@angular/router/src/directives/router_link';
 import * as import11 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
 import * as import12 from '@angular/router/src/router';
@@ -122,57 +122,11 @@ const nodeDebugInfos_TopComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import10.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo([import10.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -236,6 +190,87 @@ const nodeDebugInfos_TopComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import10.RouterLinkWithHref],(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import10.RouterLinkWithHref],(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -351,7 +386,7 @@ const nodeDebugInfos_TopComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_TopComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/top.component.html',0,import5.ViewEncapsulation.Emulated,styles_TopComponent,{});
+var renderType_TopComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/top/top.component.html',0,import5.ViewEncapsulation.Emulated,styles_TopComponent,{});
 export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponent> {
   _el_0:any;
   _text_1:any;
@@ -372,11 +407,11 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
   _text_15:any;
   _text_16:any;
   _el_17:any;
-  _text_18:any;
-  _el_19:any;
+  _el_18:any;
+  _text_19:any;
   _text_20:any;
   _text_21:any;
-  _text_22:any;
+  _el_22:any;
   _text_23:any;
   _el_24:any;
   _text_25:any;
@@ -385,29 +420,29 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
   _el_28:any;
   _text_29:any;
   _text_30:any;
-  _text_31:any;
+  _el_31:any;
   _text_32:any;
   _text_33:any;
-  _el_34:any;
+  _text_34:any;
   _text_35:any;
-  _el_36:any;
+  _text_36:any;
   _text_37:any;
   _el_38:any;
-  _RouterLinkWithHref_38_3:import11.Wrapper_RouterLinkWithHref;
   _text_39:any;
   _el_40:any;
   _text_41:any;
   _el_42:any;
+  _RouterLinkWithHref_42_3:import11.Wrapper_RouterLinkWithHref;
   _text_43:any;
-  _text_44:any;
-  _el_45:any;
-  _text_46:any;
-  _el_47:any;
+  _el_44:any;
+  _text_45:any;
+  _el_46:any;
+  _text_47:any;
   _text_48:any;
-  _text_49:any;
-  _text_50:any;
+  _el_49:any;
+  _el_50:any;
   _text_51:any;
-  _el_52:any;
+  _text_52:any;
   _text_53:any;
   _el_54:any;
   _text_55:any;
@@ -418,194 +453,195 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
   _text_60:any;
   _el_61:any;
   _text_62:any;
-  _text_63:any;
+  _el_63:any;
   _text_64:any;
   _text_65:any;
-  _text_66:any;
+  _el_66:any;
   _text_67:any;
   _text_68:any;
   _text_69:any;
   _el_70:any;
   _text_71:any;
-  _el_72:any;
+  _text_72:any;
   _text_73:any;
-  _el_74:any;
+  _text_74:any;
   _text_75:any;
-  _el_76:any;
-  _RouterLinkWithHref_76_3:import11.Wrapper_RouterLinkWithHref;
+  _text_76:any;
   _text_77:any;
   _el_78:any;
   _text_79:any;
   _el_80:any;
   _text_81:any;
-  _text_82:any;
-  _el_83:any;
+  _el_82:any;
+  _text_83:any;
   _el_84:any;
+  _RouterLinkWithHref_84_3:import11.Wrapper_RouterLinkWithHref;
   _text_85:any;
-  _text_86:any;
+  _el_86:any;
   _text_87:any;
   _el_88:any;
   _text_89:any;
-  _el_90:any;
-  _text_91:any;
+  _text_90:any;
+  _el_91:any;
   _el_92:any;
   _text_93:any;
-  _el_94:any;
+  _text_94:any;
   _text_95:any;
-  _text_96:any;
-  _el_97:any;
-  _text_98:any;
+  _el_96:any;
+  _text_97:any;
+  _el_98:any;
   _text_99:any;
   _el_100:any;
   _text_101:any;
   _text_102:any;
   _el_103:any;
   _text_104:any;
-  _text_105:any;
-  _el_106:any;
+  _el_105:any;
+  _text_106:any;
   _text_107:any;
-  _text_108:any;
-  _el_109:any;
+  _el_108:any;
+  _text_109:any;
   _text_110:any;
-  _text_111:any;
-  _el_112:any;
+  _el_111:any;
+  _text_112:any;
   _text_113:any;
-  _text_114:any;
-  _el_115:any;
+  _el_114:any;
+  _text_115:any;
   _text_116:any;
-  _text_117:any;
+  _el_117:any;
   _text_118:any;
   _text_119:any;
-  _text_120:any;
+  _el_120:any;
   _text_121:any;
   _text_122:any;
-  _text_123:any;
-  _el_124:any;
+  _el_123:any;
+  _text_124:any;
   _text_125:any;
   _el_126:any;
   _text_127:any;
-  _el_128:any;
+  _text_128:any;
   _text_129:any;
   _el_130:any;
-  _RouterLinkWithHref_130_3:import11.Wrapper_RouterLinkWithHref;
   _text_131:any;
-  _el_132:any;
+  _text_132:any;
   _text_133:any;
-  _el_134:any;
+  _text_134:any;
   _text_135:any;
   _text_136:any;
-  _el_137:any;
+  _text_137:any;
   _el_138:any;
   _text_139:any;
-  _text_140:any;
+  _el_140:any;
   _text_141:any;
   _el_142:any;
   _text_143:any;
   _el_144:any;
+  _RouterLinkWithHref_144_3:import11.Wrapper_RouterLinkWithHref;
   _text_145:any;
   _el_146:any;
   _text_147:any;
-  _text_148:any;
-  _el_149:any;
+  _el_148:any;
+  _text_149:any;
   _text_150:any;
   _el_151:any;
-  _text_152:any;
+  _el_152:any;
   _text_153:any;
-  _el_154:any;
+  _text_154:any;
   _text_155:any;
   _el_156:any;
   _text_157:any;
-  _text_158:any;
+  _el_158:any;
   _text_159:any;
-  _text_160:any;
-  _text_161:any;
+  _el_160:any;
+  _el_161:any;
   _text_162:any;
-  _el_163:any;
+  _text_163:any;
   _text_164:any;
   _el_165:any;
-  _text_166:any;
-  _el_167:any;
+  _el_166:any;
+  _text_167:any;
   _text_168:any;
-  _el_169:any;
-  _text_170:any;
-  _text_171:any;
-  _el_172:any;
+  _text_169:any;
+  _el_170:any;
+  _el_171:any;
+  _text_172:any;
   _text_173:any;
-  _el_174:any;
-  _text_175:any;
+  _text_174:any;
+  _el_175:any;
   _text_176:any;
   _text_177:any;
-  _el_178:any;
+  _text_178:any;
   _text_179:any;
-  _el_180:any;
+  _text_180:any;
   _text_181:any;
-  _text_182:any;
+  _el_182:any;
   _text_183:any;
-  _text_184:any;
+  _el_184:any;
   _text_185:any;
-  _text_186:any;
-  _el_187:any;
-  _text_188:any;
-  _el_189:any;
-  _text_190:any;
-  _el_191:any;
+  _el_186:any;
+  _RouterLinkWithHref_186_3:import11.Wrapper_RouterLinkWithHref;
+  _text_187:any;
+  _el_188:any;
+  _text_189:any;
+  _el_190:any;
+  _text_191:any;
   _text_192:any;
   _el_193:any;
-  _text_194:any;
-  _el_195:any;
+  _el_194:any;
+  _text_195:any;
   _text_196:any;
   _text_197:any;
   _el_198:any;
   _text_199:any;
   _el_200:any;
   _text_201:any;
-  _text_202:any;
+  _el_202:any;
   _text_203:any;
-  _el_204:any;
-  _text_205:any;
-  _el_206:any;
+  _text_204:any;
+  _el_205:any;
+  _text_206:any;
   _text_207:any;
   _el_208:any;
   _text_209:any;
   _text_210:any;
-  _el_211:any;
+  _text_211:any;
   _text_212:any;
-  _el_213:any;
+  _text_213:any;
   _text_214:any;
   _text_215:any;
   _el_216:any;
   _text_217:any;
-  _text_218:any;
+  _el_218:any;
   _text_219:any;
-  _text_220:any;
+  _el_220:any;
   _text_221:any;
-  _text_222:any;
+  _el_222:any;
   _text_223:any;
   _el_224:any;
   _text_225:any;
-  _el_226:any;
-  _text_227:any;
+  _text_226:any;
+  _el_227:any;
   _el_228:any;
   _text_229:any;
-  _el_230:any;
-  _text_231:any;
-  _el_232:any;
-  _text_233:any;
+  _text_230:any;
+  _el_231:any;
+  _text_232:any;
+  _el_233:any;
   _text_234:any;
   _el_235:any;
-  _text_236:any;
-  _el_237:any;
+  _el_236:any;
+  _text_237:any;
   _text_238:any;
   _text_239:any;
-  _text_240:any;
+  _el_240:any;
   _el_241:any;
   _text_242:any;
-  _el_243:any;
-  _text_244:any;
-  _el_245:any;
+  _text_243:any;
+  _el_244:any;
+  _text_245:any;
   _text_246:any;
   _text_247:any;
-  _text_248:any;
+  _el_248:any;
   _text_249:any;
   _text_250:any;
   _text_251:any;
@@ -613,15 +649,50 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
   _text_253:any;
   _text_254:any;
   _text_255:any;
-  _text_256:any;
-  _el_257:any;
-  _text_258:any;
-  _el_259:any;
-  _text_260:any;
-  _el_261:any;
-  _text_262:any;
+  _el_256:any;
+  _text_257:any;
+  _el_258:any;
+  _text_259:any;
+  _el_260:any;
+  _text_261:any;
+  _el_262:any;
   _text_263:any;
-  _text_264:any;
+  _el_264:any;
+  _text_265:any;
+  _text_266:any;
+  _el_267:any;
+  _el_268:any;
+  _text_269:any;
+  _text_270:any;
+  _el_271:any;
+  _text_272:any;
+  _el_273:any;
+  _text_274:any;
+  _el_275:any;
+  _el_276:any;
+  _text_277:any;
+  _text_278:any;
+  _text_279:any;
+  _el_280:any;
+  _text_281:any;
+  _text_282:any;
+  _text_283:any;
+  _text_284:any;
+  _text_285:any;
+  _text_286:any;
+  _text_287:any;
+  _text_288:any;
+  _text_289:any;
+  _text_290:any;
+  _text_291:any;
+  _el_292:any;
+  _text_293:any;
+  _el_294:any;
+  _text_295:any;
+  _el_296:any;
+  _text_297:any;
+  _text_298:any;
+  _text_299:any;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_TopComponent0,renderType_TopComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_TopComponent0);
   }
@@ -635,271 +706,308 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     this._text_5 = this.renderer.createText(this._el_4,'\n\n			',this.debug(5,2,32));
     this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(6,4,3));
     this._text_7 = this.renderer.createText(this._el_6,'\n				',this.debug(7,4,48));
-    this._el_8 = import4.createRenderElement(this.renderer,this._el_6,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(8,5,4));
-    this._text_9 = this.renderer.createText(this._el_8,'\n					',this.debug(9,5,54));
+    this._el_8 = import4.createRenderElement(this.renderer,this._el_6,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(8,5,4));
+    this._text_9 = this.renderer.createText(this._el_8,'\n					',this.debug(9,5,35));
     this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'a',new import4.InlineArray4(4,'href','/what-is-angular.html','routerLink','/what-is-angular.html'),this.debug(10,6,5));
     this._RouterLinkWithHref_10_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
     this._text_11 = this.renderer.createText(this._el_10,'\n						',this.debug(11,6,72));
-    this._el_12 = import4.createRenderElement(this.renderer,this._el_10,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(12,7,6));
-    this._text_13 = this.renderer.createText(this._el_12,'\n							',this.debug(13,7,49));
-    this._el_14 = import4.createRenderElement(this.renderer,this._el_12,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(14,8,7));
-    this._text_15 = this.renderer.createText(this._el_14,'\n								Angularって何？\n							',this.debug(15,8,36));
-    this._text_16 = this.renderer.createText(this._el_12,'\n							',this.debug(16,10,11));
-    this._el_17 = import4.createRenderElement(this.renderer,this._el_12,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(17,11,7));
-    this._text_18 = this.renderer.createText(this._el_17,'\n                    ',this.debug(18,11,38));
-    this._el_19 = import4.createRenderElement(this.renderer,this._el_17,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(19,12,20));
-    this._text_20 = this.renderer.createText(this._el_17,'\n                  ',this.debug(20,12,53));
-    this._text_21 = this.renderer.createText(this._el_12,'\n						',this.debug(21,13,25));
-    this._text_22 = this.renderer.createText(this._el_10,'\n					',this.debug(22,14,15));
-    this._text_23 = this.renderer.createText(this._el_8,'\n					',this.debug(23,15,9));
-    this._el_24 = import4.createRenderElement(this.renderer,this._el_8,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(24,16,5));
-    this._text_25 = this.renderer.createText(this._el_24,'\n						',this.debug(25,16,31));
-    this._el_26 = import4.createRenderElement(this.renderer,this._el_24,'div',new import4.InlineArray2(2,'class','content'),this.debug(26,17,6));
-    this._text_27 = this.renderer.createText(this._el_26,'\n							"W3C Web Components" って何？',this.debug(27,17,27));
-    this._el_28 = import4.createRenderElement(this.renderer,this._el_26,'br',import4.EMPTY_INLINE_ARRAY,this.debug(28,18,32));
-    this._text_29 = this.renderer.createText(this._el_26,' "SPA (Single-Page Application)" って何？\n						',this.debug(29,18,36));
-    this._text_30 = this.renderer.createText(this._el_24,'\n					',this.debug(30,19,12));
-    this._text_31 = this.renderer.createText(this._el_8,'\n				',this.debug(31,20,11));
-    this._text_32 = this.renderer.createText(this._el_6,'\n			',this.debug(32,21,10));
-    this._text_33 = this.renderer.createText(this._el_4,'\n\n			',this.debug(33,22,9));
-    this._el_34 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(34,24,3));
-    this._text_35 = this.renderer.createText(this._el_34,'\n				',this.debug(35,24,48));
-    this._el_36 = import4.createRenderElement(this.renderer,this._el_34,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(36,25,4));
-    this._text_37 = this.renderer.createText(this._el_36,'\n					',this.debug(37,25,54));
-    this._el_38 = import4.createRenderElement(this.renderer,this._el_36,'a',new import4.InlineArray4(4,'href','/eco-system.html','routerLink','/eco-system.html'),this.debug(38,26,5));
-    this._RouterLinkWithHref_38_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_39 = this.renderer.createText(this._el_38,'\n						',this.debug(39,26,62));
-    this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(40,27,6));
-    this._text_41 = this.renderer.createText(this._el_40,'\n							',this.debug(41,27,49));
-    this._el_42 = import4.createRenderElement(this.renderer,this._el_40,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(42,28,7));
-    this._text_43 = this.renderer.createText(this._el_42,'\n								Angularエコシステム\n							',this.debug(43,28,36));
-    this._text_44 = this.renderer.createText(this._el_40,'\n							',this.debug(44,30,11));
-    this._el_45 = import4.createRenderElement(this.renderer,this._el_40,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(45,31,7));
-    this._text_46 = this.renderer.createText(this._el_45,'\n                  ',this.debug(46,31,38));
-    this._el_47 = import4.createRenderElement(this.renderer,this._el_45,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(47,32,18));
-    this._text_48 = this.renderer.createText(this._el_45,'\n                ',this.debug(48,32,51));
-    this._text_49 = this.renderer.createText(this._el_40,'\n						',this.debug(49,33,23));
-    this._text_50 = this.renderer.createText(this._el_38,'\n					',this.debug(50,34,15));
-    this._text_51 = this.renderer.createText(this._el_36,'\n					',this.debug(51,35,9));
-    this._el_52 = import4.createRenderElement(this.renderer,this._el_36,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(52,36,5));
-    this._text_53 = this.renderer.createText(this._el_52,'\n						',this.debug(53,36,31));
-    this._el_54 = import4.createRenderElement(this.renderer,this._el_52,'div',new import4.InlineArray2(2,'class','content'),this.debug(54,37,6));
-    this._text_55 = this.renderer.createText(this._el_54,'\n							同封のものたち\n							',this.debug(55,37,27));
-    this._el_56 = import4.createRenderElement(this.renderer,this._el_54,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(56,39,7));
-    this._text_57 = this.renderer.createText(this._el_56,'\n								',this.debug(57,39,11));
-    this._el_58 = import4.createRenderElement(this.renderer,this._el_56,'li',import4.EMPTY_INLINE_ARRAY,this.debug(58,40,8));
-    this._text_59 = this.renderer.createText(this._el_58,'Angular CLI',this.debug(59,40,12));
-    this._text_60 = this.renderer.createText(this._el_56,'\n								',this.debug(60,40,28));
-    this._el_61 = import4.createRenderElement(this.renderer,this._el_56,'li',import4.EMPTY_INLINE_ARRAY,this.debug(61,41,8));
-    this._text_62 = this.renderer.createText(this._el_61,'NativeScript ... etc',this.debug(62,41,12));
-    this._text_63 = this.renderer.createText(this._el_56,'\n							',this.debug(63,41,37));
-    this._text_64 = this.renderer.createText(this._el_54,'\n						',this.debug(64,42,12));
-    this._text_65 = this.renderer.createText(this._el_52,'\n					',this.debug(65,43,12));
-    this._text_66 = this.renderer.createText(this._el_36,'\n				',this.debug(66,44,11));
-    this._text_67 = this.renderer.createText(this._el_34,'\n			',this.debug(67,45,10));
-    this._text_68 = this.renderer.createText(this._el_4,'\n\n		',this.debug(68,46,9));
-    this._text_69 = this.renderer.createText(this._el_2,'\n\n		',this.debug(69,48,8));
-    this._el_70 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(70,50,2));
-    this._text_71 = this.renderer.createText(this._el_70,'\n			',this.debug(71,50,32));
-    this._el_72 = import4.createRenderElement(this.renderer,this._el_70,'div',new import4.InlineArray2(2,'class','tile is-parent is-8'),this.debug(72,51,3));
-    this._text_73 = this.renderer.createText(this._el_72,'\n				',this.debug(73,51,36));
-    this._el_74 = import4.createRenderElement(this.renderer,this._el_72,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(74,52,4));
-    this._text_75 = this.renderer.createText(this._el_74,'\n					',this.debug(75,52,54));
-    this._el_76 = import4.createRenderElement(this.renderer,this._el_74,'a',new import4.InlineArray4(4,'href','/install.html','routerLink','/install.html'),this.debug(76,53,5));
-    this._RouterLinkWithHref_76_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_77 = this.renderer.createText(this._el_76,'\n						',this.debug(77,53,56));
-    this._el_78 = import4.createRenderElement(this.renderer,this._el_76,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(78,54,6));
-    this._text_79 = this.renderer.createText(this._el_78,'\n							',this.debug(79,54,49));
-    this._el_80 = import4.createRenderElement(this.renderer,this._el_78,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(80,55,7));
-    this._text_81 = this.renderer.createText(this._el_80,'\n								必要なツールをインストールしよう\n							',this.debug(81,55,36));
-    this._text_82 = this.renderer.createText(this._el_78,'\n							',this.debug(82,57,11));
-    this._el_83 = import4.createRenderElement(this.renderer,this._el_78,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(83,58,7));
-    this._el_84 = import4.createRenderElement(this.renderer,this._el_83,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(84,58,38));
-    this._text_85 = this.renderer.createText(this._el_78,'\n						',this.debug(85,58,78));
-    this._text_86 = this.renderer.createText(this._el_76,'\n					',this.debug(86,59,15));
-    this._text_87 = this.renderer.createText(this._el_74,'\n					',this.debug(87,60,9));
-    this._el_88 = import4.createRenderElement(this.renderer,this._el_74,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(88,61,5));
-    this._text_89 = this.renderer.createText(this._el_88,'\n						',this.debug(89,61,31));
-    this._el_90 = import4.createRenderElement(this.renderer,this._el_88,'div',new import4.InlineArray2(2,'class','content'),this.debug(90,62,6));
-    this._text_91 = this.renderer.createText(this._el_90,'\n							※for Windows10\n							',this.debug(91,62,27));
-    this._el_92 = import4.createRenderElement(this.renderer,this._el_90,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(92,64,7));
-    this._text_93 = this.renderer.createText(this._el_92,'\n								',this.debug(93,64,11));
-    this._el_94 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(94,65,8));
-    this._text_95 = this.renderer.createText(this._el_94,'git bash',this.debug(95,65,12));
-    this._text_96 = this.renderer.createText(this._el_92,'\n								',this.debug(96,65,25));
-    this._el_97 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(97,66,8));
-    this._text_98 = this.renderer.createText(this._el_97,'python2.7',this.debug(98,66,12));
-    this._text_99 = this.renderer.createText(this._el_92,'\n								',this.debug(99,66,26));
-    this._el_100 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(100,67,8));
-    this._text_101 = this.renderer.createText(this._el_100,'Ruby',this.debug(101,67,12));
-    this._text_102 = this.renderer.createText(this._el_92,'\n								',this.debug(102,67,21));
-    this._el_103 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(103,68,8));
-    this._text_104 = this.renderer.createText(this._el_103,'Visual Studio 2015 Community',this.debug(104,68,12));
-    this._text_105 = this.renderer.createText(this._el_92,'\n								',this.debug(105,68,45));
-    this._el_106 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(106,69,8));
-    this._text_107 = this.renderer.createText(this._el_106,'Windows 10 SDK',this.debug(107,69,12));
-    this._text_108 = this.renderer.createText(this._el_92,'\n								',this.debug(108,69,31));
-    this._el_109 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(109,70,8));
-    this._text_110 = this.renderer.createText(this._el_109,'nodist, Node.js',this.debug(110,70,12));
-    this._text_111 = this.renderer.createText(this._el_92,'\n								',this.debug(111,70,32));
-    this._el_112 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(112,71,8));
-    this._text_113 = this.renderer.createText(this._el_112,'angular-cli',this.debug(113,71,12));
-    this._text_114 = this.renderer.createText(this._el_92,'\n								',this.debug(114,71,28));
-    this._el_115 = import4.createRenderElement(this.renderer,this._el_92,'li',import4.EMPTY_INLINE_ARRAY,this.debug(115,72,8));
-    this._text_116 = this.renderer.createText(this._el_115,'Visual Studio Code',this.debug(116,72,12));
-    this._text_117 = this.renderer.createText(this._el_92,'\n							',this.debug(117,72,35));
-    this._text_118 = this.renderer.createText(this._el_90,'\n						',this.debug(118,73,12));
-    this._text_119 = this.renderer.createText(this._el_88,'\n					',this.debug(119,74,12));
-    this._text_120 = this.renderer.createText(this._el_74,'\n				',this.debug(120,75,11));
-    this._text_121 = this.renderer.createText(this._el_72,'\n			',this.debug(121,76,10));
-    this._text_122 = this.renderer.createText(this._el_70,'\n		',this.debug(122,77,9));
-    this._text_123 = this.renderer.createText(this._el_2,'\n\n		',this.debug(123,78,8));
-    this._el_124 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(124,80,2));
-    this._text_125 = this.renderer.createText(this._el_124,'\n\n			',this.debug(125,80,32));
-    this._el_126 = import4.createRenderElement(this.renderer,this._el_124,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(126,82,3));
-    this._text_127 = this.renderer.createText(this._el_126,'\n				',this.debug(127,82,48));
-    this._el_128 = import4.createRenderElement(this.renderer,this._el_126,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(128,83,4));
-    this._text_129 = this.renderer.createText(this._el_128,'\n					',this.debug(129,83,54));
-    this._el_130 = import4.createRenderElement(this.renderer,this._el_128,'a',new import4.InlineArray4(4,'href','/new-project.html','routerLink','/new-project.html'),this.debug(130,84,5));
-    this._RouterLinkWithHref_130_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
-    this._text_131 = this.renderer.createText(this._el_130,'\n						',this.debug(131,84,64));
-    this._el_132 = import4.createRenderElement(this.renderer,this._el_130,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(132,85,6));
-    this._text_133 = this.renderer.createText(this._el_132,'\n							',this.debug(133,85,49));
-    this._el_134 = import4.createRenderElement(this.renderer,this._el_132,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(134,86,7));
-    this._text_135 = this.renderer.createText(this._el_134,'\n								プロジェクトを作ってみよう\n							',this.debug(135,86,36));
-    this._text_136 = this.renderer.createText(this._el_132,'\n							',this.debug(136,88,11));
-    this._el_137 = import4.createRenderElement(this.renderer,this._el_132,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(137,89,7));
-    this._el_138 = import4.createRenderElement(this.renderer,this._el_137,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(138,89,38));
-    this._text_139 = this.renderer.createText(this._el_132,'\n						',this.debug(139,89,78));
-    this._text_140 = this.renderer.createText(this._el_130,'\n					',this.debug(140,90,15));
-    this._text_141 = this.renderer.createText(this._el_128,'\n					',this.debug(141,91,9));
-    this._el_142 = import4.createRenderElement(this.renderer,this._el_128,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(142,92,5));
-    this._text_143 = this.renderer.createText(this._el_142,'\n						',this.debug(143,92,31));
-    this._el_144 = import4.createRenderElement(this.renderer,this._el_142,'div',new import4.InlineArray2(2,'class','content'),this.debug(144,93,6));
-    this._text_145 = this.renderer.createText(this._el_144,'\n							',this.debug(145,93,27));
-    this._el_146 = import4.createRenderElement(this.renderer,this._el_144,'code',import4.EMPTY_INLINE_ARRAY,this.debug(146,94,7));
-    this._text_147 = this.renderer.createText(this._el_146,'ng new',this.debug(147,94,13));
-    this._text_148 = this.renderer.createText(this._el_144,' してプロジェクトを作る。',this.debug(148,94,26));
-    this._el_149 = import4.createRenderElement(this.renderer,this._el_144,'br',import4.EMPTY_INLINE_ARRAY,this.debug(149,94,39));
-    this._text_150 = this.renderer.createText(this._el_144,'\n							',this.debug(150,94,43));
-    this._el_151 = import4.createRenderElement(this.renderer,this._el_144,'code',import4.EMPTY_INLINE_ARRAY,this.debug(151,95,7));
-    this._text_152 = this.renderer.createText(this._el_151,'ng build',this.debug(152,95,13));
-    this._text_153 = this.renderer.createText(this._el_144,' してビルドする。',this.debug(153,95,28));
-    this._el_154 = import4.createRenderElement(this.renderer,this._el_144,'br',import4.EMPTY_INLINE_ARRAY,this.debug(154,95,37));
-    this._text_155 = this.renderer.createText(this._el_144,'\n							',this.debug(155,95,41));
-    this._el_156 = import4.createRenderElement(this.renderer,this._el_144,'code',import4.EMPTY_INLINE_ARRAY,this.debug(156,96,7));
-    this._text_157 = this.renderer.createText(this._el_156,'ng serve',this.debug(157,96,13));
-    this._text_158 = this.renderer.createText(this._el_144,' してブラウザで確認する。\n						',this.debug(158,96,28));
-    this._text_159 = this.renderer.createText(this._el_142,'\n					',this.debug(159,97,12));
-    this._text_160 = this.renderer.createText(this._el_128,'\n				',this.debug(160,98,11));
-    this._text_161 = this.renderer.createText(this._el_126,'\n			',this.debug(161,99,10));
-    this._text_162 = this.renderer.createText(this._el_124,'\n\n			',this.debug(162,100,9));
-    this._el_163 = import4.createRenderElement(this.renderer,this._el_124,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(163,102,3));
-    this._text_164 = this.renderer.createText(this._el_163,'\n				',this.debug(164,102,48));
-    this._el_165 = import4.createRenderElement(this.renderer,this._el_163,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(165,103,4));
-    this._text_166 = this.renderer.createText(this._el_165,'\n					',this.debug(166,103,54));
-    this._el_167 = import4.createRenderElement(this.renderer,this._el_165,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(167,104,5));
-    this._text_168 = this.renderer.createText(this._el_167,'\n						',this.debug(168,104,48));
-    this._el_169 = import4.createRenderElement(this.renderer,this._el_167,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(169,105,6));
-    this._text_170 = this.renderer.createText(this._el_169,'\n							TODOリストを作ってみよう ※未作成\n						',this.debug(170,105,35));
-    this._text_171 = this.renderer.createText(this._el_167,'\n						',this.debug(171,107,10));
-    this._el_172 = import4.createRenderElement(this.renderer,this._el_167,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(172,108,6));
-    this._text_173 = this.renderer.createText(this._el_172,'\n                  ',this.debug(173,108,37));
-    this._el_174 = import4.createRenderElement(this.renderer,this._el_172,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(174,109,18));
-    this._text_175 = this.renderer.createText(this._el_172,'\n                ',this.debug(175,109,51));
-    this._text_176 = this.renderer.createText(this._el_167,'\n					',this.debug(176,110,23));
-    this._text_177 = this.renderer.createText(this._el_165,'\n					',this.debug(177,111,14));
-    this._el_178 = import4.createRenderElement(this.renderer,this._el_165,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(178,112,5));
-    this._text_179 = this.renderer.createText(this._el_178,'\n						',this.debug(179,112,31));
-    this._el_180 = import4.createRenderElement(this.renderer,this._el_178,'div',new import4.InlineArray2(2,'class','content'),this.debug(180,113,6));
-    this._text_181 = this.renderer.createText(this._el_180,'\n							app.component を修正する。\n						',this.debug(181,113,27));
-    this._text_182 = this.renderer.createText(this._el_178,'\n					',this.debug(182,115,12));
-    this._text_183 = this.renderer.createText(this._el_165,'\n				',this.debug(183,116,11));
-    this._text_184 = this.renderer.createText(this._el_163,'\n			',this.debug(184,117,10));
-    this._text_185 = this.renderer.createText(this._el_124,'\n\n		',this.debug(185,118,9));
-    this._text_186 = this.renderer.createText(this._el_2,'\n\n		',this.debug(186,120,8));
-    this._el_187 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(187,122,2));
-    this._text_188 = this.renderer.createText(this._el_187,'\n\n			',this.debug(188,122,32));
-    this._el_189 = import4.createRenderElement(this.renderer,this._el_187,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-8'),this.debug(189,124,3));
-    this._text_190 = this.renderer.createText(this._el_189,'\n				',this.debug(190,124,48));
-    this._el_191 = import4.createRenderElement(this.renderer,this._el_189,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(191,125,4));
-    this._text_192 = this.renderer.createText(this._el_191,'\n					',this.debug(192,125,54));
-    this._el_193 = import4.createRenderElement(this.renderer,this._el_191,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(193,126,5));
-    this._text_194 = this.renderer.createText(this._el_193,'\n						',this.debug(194,126,48));
-    this._el_195 = import4.createRenderElement(this.renderer,this._el_193,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(195,127,6));
-    this._text_196 = this.renderer.createText(this._el_195,'\n							コンポーネント分割してみよう ※未作成\n						',this.debug(196,127,35));
-    this._text_197 = this.renderer.createText(this._el_193,'\n						',this.debug(197,129,10));
-    this._el_198 = import4.createRenderElement(this.renderer,this._el_193,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(198,130,6));
-    this._text_199 = this.renderer.createText(this._el_198,'\n                  ',this.debug(199,130,37));
-    this._el_200 = import4.createRenderElement(this.renderer,this._el_198,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(200,131,18));
-    this._text_201 = this.renderer.createText(this._el_198,'\n                ',this.debug(201,131,51));
-    this._text_202 = this.renderer.createText(this._el_193,'\n					',this.debug(202,132,23));
-    this._text_203 = this.renderer.createText(this._el_191,'\n					',this.debug(203,133,14));
-    this._el_204 = import4.createRenderElement(this.renderer,this._el_191,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(204,134,5));
-    this._text_205 = this.renderer.createText(this._el_204,'\n						',this.debug(205,134,31));
-    this._el_206 = import4.createRenderElement(this.renderer,this._el_204,'div',new import4.InlineArray2(2,'class','content'),this.debug(206,135,6));
-    this._text_207 = this.renderer.createText(this._el_206,'\n							',this.debug(207,135,27));
-    this._el_208 = import4.createRenderElement(this.renderer,this._el_206,'code',import4.EMPTY_INLINE_ARRAY,this.debug(208,136,7));
-    this._text_209 = this.renderer.createText(this._el_208,'ng generate',this.debug(209,136,13));
-    this._text_210 = this.renderer.createText(this._el_206,' して部品を自動生成する。',this.debug(210,136,31));
-    this._el_211 = import4.createRenderElement(this.renderer,this._el_206,'br',import4.EMPTY_INLINE_ARRAY,this.debug(211,136,44));
-    this._text_212 = this.renderer.createText(this._el_206,'\n							',this.debug(212,136,48));
-    this._el_213 = import4.createRenderElement(this.renderer,this._el_206,'code',import4.EMPTY_INLINE_ARRAY,this.debug(213,137,7));
-    this._text_214 = this.renderer.createText(this._el_213,'@Input()',this.debug(214,137,13));
-    this._text_215 = this.renderer.createText(this._el_206,',',this.debug(215,137,28));
-    this._el_216 = import4.createRenderElement(this.renderer,this._el_206,'code',import4.EMPTY_INLINE_ARRAY,this.debug(216,137,29));
-    this._text_217 = this.renderer.createText(this._el_216,'@Output()',this.debug(217,137,35));
-    this._text_218 = this.renderer.createText(this._el_206,' でデータやイベントを送受信する。\n						',this.debug(218,137,51));
-    this._text_219 = this.renderer.createText(this._el_204,'\n					',this.debug(219,138,12));
-    this._text_220 = this.renderer.createText(this._el_191,'\n				',this.debug(220,139,11));
-    this._text_221 = this.renderer.createText(this._el_189,'\n			',this.debug(221,140,10));
-    this._text_222 = this.renderer.createText(this._el_187,'\n\n		',this.debug(222,141,9));
-    this._text_223 = this.renderer.createText(this._el_2,'\n\n		',this.debug(223,143,8));
-    this._el_224 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(224,145,2));
-    this._text_225 = this.renderer.createText(this._el_224,'\n\n			',this.debug(225,145,32));
-    this._el_226 = import4.createRenderElement(this.renderer,this._el_224,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-8'),this.debug(226,147,3));
-    this._text_227 = this.renderer.createText(this._el_226,'\n				',this.debug(227,147,48));
-    this._el_228 = import4.createRenderElement(this.renderer,this._el_226,'div',new import4.InlineArray2(2,'class','card is-fullwidth message is-primary'),this.debug(228,148,4));
-    this._text_229 = this.renderer.createText(this._el_228,'\n					',this.debug(229,148,54));
-    this._el_230 = import4.createRenderElement(this.renderer,this._el_228,'header',new import4.InlineArray2(2,'class','card-header message-header'),this.debug(230,149,5));
-    this._text_231 = this.renderer.createText(this._el_230,'\n						',this.debug(231,149,48));
-    this._el_232 = import4.createRenderElement(this.renderer,this._el_230,'p',new import4.InlineArray2(2,'class','card-header-title'),this.debug(232,150,6));
-    this._text_233 = this.renderer.createText(this._el_232,'\n							テストしてみよう ※未作成\n						',this.debug(233,150,35));
-    this._text_234 = this.renderer.createText(this._el_230,'\n						',this.debug(234,152,10));
-    this._el_235 = import4.createRenderElement(this.renderer,this._el_230,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(235,153,6));
-    this._text_236 = this.renderer.createText(this._el_235,'\n                  ',this.debug(236,153,37));
-    this._el_237 = import4.createRenderElement(this.renderer,this._el_235,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(237,154,18));
-    this._text_238 = this.renderer.createText(this._el_235,'\n                ',this.debug(238,154,51));
-    this._text_239 = this.renderer.createText(this._el_230,'\n					',this.debug(239,155,23));
-    this._text_240 = this.renderer.createText(this._el_228,'\n					',this.debug(240,156,14));
-    this._el_241 = import4.createRenderElement(this.renderer,this._el_228,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(241,157,5));
-    this._text_242 = this.renderer.createText(this._el_241,'\n						',this.debug(242,157,31));
-    this._el_243 = import4.createRenderElement(this.renderer,this._el_241,'div',new import4.InlineArray2(2,'class','content'),this.debug(243,158,6));
-    this._text_244 = this.renderer.createText(this._el_243,'\n							',this.debug(244,158,27));
-    this._el_245 = import4.createRenderElement(this.renderer,this._el_243,'code',import4.EMPTY_INLINE_ARRAY,this.debug(245,159,7));
-    this._text_246 = this.renderer.createText(this._el_245,'ng test',this.debug(246,159,13));
-    this._text_247 = this.renderer.createText(this._el_243,' で単体テストをする。\n						',this.debug(247,159,27));
-    this._text_248 = this.renderer.createText(this._el_241,'\n					',this.debug(248,160,12));
-    this._text_249 = this.renderer.createText(this._el_228,'\n				',this.debug(249,161,11));
-    this._text_250 = this.renderer.createText(this._el_226,'\n			',this.debug(250,162,10));
-    this._text_251 = this.renderer.createText(this._el_224,'\n\n		',this.debug(251,163,9));
-    this._text_252 = this.renderer.createText(this._el_2,'\n		',this.debug(252,165,8));
-    this._text_253 = this.renderer.createText(this._el_2,'\n	',this.debug(253,166,27));
-    this._text_254 = this.renderer.createText(this._el_0,'\n	',this.debug(254,167,7));
-    this._text_255 = this.renderer.createText(this._el_0,'\n',this.debug(255,168,21));
-    this._text_256 = this.renderer.createText(parentRenderNode,'\n\n',this.debug(256,169,10));
-    this._el_257 = import4.createRenderElement(this.renderer,parentRenderNode,'section',new import4.InlineArray2(2,'class','section'),this.debug(257,171,0));
-    this._text_258 = this.renderer.createText(this._el_257,'\n	',this.debug(258,171,25));
-    this._el_259 = import4.createRenderElement(this.renderer,this._el_257,'div',new import4.InlineArray2(2,'class','container'),this.debug(259,172,1));
-    this._text_260 = this.renderer.createText(this._el_259,'\n		',this.debug(260,172,24));
-    this._el_261 = import4.createRenderElement(this.renderer,this._el_259,'div',new import4.InlineArray2(2,'class','content is-large has-text-centered'),this.debug(261,173,2));
-    this._text_262 = this.renderer.createText(this._el_261,'\n			To Be Continued ...\n		',this.debug(262,173,50));
-    this._text_263 = this.renderer.createText(this._el_259,'\n	',this.debug(263,175,8));
-    this._text_264 = this.renderer.createText(this._el_257,'\n',this.debug(264,176,7));
+    this._el_12 = import4.createRenderElement(this.renderer,this._el_10,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(12,7,6));
+    this._text_13 = this.renderer.createText(this._el_12,'\n							',this.debug(13,7,34));
+    this._el_14 = import4.createRenderElement(this.renderer,this._el_12,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(14,8,7));
+    this._text_15 = this.renderer.createText(this._el_14,'Angularって何？',this.debug(15,8,37));
+    this._text_16 = this.renderer.createText(this._el_12,'\n							',this.debug(16,8,53));
+    this._el_17 = import4.createRenderElement(this.renderer,this._el_12,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(17,9,7));
+    this._el_18 = import4.createRenderElement(this.renderer,this._el_17,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(18,9,38));
+    this._text_19 = this.renderer.createText(this._el_12,'\n						',this.debug(19,9,78));
+    this._text_20 = this.renderer.createText(this._el_10,'\n					',this.debug(20,10,15));
+    this._text_21 = this.renderer.createText(this._el_8,'\n					',this.debug(21,11,9));
+    this._el_22 = import4.createRenderElement(this.renderer,this._el_8,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(22,12,5));
+    this._text_23 = this.renderer.createText(this._el_22,'\n						',this.debug(23,12,31));
+    this._el_24 = import4.createRenderElement(this.renderer,this._el_22,'div',new import4.InlineArray2(2,'class','content'),this.debug(24,13,6));
+    this._text_25 = this.renderer.createText(this._el_24,'\n							',this.debug(25,13,27));
+    this._el_26 = import4.createRenderElement(this.renderer,this._el_24,'p',import4.EMPTY_INLINE_ARRAY,this.debug(26,14,7));
+    this._text_27 = this.renderer.createText(this._el_26,'\n								"W3C Web Components" って何？\n								',this.debug(27,14,10));
+    this._el_28 = import4.createRenderElement(this.renderer,this._el_26,'br',import4.EMPTY_INLINE_ARRAY,this.debug(28,16,8));
+    this._text_29 = this.renderer.createText(this._el_26,' "SPA（Single-Page Application）" って何？\n							',this.debug(29,16,12));
+    this._text_30 = this.renderer.createText(this._el_24,'\n							',this.debug(30,17,11));
+    this._el_31 = import4.createRenderElement(this.renderer,this._el_24,'p',new import4.InlineArray2(2,'class','date'),this.debug(31,18,7));
+    this._text_32 = this.renderer.createText(this._el_31,'2016/11/9',this.debug(32,18,23));
+    this._text_33 = this.renderer.createText(this._el_24,'\n						',this.debug(33,18,36));
+    this._text_34 = this.renderer.createText(this._el_22,'\n					',this.debug(34,19,12));
+    this._text_35 = this.renderer.createText(this._el_8,'\n				',this.debug(35,20,11));
+    this._text_36 = this.renderer.createText(this._el_6,'\n			',this.debug(36,21,10));
+    this._text_37 = this.renderer.createText(this._el_4,'\n\n			',this.debug(37,22,9));
+    this._el_38 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(38,24,3));
+    this._text_39 = this.renderer.createText(this._el_38,'\n				',this.debug(39,24,48));
+    this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(40,25,4));
+    this._text_41 = this.renderer.createText(this._el_40,'\n					',this.debug(41,25,35));
+    this._el_42 = import4.createRenderElement(this.renderer,this._el_40,'a',new import4.InlineArray4(4,'href','/eco-system.html','routerLink','/eco-system.html'),this.debug(42,26,5));
+    this._RouterLinkWithHref_42_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
+    this._text_43 = this.renderer.createText(this._el_42,'\n						',this.debug(43,26,62));
+    this._el_44 = import4.createRenderElement(this.renderer,this._el_42,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(44,27,6));
+    this._text_45 = this.renderer.createText(this._el_44,'\n							',this.debug(45,27,34));
+    this._el_46 = import4.createRenderElement(this.renderer,this._el_44,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(46,28,7));
+    this._text_47 = this.renderer.createText(this._el_46,'Angularエコシステム',this.debug(47,28,37));
+    this._text_48 = this.renderer.createText(this._el_44,'\n							',this.debug(48,28,55));
+    this._el_49 = import4.createRenderElement(this.renderer,this._el_44,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(49,29,7));
+    this._el_50 = import4.createRenderElement(this.renderer,this._el_49,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(50,29,38));
+    this._text_51 = this.renderer.createText(this._el_44,'\n						',this.debug(51,29,78));
+    this._text_52 = this.renderer.createText(this._el_42,'\n					',this.debug(52,30,15));
+    this._text_53 = this.renderer.createText(this._el_40,'\n					',this.debug(53,31,9));
+    this._el_54 = import4.createRenderElement(this.renderer,this._el_40,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(54,32,5));
+    this._text_55 = this.renderer.createText(this._el_54,'\n						',this.debug(55,32,31));
+    this._el_56 = import4.createRenderElement(this.renderer,this._el_54,'div',new import4.InlineArray2(2,'class','content'),this.debug(56,33,6));
+    this._text_57 = this.renderer.createText(this._el_56,'\n							',this.debug(57,33,27));
+    this._el_58 = import4.createRenderElement(this.renderer,this._el_56,'p',import4.EMPTY_INLINE_ARRAY,this.debug(58,34,7));
+    this._text_59 = this.renderer.createText(this._el_58,'同封のものたち',this.debug(59,34,10));
+    this._text_60 = this.renderer.createText(this._el_56,'\n							',this.debug(60,34,21));
+    this._el_61 = import4.createRenderElement(this.renderer,this._el_56,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(61,35,7));
+    this._text_62 = this.renderer.createText(this._el_61,'\n								',this.debug(62,35,11));
+    this._el_63 = import4.createRenderElement(this.renderer,this._el_61,'li',import4.EMPTY_INLINE_ARRAY,this.debug(63,36,8));
+    this._text_64 = this.renderer.createText(this._el_63,'Angular CLI',this.debug(64,36,12));
+    this._text_65 = this.renderer.createText(this._el_61,'\n								',this.debug(65,36,28));
+    this._el_66 = import4.createRenderElement(this.renderer,this._el_61,'li',import4.EMPTY_INLINE_ARRAY,this.debug(66,37,8));
+    this._text_67 = this.renderer.createText(this._el_66,'NativeScript ... etc',this.debug(67,37,12));
+    this._text_68 = this.renderer.createText(this._el_61,'\n							',this.debug(68,37,37));
+    this._text_69 = this.renderer.createText(this._el_56,'\n							',this.debug(69,38,12));
+    this._el_70 = import4.createRenderElement(this.renderer,this._el_56,'p',new import4.InlineArray2(2,'class','date'),this.debug(70,39,7));
+    this._text_71 = this.renderer.createText(this._el_70,'2016/11/10',this.debug(71,39,23));
+    this._text_72 = this.renderer.createText(this._el_56,'\n						',this.debug(72,39,37));
+    this._text_73 = this.renderer.createText(this._el_54,'\n					',this.debug(73,40,12));
+    this._text_74 = this.renderer.createText(this._el_40,'\n				',this.debug(74,41,11));
+    this._text_75 = this.renderer.createText(this._el_38,'\n			',this.debug(75,42,10));
+    this._text_76 = this.renderer.createText(this._el_4,'\n\n		',this.debug(76,43,9));
+    this._text_77 = this.renderer.createText(this._el_2,'\n\n		',this.debug(77,45,8));
+    this._el_78 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(78,47,2));
+    this._text_79 = this.renderer.createText(this._el_78,'\n			',this.debug(79,47,32));
+    this._el_80 = import4.createRenderElement(this.renderer,this._el_78,'div',new import4.InlineArray2(2,'class','tile is-parent is-8'),this.debug(80,48,3));
+    this._text_81 = this.renderer.createText(this._el_80,'\n				',this.debug(81,48,36));
+    this._el_82 = import4.createRenderElement(this.renderer,this._el_80,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(82,49,4));
+    this._text_83 = this.renderer.createText(this._el_82,'\n					',this.debug(83,49,35));
+    this._el_84 = import4.createRenderElement(this.renderer,this._el_82,'a',new import4.InlineArray4(4,'href','/install.html','routerLink','/install.html'),this.debug(84,50,5));
+    this._RouterLinkWithHref_84_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
+    this._text_85 = this.renderer.createText(this._el_84,'\n						',this.debug(85,50,56));
+    this._el_86 = import4.createRenderElement(this.renderer,this._el_84,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(86,51,6));
+    this._text_87 = this.renderer.createText(this._el_86,'\n							',this.debug(87,51,34));
+    this._el_88 = import4.createRenderElement(this.renderer,this._el_86,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(88,52,7));
+    this._text_89 = this.renderer.createText(this._el_88,'必要なツールをインストールしよう',this.debug(89,52,37));
+    this._text_90 = this.renderer.createText(this._el_86,'\n							',this.debug(90,52,58));
+    this._el_91 = import4.createRenderElement(this.renderer,this._el_86,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(91,53,7));
+    this._el_92 = import4.createRenderElement(this.renderer,this._el_91,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(92,53,38));
+    this._text_93 = this.renderer.createText(this._el_86,'\n						',this.debug(93,53,78));
+    this._text_94 = this.renderer.createText(this._el_84,'\n					',this.debug(94,54,15));
+    this._text_95 = this.renderer.createText(this._el_82,'\n					',this.debug(95,55,9));
+    this._el_96 = import4.createRenderElement(this.renderer,this._el_82,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(96,56,5));
+    this._text_97 = this.renderer.createText(this._el_96,'\n						',this.debug(97,56,31));
+    this._el_98 = import4.createRenderElement(this.renderer,this._el_96,'div',new import4.InlineArray2(2,'class','content'),this.debug(98,57,6));
+    this._text_99 = this.renderer.createText(this._el_98,'\n							',this.debug(99,57,27));
+    this._el_100 = import4.createRenderElement(this.renderer,this._el_98,'p',import4.EMPTY_INLINE_ARRAY,this.debug(100,58,7));
+    this._text_101 = this.renderer.createText(this._el_100,'※for Windows10',this.debug(101,58,10));
+    this._text_102 = this.renderer.createText(this._el_98,'\n							',this.debug(102,58,28));
+    this._el_103 = import4.createRenderElement(this.renderer,this._el_98,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(103,59,7));
+    this._text_104 = this.renderer.createText(this._el_103,'\n								',this.debug(104,59,11));
+    this._el_105 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(105,60,8));
+    this._text_106 = this.renderer.createText(this._el_105,'Git bash',this.debug(106,60,12));
+    this._text_107 = this.renderer.createText(this._el_103,'\n								',this.debug(107,60,25));
+    this._el_108 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(108,61,8));
+    this._text_109 = this.renderer.createText(this._el_108,'Python2.7',this.debug(109,61,12));
+    this._text_110 = this.renderer.createText(this._el_103,'\n								',this.debug(110,61,26));
+    this._el_111 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(111,62,8));
+    this._text_112 = this.renderer.createText(this._el_111,'Ruby',this.debug(112,62,12));
+    this._text_113 = this.renderer.createText(this._el_103,'\n								',this.debug(113,62,21));
+    this._el_114 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(114,63,8));
+    this._text_115 = this.renderer.createText(this._el_114,'Visual Studio 2015 Community',this.debug(115,63,12));
+    this._text_116 = this.renderer.createText(this._el_103,'\n								',this.debug(116,63,45));
+    this._el_117 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(117,64,8));
+    this._text_118 = this.renderer.createText(this._el_117,'Windows 10 SDK',this.debug(118,64,12));
+    this._text_119 = this.renderer.createText(this._el_103,'\n								',this.debug(119,64,31));
+    this._el_120 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(120,65,8));
+    this._text_121 = this.renderer.createText(this._el_120,'nodist, Node.js',this.debug(121,65,12));
+    this._text_122 = this.renderer.createText(this._el_103,'\n								',this.debug(122,65,32));
+    this._el_123 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(123,66,8));
+    this._text_124 = this.renderer.createText(this._el_123,'angular-cli',this.debug(124,66,12));
+    this._text_125 = this.renderer.createText(this._el_103,'\n								',this.debug(125,66,28));
+    this._el_126 = import4.createRenderElement(this.renderer,this._el_103,'li',import4.EMPTY_INLINE_ARRAY,this.debug(126,67,8));
+    this._text_127 = this.renderer.createText(this._el_126,'Visual Studio Code',this.debug(127,67,12));
+    this._text_128 = this.renderer.createText(this._el_103,'\n							',this.debug(128,67,35));
+    this._text_129 = this.renderer.createText(this._el_98,'\n							',this.debug(129,68,12));
+    this._el_130 = import4.createRenderElement(this.renderer,this._el_98,'p',new import4.InlineArray2(2,'class','date'),this.debug(130,69,7));
+    this._text_131 = this.renderer.createText(this._el_130,'2016/11/20',this.debug(131,69,23));
+    this._text_132 = this.renderer.createText(this._el_98,'\n						',this.debug(132,69,37));
+    this._text_133 = this.renderer.createText(this._el_96,'\n					',this.debug(133,70,12));
+    this._text_134 = this.renderer.createText(this._el_82,'\n				',this.debug(134,71,11));
+    this._text_135 = this.renderer.createText(this._el_80,'\n			',this.debug(135,72,10));
+    this._text_136 = this.renderer.createText(this._el_78,'\n		',this.debug(136,73,9));
+    this._text_137 = this.renderer.createText(this._el_2,'\n\n		',this.debug(137,74,8));
+    this._el_138 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(138,76,2));
+    this._text_139 = this.renderer.createText(this._el_138,'\n\n			',this.debug(139,76,32));
+    this._el_140 = import4.createRenderElement(this.renderer,this._el_138,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(140,78,3));
+    this._text_141 = this.renderer.createText(this._el_140,'\n				',this.debug(141,78,48));
+    this._el_142 = import4.createRenderElement(this.renderer,this._el_140,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(142,79,4));
+    this._text_143 = this.renderer.createText(this._el_142,'\n					',this.debug(143,79,35));
+    this._el_144 = import4.createRenderElement(this.renderer,this._el_142,'a',new import4.InlineArray4(4,'href','/new-project.html','routerLink','/new-project.html'),this.debug(144,80,5));
+    this._RouterLinkWithHref_144_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
+    this._text_145 = this.renderer.createText(this._el_144,'\n						',this.debug(145,80,64));
+    this._el_146 = import4.createRenderElement(this.renderer,this._el_144,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(146,81,6));
+    this._text_147 = this.renderer.createText(this._el_146,'\n							',this.debug(147,81,34));
+    this._el_148 = import4.createRenderElement(this.renderer,this._el_146,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(148,82,7));
+    this._text_149 = this.renderer.createText(this._el_148,'プロジェクトを作ってみよう',this.debug(149,82,37));
+    this._text_150 = this.renderer.createText(this._el_146,'\n							',this.debug(150,82,55));
+    this._el_151 = import4.createRenderElement(this.renderer,this._el_146,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(151,83,7));
+    this._el_152 = import4.createRenderElement(this.renderer,this._el_151,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(152,83,38));
+    this._text_153 = this.renderer.createText(this._el_146,'\n						',this.debug(153,83,78));
+    this._text_154 = this.renderer.createText(this._el_144,'\n					',this.debug(154,84,15));
+    this._text_155 = this.renderer.createText(this._el_142,'\n					',this.debug(155,85,9));
+    this._el_156 = import4.createRenderElement(this.renderer,this._el_142,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(156,86,5));
+    this._text_157 = this.renderer.createText(this._el_156,'\n						',this.debug(157,86,31));
+    this._el_158 = import4.createRenderElement(this.renderer,this._el_156,'div',new import4.InlineArray2(2,'class','content'),this.debug(158,87,6));
+    this._text_159 = this.renderer.createText(this._el_158,'\n							',this.debug(159,87,27));
+    this._el_160 = import4.createRenderElement(this.renderer,this._el_158,'p',import4.EMPTY_INLINE_ARRAY,this.debug(160,88,7));
+    this._el_161 = import4.createRenderElement(this.renderer,this._el_160,'code',import4.EMPTY_INLINE_ARRAY,this.debug(161,88,10));
+    this._text_162 = this.renderer.createText(this._el_161,'ng new',this.debug(162,88,16));
+    this._text_163 = this.renderer.createText(this._el_160,' してプロジェクトを作る。',this.debug(163,88,29));
+    this._text_164 = this.renderer.createText(this._el_158,'\n							',this.debug(164,88,46));
+    this._el_165 = import4.createRenderElement(this.renderer,this._el_158,'p',import4.EMPTY_INLINE_ARRAY,this.debug(165,89,7));
+    this._el_166 = import4.createRenderElement(this.renderer,this._el_165,'code',import4.EMPTY_INLINE_ARRAY,this.debug(166,89,10));
+    this._text_167 = this.renderer.createText(this._el_166,'ng build',this.debug(167,89,16));
+    this._text_168 = this.renderer.createText(this._el_165,' してビルドする。',this.debug(168,89,31));
+    this._text_169 = this.renderer.createText(this._el_158,'\n							',this.debug(169,89,44));
+    this._el_170 = import4.createRenderElement(this.renderer,this._el_158,'p',import4.EMPTY_INLINE_ARRAY,this.debug(170,90,7));
+    this._el_171 = import4.createRenderElement(this.renderer,this._el_170,'code',import4.EMPTY_INLINE_ARRAY,this.debug(171,90,10));
+    this._text_172 = this.renderer.createText(this._el_171,'ng serve',this.debug(172,90,16));
+    this._text_173 = this.renderer.createText(this._el_170,' してブラウザで確認する。',this.debug(173,90,31));
+    this._text_174 = this.renderer.createText(this._el_158,'\n							',this.debug(174,90,48));
+    this._el_175 = import4.createRenderElement(this.renderer,this._el_158,'p',new import4.InlineArray2(2,'class','date'),this.debug(175,91,7));
+    this._text_176 = this.renderer.createText(this._el_175,'2016/11/22',this.debug(176,91,23));
+    this._text_177 = this.renderer.createText(this._el_158,'\n						',this.debug(177,91,37));
+    this._text_178 = this.renderer.createText(this._el_156,'\n					',this.debug(178,92,12));
+    this._text_179 = this.renderer.createText(this._el_142,'\n				',this.debug(179,93,11));
+    this._text_180 = this.renderer.createText(this._el_140,'\n			',this.debug(180,94,10));
+    this._text_181 = this.renderer.createText(this._el_138,'\n\n			',this.debug(181,95,9));
+    this._el_182 = import4.createRenderElement(this.renderer,this._el_138,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-4'),this.debug(182,97,3));
+    this._text_183 = this.renderer.createText(this._el_182,'\n				',this.debug(183,97,48));
+    this._el_184 = import4.createRenderElement(this.renderer,this._el_182,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(184,98,4));
+    this._text_185 = this.renderer.createText(this._el_184,'\n					',this.debug(185,98,35));
+    this._el_186 = import4.createRenderElement(this.renderer,this._el_184,'a',new import4.InlineArray4(4,'href','/todos.html','routerLink','/todos.html'),this.debug(186,99,5));
+    this._RouterLinkWithHref_186_3 = new import11.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import12.Router,this.parentIndex),this.parentView.injectorGet(import13.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import14.LocationStrategy,this.parentIndex));
+    this._text_187 = this.renderer.createText(this._el_186,'\n						',this.debug(187,99,52));
+    this._el_188 = import4.createRenderElement(this.renderer,this._el_186,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(188,100,6));
+    this._text_189 = this.renderer.createText(this._el_188,'\n							',this.debug(189,100,34));
+    this._el_190 = import4.createRenderElement(this.renderer,this._el_188,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(190,101,7));
+    this._text_191 = this.renderer.createText(this._el_190,'TODOリストを作ってみよう',this.debug(191,101,37));
+    this._text_192 = this.renderer.createText(this._el_188,'\n							',this.debug(192,101,56));
+    this._el_193 = import4.createRenderElement(this.renderer,this._el_188,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(193,102,7));
+    this._el_194 = import4.createRenderElement(this.renderer,this._el_193,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(194,102,38));
+    this._text_195 = this.renderer.createText(this._el_188,'\n						',this.debug(195,102,78));
+    this._text_196 = this.renderer.createText(this._el_186,'\n					',this.debug(196,103,15));
+    this._text_197 = this.renderer.createText(this._el_184,'\n					',this.debug(197,104,9));
+    this._el_198 = import4.createRenderElement(this.renderer,this._el_184,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(198,105,5));
+    this._text_199 = this.renderer.createText(this._el_198,'\n						',this.debug(199,105,31));
+    this._el_200 = import4.createRenderElement(this.renderer,this._el_198,'div',new import4.InlineArray2(2,'class','content'),this.debug(200,106,6));
+    this._text_201 = this.renderer.createText(this._el_200,'\n							',this.debug(201,106,27));
+    this._el_202 = import4.createRenderElement(this.renderer,this._el_200,'p',import4.EMPTY_INLINE_ARRAY,this.debug(202,107,7));
+    this._text_203 = this.renderer.createText(this._el_202,'簡単なアプリケーションを作ってみる。',this.debug(203,107,10));
+    this._text_204 = this.renderer.createText(this._el_200,'\n							',this.debug(204,107,32));
+    this._el_205 = import4.createRenderElement(this.renderer,this._el_200,'p',import4.EMPTY_INLINE_ARRAY,this.debug(205,108,7));
+    this._text_206 = this.renderer.createText(this._el_205,'app.component を修正する。',this.debug(206,108,10));
+    this._text_207 = this.renderer.createText(this._el_200,'\n							',this.debug(207,108,34));
+    this._el_208 = import4.createRenderElement(this.renderer,this._el_200,'p',new import4.InlineArray2(2,'class','date'),this.debug(208,109,7));
+    this._text_209 = this.renderer.createText(this._el_208,'2016/12/01',this.debug(209,109,23));
+    this._text_210 = this.renderer.createText(this._el_200,'\n						',this.debug(210,109,37));
+    this._text_211 = this.renderer.createText(this._el_198,'\n					',this.debug(211,110,12));
+    this._text_212 = this.renderer.createText(this._el_184,'\n				',this.debug(212,111,11));
+    this._text_213 = this.renderer.createText(this._el_182,'\n			',this.debug(213,112,10));
+    this._text_214 = this.renderer.createText(this._el_138,'\n\n		',this.debug(214,113,9));
+    this._text_215 = this.renderer.createText(this._el_2,'\n\n		',this.debug(215,115,8));
+    this._el_216 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(216,117,2));
+    this._text_217 = this.renderer.createText(this._el_216,'\n\n			',this.debug(217,117,32));
+    this._el_218 = import4.createRenderElement(this.renderer,this._el_216,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-8'),this.debug(218,119,3));
+    this._text_219 = this.renderer.createText(this._el_218,'\n				',this.debug(219,119,48));
+    this._el_220 = import4.createRenderElement(this.renderer,this._el_218,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(220,120,4));
+    this._text_221 = this.renderer.createText(this._el_220,'\n					',this.debug(221,120,35));
+    this._el_222 = import4.createRenderElement(this.renderer,this._el_220,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(222,121,5));
+    this._text_223 = this.renderer.createText(this._el_222,'\n						',this.debug(223,121,33));
+    this._el_224 = import4.createRenderElement(this.renderer,this._el_222,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(224,122,6));
+    this._text_225 = this.renderer.createText(this._el_224,'コンポーネント分割してみよう ※未作成',this.debug(225,122,36));
+    this._text_226 = this.renderer.createText(this._el_222,'\n						',this.debug(226,122,60));
+    this._el_227 = import4.createRenderElement(this.renderer,this._el_222,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(227,123,6));
+    this._el_228 = import4.createRenderElement(this.renderer,this._el_227,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(228,123,37));
+    this._text_229 = this.renderer.createText(this._el_222,'\n					',this.debug(229,123,77));
+    this._text_230 = this.renderer.createText(this._el_220,'\n					',this.debug(230,124,14));
+    this._el_231 = import4.createRenderElement(this.renderer,this._el_220,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(231,125,5));
+    this._text_232 = this.renderer.createText(this._el_231,'\n						',this.debug(232,125,31));
+    this._el_233 = import4.createRenderElement(this.renderer,this._el_231,'div',new import4.InlineArray2(2,'class','content'),this.debug(233,126,6));
+    this._text_234 = this.renderer.createText(this._el_233,'\n							',this.debug(234,126,27));
+    this._el_235 = import4.createRenderElement(this.renderer,this._el_233,'p',import4.EMPTY_INLINE_ARRAY,this.debug(235,127,7));
+    this._el_236 = import4.createRenderElement(this.renderer,this._el_235,'code',import4.EMPTY_INLINE_ARRAY,this.debug(236,127,10));
+    this._text_237 = this.renderer.createText(this._el_236,'ng generate',this.debug(237,127,16));
+    this._text_238 = this.renderer.createText(this._el_235,' して部品を自動生成する。',this.debug(238,127,34));
+    this._text_239 = this.renderer.createText(this._el_233,'\n							',this.debug(239,127,51));
+    this._el_240 = import4.createRenderElement(this.renderer,this._el_233,'p',import4.EMPTY_INLINE_ARRAY,this.debug(240,128,7));
+    this._el_241 = import4.createRenderElement(this.renderer,this._el_240,'code',import4.EMPTY_INLINE_ARRAY,this.debug(241,128,10));
+    this._text_242 = this.renderer.createText(this._el_241,'@Input()',this.debug(242,128,16));
+    this._text_243 = this.renderer.createText(this._el_240,',',this.debug(243,128,31));
+    this._el_244 = import4.createRenderElement(this.renderer,this._el_240,'code',import4.EMPTY_INLINE_ARRAY,this.debug(244,128,32));
+    this._text_245 = this.renderer.createText(this._el_244,'@Output()',this.debug(245,128,38));
+    this._text_246 = this.renderer.createText(this._el_240,' でデータやイベントを送受信する。',this.debug(246,128,54));
+    this._text_247 = this.renderer.createText(this._el_233,'\n							',this.debug(247,128,75));
+    this._el_248 = import4.createRenderElement(this.renderer,this._el_233,'p',new import4.InlineArray2(2,'class','date'),this.debug(248,129,7));
+    this._text_249 = this.renderer.createText(this._el_248,'xxxx/xx/xx',this.debug(249,129,23));
+    this._text_250 = this.renderer.createText(this._el_233,'\n						',this.debug(250,129,37));
+    this._text_251 = this.renderer.createText(this._el_231,'\n					',this.debug(251,130,12));
+    this._text_252 = this.renderer.createText(this._el_220,'\n				',this.debug(252,131,11));
+    this._text_253 = this.renderer.createText(this._el_218,'\n			',this.debug(253,132,10));
+    this._text_254 = this.renderer.createText(this._el_216,'\n\n		',this.debug(254,133,9));
+    this._text_255 = this.renderer.createText(this._el_2,'\n\n		',this.debug(255,135,8));
+    this._el_256 = import4.createRenderElement(this.renderer,this._el_2,'div',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(256,137,2));
+    this._text_257 = this.renderer.createText(this._el_256,'\n\n			',this.debug(257,137,32));
+    this._el_258 = import4.createRenderElement(this.renderer,this._el_256,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical is-8'),this.debug(258,139,3));
+    this._text_259 = this.renderer.createText(this._el_258,'\n				',this.debug(259,139,48));
+    this._el_260 = import4.createRenderElement(this.renderer,this._el_258,'div',new import4.InlineArray2(2,'class','card is-fullwidth'),this.debug(260,140,4));
+    this._text_261 = this.renderer.createText(this._el_260,'\n					',this.debug(261,140,35));
+    this._el_262 = import4.createRenderElement(this.renderer,this._el_260,'header',new import4.InlineArray2(2,'class','card-header'),this.debug(262,141,5));
+    this._text_263 = this.renderer.createText(this._el_262,'\n						',this.debug(263,141,33));
+    this._el_264 = import4.createRenderElement(this.renderer,this._el_262,'h3',new import4.InlineArray2(2,'class','card-header-title'),this.debug(264,142,6));
+    this._text_265 = this.renderer.createText(this._el_264,'テストしてみよう ※未作成',this.debug(265,142,36));
+    this._text_266 = this.renderer.createText(this._el_262,'\n						',this.debug(266,142,54));
+    this._el_267 = import4.createRenderElement(this.renderer,this._el_262,'span',new import4.InlineArray2(2,'class','card-header-icon'),this.debug(267,143,6));
+    this._el_268 = import4.createRenderElement(this.renderer,this._el_267,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(268,143,37));
+    this._text_269 = this.renderer.createText(this._el_262,'\n					',this.debug(269,143,77));
+    this._text_270 = this.renderer.createText(this._el_260,'\n					',this.debug(270,144,14));
+    this._el_271 = import4.createRenderElement(this.renderer,this._el_260,'div',new import4.InlineArray2(2,'class','card-content'),this.debug(271,145,5));
+    this._text_272 = this.renderer.createText(this._el_271,'\n						',this.debug(272,145,31));
+    this._el_273 = import4.createRenderElement(this.renderer,this._el_271,'div',new import4.InlineArray2(2,'class','content'),this.debug(273,146,6));
+    this._text_274 = this.renderer.createText(this._el_273,'\n							',this.debug(274,146,27));
+    this._el_275 = import4.createRenderElement(this.renderer,this._el_273,'p',import4.EMPTY_INLINE_ARRAY,this.debug(275,147,7));
+    this._el_276 = import4.createRenderElement(this.renderer,this._el_275,'code',import4.EMPTY_INLINE_ARRAY,this.debug(276,147,10));
+    this._text_277 = this.renderer.createText(this._el_276,'ng test',this.debug(277,147,16));
+    this._text_278 = this.renderer.createText(this._el_275,' でユニットテストをする。',this.debug(278,147,30));
+    this._text_279 = this.renderer.createText(this._el_273,'\n							',this.debug(279,147,47));
+    this._el_280 = import4.createRenderElement(this.renderer,this._el_273,'p',new import4.InlineArray2(2,'class','date'),this.debug(280,148,7));
+    this._text_281 = this.renderer.createText(this._el_280,'xxxx/xx/xx',this.debug(281,148,23));
+    this._text_282 = this.renderer.createText(this._el_273,'\n						',this.debug(282,148,37));
+    this._text_283 = this.renderer.createText(this._el_271,'\n					',this.debug(283,149,12));
+    this._text_284 = this.renderer.createText(this._el_260,'\n				',this.debug(284,150,11));
+    this._text_285 = this.renderer.createText(this._el_258,'\n			',this.debug(285,151,10));
+    this._text_286 = this.renderer.createText(this._el_256,'\n\n		',this.debug(286,152,9));
+    this._text_287 = this.renderer.createText(this._el_2,'\n		',this.debug(287,154,8));
+    this._text_288 = this.renderer.createText(this._el_2,'\n	',this.debug(288,155,27));
+    this._text_289 = this.renderer.createText(this._el_0,'\n	',this.debug(289,156,7));
+    this._text_290 = this.renderer.createText(this._el_0,'\n',this.debug(290,157,21));
+    this._text_291 = this.renderer.createText(parentRenderNode,'\n\n',this.debug(291,158,10));
+    this._el_292 = import4.createRenderElement(this.renderer,parentRenderNode,'section',new import4.InlineArray2(2,'class','section'),this.debug(292,160,0));
+    this._text_293 = this.renderer.createText(this._el_292,'\n	',this.debug(293,160,25));
+    this._el_294 = import4.createRenderElement(this.renderer,this._el_292,'div',new import4.InlineArray2(2,'class','container'),this.debug(294,161,1));
+    this._text_295 = this.renderer.createText(this._el_294,'\n		',this.debug(295,161,24));
+    this._el_296 = import4.createRenderElement(this.renderer,this._el_294,'div',new import4.InlineArray2(2,'class','content is-large has-text-centered'),this.debug(296,162,2));
+    this._text_297 = this.renderer.createText(this._el_296,'\n			To Be Continued ...\n		',this.debug(297,162,50));
+    this._text_298 = this.renderer.createText(this._el_294,'\n	',this.debug(298,164,8));
+    this._text_299 = this.renderer.createText(this._el_292,'\n',this.debug(299,165,7));
     var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_10,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_10));
-    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_38,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_38));
-    var disposable_2:Function = import4.subscribeToRenderElement(this,this._el_76,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_76));
-    var disposable_3:Function = import4.subscribeToRenderElement(this,this._el_130,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_130));
+    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_42,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_42));
+    var disposable_2:Function = import4.subscribeToRenderElement(this,this._el_84,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_84));
+    var disposable_3:Function = import4.subscribeToRenderElement(this,this._el_144,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_144));
+    var disposable_4:Function = import4.subscribeToRenderElement(this,this._el_186,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_186));
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1,
@@ -919,11 +1027,11 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._text_15,
       this._text_16,
       this._el_17,
-      this._text_18,
-      this._el_19,
+      this._el_18,
+      this._text_19,
       this._text_20,
       this._text_21,
-      this._text_22,
+      this._el_22,
       this._text_23,
       this._el_24,
       this._text_25,
@@ -932,12 +1040,12 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._el_28,
       this._text_29,
       this._text_30,
-      this._text_31,
+      this._el_31,
       this._text_32,
       this._text_33,
-      this._el_34,
+      this._text_34,
       this._text_35,
-      this._el_36,
+      this._text_36,
       this._text_37,
       this._el_38,
       this._text_39,
@@ -945,15 +1053,15 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._text_41,
       this._el_42,
       this._text_43,
-      this._text_44,
-      this._el_45,
-      this._text_46,
-      this._el_47,
+      this._el_44,
+      this._text_45,
+      this._el_46,
+      this._text_47,
       this._text_48,
-      this._text_49,
-      this._text_50,
+      this._el_49,
+      this._el_50,
       this._text_51,
-      this._el_52,
+      this._text_52,
       this._text_53,
       this._el_54,
       this._text_55,
@@ -964,84 +1072,84 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._text_60,
       this._el_61,
       this._text_62,
-      this._text_63,
+      this._el_63,
       this._text_64,
       this._text_65,
-      this._text_66,
+      this._el_66,
       this._text_67,
       this._text_68,
       this._text_69,
       this._el_70,
       this._text_71,
-      this._el_72,
+      this._text_72,
       this._text_73,
-      this._el_74,
+      this._text_74,
       this._text_75,
-      this._el_76,
+      this._text_76,
       this._text_77,
       this._el_78,
       this._text_79,
       this._el_80,
       this._text_81,
-      this._text_82,
-      this._el_83,
+      this._el_82,
+      this._text_83,
       this._el_84,
       this._text_85,
-      this._text_86,
+      this._el_86,
       this._text_87,
       this._el_88,
       this._text_89,
-      this._el_90,
-      this._text_91,
+      this._text_90,
+      this._el_91,
       this._el_92,
       this._text_93,
-      this._el_94,
+      this._text_94,
       this._text_95,
-      this._text_96,
-      this._el_97,
-      this._text_98,
+      this._el_96,
+      this._text_97,
+      this._el_98,
       this._text_99,
       this._el_100,
       this._text_101,
       this._text_102,
       this._el_103,
       this._text_104,
-      this._text_105,
-      this._el_106,
+      this._el_105,
+      this._text_106,
       this._text_107,
-      this._text_108,
-      this._el_109,
+      this._el_108,
+      this._text_109,
       this._text_110,
-      this._text_111,
-      this._el_112,
+      this._el_111,
+      this._text_112,
       this._text_113,
-      this._text_114,
-      this._el_115,
+      this._el_114,
+      this._text_115,
       this._text_116,
-      this._text_117,
+      this._el_117,
       this._text_118,
       this._text_119,
-      this._text_120,
+      this._el_120,
       this._text_121,
       this._text_122,
-      this._text_123,
-      this._el_124,
+      this._el_123,
+      this._text_124,
       this._text_125,
       this._el_126,
       this._text_127,
-      this._el_128,
+      this._text_128,
       this._text_129,
       this._el_130,
       this._text_131,
-      this._el_132,
+      this._text_132,
       this._text_133,
-      this._el_134,
+      this._text_134,
       this._text_135,
       this._text_136,
-      this._el_137,
+      this._text_137,
       this._el_138,
       this._text_139,
-      this._text_140,
+      this._el_140,
       this._text_141,
       this._el_142,
       this._text_143,
@@ -1049,107 +1157,107 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._text_145,
       this._el_146,
       this._text_147,
-      this._text_148,
-      this._el_149,
+      this._el_148,
+      this._text_149,
       this._text_150,
       this._el_151,
-      this._text_152,
+      this._el_152,
       this._text_153,
-      this._el_154,
+      this._text_154,
       this._text_155,
       this._el_156,
       this._text_157,
-      this._text_158,
+      this._el_158,
       this._text_159,
-      this._text_160,
-      this._text_161,
+      this._el_160,
+      this._el_161,
       this._text_162,
-      this._el_163,
+      this._text_163,
       this._text_164,
       this._el_165,
-      this._text_166,
-      this._el_167,
+      this._el_166,
+      this._text_167,
       this._text_168,
-      this._el_169,
-      this._text_170,
-      this._text_171,
-      this._el_172,
+      this._text_169,
+      this._el_170,
+      this._el_171,
+      this._text_172,
       this._text_173,
-      this._el_174,
-      this._text_175,
+      this._text_174,
+      this._el_175,
       this._text_176,
       this._text_177,
-      this._el_178,
+      this._text_178,
       this._text_179,
-      this._el_180,
+      this._text_180,
       this._text_181,
-      this._text_182,
+      this._el_182,
       this._text_183,
-      this._text_184,
+      this._el_184,
       this._text_185,
-      this._text_186,
-      this._el_187,
-      this._text_188,
-      this._el_189,
-      this._text_190,
-      this._el_191,
+      this._el_186,
+      this._text_187,
+      this._el_188,
+      this._text_189,
+      this._el_190,
+      this._text_191,
       this._text_192,
       this._el_193,
-      this._text_194,
-      this._el_195,
+      this._el_194,
+      this._text_195,
       this._text_196,
       this._text_197,
       this._el_198,
       this._text_199,
       this._el_200,
       this._text_201,
-      this._text_202,
+      this._el_202,
       this._text_203,
-      this._el_204,
-      this._text_205,
-      this._el_206,
+      this._text_204,
+      this._el_205,
+      this._text_206,
       this._text_207,
       this._el_208,
       this._text_209,
       this._text_210,
-      this._el_211,
+      this._text_211,
       this._text_212,
-      this._el_213,
+      this._text_213,
       this._text_214,
       this._text_215,
       this._el_216,
       this._text_217,
-      this._text_218,
+      this._el_218,
       this._text_219,
-      this._text_220,
+      this._el_220,
       this._text_221,
-      this._text_222,
+      this._el_222,
       this._text_223,
       this._el_224,
       this._text_225,
-      this._el_226,
-      this._text_227,
+      this._text_226,
+      this._el_227,
       this._el_228,
       this._text_229,
-      this._el_230,
-      this._text_231,
-      this._el_232,
-      this._text_233,
+      this._text_230,
+      this._el_231,
+      this._text_232,
+      this._el_233,
       this._text_234,
       this._el_235,
-      this._text_236,
-      this._el_237,
+      this._el_236,
+      this._text_237,
       this._text_238,
       this._text_239,
-      this._text_240,
+      this._el_240,
       this._el_241,
       this._text_242,
-      this._el_243,
-      this._text_244,
-      this._el_245,
+      this._text_243,
+      this._el_244,
+      this._text_245,
       this._text_246,
       this._text_247,
-      this._text_248,
+      this._el_248,
       this._text_249,
       this._text_250,
       this._text_251,
@@ -1157,30 +1265,67 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
       this._text_253,
       this._text_254,
       this._text_255,
-      this._text_256,
-      this._el_257,
-      this._text_258,
-      this._el_259,
-      this._text_260,
-      this._el_261,
-      this._text_262,
+      this._el_256,
+      this._text_257,
+      this._el_258,
+      this._text_259,
+      this._el_260,
+      this._text_261,
+      this._el_262,
       this._text_263,
-      this._text_264
+      this._el_264,
+      this._text_265,
+      this._text_266,
+      this._el_267,
+      this._el_268,
+      this._text_269,
+      this._text_270,
+      this._el_271,
+      this._text_272,
+      this._el_273,
+      this._text_274,
+      this._el_275,
+      this._el_276,
+      this._text_277,
+      this._text_278,
+      this._text_279,
+      this._el_280,
+      this._text_281,
+      this._text_282,
+      this._text_283,
+      this._text_284,
+      this._text_285,
+      this._text_286,
+      this._text_287,
+      this._text_288,
+      this._text_289,
+      this._text_290,
+      this._text_291,
+      this._el_292,
+      this._text_293,
+      this._el_294,
+      this._text_295,
+      this._el_296,
+      this._text_297,
+      this._text_298,
+      this._text_299
     ]
     ),[
       disposable_0,
       disposable_1,
       disposable_2,
-      disposable_3
+      disposable_3,
+      disposable_4
     ]
     );
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.RouterLinkWithHref) && ((10 <= requestNodeIndex) && (requestNodeIndex <= 22)))) { return this._RouterLinkWithHref_10_3.context; }
-    if (((token === import10.RouterLinkWithHref) && ((38 <= requestNodeIndex) && (requestNodeIndex <= 50)))) { return this._RouterLinkWithHref_38_3.context; }
-    if (((token === import10.RouterLinkWithHref) && ((76 <= requestNodeIndex) && (requestNodeIndex <= 86)))) { return this._RouterLinkWithHref_76_3.context; }
-    if (((token === import10.RouterLinkWithHref) && ((130 <= requestNodeIndex) && (requestNodeIndex <= 140)))) { return this._RouterLinkWithHref_130_3.context; }
+    if (((token === import10.RouterLinkWithHref) && ((10 <= requestNodeIndex) && (requestNodeIndex <= 20)))) { return this._RouterLinkWithHref_10_3.context; }
+    if (((token === import10.RouterLinkWithHref) && ((42 <= requestNodeIndex) && (requestNodeIndex <= 52)))) { return this._RouterLinkWithHref_42_3.context; }
+    if (((token === import10.RouterLinkWithHref) && ((84 <= requestNodeIndex) && (requestNodeIndex <= 94)))) { return this._RouterLinkWithHref_84_3.context; }
+    if (((token === import10.RouterLinkWithHref) && ((144 <= requestNodeIndex) && (requestNodeIndex <= 154)))) { return this._RouterLinkWithHref_144_3.context; }
+    if (((token === import10.RouterLinkWithHref) && ((186 <= requestNodeIndex) && (requestNodeIndex <= 196)))) { return this._RouterLinkWithHref_186_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -1188,31 +1333,38 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     const currVal_10_0_0:any = '/what-is-angular.html';
     this._RouterLinkWithHref_10_3.check_routerLink(currVal_10_0_0,throwOnChange,false);
     this._RouterLinkWithHref_10_3.ngDoCheck(this,this._el_10,throwOnChange);
-    this.debug(38,26,32);
-    const currVal_38_0_0:any = '/eco-system.html';
-    this._RouterLinkWithHref_38_3.check_routerLink(currVal_38_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_38_3.ngDoCheck(this,this._el_38,throwOnChange);
-    this.debug(76,53,29);
-    const currVal_76_0_0:any = '/install.html';
-    this._RouterLinkWithHref_76_3.check_routerLink(currVal_76_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_76_3.ngDoCheck(this,this._el_76,throwOnChange);
-    this.debug(130,84,33);
-    const currVal_130_0_0:any = '/new-project.html';
-    this._RouterLinkWithHref_130_3.check_routerLink(currVal_130_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_130_3.ngDoCheck(this,this._el_130,throwOnChange);
+    this.debug(42,26,32);
+    const currVal_42_0_0:any = '/eco-system.html';
+    this._RouterLinkWithHref_42_3.check_routerLink(currVal_42_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_42_3.ngDoCheck(this,this._el_42,throwOnChange);
+    this.debug(84,50,29);
+    const currVal_84_0_0:any = '/install.html';
+    this._RouterLinkWithHref_84_3.check_routerLink(currVal_84_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_84_3.ngDoCheck(this,this._el_84,throwOnChange);
+    this.debug(144,80,33);
+    const currVal_144_0_0:any = '/new-project.html';
+    this._RouterLinkWithHref_144_3.check_routerLink(currVal_144_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_144_3.ngDoCheck(this,this._el_144,throwOnChange);
+    this.debug(186,99,27);
+    const currVal_186_0_0:any = '/todos.html';
+    this._RouterLinkWithHref_186_3.check_routerLink(currVal_186_0_0,throwOnChange,false);
+    this._RouterLinkWithHref_186_3.ngDoCheck(this,this._el_186,throwOnChange);
     this._RouterLinkWithHref_10_3.checkHost(this,this,this._el_10,throwOnChange);
-    this._RouterLinkWithHref_38_3.checkHost(this,this,this._el_38,throwOnChange);
-    this._RouterLinkWithHref_76_3.checkHost(this,this,this._el_76,throwOnChange);
-    this._RouterLinkWithHref_130_3.checkHost(this,this,this._el_130,throwOnChange);
+    this._RouterLinkWithHref_42_3.checkHost(this,this,this._el_42,throwOnChange);
+    this._RouterLinkWithHref_84_3.checkHost(this,this,this._el_84,throwOnChange);
+    this._RouterLinkWithHref_144_3.checkHost(this,this,this._el_144,throwOnChange);
+    this._RouterLinkWithHref_186_3.checkHost(this,this,this._el_186,throwOnChange);
   }
   destroyInternal():void {
     this._RouterLinkWithHref_10_3.ngOnDestroy();
     this.debug(10,6,5);
-    this._RouterLinkWithHref_38_3.ngOnDestroy();
-    this.debug(38,26,5);
-    this._RouterLinkWithHref_76_3.ngOnDestroy();
-    this.debug(76,53,5);
-    this._RouterLinkWithHref_130_3.ngOnDestroy();
+    this._RouterLinkWithHref_42_3.ngOnDestroy();
+    this.debug(42,26,5);
+    this._RouterLinkWithHref_84_3.ngOnDestroy();
+    this.debug(84,50,5);
+    this._RouterLinkWithHref_144_3.ngOnDestroy();
+    this.debug(144,80,5);
+    this._RouterLinkWithHref_186_3.ngOnDestroy();
   }
   handleEvent_10(eventName:string,$event:any):boolean {
     this.debug(10,6,5);
@@ -1221,25 +1373,32 @@ export class View_TopComponent0 extends import1.DebugAppView<import0.TopComponen
     result = (this._RouterLinkWithHref_10_3.handleEvent(eventName,$event) && result);
     return result;
   }
-  handleEvent_38(eventName:string,$event:any):boolean {
-    this.debug(38,26,5);
+  handleEvent_42(eventName:string,$event:any):boolean {
+    this.debug(42,26,5);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
-    result = (this._RouterLinkWithHref_38_3.handleEvent(eventName,$event) && result);
+    result = (this._RouterLinkWithHref_42_3.handleEvent(eventName,$event) && result);
     return result;
   }
-  handleEvent_76(eventName:string,$event:any):boolean {
-    this.debug(76,53,5);
+  handleEvent_84(eventName:string,$event:any):boolean {
+    this.debug(84,50,5);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
-    result = (this._RouterLinkWithHref_76_3.handleEvent(eventName,$event) && result);
+    result = (this._RouterLinkWithHref_84_3.handleEvent(eventName,$event) && result);
     return result;
   }
-  handleEvent_130(eventName:string,$event:any):boolean {
-    this.debug(130,84,5);
+  handleEvent_144(eventName:string,$event:any):boolean {
+    this.debug(144,80,5);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
-    result = (this._RouterLinkWithHref_130_3.handleEvent(eventName,$event) && result);
+    result = (this._RouterLinkWithHref_144_3.handleEvent(eventName,$event) && result);
+    return result;
+  }
+  handleEvent_186(eventName:string,$event:any):boolean {
+    this.debug(186,99,5);
+    this.markPathToRootAsCheckOnce();
+    var result:boolean = true;
+    result = (this._RouterLinkWithHref_186_3.handleEvent(eventName,$event) && result);
     return result;
   }
 }

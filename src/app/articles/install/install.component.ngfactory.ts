@@ -14,18 +14,18 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './install.component.css.shim';
-import * as import10 from '@angular/core/src/linker/template_ref';
-import * as import11 from '@angular/common/src/directives/ng_if';
-import * as import12 from '@angular/router/src/directives/router_link';
-import * as import13 from '@angular/core/src/linker/view_container';
-import * as import14 from '../../../node_modules/@angular/common/src/directives/ng_if.ngfactory';
-import * as import15 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
-import * as import16 from '@angular/router/src/router';
-import * as import17 from '@angular/router/src/router_state';
-import * as import18 from '@angular/common/src/location/location_strategy';
-import * as import19 from '../parts/adsense.component';
-import * as import20 from '../parts/adsense.component.ngfactory';
+import * as import9 from './install.component.scss.shim';
+import * as import10 from '../../shared/article-header/article-header.component';
+import * as import11 from '@angular/core/src/linker/template_ref';
+import * as import12 from '@angular/common/src/directives/ng_if';
+import * as import13 from '../../shared/next-nav/next-nav.component';
+import * as import14 from '../../shared/article-header/article-header.component.ngfactory';
+import * as import15 from '@angular/core/src/linker/view_container';
+import * as import16 from '../../../../node_modules/@angular/common/src/directives/ng_if.ngfactory';
+import * as import17 from '../../shared/next-nav/next-nav.component.ngfactory';
+import * as import18 from '../../shared/next-nav/next-nav.service';
+import * as import19 from '../../shared/adsense/adsense.component';
+import * as import20 from '../../shared/adsense/adsense.component.ngfactory';
 export class Wrapper_InstallComponent {
   /*private*/ _eventHandler:Function;
   context:import0.InstallComponent;
@@ -96,13 +96,7 @@ const nodeDebugInfos_InstallComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import10.ArticleHeaderComponent],import10.ArticleHeaderComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -112,8 +106,8 @@ const nodeDebugInfos_InstallComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo([
-    import10.TemplateRef,
-    import11.NgIf
+    import11.TemplateRef,
+    import12.NgIf
   ]
   ,(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -655,36 +649,7 @@ const nodeDebugInfos_InstallComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import13.NextNavComponent],import13.NextNavComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -695,7 +660,7 @@ const nodeDebugInfos_InstallComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_InstallComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/install.component.html',0,import5.ViewEncapsulation.Emulated,styles_InstallComponent,{});
+var renderType_InstallComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/install/install.component.html',0,import5.ViewEncapsulation.Emulated,styles_InstallComponent,{});
 export class View_InstallComponent0 extends import1.DebugAppView<import0.InstallComponent> {
   _el_0:any;
   _text_1:any;
@@ -704,26 +669,28 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_4:any;
   _text_5:any;
   _el_6:any;
+  compView_6:import1.AppView<import10.ArticleHeaderComponent>;
+  _ArticleHeaderComponent_6_3:import14.Wrapper_ArticleHeaderComponent;
   _text_7:any;
-  _text_8:any;
-  _el_9:any;
-  _text_10:any;
+  _el_8:any;
+  _text_9:any;
+  _el_10:any;
   _text_11:any;
-  _el_12:any;
-  _text_13:any;
-  _el_14:any;
-  _text_15:any;
-  _el_16:any;
-  _text_17:any;
+  _text_12:any;
+  _el_13:any;
+  _text_14:any;
+  _anchor_15:any;
+  /*private*/ _vc_15:import15.ViewContainer;
+  _TemplateRef_15_5:any;
+  _NgIf_15_6:import16.Wrapper_NgIf;
+  _text_16:any;
+  _el_17:any;
   _text_18:any;
   _el_19:any;
   _text_20:any;
-  _anchor_21:any;
-  /*private*/ _vc_21:import13.ViewContainer;
-  _TemplateRef_21_5:any;
-  _NgIf_21_6:import14.Wrapper_NgIf;
-  _text_22:any;
-  _el_23:any;
+  _text_21:any;
+  _el_22:any;
+  _text_23:any;
   _text_24:any;
   _el_25:any;
   _text_26:any;
@@ -733,18 +700,18 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _text_30:any;
   _el_31:any;
   _text_32:any;
-  _text_33:any;
-  _el_34:any;
+  _el_33:any;
+  _text_34:any;
   _text_35:any;
-  _text_36:any;
-  _el_37:any;
-  _text_38:any;
-  _el_39:any;
-  _text_40:any;
+  _el_36:any;
+  _text_37:any;
+  _el_38:any;
+  _text_39:any;
+  _el_40:any;
   _text_41:any;
-  _el_42:any;
-  _text_43:any;
-  _el_44:any;
+  _text_42:any;
+  _el_43:any;
+  _text_44:any;
   _text_45:any;
   _el_46:any;
   _text_47:any;
@@ -764,34 +731,34 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_61:any;
   _text_62:any;
   _text_63:any;
-  _el_64:any;
-  _text_65:any;
+  _text_64:any;
+  _el_65:any;
   _text_66:any;
   _el_67:any;
   _text_68:any;
   _text_69:any;
-  _text_70:any;
-  _el_71:any;
-  _text_72:any;
-  _el_73:any;
+  _el_70:any;
+  _text_71:any;
+  _el_72:any;
+  _text_73:any;
   _text_74:any;
-  _text_75:any;
-  _el_76:any;
-  _text_77:any;
-  _el_78:any;
-  _text_79:any;
+  _el_75:any;
+  _text_76:any;
+  _el_77:any;
+  _text_78:any;
+  _el_79:any;
   _text_80:any;
   _el_81:any;
-  _text_82:any;
-  _el_83:any;
+  _el_82:any;
+  _text_83:any;
   _text_84:any;
-  _el_85:any;
-  _text_86:any;
-  _el_87:any;
+  _text_85:any;
+  _el_86:any;
+  _text_87:any;
   _el_88:any;
-  _text_89:any;
+  _el_89:any;
   _text_90:any;
-  _text_91:any;
+  _el_91:any;
   _el_92:any;
   _text_93:any;
   _el_94:any;
@@ -812,45 +779,45 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_109:any;
   _el_110:any;
   _text_111:any;
-  _el_112:any;
+  _text_112:any;
   _el_113:any;
   _text_114:any;
   _el_115:any;
-  _el_116:any;
+  _text_116:any;
   _text_117:any;
-  _text_118:any;
-  _el_119:any;
-  _text_120:any;
-  _el_121:any;
+  _el_118:any;
+  _text_119:any;
+  _el_120:any;
+  _text_121:any;
   _text_122:any;
-  _text_123:any;
-  _el_124:any;
-  _text_125:any;
-  _el_126:any;
+  _el_123:any;
+  _text_124:any;
+  _el_125:any;
+  _text_126:any;
   _text_127:any;
-  _text_128:any;
-  _el_129:any;
+  _el_128:any;
+  _text_129:any;
   _text_130:any;
   _el_131:any;
   _text_132:any;
-  _text_133:any;
-  _el_134:any;
-  _text_135:any;
+  _el_133:any;
+  _text_134:any;
+  _el_135:any;
   _text_136:any;
   _el_137:any;
-  _text_138:any;
-  _el_139:any;
+  _el_138:any;
+  _text_139:any;
   _text_140:any;
-  _el_141:any;
-  _text_142:any;
-  _el_143:any;
-  _el_144:any;
-  _text_145:any;
+  _text_141:any;
+  _el_142:any;
+  _text_143:any;
+  _text_144:any;
+  _el_145:any;
   _text_146:any;
-  _text_147:any;
+  _el_147:any;
   _el_148:any;
   _text_149:any;
-  _text_150:any;
+  _el_150:any;
   _el_151:any;
   _text_152:any;
   _el_153:any;
@@ -868,44 +835,44 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_165:any;
   _el_166:any;
   _text_167:any;
-  _el_168:any;
+  _text_168:any;
   _el_169:any;
   _text_170:any;
   _el_171:any;
-  _el_172:any;
+  _text_172:any;
   _text_173:any;
-  _text_174:any;
-  _el_175:any;
-  _text_176:any;
-  _el_177:any;
+  _el_174:any;
+  _text_175:any;
+  _el_176:any;
+  _text_177:any;
   _text_178:any;
-  _text_179:any;
-  _el_180:any;
-  _text_181:any;
-  _el_182:any;
+  _el_179:any;
+  _text_180:any;
+  _el_181:any;
+  _text_182:any;
   _text_183:any;
-  _text_184:any;
-  _el_185:any;
-  _text_186:any;
-  _el_187:any;
+  _el_184:any;
+  _text_185:any;
+  _el_186:any;
+  _text_187:any;
   _text_188:any;
-  _text_189:any;
-  _el_190:any;
-  _text_191:any;
-  _el_192:any;
-  _text_193:any;
+  _el_189:any;
+  _text_190:any;
+  _el_191:any;
+  _text_192:any;
+  _el_193:any;
   _text_194:any;
   _el_195:any;
-  _text_196:any;
-  _el_197:any;
+  _el_196:any;
+  _text_197:any;
   _text_198:any;
-  _el_199:any;
-  _text_200:any;
-  _el_201:any;
+  _text_199:any;
+  _el_200:any;
+  _text_201:any;
   _el_202:any;
-  _text_203:any;
+  _el_203:any;
   _text_204:any;
-  _text_205:any;
+  _el_205:any;
   _el_206:any;
   _text_207:any;
   _el_208:any;
@@ -917,66 +884,66 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_214:any;
   _el_215:any;
   _text_216:any;
-  _el_217:any;
+  _text_217:any;
   _el_218:any;
   _text_219:any;
   _el_220:any;
-  _el_221:any;
+  _text_221:any;
   _text_222:any;
-  _text_223:any;
-  _el_224:any;
-  _text_225:any;
-  _el_226:any;
+  _el_223:any;
+  _text_224:any;
+  _el_225:any;
+  _text_226:any;
   _text_227:any;
-  _text_228:any;
-  _el_229:any;
-  _text_230:any;
-  _el_231:any;
+  _el_228:any;
+  _text_229:any;
+  _el_230:any;
+  _text_231:any;
   _text_232:any;
-  _text_233:any;
-  _el_234:any;
-  _text_235:any;
-  _el_236:any;
-  _text_237:any;
+  _el_233:any;
+  _text_234:any;
+  _el_235:any;
+  _text_236:any;
+  _el_237:any;
   _text_238:any;
   _el_239:any;
-  _text_240:any;
-  _el_241:any;
+  _el_240:any;
+  _text_241:any;
   _text_242:any;
-  _el_243:any;
-  _text_244:any;
-  _el_245:any;
+  _text_243:any;
+  _el_244:any;
+  _text_245:any;
   _el_246:any;
   _text_247:any;
   _text_248:any;
-  _text_249:any;
-  _el_250:any;
-  _text_251:any;
-  _el_252:any;
-  _text_253:any;
+  _el_249:any;
+  _text_250:any;
+  _el_251:any;
+  _text_252:any;
+  _el_253:any;
   _text_254:any;
   _el_255:any;
-  _text_256:any;
-  _el_257:any;
+  _el_256:any;
+  _text_257:any;
   _text_258:any;
-  _el_259:any;
-  _text_260:any;
-  _el_261:any;
+  _text_259:any;
+  _el_260:any;
+  _text_261:any;
   _el_262:any;
   _text_263:any;
-  _text_264:any;
+  _el_264:any;
   _text_265:any;
   _el_266:any;
-  _text_267:any;
-  _el_268:any;
+  _el_267:any;
+  _text_268:any;
   _text_269:any;
-  _el_270:any;
-  _text_271:any;
-  _el_272:any;
+  _text_270:any;
+  _el_271:any;
+  _text_272:any;
   _el_273:any;
-  _text_274:any;
+  _el_274:any;
   _text_275:any;
-  _text_276:any;
+  _el_276:any;
   _el_277:any;
   _text_278:any;
   _el_279:any;
@@ -991,39 +958,39 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_288:any;
   _el_289:any;
   _text_290:any;
-  _el_291:any;
+  _text_291:any;
   _el_292:any;
   _text_293:any;
   _el_294:any;
-  _el_295:any;
+  _text_295:any;
   _text_296:any;
-  _text_297:any;
-  _el_298:any;
-  _text_299:any;
-  _el_300:any;
+  _el_297:any;
+  _text_298:any;
+  _el_299:any;
+  _text_300:any;
   _text_301:any;
-  _text_302:any;
-  _el_303:any;
-  _text_304:any;
-  _el_305:any;
+  _el_302:any;
+  _text_303:any;
+  _el_304:any;
+  _text_305:any;
   _text_306:any;
-  _text_307:any;
-  _el_308:any;
-  _text_309:any;
-  _el_310:any;
-  _text_311:any;
+  _el_307:any;
+  _text_308:any;
+  _el_309:any;
+  _text_310:any;
+  _el_311:any;
   _text_312:any;
   _el_313:any;
-  _text_314:any;
-  _el_315:any;
+  _el_314:any;
+  _text_315:any;
   _text_316:any;
-  _el_317:any;
-  _text_318:any;
-  _el_319:any;
+  _text_317:any;
+  _el_318:any;
+  _text_319:any;
   _el_320:any;
-  _text_321:any;
+  _el_321:any;
   _text_322:any;
-  _text_323:any;
+  _el_323:any;
   _el_324:any;
   _text_325:any;
   _el_326:any;
@@ -1038,39 +1005,39 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_335:any;
   _el_336:any;
   _text_337:any;
-  _el_338:any;
+  _text_338:any;
   _el_339:any;
   _text_340:any;
   _el_341:any;
-  _el_342:any;
+  _text_342:any;
   _text_343:any;
-  _text_344:any;
-  _el_345:any;
-  _text_346:any;
-  _el_347:any;
+  _el_344:any;
+  _text_345:any;
+  _el_346:any;
+  _text_347:any;
   _text_348:any;
-  _text_349:any;
-  _el_350:any;
-  _text_351:any;
-  _el_352:any;
+  _el_349:any;
+  _text_350:any;
+  _el_351:any;
+  _text_352:any;
   _text_353:any;
-  _text_354:any;
-  _el_355:any;
-  _text_356:any;
-  _el_357:any;
-  _text_358:any;
+  _el_354:any;
+  _text_355:any;
+  _el_356:any;
+  _text_357:any;
+  _el_358:any;
   _text_359:any;
   _el_360:any;
-  _text_361:any;
-  _el_362:any;
+  _el_361:any;
+  _text_362:any;
   _text_363:any;
-  _el_364:any;
-  _text_365:any;
-  _el_366:any;
+  _text_364:any;
+  _el_365:any;
+  _text_366:any;
   _el_367:any;
-  _text_368:any;
+  _el_368:any;
   _text_369:any;
-  _text_370:any;
+  _el_370:any;
   _el_371:any;
   _text_372:any;
   _el_373:any;
@@ -1082,20 +1049,20 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _el_379:any;
   _el_380:any;
   _text_381:any;
-  _el_382:any;
+  _text_382:any;
   _el_383:any;
   _text_384:any;
   _el_385:any;
-  _el_386:any;
+  _text_386:any;
   _text_387:any;
-  _text_388:any;
-  _el_389:any;
+  _el_388:any;
+  _text_389:any;
   _text_390:any;
   _el_391:any;
   _text_392:any;
-  _text_393:any;
-  _el_394:any;
-  _text_395:any;
+  _el_393:any;
+  _text_394:any;
+  _el_395:any;
   _text_396:any;
   _el_397:any;
   _text_398:any;
@@ -1107,12 +1074,12 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _text_404:any;
   _el_405:any;
   _text_406:any;
-  _el_407:any;
-  _text_408:any;
-  _el_409:any;
-  _text_410:any;
-  _el_411:any;
-  _text_412:any;
+  _text_407:any;
+  _el_408:any;
+  _text_409:any;
+  _el_410:any;
+  _text_411:any;
+  _el_412:any;
   _text_413:any;
   _el_414:any;
   _text_415:any;
@@ -1120,12 +1087,12 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _text_417:any;
   _el_418:any;
   _text_419:any;
-  _el_420:any;
-  _text_421:any;
-  _el_422:any;
-  _text_423:any;
-  _el_424:any;
-  _text_425:any;
+  _text_420:any;
+  _el_421:any;
+  _text_422:any;
+  _el_423:any;
+  _text_424:any;
+  _el_425:any;
   _text_426:any;
   _el_427:any;
   _text_428:any;
@@ -1137,49 +1104,49 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _text_434:any;
   _el_435:any;
   _text_436:any;
-  _el_437:any;
-  _text_438:any;
-  _el_439:any;
-  _text_440:any;
-  _el_441:any;
+  _text_437:any;
+  _el_438:any;
+  _text_439:any;
+  _el_440:any;
+  _text_441:any;
   _text_442:any;
-  _text_443:any;
-  _el_444:any;
-  _text_445:any;
-  _el_446:any;
+  _el_443:any;
+  _text_444:any;
+  _el_445:any;
+  _text_446:any;
   _text_447:any;
-  _text_448:any;
-  _el_449:any;
-  _text_450:any;
-  _el_451:any;
-  _text_452:any;
-  _el_453:any;
-  _text_454:any;
-  _el_455:any;
-  _text_456:any;
-  _el_457:any;
-  _text_458:any;
-  _el_459:any;
-  _text_460:any;
-  _el_461:any;
-  _text_462:any;
-  _el_463:any;
-  _text_464:any;
-  _el_465:any;
-  _text_466:any;
-  _el_467:any;
-  _text_468:any;
-  _el_469:any;
-  _text_470:any;
-  _el_471:any;
-  _text_472:any;
-  _el_473:any;
-  _text_474:any;
-  _el_475:any;
+  _el_448:any;
+  _text_449:any;
+  _el_450:any;
+  _text_451:any;
+  _el_452:any;
+  _text_453:any;
+  _el_454:any;
+  _text_455:any;
+  _el_456:any;
+  _text_457:any;
+  _el_458:any;
+  _text_459:any;
+  _el_460:any;
+  _text_461:any;
+  _el_462:any;
+  _text_463:any;
+  _el_464:any;
+  _text_465:any;
+  _el_466:any;
+  _text_467:any;
+  _el_468:any;
+  _text_469:any;
+  _el_470:any;
+  _text_471:any;
+  _el_472:any;
+  _text_473:any;
+  _el_474:any;
+  _text_475:any;
   _text_476:any;
-  _el_477:any;
-  _text_478:any;
-  _el_479:any;
+  _text_477:any;
+  _el_478:any;
+  _text_479:any;
   _text_480:any;
   _el_481:any;
   _text_482:any;
@@ -1193,114 +1160,79 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
   _text_490:any;
   _el_491:any;
   _text_492:any;
-  _el_493:any;
-  _text_494:any;
+  _text_493:any;
+  _el_494:any;
   _text_495:any;
   _el_496:any;
   _text_497:any;
-  _text_498:any;
-  _el_499:any;
-  _text_500:any;
+  _el_498:any;
+  _text_499:any;
+  _el_500:any;
   _el_501:any;
   _text_502:any;
-  _el_503:any;
+  _text_503:any;
   _text_504:any;
   _el_505:any;
-  _el_506:any;
-  _text_507:any;
-  _text_508:any;
+  _text_506:any;
+  _el_507:any;
+  _el_508:any;
   _text_509:any;
   _el_510:any;
-  _text_511:any;
-  _el_512:any;
+  _el_511:any;
+  _text_512:any;
   _el_513:any;
-  _text_514:any;
-  _el_515:any;
+  _el_514:any;
+  _text_515:any;
   _el_516:any;
-  _text_517:any;
-  _el_518:any;
+  _el_517:any;
+  _text_518:any;
   _el_519:any;
-  _text_520:any;
-  _el_521:any;
+  _el_520:any;
+  _text_521:any;
   _el_522:any;
-  _text_523:any;
-  _el_524:any;
+  _el_523:any;
+  _text_524:any;
   _el_525:any;
-  _text_526:any;
-  _el_527:any;
+  _el_526:any;
+  _text_527:any;
   _el_528:any;
-  _text_529:any;
-  _el_530:any;
-  _el_531:any;
-  _text_532:any;
-  _el_533:any;
+  _el_529:any;
+  _text_530:any;
+  _text_531:any;
+  _el_532:any;
+  _text_533:any;
   _el_534:any;
   _text_535:any;
   _text_536:any;
   _el_537:any;
   _text_538:any;
-  _el_539:any;
-  _text_540:any;
+  _text_539:any;
+  _el_540:any;
   _text_541:any;
   _el_542:any;
   _text_543:any;
-  _text_544:any;
-  _el_545:any;
-  _text_546:any;
-  _el_547:any;
-  _text_548:any;
-  _el_549:any;
+  _el_544:any;
+  _text_545:any;
+  _el_546:any;
+  _text_547:any;
+  _el_548:any;
+  _text_549:any;
   _text_550:any;
-  _el_551:any;
-  _text_552:any;
-  _el_553:any;
+  _text_551:any;
+  _el_552:any;
+  _text_553:any;
   _text_554:any;
-  _text_555:any;
+  _el_555:any;
+  compView_555:import1.AppView<import13.NextNavComponent>;
+  _NextNavComponent_555_3:import17.Wrapper_NextNavComponent;
   _text_556:any;
-  _el_557:any;
+  _text_557:any;
   _text_558:any;
   _text_559:any;
-  _el_560:any;
+  _text_560:any;
   _text_561:any;
-  _el_562:any;
-  _text_563:any;
-  _text_564:any;
-  _el_565:any;
-  _text_566:any;
-  _el_567:any;
-  _text_568:any;
-  _el_569:any;
-  _RouterLinkWithHref_569_3:import15.Wrapper_RouterLinkWithHref;
-  _text_570:any;
-  _el_571:any;
-  _el_572:any;
-  _text_573:any;
-  _el_574:any;
-  _text_575:any;
-  _text_576:any;
-  _text_577:any;
-  _text_578:any;
-  _el_579:any;
-  _text_580:any;
-  _el_581:any;
-  _RouterLinkWithHref_581_3:import15.Wrapper_RouterLinkWithHref;
-  _text_582:any;
-  _el_583:any;
-  _text_584:any;
-  _text_585:any;
-  _el_586:any;
-  _el_587:any;
-  _text_588:any;
-  _text_589:any;
-  _text_590:any;
-  _text_591:any;
-  _text_592:any;
-  _text_593:any;
-  _text_594:any;
-  _text_595:any;
-  _text_596:any;
-  _text_597:any;
-  _el_598:any;
+  _text_562:any;
+  _el_563:any;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_InstallComponent0,renderType_InstallComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_InstallComponent0);
   }
@@ -1311,654 +1243,621 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     this._el_2 = import4.createRenderElement(this.renderer,this._el_0,'div',new import4.InlineArray2(2,'class','container'),this.debug(2,1,1));
     this._text_3 = this.renderer.createText(this._el_2,'\n\n		',this.debug(3,1,24));
     this._el_4 = import4.createRenderElement(this.renderer,this._el_2,'article',new import4.InlineArray2(2,'class','article '),this.debug(4,3,2));
-    this._text_5 = this.renderer.createText(this._el_4,'\n			',this.debug(5,3,28));
-    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'p',new import4.InlineArray2(2,'class','subtitle is-4'),this.debug(6,4,3));
-    this._text_7 = this.renderer.createText(this._el_6,'\n				2016/11/20\n			',this.debug(7,4,28));
-    this._text_8 = this.renderer.createText(this._el_4,'\n			',this.debug(8,6,7));
-    this._el_9 = import4.createRenderElement(this.renderer,this._el_4,'h1',new import4.InlineArray2(2,'class','title is-2'),this.debug(9,7,3));
-    this._text_10 = this.renderer.createText(this._el_9,'\n				必要なツールをインストールしよう\n			',this.debug(10,7,26));
-    this._text_11 = this.renderer.createText(this._el_4,'\n			',this.debug(11,9,8));
-    this._el_12 = import4.createRenderElement(this.renderer,this._el_4,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(12,10,3));
-    this._text_13 = this.renderer.createText(this._el_4,'\n			',this.debug(13,10,7));
-    this._el_14 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(14,11,3));
-    this._text_15 = this.renderer.createText(this._el_14,'\n\n				',this.debug(15,11,34));
-    this._el_16 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(16,13,4));
-    this._text_17 = this.renderer.createText(this._el_16,'Angularを始めるにあたり、必要なツールがいくつもありますので一つずつインストールしましょう。',this.debug(17,13,7));
-    this._text_18 = this.renderer.createText(this._el_14,'\n\n				',this.debug(18,13,60));
-    this._el_19 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(19,15,4));
-    this._text_20 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(20,15,8));
-    this._anchor_21 = this.renderer.createTemplateAnchor(this._el_14,this.debug(21,17,8));
-    this._vc_21 = new import13.ViewContainer(21,14,this,this._anchor_21);
-    this._TemplateRef_21_5 = new import10.TemplateRef_(this,21,this._anchor_21);
-    this._NgIf_21_6 = new import14.Wrapper_NgIf(this._vc_21.vcRef,this._TemplateRef_21_5);
-    this._text_22 = this.renderer.createText(this._el_14,'\n\n				',this.debug(22,17,35));
-    this._el_23 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(23,19,4));
-    this._text_24 = this.renderer.createText(this._el_23,'\n					私は最初、Windows7でやろうとしたのですが、コンパイルが通らず結局できませんでした。',this.debug(24,19,7));
-    this._el_25 = import4.createRenderElement(this.renderer,this._el_23,'br',import4.EMPTY_INLINE_ARRAY,this.debug(25,20,50));
-    this._text_26 = this.renderer.createText(this._el_23,' 色々調べた結果、StackOverflow に英語で\n				',this.debug(26,20,54));
-    this._text_27 = this.renderer.createText(this._el_14,'\n				',this.debug(27,21,8));
-    this._el_28 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(28,22,4));
-    this._text_29 = this.renderer.createText(this._el_28,'「Windows7？そんな古いOSのことなんて知らねーよ」',this.debug(29,22,7));
-    this._text_30 = this.renderer.createText(this._el_14,'\n				',this.debug(30,22,40));
-    this._el_31 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(31,23,4));
-    this._text_32 = this.renderer.createText(this._el_31,'と書いてあったので、Windows10 にアップデートして再インストールをしたら、ようやくできました。',this.debug(32,23,7));
-    this._text_33 = this.renderer.createText(this._el_14,'\n\n				',this.debug(33,23,62));
-    this._el_34 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(34,25,4));
-    this._text_35 = this.renderer.createText(this._el_34,'Mac の場合は少し違いますので注意してください。',this.debug(35,25,7));
-    this._text_36 = this.renderer.createText(this._el_14,'\n\n				',this.debug(36,25,36));
-    this._el_37 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(37,27,4));
-    this._text_38 = this.renderer.createText(this._el_14,'\n				',this.debug(38,27,8));
-    this._el_39 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(39,28,4));
-    this._text_40 = this.renderer.createText(this._el_39,'各種ツール',this.debug(40,28,8));
-    this._text_41 = this.renderer.createText(this._el_14,'\n				',this.debug(41,28,18));
-    this._el_42 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(42,29,4));
-    this._text_43 = this.renderer.createText(this._el_14,'\n\n				',this.debug(43,29,8));
-    this._el_44 = import4.createRenderElement(this.renderer,this._el_14,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(44,31,4));
-    this._text_45 = this.renderer.createText(this._el_44,'\n					',this.debug(45,31,8));
-    this._el_46 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(46,32,5));
-    this._text_47 = this.renderer.createText(this._el_46,'git bash',this.debug(47,32,9));
-    this._text_48 = this.renderer.createText(this._el_44,'\n					',this.debug(48,32,22));
-    this._el_49 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(49,33,5));
-    this._text_50 = this.renderer.createText(this._el_49,'python2.7',this.debug(50,33,9));
-    this._text_51 = this.renderer.createText(this._el_44,'\n					',this.debug(51,33,23));
-    this._el_52 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(52,34,5));
-    this._text_53 = this.renderer.createText(this._el_52,'Ruby',this.debug(53,34,9));
-    this._text_54 = this.renderer.createText(this._el_44,'\n					',this.debug(54,34,18));
-    this._el_55 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(55,35,5));
-    this._text_56 = this.renderer.createText(this._el_55,'Visual Studio 2015 Community',this.debug(56,35,9));
-    this._text_57 = this.renderer.createText(this._el_44,'\n					',this.debug(57,35,42));
-    this._el_58 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(58,36,5));
-    this._text_59 = this.renderer.createText(this._el_58,'Windows 10 SDK',this.debug(59,36,9));
-    this._text_60 = this.renderer.createText(this._el_44,'\n					',this.debug(60,36,28));
-    this._el_61 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(61,37,5));
-    this._text_62 = this.renderer.createText(this._el_61,'nodist, Node.js',this.debug(62,37,9));
-    this._text_63 = this.renderer.createText(this._el_44,'\n					',this.debug(63,37,29));
-    this._el_64 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(64,38,5));
-    this._text_65 = this.renderer.createText(this._el_64,'angular-cli',this.debug(65,38,9));
-    this._text_66 = this.renderer.createText(this._el_44,'\n					',this.debug(66,38,25));
-    this._el_67 = import4.createRenderElement(this.renderer,this._el_44,'li',import4.EMPTY_INLINE_ARRAY,this.debug(67,39,5));
-    this._text_68 = this.renderer.createText(this._el_67,'Visual Studio Code',this.debug(68,39,9));
-    this._text_69 = this.renderer.createText(this._el_44,'\n				',this.debug(69,39,32));
-    this._text_70 = this.renderer.createText(this._el_14,'\n\n				',this.debug(70,40,9));
-    this._el_71 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(71,42,4));
-    this._text_72 = this.renderer.createText(this._el_14,'\n				',this.debug(72,42,8));
-    this._el_73 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(73,43,4));
-    this._text_74 = this.renderer.createText(this._el_73,'git bash',this.debug(74,43,8));
-    this._text_75 = this.renderer.createText(this._el_14,'\n				',this.debug(75,43,21));
-    this._el_76 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(76,44,4));
-    this._text_77 = this.renderer.createText(this._el_14,'\n\n				',this.debug(77,44,8));
-    this._el_78 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(78,46,4));
-    this._text_79 = this.renderer.createText(this._el_78,'Windows で git を利用するためのツール。',this.debug(79,46,7));
-    this._text_80 = this.renderer.createText(this._el_14,'\n				',this.debug(80,46,37));
-    this._el_81 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(81,47,4));
-    this._text_82 = this.renderer.createText(this._el_81,'\n					',this.debug(82,47,7));
-    this._el_83 = import4.createRenderElement(this.renderer,this._el_81,'a',new import4.InlineArray4(4,'href','https://git-for-windows.github.io/','target','_blank'),this.debug(83,48,5));
-    this._text_84 = this.renderer.createText(this._el_83,'\n						',this.debug(84,48,66));
-    this._el_85 = import4.createRenderElement(this.renderer,this._el_83,'img',new import4.InlineArray8(8,'alt','Git for Windows','height','18px','src','https://git-for-windows.github.io/favicon.ico','width','18px'),this.debug(85,49,6));
-    this._text_86 = this.renderer.createText(this._el_83,' https://git-for-windows.github.io/\n						',this.debug(86,49,114));
-    this._el_87 = import4.createRenderElement(this.renderer,this._el_83,'span',new import4.InlineArray2(2,'class','icon'),this.debug(87,50,6));
-    this._el_88 = import4.createRenderElement(this.renderer,this._el_87,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(88,50,25));
-    this._text_89 = this.renderer.createText(this._el_83,'\n					',this.debug(89,50,74));
-    this._text_90 = this.renderer.createText(this._el_81,'\n				',this.debug(90,51,9));
-    this._text_91 = this.renderer.createText(this._el_14,'\n\n				',this.debug(91,52,8));
-    this._el_92 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(92,54,4));
-    this._text_93 = this.renderer.createText(this._el_92,'\n					',this.debug(93,54,27));
-    this._el_94 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(94,55,5));
-    this._el_95 = import4.createRenderElement(this.renderer,this._el_94,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/1.jpg'),this.debug(95,55,32));
-    this._text_96 = this.renderer.createText(this._el_92,'\n					',this.debug(96,55,172));
-    this._el_97 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(97,56,5));
-    this._el_98 = import4.createRenderElement(this.renderer,this._el_97,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/2.jpg'),this.debug(98,56,32));
-    this._text_99 = this.renderer.createText(this._el_92,'\n					',this.debug(99,56,172));
-    this._el_100 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(100,57,5));
-    this._el_101 = import4.createRenderElement(this.renderer,this._el_100,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/3.jpg'),this.debug(101,57,32));
-    this._text_102 = this.renderer.createText(this._el_92,'\n					',this.debug(102,57,172));
-    this._el_103 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(103,58,5));
-    this._el_104 = import4.createRenderElement(this.renderer,this._el_103,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/4.jpg'),this.debug(104,58,32));
-    this._text_105 = this.renderer.createText(this._el_92,'\n					',this.debug(105,58,172));
-    this._el_106 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(106,59,5));
-    this._el_107 = import4.createRenderElement(this.renderer,this._el_106,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/5.jpg'),this.debug(107,59,32));
-    this._text_108 = this.renderer.createText(this._el_92,'\n					',this.debug(108,59,172));
-    this._el_109 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(109,60,5));
-    this._el_110 = import4.createRenderElement(this.renderer,this._el_109,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/6.jpg'),this.debug(110,60,32));
-    this._text_111 = this.renderer.createText(this._el_92,'\n					',this.debug(111,60,172));
-    this._el_112 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(112,61,5));
-    this._el_113 = import4.createRenderElement(this.renderer,this._el_112,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/7.jpg'),this.debug(113,61,32));
-    this._text_114 = this.renderer.createText(this._el_92,'\n					',this.debug(114,61,172));
-    this._el_115 = import4.createRenderElement(this.renderer,this._el_92,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(115,62,5));
-    this._el_116 = import4.createRenderElement(this.renderer,this._el_115,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/8.jpg'),this.debug(116,62,32));
-    this._text_117 = this.renderer.createText(this._el_92,'\n				',this.debug(117,62,172));
-    this._text_118 = this.renderer.createText(this._el_14,'\n				',this.debug(118,63,9));
-    this._el_119 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(119,64,4));
-    this._text_120 = this.renderer.createText(this._el_14,'\n				',this.debug(120,64,22));
-    this._el_121 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(121,65,4));
-    this._text_122 = this.renderer.createText(this._el_121,'※画像をクリックすると拡大表示します。',this.debug(122,65,7));
-    this._text_123 = this.renderer.createText(this._el_14,'\n\n				',this.debug(123,65,30));
-    this._el_124 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(124,67,4));
-    this._text_125 = this.renderer.createText(this._el_14,'\n				',this.debug(125,67,8));
-    this._el_126 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(126,68,4));
-    this._text_127 = this.renderer.createText(this._el_126,'python2.7',this.debug(127,68,8));
-    this._text_128 = this.renderer.createText(this._el_14,'\n				',this.debug(128,68,22));
-    this._el_129 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(129,69,4));
-    this._text_130 = this.renderer.createText(this._el_14,'\n\n				',this.debug(130,69,8));
-    this._el_131 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(131,71,4));
-    this._text_132 = this.renderer.createText(this._el_131,'npm ライブラリの中の一部で、pythonを利用しているため。',this.debug(132,71,7));
-    this._text_133 = this.renderer.createText(this._el_14,'\n				',this.debug(133,71,43));
-    this._el_134 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(134,72,4));
-    this._text_135 = this.renderer.createText(this._el_134,'3系ではなく2系ですので注意してください。',this.debug(135,72,7));
-    this._text_136 = this.renderer.createText(this._el_14,'\n				',this.debug(136,72,32));
-    this._el_137 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(137,73,4));
-    this._text_138 = this.renderer.createText(this._el_137,'\n					',this.debug(138,73,7));
-    this._el_139 = import4.createRenderElement(this.renderer,this._el_137,'a',new import4.InlineArray4(4,'href','https://www.python.org/downloads/','target','_blank'),this.debug(139,74,5));
-    this._text_140 = this.renderer.createText(this._el_139,'\n						',this.debug(140,74,65));
-    this._el_141 = import4.createRenderElement(this.renderer,this._el_139,'img',new import4.InlineArray8(8,'alt','Git for Windows','height','18px','src','https://www.python.org/static/favicon.ico','width','18px'),this.debug(141,75,6));
-    this._text_142 = this.renderer.createText(this._el_139,' https://www.python.org/downloads/\n						',this.debug(142,75,110));
-    this._el_143 = import4.createRenderElement(this.renderer,this._el_139,'span',new import4.InlineArray2(2,'class','icon'),this.debug(143,76,6));
-    this._el_144 = import4.createRenderElement(this.renderer,this._el_143,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(144,76,25));
-    this._text_145 = this.renderer.createText(this._el_139,'\n					',this.debug(145,76,74));
-    this._text_146 = this.renderer.createText(this._el_137,'\n				',this.debug(146,77,9));
-    this._text_147 = this.renderer.createText(this._el_14,'\n				',this.debug(147,78,8));
-    this._el_148 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(148,79,4));
-    this._text_149 = this.renderer.createText(this._el_148,'インストール後、環境変数PATHを追加する必要があります。',this.debug(149,79,7));
-    this._text_150 = this.renderer.createText(this._el_14,'\n\n				',this.debug(150,79,40));
-    this._el_151 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(151,81,4));
-    this._text_152 = this.renderer.createText(this._el_151,'\n					',this.debug(152,81,27));
-    this._el_153 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(153,82,5));
-    this._el_154 = import4.createRenderElement(this.renderer,this._el_153,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/1.jpg'),this.debug(154,82,32));
-    this._text_155 = this.renderer.createText(this._el_151,'\n					',this.debug(155,82,171));
-    this._el_156 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(156,83,5));
-    this._el_157 = import4.createRenderElement(this.renderer,this._el_156,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/2.jpg'),this.debug(157,83,32));
-    this._text_158 = this.renderer.createText(this._el_151,'\n					',this.debug(158,83,171));
-    this._el_159 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(159,84,5));
-    this._el_160 = import4.createRenderElement(this.renderer,this._el_159,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/3.jpg'),this.debug(160,84,32));
-    this._text_161 = this.renderer.createText(this._el_151,'\n					',this.debug(161,84,171));
-    this._el_162 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(162,85,5));
-    this._el_163 = import4.createRenderElement(this.renderer,this._el_162,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/4.jpg'),this.debug(163,85,32));
-    this._text_164 = this.renderer.createText(this._el_151,'\n					',this.debug(164,85,171));
-    this._el_165 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(165,86,5));
-    this._el_166 = import4.createRenderElement(this.renderer,this._el_165,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/5.jpg'),this.debug(166,86,32));
-    this._text_167 = this.renderer.createText(this._el_151,'\n					',this.debug(167,86,171));
-    this._el_168 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(168,87,5));
-    this._el_169 = import4.createRenderElement(this.renderer,this._el_168,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/6.jpg'),this.debug(169,87,32));
-    this._text_170 = this.renderer.createText(this._el_151,'\n					',this.debug(170,87,171));
-    this._el_171 = import4.createRenderElement(this.renderer,this._el_151,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(171,88,5));
-    this._el_172 = import4.createRenderElement(this.renderer,this._el_171,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/7.jpg'),this.debug(172,88,32));
-    this._text_173 = this.renderer.createText(this._el_151,'\n				',this.debug(173,88,171));
-    this._text_174 = this.renderer.createText(this._el_14,'\n				',this.debug(174,89,9));
-    this._el_175 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(175,90,4));
-    this._text_176 = this.renderer.createText(this._el_14,'\n				',this.debug(176,90,22));
-    this._el_177 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(177,91,4));
-    this._text_178 = this.renderer.createText(this._el_177,'※画像をクリックすると拡大表示します。',this.debug(178,91,7));
-    this._text_179 = this.renderer.createText(this._el_14,'\n\n				',this.debug(179,91,30));
-    this._el_180 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(180,93,4));
-    this._text_181 = this.renderer.createText(this._el_14,'\n				',this.debug(181,93,8));
-    this._el_182 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(182,94,4));
-    this._text_183 = this.renderer.createText(this._el_182,'Ruby',this.debug(183,94,8));
-    this._text_184 = this.renderer.createText(this._el_14,'\n				',this.debug(184,94,17));
-    this._el_185 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(185,95,4));
-    this._text_186 = this.renderer.createText(this._el_14,'\n\n				',this.debug(186,95,8));
-    this._el_187 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(187,97,4));
-    this._text_188 = this.renderer.createText(this._el_187,'Sassコンパイルで利用されています。',this.debug(188,97,7));
-    this._text_189 = this.renderer.createText(this._el_14,'\n				',this.debug(189,97,30));
-    this._el_190 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(190,98,4));
-    this._text_191 = this.renderer.createText(this._el_190,'\n					Downloads の中にいくつかありますが、「RubyInstallers」を使います。',this.debug(191,98,7));
-    this._el_192 = import4.createRenderElement(this.renderer,this._el_190,'br',import4.EMPTY_INLINE_ARRAY,this.debug(192,99,50));
-    this._text_193 = this.renderer.createText(this._el_190,'バージョンは(2.3.1)です\n				',this.debug(193,99,54));
-    this._text_194 = this.renderer.createText(this._el_14,'\n				',this.debug(194,100,8));
-    this._el_195 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(195,101,4));
-    this._text_196 = this.renderer.createText(this._el_195,'\n					',this.debug(196,101,7));
-    this._el_197 = import4.createRenderElement(this.renderer,this._el_195,'a',new import4.InlineArray4(4,'href','http://rubyinstaller.org/','target','_blank'),this.debug(197,102,5));
-    this._text_198 = this.renderer.createText(this._el_197,'\n						',this.debug(198,102,57));
-    this._el_199 = import4.createRenderElement(this.renderer,this._el_197,'img',new import4.InlineArray8(6,'height','18px','src','http://rubyinstaller.org/favicon.ico','width','18px'),this.debug(199,103,6));
-    this._text_200 = this.renderer.createText(this._el_197,' Ruby Installer for Windows\n						',this.debug(200,103,81));
-    this._el_201 = import4.createRenderElement(this.renderer,this._el_197,'span',new import4.InlineArray2(2,'class','icon'),this.debug(201,104,6));
-    this._el_202 = import4.createRenderElement(this.renderer,this._el_201,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(202,104,25));
-    this._text_203 = this.renderer.createText(this._el_197,'\n					',this.debug(203,104,74));
-    this._text_204 = this.renderer.createText(this._el_195,'\n				',this.debug(204,105,9));
-    this._text_205 = this.renderer.createText(this._el_14,'\n\n				',this.debug(205,106,8));
-    this._el_206 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(206,108,4));
-    this._text_207 = this.renderer.createText(this._el_206,'\n					',this.debug(207,108,27));
-    this._el_208 = import4.createRenderElement(this.renderer,this._el_206,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(208,109,5));
-    this._el_209 = import4.createRenderElement(this.renderer,this._el_208,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/1.jpg'),this.debug(209,109,32));
-    this._text_210 = this.renderer.createText(this._el_206,'\n					',this.debug(210,109,169));
-    this._el_211 = import4.createRenderElement(this.renderer,this._el_206,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(211,110,5));
-    this._el_212 = import4.createRenderElement(this.renderer,this._el_211,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/2.jpg'),this.debug(212,110,32));
-    this._text_213 = this.renderer.createText(this._el_206,'\n					',this.debug(213,110,169));
-    this._el_214 = import4.createRenderElement(this.renderer,this._el_206,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(214,111,5));
-    this._el_215 = import4.createRenderElement(this.renderer,this._el_214,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/3.jpg'),this.debug(215,111,32));
-    this._text_216 = this.renderer.createText(this._el_206,'\n					',this.debug(216,111,169));
-    this._el_217 = import4.createRenderElement(this.renderer,this._el_206,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(217,112,5));
-    this._el_218 = import4.createRenderElement(this.renderer,this._el_217,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/4.jpg'),this.debug(218,112,32));
-    this._text_219 = this.renderer.createText(this._el_206,'\n					',this.debug(219,112,169));
-    this._el_220 = import4.createRenderElement(this.renderer,this._el_206,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(220,113,5));
-    this._el_221 = import4.createRenderElement(this.renderer,this._el_220,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/5.jpg'),this.debug(221,113,32));
-    this._text_222 = this.renderer.createText(this._el_206,'\n				',this.debug(222,113,169));
-    this._text_223 = this.renderer.createText(this._el_14,'\n				',this.debug(223,114,9));
-    this._el_224 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(224,115,4));
-    this._text_225 = this.renderer.createText(this._el_14,'\n				',this.debug(225,115,22));
-    this._el_226 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(226,116,4));
-    this._text_227 = this.renderer.createText(this._el_226,'※画像をクリックすると拡大表示します。',this.debug(227,116,7));
-    this._text_228 = this.renderer.createText(this._el_14,'\n\n				',this.debug(228,116,30));
-    this._el_229 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(229,118,4));
-    this._text_230 = this.renderer.createText(this._el_14,'\n				',this.debug(230,118,8));
-    this._el_231 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(231,119,4));
-    this._text_232 = this.renderer.createText(this._el_231,'Visual Studio 2015 Community',this.debug(232,119,8));
-    this._text_233 = this.renderer.createText(this._el_14,'\n				',this.debug(233,119,41));
-    this._el_234 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(234,120,4));
-    this._text_235 = this.renderer.createText(this._el_14,'\n\n				',this.debug(235,120,8));
-    this._el_236 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(236,122,4));
-    this._text_237 = this.renderer.createText(this._el_236,'MacではXcodeを利用しますが、WindowsではVisulalStudioを利用します。',this.debug(237,122,7));
-    this._text_238 = this.renderer.createText(this._el_14,'\n				',this.debug(238,122,58));
-    this._el_239 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(239,123,4));
-    this._text_240 = this.renderer.createText(this._el_239,'\n					',this.debug(240,123,7));
-    this._el_241 = import4.createRenderElement(this.renderer,this._el_239,'a',new import4.InlineArray4(4,'href','https://www.microsoft.com/ja-jp/dev/products/community.aspx','target','_blank'),this.debug(241,124,5));
-    this._text_242 = this.renderer.createText(this._el_241,'\n						',this.debug(242,124,91));
-    this._el_243 = import4.createRenderElement(this.renderer,this._el_241,'img',new import4.InlineArray8(6,'height','18px','src','https://www.microsoft.com/favicon.ico','width','18px'),this.debug(243,125,6));
-    this._text_244 = this.renderer.createText(this._el_241,' Microsoft Visual Studio Community\n						',this.debug(244,125,84));
-    this._el_245 = import4.createRenderElement(this.renderer,this._el_241,'span',new import4.InlineArray2(2,'class','icon'),this.debug(245,126,6));
-    this._el_246 = import4.createRenderElement(this.renderer,this._el_245,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(246,126,25));
-    this._text_247 = this.renderer.createText(this._el_241,'\n					',this.debug(247,126,74));
-    this._text_248 = this.renderer.createText(this._el_239,'\n				',this.debug(248,127,9));
-    this._text_249 = this.renderer.createText(this._el_14,'\n				',this.debug(249,128,8));
-    this._el_250 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(250,129,4));
-    this._text_251 = this.renderer.createText(this._el_250,'\n					node-gypのGitHubに、Visulal C++ や Python2.7 が必要なことが書かれてますので、こちらも参考に。',this.debug(251,129,7));
-    this._el_252 = import4.createRenderElement(this.renderer,this._el_250,'br',import4.EMPTY_INLINE_ARRAY,this.debug(252,130,70));
-    this._text_253 = this.renderer.createText(this._el_250,' Node.jsをWindowsで動かすガイドラインも載っています。\n				',this.debug(253,130,74));
-    this._text_254 = this.renderer.createText(this._el_14,'\n				',this.debug(254,131,8));
-    this._el_255 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(255,132,4));
-    this._text_256 = this.renderer.createText(this._el_255,'\n					',this.debug(256,132,7));
-    this._el_257 = import4.createRenderElement(this.renderer,this._el_255,'a',new import4.InlineArray4(4,'href','https://github.com/nodejs/node-gyp/blob/master/README.md#installation','target','_blank'),this.debug(257,133,5));
-    this._text_258 = this.renderer.createText(this._el_257,'\n						',this.debug(258,133,101));
-    this._el_259 = import4.createRenderElement(this.renderer,this._el_257,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(259,134,6));
-    this._text_260 = this.renderer.createText(this._el_257,' nodejs/node-gyp #Installation\n						',this.debug(260,134,88));
-    this._el_261 = import4.createRenderElement(this.renderer,this._el_257,'span',new import4.InlineArray2(2,'class','icon'),this.debug(261,135,6));
-    this._el_262 = import4.createRenderElement(this.renderer,this._el_261,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(262,135,25));
-    this._text_263 = this.renderer.createText(this._el_257,'\n					',this.debug(263,135,74));
-    this._text_264 = this.renderer.createText(this._el_255,'\n				',this.debug(264,136,9));
-    this._text_265 = this.renderer.createText(this._el_14,'\n				',this.debug(265,137,8));
-    this._el_266 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(266,138,4));
-    this._text_267 = this.renderer.createText(this._el_266,'\n					',this.debug(267,138,7));
-    this._el_268 = import4.createRenderElement(this.renderer,this._el_266,'a',new import4.InlineArray4(4,'href','https://github.com/Microsoft/nodejs-guidelines/blob/master/windows-environment.md#compiling-native-addon-modules','target','_blank'),this.debug(268,139,5));
-    this._text_269 = this.renderer.createText(this._el_268,'\n						',this.debug(269,140,22));
-    this._el_270 = import4.createRenderElement(this.renderer,this._el_268,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(270,141,6));
-    this._text_271 = this.renderer.createText(this._el_268,' Microsoft\'s Node.js Guidelines for\n						Windows #compiling-native-addon-modules\n						',this.debug(271,141,88));
-    this._el_272 = import4.createRenderElement(this.renderer,this._el_268,'span',new import4.InlineArray2(2,'class','icon'),this.debug(272,143,6));
-    this._el_273 = import4.createRenderElement(this.renderer,this._el_272,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(273,143,25));
-    this._text_274 = this.renderer.createText(this._el_268,'\n					',this.debug(274,143,74));
-    this._text_275 = this.renderer.createText(this._el_266,'\n				',this.debug(275,144,9));
-    this._text_276 = this.renderer.createText(this._el_14,'\n\n				',this.debug(276,145,8));
-    this._el_277 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(277,147,4));
-    this._text_278 = this.renderer.createText(this._el_277,'\n					',this.debug(278,147,27));
-    this._el_279 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(279,148,5));
-    this._el_280 = import4.createRenderElement(this.renderer,this._el_279,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/1.jpg'),this.debug(280,148,32));
-    this._text_281 = this.renderer.createText(this._el_277,'\n					',this.debug(281,148,177));
-    this._el_282 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(282,149,5));
-    this._el_283 = import4.createRenderElement(this.renderer,this._el_282,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/2.jpg'),this.debug(283,149,32));
-    this._text_284 = this.renderer.createText(this._el_277,'\n					',this.debug(284,149,177));
-    this._el_285 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(285,150,5));
-    this._el_286 = import4.createRenderElement(this.renderer,this._el_285,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/3.jpg'),this.debug(286,150,32));
-    this._text_287 = this.renderer.createText(this._el_277,'\n					',this.debug(287,150,177));
-    this._el_288 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(288,151,5));
-    this._el_289 = import4.createRenderElement(this.renderer,this._el_288,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/4.jpg'),this.debug(289,151,32));
-    this._text_290 = this.renderer.createText(this._el_277,'\n					',this.debug(290,151,177));
-    this._el_291 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(291,152,5));
-    this._el_292 = import4.createRenderElement(this.renderer,this._el_291,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/5.jpg'),this.debug(292,152,32));
-    this._text_293 = this.renderer.createText(this._el_277,'\n					',this.debug(293,152,177));
-    this._el_294 = import4.createRenderElement(this.renderer,this._el_277,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(294,153,5));
-    this._el_295 = import4.createRenderElement(this.renderer,this._el_294,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/6.jpg'),this.debug(295,153,32));
-    this._text_296 = this.renderer.createText(this._el_277,'\n				',this.debug(296,153,177));
-    this._text_297 = this.renderer.createText(this._el_14,'\n				',this.debug(297,154,9));
-    this._el_298 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(298,155,4));
-    this._text_299 = this.renderer.createText(this._el_14,'\n				',this.debug(299,155,22));
-    this._el_300 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(300,156,4));
-    this._text_301 = this.renderer.createText(this._el_300,'※画像をクリックすると拡大表示します。',this.debug(301,156,7));
-    this._text_302 = this.renderer.createText(this._el_14,'\n\n				',this.debug(302,156,30));
-    this._el_303 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(303,158,4));
-    this._text_304 = this.renderer.createText(this._el_14,'\n				',this.debug(304,158,8));
-    this._el_305 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(305,159,4));
-    this._text_306 = this.renderer.createText(this._el_305,'Windows 10 SDK',this.debug(306,159,8));
-    this._text_307 = this.renderer.createText(this._el_14,'\n				',this.debug(307,159,27));
-    this._el_308 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(308,160,4));
-    this._text_309 = this.renderer.createText(this._el_14,'\n\n				',this.debug(309,160,8));
-    this._el_310 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(310,162,4));
-    this._text_311 = this.renderer.createText(this._el_310,'Microsoft\'s Node.js Guidelines for Windows によると、SDK も必要とのことですので、インストールします。',this.debug(311,162,7));
-    this._text_312 = this.renderer.createText(this._el_14,'\n				',this.debug(312,162,85));
-    this._el_313 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(313,163,4));
-    this._text_314 = this.renderer.createText(this._el_313,'\n					',this.debug(314,163,7));
-    this._el_315 = import4.createRenderElement(this.renderer,this._el_313,'a',new import4.InlineArray4(4,'href','https://developer.microsoft.com/ja-jp/windows/downloads/windows-10-sdk','target','_blank'),this.debug(315,164,5));
-    this._text_316 = this.renderer.createText(this._el_315,'\n						',this.debug(316,164,102));
-    this._el_317 = import4.createRenderElement(this.renderer,this._el_315,'img',new import4.InlineArray8(6,'height','18px','src','https://developer.microsoft.com/favicon.ico','width','18px'),this.debug(317,165,6));
-    this._text_318 = this.renderer.createText(this._el_315,' Windows 10 SDK\n						',this.debug(318,165,90));
-    this._el_319 = import4.createRenderElement(this.renderer,this._el_315,'span',new import4.InlineArray2(2,'class','icon'),this.debug(319,166,6));
-    this._el_320 = import4.createRenderElement(this.renderer,this._el_319,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(320,166,25));
-    this._text_321 = this.renderer.createText(this._el_315,'\n					',this.debug(321,166,74));
-    this._text_322 = this.renderer.createText(this._el_313,'\n				',this.debug(322,167,9));
-    this._text_323 = this.renderer.createText(this._el_14,'\n\n				',this.debug(323,168,8));
-    this._el_324 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(324,170,4));
-    this._text_325 = this.renderer.createText(this._el_324,'\n					',this.debug(325,170,27));
-    this._el_326 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(326,171,5));
-    this._el_327 = import4.createRenderElement(this.renderer,this._el_326,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/1.jpg'),this.debug(327,171,32));
-    this._text_328 = this.renderer.createText(this._el_324,'\n					',this.debug(328,171,175));
-    this._el_329 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(329,172,5));
-    this._el_330 = import4.createRenderElement(this.renderer,this._el_329,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/2.jpg'),this.debug(330,172,32));
-    this._text_331 = this.renderer.createText(this._el_324,'\n					',this.debug(331,172,175));
-    this._el_332 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(332,173,5));
-    this._el_333 = import4.createRenderElement(this.renderer,this._el_332,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/3.jpg'),this.debug(333,173,32));
-    this._text_334 = this.renderer.createText(this._el_324,'\n					',this.debug(334,173,175));
-    this._el_335 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(335,174,5));
-    this._el_336 = import4.createRenderElement(this.renderer,this._el_335,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/4.jpg'),this.debug(336,174,32));
-    this._text_337 = this.renderer.createText(this._el_324,'\n					',this.debug(337,174,175));
-    this._el_338 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(338,175,5));
-    this._el_339 = import4.createRenderElement(this.renderer,this._el_338,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/5.jpg'),this.debug(339,175,32));
-    this._text_340 = this.renderer.createText(this._el_324,'\n					',this.debug(340,175,175));
-    this._el_341 = import4.createRenderElement(this.renderer,this._el_324,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(341,176,5));
-    this._el_342 = import4.createRenderElement(this.renderer,this._el_341,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/6.jpg'),this.debug(342,176,32));
-    this._text_343 = this.renderer.createText(this._el_324,'\n				',this.debug(343,176,175));
-    this._text_344 = this.renderer.createText(this._el_14,'\n				',this.debug(344,177,9));
-    this._el_345 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(345,178,4));
-    this._text_346 = this.renderer.createText(this._el_14,'\n				',this.debug(346,178,22));
-    this._el_347 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(347,179,4));
-    this._text_348 = this.renderer.createText(this._el_347,'※画像をクリックすると拡大表示します。',this.debug(348,179,7));
-    this._text_349 = this.renderer.createText(this._el_14,'\n\n				',this.debug(349,179,30));
-    this._el_350 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(350,181,4));
-    this._text_351 = this.renderer.createText(this._el_14,'\n				',this.debug(351,181,8));
-    this._el_352 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(352,182,4));
-    this._text_353 = this.renderer.createText(this._el_352,'nodist',this.debug(353,182,8));
-    this._text_354 = this.renderer.createText(this._el_14,'\n				',this.debug(354,182,19));
-    this._el_355 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(355,183,4));
-    this._text_356 = this.renderer.createText(this._el_14,'\n\n				',this.debug(356,183,8));
-    this._el_357 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(357,185,4));
-    this._text_358 = this.renderer.createText(this._el_357,'Macでは nodebrew を利用しますが、Windows では nodist を利用します。',this.debug(358,185,7));
-    this._text_359 = this.renderer.createText(this._el_14,'\n				',this.debug(359,185,59));
-    this._el_360 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(360,186,4));
-    this._text_361 = this.renderer.createText(this._el_360,'\n					',this.debug(361,186,7));
-    this._el_362 = import4.createRenderElement(this.renderer,this._el_360,'a',new import4.InlineArray4(4,'href','https://github.com/marcelklehr/nodist#installation','target','_blank'),this.debug(362,187,5));
-    this._text_363 = this.renderer.createText(this._el_362,'\n						',this.debug(363,187,82));
-    this._el_364 = import4.createRenderElement(this.renderer,this._el_362,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(364,188,6));
-    this._text_365 = this.renderer.createText(this._el_362,' marcelklehr/nodist #Installation\n						',this.debug(365,188,88));
-    this._el_366 = import4.createRenderElement(this.renderer,this._el_362,'span',new import4.InlineArray2(2,'class','icon'),this.debug(366,189,6));
-    this._el_367 = import4.createRenderElement(this.renderer,this._el_366,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(367,189,25));
-    this._text_368 = this.renderer.createText(this._el_362,'\n					',this.debug(368,189,74));
-    this._text_369 = this.renderer.createText(this._el_360,'\n				',this.debug(369,190,9));
-    this._text_370 = this.renderer.createText(this._el_14,'\n\n				',this.debug(370,191,8));
-    this._el_371 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(371,193,4));
-    this._text_372 = this.renderer.createText(this._el_371,'\n					',this.debug(372,193,27));
-    this._el_373 = import4.createRenderElement(this.renderer,this._el_371,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(373,194,5));
-    this._el_374 = import4.createRenderElement(this.renderer,this._el_373,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/1.jpg'),this.debug(374,194,32));
-    this._text_375 = this.renderer.createText(this._el_371,'\n					',this.debug(375,194,171));
-    this._el_376 = import4.createRenderElement(this.renderer,this._el_371,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(376,195,5));
-    this._el_377 = import4.createRenderElement(this.renderer,this._el_376,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/2.jpg'),this.debug(377,195,32));
-    this._text_378 = this.renderer.createText(this._el_371,'\n					',this.debug(378,195,171));
-    this._el_379 = import4.createRenderElement(this.renderer,this._el_371,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(379,196,5));
-    this._el_380 = import4.createRenderElement(this.renderer,this._el_379,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/3.jpg'),this.debug(380,196,32));
-    this._text_381 = this.renderer.createText(this._el_371,'\n					',this.debug(381,196,171));
-    this._el_382 = import4.createRenderElement(this.renderer,this._el_371,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(382,197,5));
-    this._el_383 = import4.createRenderElement(this.renderer,this._el_382,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/4.jpg'),this.debug(383,197,32));
-    this._text_384 = this.renderer.createText(this._el_371,'\n					',this.debug(384,197,171));
-    this._el_385 = import4.createRenderElement(this.renderer,this._el_371,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(385,198,5));
-    this._el_386 = import4.createRenderElement(this.renderer,this._el_385,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/5.jpg'),this.debug(386,198,32));
-    this._text_387 = this.renderer.createText(this._el_371,'\n				',this.debug(387,198,171));
-    this._text_388 = this.renderer.createText(this._el_14,'\n				',this.debug(388,199,9));
-    this._el_389 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(389,200,4));
-    this._text_390 = this.renderer.createText(this._el_14,'\n				',this.debug(390,200,22));
-    this._el_391 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(391,201,4));
-    this._text_392 = this.renderer.createText(this._el_391,'※画像をクリックすると拡大表示します。',this.debug(392,201,7));
-    this._text_393 = this.renderer.createText(this._el_14,'\n\n				',this.debug(393,201,30));
-    this._el_394 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(394,203,4));
-    this._text_395 = this.renderer.createText(this._el_394,'インストール後、環境変数にPATHを追加します。',this.debug(395,203,7));
-    this._text_396 = this.renderer.createText(this._el_14,'\n				',this.debug(396,203,35));
-    this._el_397 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(397,204,4));
-    this._text_398 = this.renderer.createText(this._el_397,'\n					また、npm を動かすために、~/.bash_profile に以下の設定を追記します。',this.debug(398,204,7));
-    this._el_399 = import4.createRenderElement(this.renderer,this._el_397,'br',import4.EMPTY_INLINE_ARRAY,this.debug(399,205,49));
-    this._text_400 = this.renderer.createText(this._el_397,'\n					',this.debug(400,205,53));
-    this._el_401 = import4.createRenderElement(this.renderer,this._el_397,'code',import4.EMPTY_INLINE_ARRAY,this.debug(401,206,5));
-    this._text_402 = this.renderer.createText(this._el_401,'set NODIST_X64=0',this.debug(402,206,11));
-    this._el_403 = import4.createRenderElement(this.renderer,this._el_397,'br',import4.EMPTY_INLINE_ARRAY,this.debug(403,206,34));
-    this._text_404 = this.renderer.createText(this._el_397,'\n					',this.debug(404,206,38));
-    this._el_405 = import4.createRenderElement(this.renderer,this._el_397,'code',import4.EMPTY_INLINE_ARRAY,this.debug(405,207,5));
-    this._text_406 = this.renderer.createText(this._el_405,'npm config set python "python.exeのPATH"',this.debug(406,207,11));
-    this._el_407 = import4.createRenderElement(this.renderer,this._el_397,'br',import4.EMPTY_INLINE_ARRAY,this.debug(407,207,57));
-    this._text_408 = this.renderer.createText(this._el_397,'\n					',this.debug(408,207,61));
-    this._el_409 = import4.createRenderElement(this.renderer,this._el_397,'code',import4.EMPTY_INLINE_ARRAY,this.debug(409,208,5));
-    this._text_410 = this.renderer.createText(this._el_409,'npm config set msvs_version 2015',this.debug(410,208,11));
-    this._el_411 = import4.createRenderElement(this.renderer,this._el_397,'br',import4.EMPTY_INLINE_ARRAY,this.debug(411,208,50));
-    this._text_412 = this.renderer.createText(this._el_397,'\n				',this.debug(412,208,54));
-    this._text_413 = this.renderer.createText(this._el_14,'\n\n				',this.debug(413,209,8));
-    this._el_414 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(414,211,4));
-    this._text_415 = this.renderer.createText(this._el_414,'\n					nodist,npm のバージョンを設定します。',this.debug(415,211,7));
-    this._el_416 = import4.createRenderElement(this.renderer,this._el_414,'br',import4.EMPTY_INLINE_ARRAY,this.debug(416,212,29));
-    this._text_417 = this.renderer.createText(this._el_414,'\n					',this.debug(417,212,33));
-    this._el_418 = import4.createRenderElement(this.renderer,this._el_414,'code',import4.EMPTY_INLINE_ARRAY,this.debug(418,213,5));
-    this._text_419 = this.renderer.createText(this._el_418,'nodist 6.7.0',this.debug(419,213,11));
-    this._el_420 = import4.createRenderElement(this.renderer,this._el_414,'br',import4.EMPTY_INLINE_ARRAY,this.debug(420,213,30));
-    this._text_421 = this.renderer.createText(this._el_414,'\n					',this.debug(421,213,34));
-    this._el_422 = import4.createRenderElement(this.renderer,this._el_414,'code',import4.EMPTY_INLINE_ARRAY,this.debug(422,214,5));
-    this._text_423 = this.renderer.createText(this._el_422,'nodist npm 3.10.8',this.debug(423,214,11));
-    this._el_424 = import4.createRenderElement(this.renderer,this._el_414,'br',import4.EMPTY_INLINE_ARRAY,this.debug(424,214,35));
-    this._text_425 = this.renderer.createText(this._el_414,'\n				',this.debug(425,214,39));
-    this._text_426 = this.renderer.createText(this._el_14,'\n\n				',this.debug(426,215,8));
-    this._el_427 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(427,217,4));
-    this._text_428 = this.renderer.createText(this._el_427,'\n					node,nodist,npm のバージョンを確認します。',this.debug(428,217,7));
-    this._el_429 = import4.createRenderElement(this.renderer,this._el_427,'br',import4.EMPTY_INLINE_ARRAY,this.debug(429,218,34));
-    this._text_430 = this.renderer.createText(this._el_427,'\n					',this.debug(430,218,38));
-    this._el_431 = import4.createRenderElement(this.renderer,this._el_427,'code',import4.EMPTY_INLINE_ARRAY,this.debug(431,219,5));
-    this._text_432 = this.renderer.createText(this._el_431,'nodist',this.debug(432,219,11));
-    this._el_433 = import4.createRenderElement(this.renderer,this._el_427,'br',import4.EMPTY_INLINE_ARRAY,this.debug(433,219,24));
-    this._text_434 = this.renderer.createText(this._el_427,' > 6.7.0 (global: 6.7.0)',this.debug(434,219,28));
-    this._el_435 = import4.createRenderElement(this.renderer,this._el_427,'br',import4.EMPTY_INLINE_ARRAY,this.debug(435,219,52));
-    this._text_436 = this.renderer.createText(this._el_427,'\n					',this.debug(436,219,56));
-    this._el_437 = import4.createRenderElement(this.renderer,this._el_427,'code',import4.EMPTY_INLINE_ARRAY,this.debug(437,220,5));
-    this._text_438 = this.renderer.createText(this._el_437,'nodist npm',this.debug(438,220,11));
-    this._el_439 = import4.createRenderElement(this.renderer,this._el_427,'br',import4.EMPTY_INLINE_ARRAY,this.debug(439,220,28));
-    this._text_440 = this.renderer.createText(this._el_427,' > 3.10.8 (global: 3.10.8)',this.debug(440,220,32));
-    this._el_441 = import4.createRenderElement(this.renderer,this._el_427,'br',import4.EMPTY_INLINE_ARRAY,this.debug(441,220,58));
-    this._text_442 = this.renderer.createText(this._el_427,'\n				',this.debug(442,220,62));
-    this._text_443 = this.renderer.createText(this._el_14,'\n\n				',this.debug(443,221,8));
-    this._el_444 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(444,223,4));
-    this._text_445 = this.renderer.createText(this._el_14,'\n				',this.debug(445,223,8));
-    this._el_446 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(446,224,4));
-    this._text_447 = this.renderer.createText(this._el_446,'angular-cli',this.debug(447,224,8));
-    this._text_448 = this.renderer.createText(this._el_14,'\n				',this.debug(448,224,24));
-    this._el_449 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(449,225,4));
-    this._text_450 = this.renderer.createText(this._el_14,'\n\n				',this.debug(450,225,8));
-    this._el_451 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(451,227,4));
-    this._text_452 = this.renderer.createText(this._el_451,'\n					以下コマンドを実行し、angular-cli をインストールします。',this.debug(452,227,7));
-    this._el_453 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(453,228,39));
-    this._text_454 = this.renderer.createText(this._el_451,'\n					',this.debug(454,228,43));
-    this._el_455 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(455,229,5));
-    this._text_456 = this.renderer.createText(this._el_455,'npm cache clean',this.debug(456,229,11));
-    this._el_457 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(457,229,33));
-    this._text_458 = this.renderer.createText(this._el_451,'\n					',this.debug(458,229,37));
-    this._el_459 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(459,230,5));
-    this._text_460 = this.renderer.createText(this._el_459,'npm install -g angular-cli',this.debug(460,230,11));
-    this._el_461 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(461,230,44));
-    this._text_462 = this.renderer.createText(this._el_451,'\n					',this.debug(462,230,48));
-    this._el_463 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(463,231,5));
-    this._text_464 = this.renderer.createText(this._el_463,'npm cache clean',this.debug(464,231,11));
-    this._el_465 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(465,231,33));
-    this._text_466 = this.renderer.createText(this._el_451,'\n					',this.debug(466,231,37));
-    this._el_467 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(467,232,5));
-    this._text_468 = this.renderer.createText(this._el_467,'npm install -g node-gyp',this.debug(468,232,11));
-    this._el_469 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(469,232,41));
-    this._text_470 = this.renderer.createText(this._el_451,'\n					',this.debug(470,232,45));
-    this._el_471 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(471,233,5));
-    this._text_472 = this.renderer.createText(this._el_471,'npm install -g node-pre-gyp',this.debug(472,233,11));
-    this._el_473 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(473,233,45));
-    this._text_474 = this.renderer.createText(this._el_451,'\n					',this.debug(474,233,49));
-    this._el_475 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(475,234,5));
-    this._text_476 = this.renderer.createText(this._el_475,'npm install -g angular-cli',this.debug(476,234,11));
-    this._el_477 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(477,234,44));
-    this._text_478 = this.renderer.createText(this._el_451,'\n					',this.debug(478,234,48));
-    this._el_479 = import4.createRenderElement(this.renderer,this._el_451,'code',import4.EMPTY_INLINE_ARRAY,this.debug(479,235,5));
-    this._text_480 = this.renderer.createText(this._el_479,'ng --help',this.debug(480,235,11));
-    this._el_481 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(481,235,27));
-    this._text_482 = this.renderer.createText(this._el_451,' ※確認方法はなんでもいいですが、今回はヘルプ表示で確認。\n					',this.debug(482,235,31));
-    this._el_483 = import4.createRenderElement(this.renderer,this._el_451,'br',import4.EMPTY_INLINE_ARRAY,this.debug(483,236,5));
-    this._text_484 = this.renderer.createText(this._el_451,'\n				',this.debug(484,236,9));
-    this._text_485 = this.renderer.createText(this._el_14,'\n\n				',this.debug(485,237,8));
-    this._el_486 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(486,239,4));
-    this._text_487 = this.renderer.createText(this._el_14,'\n				',this.debug(487,239,8));
-    this._el_488 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(488,240,4));
-    this._text_489 = this.renderer.createText(this._el_488,'Visual Studio Code',this.debug(489,240,8));
-    this._text_490 = this.renderer.createText(this._el_14,'\n				',this.debug(490,240,31));
-    this._el_491 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(491,241,4));
-    this._text_492 = this.renderer.createText(this._el_14,'\n\n				',this.debug(492,241,8));
-    this._el_493 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(493,243,4));
-    this._text_494 = this.renderer.createText(this._el_493,'エディタは基本的になんでも良いです。',this.debug(494,243,7));
-    this._text_495 = this.renderer.createText(this._el_14,'\n				',this.debug(495,243,29));
-    this._el_496 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(496,244,4));
-    this._text_497 = this.renderer.createText(this._el_496,'今回はその場のノリで、Visual Studio Code を使ってみます。',this.debug(497,244,7));
-    this._text_498 = this.renderer.createText(this._el_14,'\n				',this.debug(498,244,49));
-    this._el_499 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(499,245,4));
-    this._text_500 = this.renderer.createText(this._el_499,'\n					',this.debug(500,245,7));
-    this._el_501 = import4.createRenderElement(this.renderer,this._el_499,'a',new import4.InlineArray4(4,'href','https://code.visualstudio.com/','target','_blank'),this.debug(501,246,5));
-    this._text_502 = this.renderer.createText(this._el_501,'\n						',this.debug(502,246,62));
-    this._el_503 = import4.createRenderElement(this.renderer,this._el_501,'img',new import4.InlineArray8(6,'height','18px','src','https://code.visualstudio.com/images/favicon.ico','width','18px'),this.debug(503,247,6));
-    this._text_504 = this.renderer.createText(this._el_501,' Visual Studio Code\n						',this.debug(504,247,95));
-    this._el_505 = import4.createRenderElement(this.renderer,this._el_501,'span',new import4.InlineArray2(2,'class','icon'),this.debug(505,248,6));
-    this._el_506 = import4.createRenderElement(this.renderer,this._el_505,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(506,248,25));
-    this._text_507 = this.renderer.createText(this._el_501,'\n					',this.debug(507,248,74));
-    this._text_508 = this.renderer.createText(this._el_499,'\n				',this.debug(508,249,9));
-    this._text_509 = this.renderer.createText(this._el_14,'\n\n				',this.debug(509,250,8));
-    this._el_510 = import4.createRenderElement(this.renderer,this._el_14,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(510,252,4));
-    this._text_511 = this.renderer.createText(this._el_510,'\n					',this.debug(511,252,27));
-    this._el_512 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(512,253,5));
-    this._el_513 = import4.createRenderElement(this.renderer,this._el_512,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/1.jpg'),this.debug(513,253,32));
-    this._text_514 = this.renderer.createText(this._el_510,'\n					',this.debug(514,253,181));
-    this._el_515 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(515,254,5));
-    this._el_516 = import4.createRenderElement(this.renderer,this._el_515,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/2.jpg'),this.debug(516,254,32));
-    this._text_517 = this.renderer.createText(this._el_510,'\n					',this.debug(517,254,181));
-    this._el_518 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(518,255,5));
-    this._el_519 = import4.createRenderElement(this.renderer,this._el_518,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/3.jpg'),this.debug(519,255,32));
-    this._text_520 = this.renderer.createText(this._el_510,'\n					',this.debug(520,255,181));
-    this._el_521 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(521,256,5));
-    this._el_522 = import4.createRenderElement(this.renderer,this._el_521,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/4.jpg'),this.debug(522,256,32));
-    this._text_523 = this.renderer.createText(this._el_510,'\n					',this.debug(523,256,181));
-    this._el_524 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(524,257,5));
-    this._el_525 = import4.createRenderElement(this.renderer,this._el_524,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/5.jpg'),this.debug(525,257,32));
-    this._text_526 = this.renderer.createText(this._el_510,'\n					',this.debug(526,257,181));
-    this._el_527 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(527,258,5));
-    this._el_528 = import4.createRenderElement(this.renderer,this._el_527,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/6.jpg'),this.debug(528,258,32));
-    this._text_529 = this.renderer.createText(this._el_510,'\n					',this.debug(529,258,181));
-    this._el_530 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(530,259,5));
-    this._el_531 = import4.createRenderElement(this.renderer,this._el_530,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/7.jpg'),this.debug(531,259,32));
-    this._text_532 = this.renderer.createText(this._el_510,'\n					',this.debug(532,259,181));
-    this._el_533 = import4.createRenderElement(this.renderer,this._el_510,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(533,260,5));
-    this._el_534 = import4.createRenderElement(this.renderer,this._el_533,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/8.jpg'),this.debug(534,260,32));
-    this._text_535 = this.renderer.createText(this._el_510,'\n				',this.debug(535,260,181));
-    this._text_536 = this.renderer.createText(this._el_14,'\n				',this.debug(536,261,9));
-    this._el_537 = import4.createRenderElement(this.renderer,this._el_14,'br',new import4.InlineArray2(2,'class','clear'),this.debug(537,262,4));
-    this._text_538 = this.renderer.createText(this._el_14,'\n				',this.debug(538,262,22));
-    this._el_539 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(539,263,4));
-    this._text_540 = this.renderer.createText(this._el_539,'※画像をクリックすると拡大表示します。',this.debug(540,263,7));
-    this._text_541 = this.renderer.createText(this._el_14,'\n\n				',this.debug(541,263,30));
-    this._el_542 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(542,265,4));
-    this._text_543 = this.renderer.createText(this._el_542,'起動が早いのでちょっとした開発には良さそうです。',this.debug(543,265,7));
-    this._text_544 = this.renderer.createText(this._el_14,'\n\n				',this.debug(544,265,35));
-    this._el_545 = import4.createRenderElement(this.renderer,this._el_14,'div',new import4.InlineArray4(4,'class','modal animated','id','image-modal'),this.debug(545,267,4));
-    this._text_546 = this.renderer.createText(this._el_545,'\n					',this.debug(546,267,49));
-    this._el_547 = import4.createRenderElement(this.renderer,this._el_545,'div',new import4.InlineArray2(2,'class','modal-background'),this.debug(547,268,5));
-    this._text_548 = this.renderer.createText(this._el_545,'\n					',this.debug(548,268,71));
-    this._el_549 = import4.createRenderElement(this.renderer,this._el_545,'div',new import4.InlineArray2(2,'class','modal-content'),this.debug(549,269,5));
-    this._text_550 = this.renderer.createText(this._el_549,'\n						',this.debug(550,269,32));
-    this._el_551 = import4.createRenderElement(this.renderer,this._el_549,'p',new import4.InlineArray2(2,'class','image'),this.debug(551,270,6));
-    this._text_552 = this.renderer.createText(this._el_551,'\n							',this.debug(552,270,23));
-    this._el_553 = import4.createRenderElement(this.renderer,this._el_551,'img',new import4.InlineArray2(2,'src',''),this.debug(553,271,7));
-    this._text_554 = this.renderer.createText(this._el_551,'\n						',this.debug(554,271,21));
-    this._text_555 = this.renderer.createText(this._el_549,'\n					',this.debug(555,272,10));
-    this._text_556 = this.renderer.createText(this._el_545,'\n					',this.debug(556,273,11));
-    this._el_557 = import4.createRenderElement(this.renderer,this._el_545,'button',new import4.InlineArray2(2,'class','modal-close'),this.debug(557,274,5));
-    this._text_558 = this.renderer.createText(this._el_545,'\n				',this.debug(558,274,72));
-    this._text_559 = this.renderer.createText(this._el_14,'\n\n				',this.debug(559,275,10));
-    this._el_560 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(560,277,4));
-    this._text_561 = this.renderer.createText(this._el_14,'\n				',this.debug(561,277,8));
-    this._el_562 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(562,278,4));
-    this._text_563 = this.renderer.createText(this._el_562,'続きは...',this.debug(563,278,8));
-    this._text_564 = this.renderer.createText(this._el_14,'\n\n				',this.debug(564,278,19));
-    this._el_565 = import4.createRenderElement(this.renderer,this._el_14,'nav',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(565,280,4));
-    this._text_566 = this.renderer.createText(this._el_565,'\n					',this.debug(566,280,34));
-    this._el_567 = import4.createRenderElement(this.renderer,this._el_565,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(567,281,5));
-    this._text_568 = this.renderer.createText(this._el_567,'\n						',this.debug(568,281,45));
-    this._el_569 = import4.createRenderElement(this.renderer,this._el_567,'a',new import4.InlineArray8(6,'class','button','href','/eco-system.html','routerLink','/eco-system.html'),this.debug(569,282,6));
-    this._RouterLinkWithHref_569_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_570 = this.renderer.createText(this._el_569,'\n							',this.debug(570,282,78));
-    this._el_571 = import4.createRenderElement(this.renderer,this._el_569,'span',new import4.InlineArray2(2,'class','icon'),this.debug(571,283,7));
-    this._el_572 = import4.createRenderElement(this.renderer,this._el_571,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(572,283,26));
-    this._text_573 = this.renderer.createText(this._el_569,'\n							',this.debug(573,283,65));
-    this._el_574 = import4.createRenderElement(this.renderer,this._el_569,'span',import4.EMPTY_INLINE_ARRAY,this.debug(574,284,7));
-    this._text_575 = this.renderer.createText(this._el_574,'Angularエコシステム',this.debug(575,284,13));
-    this._text_576 = this.renderer.createText(this._el_569,'\n						',this.debug(576,284,33));
-    this._text_577 = this.renderer.createText(this._el_567,'\n					',this.debug(577,285,10));
-    this._text_578 = this.renderer.createText(this._el_565,'\n					',this.debug(578,286,11));
-    this._el_579 = import4.createRenderElement(this.renderer,this._el_565,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(579,287,5));
-    this._text_580 = this.renderer.createText(this._el_579,'\n						',this.debug(580,287,45));
-    this._el_581 = import4.createRenderElement(this.renderer,this._el_579,'a',new import4.InlineArray8(6,'class','button','href','/new-project.html','routerLink','/new-project.html'),this.debug(581,288,6));
-    this._RouterLinkWithHref_581_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_582 = this.renderer.createText(this._el_581,'\n							',this.debug(582,288,80));
-    this._el_583 = import4.createRenderElement(this.renderer,this._el_581,'span',import4.EMPTY_INLINE_ARRAY,this.debug(583,289,7));
-    this._text_584 = this.renderer.createText(this._el_583,'プロジェクトを作ってみよう',this.debug(584,289,13));
-    this._text_585 = this.renderer.createText(this._el_581,'\n							',this.debug(585,289,33));
-    this._el_586 = import4.createRenderElement(this.renderer,this._el_581,'span',new import4.InlineArray2(2,'class','icon'),this.debug(586,290,7));
-    this._el_587 = import4.createRenderElement(this.renderer,this._el_586,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(587,290,26));
-    this._text_588 = this.renderer.createText(this._el_581,'\n						',this.debug(588,290,66));
-    this._text_589 = this.renderer.createText(this._el_579,'\n					',this.debug(589,291,10));
-    this._text_590 = this.renderer.createText(this._el_565,'\n				',this.debug(590,292,11));
-    this._text_591 = this.renderer.createText(this._el_14,'\n			',this.debug(591,293,10));
-    this._text_592 = this.renderer.createText(this._el_4,'\n			',this.debug(592,294,9));
-    this._text_593 = this.renderer.createText(this._el_4,'\n		',this.debug(593,295,21));
-    this._text_594 = this.renderer.createText(this._el_2,'\n\n	',this.debug(594,296,12));
-    this._text_595 = this.renderer.createText(this._el_0,'\n	',this.debug(595,298,7));
-    this._text_596 = this.renderer.createText(this._el_0,'\n',this.debug(596,299,21));
-    this._text_597 = this.renderer.createText(parentRenderNode,'\n',this.debug(597,300,10));
-    this._el_598 = import4.createRenderElement(this.renderer,parentRenderNode,'link',new import4.InlineArray4(4,'href','https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css','rel','stylesheet'),this.debug(598,301,0));
-    var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_95,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_95));
-    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_98,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_98));
-    var disposable_2:Function = import4.subscribeToRenderElement(this,this._el_101,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_101));
-    var disposable_3:Function = import4.subscribeToRenderElement(this,this._el_104,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_104));
-    var disposable_4:Function = import4.subscribeToRenderElement(this,this._el_107,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_107));
-    var disposable_5:Function = import4.subscribeToRenderElement(this,this._el_110,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_110));
-    var disposable_6:Function = import4.subscribeToRenderElement(this,this._el_113,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_113));
-    var disposable_7:Function = import4.subscribeToRenderElement(this,this._el_116,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_116));
-    var disposable_8:Function = import4.subscribeToRenderElement(this,this._el_154,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_154));
-    var disposable_9:Function = import4.subscribeToRenderElement(this,this._el_157,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_157));
-    var disposable_10:Function = import4.subscribeToRenderElement(this,this._el_160,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_160));
-    var disposable_11:Function = import4.subscribeToRenderElement(this,this._el_163,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_163));
-    var disposable_12:Function = import4.subscribeToRenderElement(this,this._el_166,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_166));
-    var disposable_13:Function = import4.subscribeToRenderElement(this,this._el_169,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_169));
-    var disposable_14:Function = import4.subscribeToRenderElement(this,this._el_172,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_172));
-    var disposable_15:Function = import4.subscribeToRenderElement(this,this._el_209,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_209));
-    var disposable_16:Function = import4.subscribeToRenderElement(this,this._el_212,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_212));
-    var disposable_17:Function = import4.subscribeToRenderElement(this,this._el_215,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_215));
-    var disposable_18:Function = import4.subscribeToRenderElement(this,this._el_218,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_218));
-    var disposable_19:Function = import4.subscribeToRenderElement(this,this._el_221,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_221));
-    var disposable_20:Function = import4.subscribeToRenderElement(this,this._el_280,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_280));
-    var disposable_21:Function = import4.subscribeToRenderElement(this,this._el_283,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_283));
-    var disposable_22:Function = import4.subscribeToRenderElement(this,this._el_286,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_286));
-    var disposable_23:Function = import4.subscribeToRenderElement(this,this._el_289,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_289));
-    var disposable_24:Function = import4.subscribeToRenderElement(this,this._el_292,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_292));
-    var disposable_25:Function = import4.subscribeToRenderElement(this,this._el_295,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_295));
-    var disposable_26:Function = import4.subscribeToRenderElement(this,this._el_327,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_327));
-    var disposable_27:Function = import4.subscribeToRenderElement(this,this._el_330,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_330));
-    var disposable_28:Function = import4.subscribeToRenderElement(this,this._el_333,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_333));
-    var disposable_29:Function = import4.subscribeToRenderElement(this,this._el_336,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_336));
-    var disposable_30:Function = import4.subscribeToRenderElement(this,this._el_339,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_339));
-    var disposable_31:Function = import4.subscribeToRenderElement(this,this._el_342,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_342));
-    var disposable_32:Function = import4.subscribeToRenderElement(this,this._el_374,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_374));
-    var disposable_33:Function = import4.subscribeToRenderElement(this,this._el_377,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_377));
-    var disposable_34:Function = import4.subscribeToRenderElement(this,this._el_380,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_380));
-    var disposable_35:Function = import4.subscribeToRenderElement(this,this._el_383,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_383));
-    var disposable_36:Function = import4.subscribeToRenderElement(this,this._el_386,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_386));
-    var disposable_37:Function = import4.subscribeToRenderElement(this,this._el_513,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_513));
-    var disposable_38:Function = import4.subscribeToRenderElement(this,this._el_516,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_516));
-    var disposable_39:Function = import4.subscribeToRenderElement(this,this._el_519,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_519));
-    var disposable_40:Function = import4.subscribeToRenderElement(this,this._el_522,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_522));
-    var disposable_41:Function = import4.subscribeToRenderElement(this,this._el_525,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_525));
-    var disposable_42:Function = import4.subscribeToRenderElement(this,this._el_528,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_528));
-    var disposable_43:Function = import4.subscribeToRenderElement(this,this._el_531,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_531));
-    var disposable_44:Function = import4.subscribeToRenderElement(this,this._el_534,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_534));
-    var disposable_45:Function = import4.subscribeToRenderElement(this,this._el_547,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_547));
-    var disposable_46:Function = import4.subscribeToRenderElement(this,this._el_557,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_557));
-    var disposable_47:Function = import4.subscribeToRenderElement(this,this._el_569,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_569));
-    var disposable_48:Function = import4.subscribeToRenderElement(this,this._el_581,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_581));
+    this._text_5 = this.renderer.createText(this._el_4,'\n      ',this.debug(5,3,28));
+    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'article-header',import4.EMPTY_INLINE_ARRAY,this.debug(6,4,6));
+    this.compView_6 = new import14.View_ArticleHeaderComponent0(this.viewUtils,this,6,this._el_6);
+    this._ArticleHeaderComponent_6_3 = new import14.Wrapper_ArticleHeaderComponent();
+    this.compView_6.create(this._ArticleHeaderComponent_6_3.context);
+    this._text_7 = this.renderer.createText(this._el_4,'\n\n			',this.debug(7,4,69));
+    this._el_8 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(8,6,3));
+    this._text_9 = this.renderer.createText(this._el_8,'\n\n				',this.debug(9,6,34));
+    this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(10,8,4));
+    this._text_11 = this.renderer.createText(this._el_10,'Angularを始めるにあたり、必要なツールがいくつもありますのでひとつずつインストールしましょう。',this.debug(11,8,7));
+    this._text_12 = this.renderer.createText(this._el_8,'\n\n				',this.debug(12,8,61));
+    this._el_13 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(13,10,4));
+    this._text_14 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(14,10,8));
+    this._anchor_15 = this.renderer.createTemplateAnchor(this._el_8,this.debug(15,12,8));
+    this._vc_15 = new import15.ViewContainer(15,8,this,this._anchor_15);
+    this._TemplateRef_15_5 = new import11.TemplateRef_(this,15,this._anchor_15);
+    this._NgIf_15_6 = new import16.Wrapper_NgIf(this._vc_15.vcRef,this._TemplateRef_15_5);
+    this._text_16 = this.renderer.createText(this._el_8,'\n\n				',this.debug(16,12,35));
+    this._el_17 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(17,14,4));
+    this._text_18 = this.renderer.createText(this._el_17,'\n					私は最初、Windows 7でやろうとしたのですが、コンパイルが通らず結局できませんでした。',this.debug(18,14,7));
+    this._el_19 = import4.createRenderElement(this.renderer,this._el_17,'br',import4.EMPTY_INLINE_ARRAY,this.debug(19,15,51));
+    this._text_20 = this.renderer.createText(this._el_17,'いろいろ調べた結果、StackOverflow に英語で\n				',this.debug(20,15,55));
+    this._text_21 = this.renderer.createText(this._el_8,'\n				',this.debug(21,16,8));
+    this._el_22 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(22,17,4));
+    this._text_23 = this.renderer.createText(this._el_22,'「Windows 7？ そんな古いOSのことなんて知らねーよ」',this.debug(23,17,7));
+    this._text_24 = this.renderer.createText(this._el_8,'\n				',this.debug(24,17,42));
+    this._el_25 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(25,18,4));
+    this._text_26 = this.renderer.createText(this._el_25,'と書いてあったので、Windows10 にアップデートして再インストールをしたら、ようやくできました。',this.debug(26,18,7));
+    this._text_27 = this.renderer.createText(this._el_8,'\n\n				',this.debug(27,18,62));
+    this._el_28 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(28,20,4));
+    this._text_29 = this.renderer.createText(this._el_28,'Mac の場合は少し違いますので注意してください。',this.debug(29,20,7));
+    this._text_30 = this.renderer.createText(this._el_8,'\n\n				',this.debug(30,20,36));
+    this._el_31 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(31,22,4));
+    this._text_32 = this.renderer.createText(this._el_8,'\n				',this.debug(32,22,8));
+    this._el_33 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(33,23,4));
+    this._text_34 = this.renderer.createText(this._el_33,'各種ツール',this.debug(34,23,8));
+    this._text_35 = this.renderer.createText(this._el_8,'\n				',this.debug(35,23,18));
+    this._el_36 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(36,24,4));
+    this._text_37 = this.renderer.createText(this._el_8,'\n\n				',this.debug(37,24,8));
+    this._el_38 = import4.createRenderElement(this.renderer,this._el_8,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(38,26,4));
+    this._text_39 = this.renderer.createText(this._el_38,'\n					',this.debug(39,26,8));
+    this._el_40 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(40,27,5));
+    this._text_41 = this.renderer.createText(this._el_40,'Git bash',this.debug(41,27,9));
+    this._text_42 = this.renderer.createText(this._el_38,'\n					',this.debug(42,27,22));
+    this._el_43 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(43,28,5));
+    this._text_44 = this.renderer.createText(this._el_43,'Python2.7',this.debug(44,28,9));
+    this._text_45 = this.renderer.createText(this._el_38,'\n					',this.debug(45,28,23));
+    this._el_46 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(46,29,5));
+    this._text_47 = this.renderer.createText(this._el_46,'Ruby',this.debug(47,29,9));
+    this._text_48 = this.renderer.createText(this._el_38,'\n					',this.debug(48,29,18));
+    this._el_49 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(49,30,5));
+    this._text_50 = this.renderer.createText(this._el_49,'Visual Studio 2015 Community',this.debug(50,30,9));
+    this._text_51 = this.renderer.createText(this._el_38,'\n					',this.debug(51,30,42));
+    this._el_52 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(52,31,5));
+    this._text_53 = this.renderer.createText(this._el_52,'Windows 10 SDK',this.debug(53,31,9));
+    this._text_54 = this.renderer.createText(this._el_38,'\n					',this.debug(54,31,28));
+    this._el_55 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(55,32,5));
+    this._text_56 = this.renderer.createText(this._el_55,'nodist, Node.js',this.debug(56,32,9));
+    this._text_57 = this.renderer.createText(this._el_38,'\n					',this.debug(57,32,29));
+    this._el_58 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(58,33,5));
+    this._text_59 = this.renderer.createText(this._el_58,'angular-cli',this.debug(59,33,9));
+    this._text_60 = this.renderer.createText(this._el_38,'\n					',this.debug(60,33,25));
+    this._el_61 = import4.createRenderElement(this.renderer,this._el_38,'li',import4.EMPTY_INLINE_ARRAY,this.debug(61,34,5));
+    this._text_62 = this.renderer.createText(this._el_61,'Visual Studio Code',this.debug(62,34,9));
+    this._text_63 = this.renderer.createText(this._el_38,'\n				',this.debug(63,34,32));
+    this._text_64 = this.renderer.createText(this._el_8,'\n\n				',this.debug(64,35,9));
+    this._el_65 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(65,37,4));
+    this._text_66 = this.renderer.createText(this._el_8,'\n				',this.debug(66,37,8));
+    this._el_67 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(67,38,4));
+    this._text_68 = this.renderer.createText(this._el_67,'Git bash',this.debug(68,38,8));
+    this._text_69 = this.renderer.createText(this._el_8,'\n				',this.debug(69,38,21));
+    this._el_70 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(70,39,4));
+    this._text_71 = this.renderer.createText(this._el_8,'\n\n				',this.debug(71,39,8));
+    this._el_72 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(72,41,4));
+    this._text_73 = this.renderer.createText(this._el_72,'Windows で Git を利用するためのツール。',this.debug(73,41,7));
+    this._text_74 = this.renderer.createText(this._el_8,'\n				',this.debug(74,41,37));
+    this._el_75 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(75,42,4));
+    this._text_76 = this.renderer.createText(this._el_75,'\n					',this.debug(76,42,7));
+    this._el_77 = import4.createRenderElement(this.renderer,this._el_75,'a',new import4.InlineArray4(4,'href','https://git-for-windows.github.io/','target','_blank'),this.debug(77,43,5));
+    this._text_78 = this.renderer.createText(this._el_77,'\n						',this.debug(78,43,66));
+    this._el_79 = import4.createRenderElement(this.renderer,this._el_77,'img',new import4.InlineArray8(8,'alt','Git for Windows','height','18px','src','https://git-for-windows.github.io/favicon.ico','width','18px'),this.debug(79,44,6));
+    this._text_80 = this.renderer.createText(this._el_77,' https://git-for-windows.github.io/\n						',this.debug(80,44,114));
+    this._el_81 = import4.createRenderElement(this.renderer,this._el_77,'span',new import4.InlineArray2(2,'class','icon'),this.debug(81,45,6));
+    this._el_82 = import4.createRenderElement(this.renderer,this._el_81,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(82,45,25));
+    this._text_83 = this.renderer.createText(this._el_77,'\n					',this.debug(83,45,74));
+    this._text_84 = this.renderer.createText(this._el_75,'\n				',this.debug(84,46,9));
+    this._text_85 = this.renderer.createText(this._el_8,'\n\n				',this.debug(85,47,8));
+    this._el_86 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(86,49,4));
+    this._text_87 = this.renderer.createText(this._el_86,'\n					',this.debug(87,49,27));
+    this._el_88 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(88,50,5));
+    this._el_89 = import4.createRenderElement(this.renderer,this._el_88,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/1.jpg'),this.debug(89,50,32));
+    this._text_90 = this.renderer.createText(this._el_86,'\n					',this.debug(90,50,172));
+    this._el_91 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(91,51,5));
+    this._el_92 = import4.createRenderElement(this.renderer,this._el_91,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/2.jpg'),this.debug(92,51,32));
+    this._text_93 = this.renderer.createText(this._el_86,'\n					',this.debug(93,51,172));
+    this._el_94 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(94,52,5));
+    this._el_95 = import4.createRenderElement(this.renderer,this._el_94,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/3.jpg'),this.debug(95,52,32));
+    this._text_96 = this.renderer.createText(this._el_86,'\n					',this.debug(96,52,172));
+    this._el_97 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(97,53,5));
+    this._el_98 = import4.createRenderElement(this.renderer,this._el_97,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/4.jpg'),this.debug(98,53,32));
+    this._text_99 = this.renderer.createText(this._el_86,'\n					',this.debug(99,53,172));
+    this._el_100 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(100,54,5));
+    this._el_101 = import4.createRenderElement(this.renderer,this._el_100,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/5.jpg'),this.debug(101,54,32));
+    this._text_102 = this.renderer.createText(this._el_86,'\n					',this.debug(102,54,172));
+    this._el_103 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(103,55,5));
+    this._el_104 = import4.createRenderElement(this.renderer,this._el_103,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/6.jpg'),this.debug(104,55,32));
+    this._text_105 = this.renderer.createText(this._el_86,'\n					',this.debug(105,55,172));
+    this._el_106 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(106,56,5));
+    this._el_107 = import4.createRenderElement(this.renderer,this._el_106,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/7.jpg'),this.debug(107,56,32));
+    this._text_108 = this.renderer.createText(this._el_86,'\n					',this.debug(108,56,172));
+    this._el_109 = import4.createRenderElement(this.renderer,this._el_86,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(109,57,5));
+    this._el_110 = import4.createRenderElement(this.renderer,this._el_109,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/gitbash/8.jpg'),this.debug(110,57,32));
+    this._text_111 = this.renderer.createText(this._el_86,'\n				',this.debug(111,57,172));
+    this._text_112 = this.renderer.createText(this._el_8,'\n				',this.debug(112,58,9));
+    this._el_113 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(113,59,4));
+    this._text_114 = this.renderer.createText(this._el_8,'\n				',this.debug(114,59,22));
+    this._el_115 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(115,60,4));
+    this._text_116 = this.renderer.createText(this._el_115,'※画像をクリックすると拡大表示します。',this.debug(116,60,7));
+    this._text_117 = this.renderer.createText(this._el_8,'\n\n				',this.debug(117,60,30));
+    this._el_118 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(118,62,4));
+    this._text_119 = this.renderer.createText(this._el_8,'\n				',this.debug(119,62,8));
+    this._el_120 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(120,63,4));
+    this._text_121 = this.renderer.createText(this._el_120,'Python2.7',this.debug(121,63,8));
+    this._text_122 = this.renderer.createText(this._el_8,'\n				',this.debug(122,63,22));
+    this._el_123 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(123,64,4));
+    this._text_124 = this.renderer.createText(this._el_8,'\n\n				',this.debug(124,64,8));
+    this._el_125 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(125,66,4));
+    this._text_126 = this.renderer.createText(this._el_125,'npm ライブラリの中の一部で、Pythonを利用しているため。',this.debug(126,66,7));
+    this._text_127 = this.renderer.createText(this._el_8,'\n				',this.debug(127,66,43));
+    this._el_128 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(128,67,4));
+    this._text_129 = this.renderer.createText(this._el_128,'3系ではなく2系ですので注意してください。',this.debug(129,67,7));
+    this._text_130 = this.renderer.createText(this._el_8,'\n				',this.debug(130,67,32));
+    this._el_131 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(131,68,4));
+    this._text_132 = this.renderer.createText(this._el_131,'\n					',this.debug(132,68,7));
+    this._el_133 = import4.createRenderElement(this.renderer,this._el_131,'a',new import4.InlineArray4(4,'href','https://www.python.org/downloads/','target','_blank'),this.debug(133,69,5));
+    this._text_134 = this.renderer.createText(this._el_133,'\n						',this.debug(134,69,65));
+    this._el_135 = import4.createRenderElement(this.renderer,this._el_133,'img',new import4.InlineArray8(8,'alt','Git for Windows','height','18px','src','https://www.python.org/static/favicon.ico','width','18px'),this.debug(135,70,6));
+    this._text_136 = this.renderer.createText(this._el_133,' https://www.python.org/downloads/\n						',this.debug(136,70,110));
+    this._el_137 = import4.createRenderElement(this.renderer,this._el_133,'span',new import4.InlineArray2(2,'class','icon'),this.debug(137,71,6));
+    this._el_138 = import4.createRenderElement(this.renderer,this._el_137,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(138,71,25));
+    this._text_139 = this.renderer.createText(this._el_133,'\n					',this.debug(139,71,74));
+    this._text_140 = this.renderer.createText(this._el_131,'\n				',this.debug(140,72,9));
+    this._text_141 = this.renderer.createText(this._el_8,'\n				',this.debug(141,73,8));
+    this._el_142 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(142,74,4));
+    this._text_143 = this.renderer.createText(this._el_142,'インストール後、環境変数PATHを追加する必要があります。',this.debug(143,74,7));
+    this._text_144 = this.renderer.createText(this._el_8,'\n\n				',this.debug(144,74,40));
+    this._el_145 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(145,76,4));
+    this._text_146 = this.renderer.createText(this._el_145,'\n					',this.debug(146,76,27));
+    this._el_147 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(147,77,5));
+    this._el_148 = import4.createRenderElement(this.renderer,this._el_147,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/1.jpg'),this.debug(148,77,32));
+    this._text_149 = this.renderer.createText(this._el_145,'\n					',this.debug(149,77,171));
+    this._el_150 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(150,78,5));
+    this._el_151 = import4.createRenderElement(this.renderer,this._el_150,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/2.jpg'),this.debug(151,78,32));
+    this._text_152 = this.renderer.createText(this._el_145,'\n					',this.debug(152,78,171));
+    this._el_153 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(153,79,5));
+    this._el_154 = import4.createRenderElement(this.renderer,this._el_153,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/3.jpg'),this.debug(154,79,32));
+    this._text_155 = this.renderer.createText(this._el_145,'\n					',this.debug(155,79,171));
+    this._el_156 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(156,80,5));
+    this._el_157 = import4.createRenderElement(this.renderer,this._el_156,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/4.jpg'),this.debug(157,80,32));
+    this._text_158 = this.renderer.createText(this._el_145,'\n					',this.debug(158,80,171));
+    this._el_159 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(159,81,5));
+    this._el_160 = import4.createRenderElement(this.renderer,this._el_159,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/5.jpg'),this.debug(160,81,32));
+    this._text_161 = this.renderer.createText(this._el_145,'\n					',this.debug(161,81,171));
+    this._el_162 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(162,82,5));
+    this._el_163 = import4.createRenderElement(this.renderer,this._el_162,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/6.jpg'),this.debug(163,82,32));
+    this._text_164 = this.renderer.createText(this._el_145,'\n					',this.debug(164,82,171));
+    this._el_165 = import4.createRenderElement(this.renderer,this._el_145,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(165,83,5));
+    this._el_166 = import4.createRenderElement(this.renderer,this._el_165,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/python/7.jpg'),this.debug(166,83,32));
+    this._text_167 = this.renderer.createText(this._el_145,'\n				',this.debug(167,83,171));
+    this._text_168 = this.renderer.createText(this._el_8,'\n				',this.debug(168,84,9));
+    this._el_169 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(169,85,4));
+    this._text_170 = this.renderer.createText(this._el_8,'\n				',this.debug(170,85,22));
+    this._el_171 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(171,86,4));
+    this._text_172 = this.renderer.createText(this._el_171,'※画像をクリックすると拡大表示します。',this.debug(172,86,7));
+    this._text_173 = this.renderer.createText(this._el_8,'\n\n				',this.debug(173,86,30));
+    this._el_174 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(174,88,4));
+    this._text_175 = this.renderer.createText(this._el_8,'\n				',this.debug(175,88,8));
+    this._el_176 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(176,89,4));
+    this._text_177 = this.renderer.createText(this._el_176,'Ruby',this.debug(177,89,8));
+    this._text_178 = this.renderer.createText(this._el_8,'\n				',this.debug(178,89,17));
+    this._el_179 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(179,90,4));
+    this._text_180 = this.renderer.createText(this._el_8,'\n\n				',this.debug(180,90,8));
+    this._el_181 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(181,92,4));
+    this._text_182 = this.renderer.createText(this._el_181,'Sassコンパイルで利用されています。',this.debug(182,92,7));
+    this._text_183 = this.renderer.createText(this._el_8,'\n				',this.debug(183,92,30));
+    this._el_184 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(184,93,4));
+    this._text_185 = this.renderer.createText(this._el_184,'\n					Downloads の中にいくつかありますが、「RubyInstallers」を使います。',this.debug(185,93,7));
+    this._el_186 = import4.createRenderElement(this.renderer,this._el_184,'br',import4.EMPTY_INLINE_ARRAY,this.debug(186,94,50));
+    this._text_187 = this.renderer.createText(this._el_184,'バージョンは（2.3.1）です\n				',this.debug(187,94,54));
+    this._text_188 = this.renderer.createText(this._el_8,'\n				',this.debug(188,95,8));
+    this._el_189 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(189,96,4));
+    this._text_190 = this.renderer.createText(this._el_189,'\n					',this.debug(190,96,7));
+    this._el_191 = import4.createRenderElement(this.renderer,this._el_189,'a',new import4.InlineArray4(4,'href','http://rubyinstaller.org/','target','_blank'),this.debug(191,97,5));
+    this._text_192 = this.renderer.createText(this._el_191,'\n						',this.debug(192,97,57));
+    this._el_193 = import4.createRenderElement(this.renderer,this._el_191,'img',new import4.InlineArray8(6,'height','18px','src','http://rubyinstaller.org/favicon.ico','width','18px'),this.debug(193,98,6));
+    this._text_194 = this.renderer.createText(this._el_191,' Ruby Installer for Windows\n						',this.debug(194,98,81));
+    this._el_195 = import4.createRenderElement(this.renderer,this._el_191,'span',new import4.InlineArray2(2,'class','icon'),this.debug(195,99,6));
+    this._el_196 = import4.createRenderElement(this.renderer,this._el_195,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(196,99,25));
+    this._text_197 = this.renderer.createText(this._el_191,'\n					',this.debug(197,99,74));
+    this._text_198 = this.renderer.createText(this._el_189,'\n				',this.debug(198,100,9));
+    this._text_199 = this.renderer.createText(this._el_8,'\n\n				',this.debug(199,101,8));
+    this._el_200 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(200,103,4));
+    this._text_201 = this.renderer.createText(this._el_200,'\n					',this.debug(201,103,27));
+    this._el_202 = import4.createRenderElement(this.renderer,this._el_200,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(202,104,5));
+    this._el_203 = import4.createRenderElement(this.renderer,this._el_202,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/1.jpg'),this.debug(203,104,32));
+    this._text_204 = this.renderer.createText(this._el_200,'\n					',this.debug(204,104,169));
+    this._el_205 = import4.createRenderElement(this.renderer,this._el_200,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(205,105,5));
+    this._el_206 = import4.createRenderElement(this.renderer,this._el_205,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/2.jpg'),this.debug(206,105,32));
+    this._text_207 = this.renderer.createText(this._el_200,'\n					',this.debug(207,105,169));
+    this._el_208 = import4.createRenderElement(this.renderer,this._el_200,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(208,106,5));
+    this._el_209 = import4.createRenderElement(this.renderer,this._el_208,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/3.jpg'),this.debug(209,106,32));
+    this._text_210 = this.renderer.createText(this._el_200,'\n					',this.debug(210,106,169));
+    this._el_211 = import4.createRenderElement(this.renderer,this._el_200,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(211,107,5));
+    this._el_212 = import4.createRenderElement(this.renderer,this._el_211,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/4.jpg'),this.debug(212,107,32));
+    this._text_213 = this.renderer.createText(this._el_200,'\n					',this.debug(213,107,169));
+    this._el_214 = import4.createRenderElement(this.renderer,this._el_200,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(214,108,5));
+    this._el_215 = import4.createRenderElement(this.renderer,this._el_214,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/ruby/5.jpg'),this.debug(215,108,32));
+    this._text_216 = this.renderer.createText(this._el_200,'\n				',this.debug(216,108,169));
+    this._text_217 = this.renderer.createText(this._el_8,'\n				',this.debug(217,109,9));
+    this._el_218 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(218,110,4));
+    this._text_219 = this.renderer.createText(this._el_8,'\n				',this.debug(219,110,22));
+    this._el_220 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(220,111,4));
+    this._text_221 = this.renderer.createText(this._el_220,'※画像をクリックすると拡大表示します。',this.debug(221,111,7));
+    this._text_222 = this.renderer.createText(this._el_8,'\n\n				',this.debug(222,111,30));
+    this._el_223 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(223,113,4));
+    this._text_224 = this.renderer.createText(this._el_8,'\n				',this.debug(224,113,8));
+    this._el_225 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(225,114,4));
+    this._text_226 = this.renderer.createText(this._el_225,'Visual Studio 2015 Community',this.debug(226,114,8));
+    this._text_227 = this.renderer.createText(this._el_8,'\n				',this.debug(227,114,41));
+    this._el_228 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(228,115,4));
+    this._text_229 = this.renderer.createText(this._el_8,'\n\n				',this.debug(229,115,8));
+    this._el_230 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(230,117,4));
+    this._text_231 = this.renderer.createText(this._el_230,'MacではXcodeを利用しますが、WindowsではVisulalStudioを利用します。',this.debug(231,117,7));
+    this._text_232 = this.renderer.createText(this._el_8,'\n				',this.debug(232,117,58));
+    this._el_233 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(233,118,4));
+    this._text_234 = this.renderer.createText(this._el_233,'\n					',this.debug(234,118,7));
+    this._el_235 = import4.createRenderElement(this.renderer,this._el_233,'a',new import4.InlineArray4(4,'href','https://www.microsoft.com/ja-jp/dev/products/community.aspx','target','_blank'),this.debug(235,119,5));
+    this._text_236 = this.renderer.createText(this._el_235,'\n						',this.debug(236,119,91));
+    this._el_237 = import4.createRenderElement(this.renderer,this._el_235,'img',new import4.InlineArray8(6,'height','18px','src','https://www.microsoft.com/favicon.ico','width','18px'),this.debug(237,120,6));
+    this._text_238 = this.renderer.createText(this._el_235,' Microsoft Visual Studio Community\n						',this.debug(238,120,84));
+    this._el_239 = import4.createRenderElement(this.renderer,this._el_235,'span',new import4.InlineArray2(2,'class','icon'),this.debug(239,121,6));
+    this._el_240 = import4.createRenderElement(this.renderer,this._el_239,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(240,121,25));
+    this._text_241 = this.renderer.createText(this._el_235,'\n					',this.debug(241,121,74));
+    this._text_242 = this.renderer.createText(this._el_233,'\n				',this.debug(242,122,9));
+    this._text_243 = this.renderer.createText(this._el_8,'\n				',this.debug(243,123,8));
+    this._el_244 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(244,124,4));
+    this._text_245 = this.renderer.createText(this._el_244,'\n					node-gypのGitHubに、Visulal C++ や Python2.7 が必要なことが書かれてますので、こちらも参考に。',this.debug(245,124,7));
+    this._el_246 = import4.createRenderElement(this.renderer,this._el_244,'br',import4.EMPTY_INLINE_ARRAY,this.debug(246,125,70));
+    this._text_247 = this.renderer.createText(this._el_244,' Node.jsをWindowsで動かすガイドラインも載っています。\n				',this.debug(247,125,74));
+    this._text_248 = this.renderer.createText(this._el_8,'\n				',this.debug(248,126,8));
+    this._el_249 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(249,127,4));
+    this._text_250 = this.renderer.createText(this._el_249,'\n					',this.debug(250,127,7));
+    this._el_251 = import4.createRenderElement(this.renderer,this._el_249,'a',new import4.InlineArray4(4,'href','https://github.com/nodejs/node-gyp/blob/master/README.md#installation','target','_blank'),this.debug(251,128,5));
+    this._text_252 = this.renderer.createText(this._el_251,'\n						',this.debug(252,128,101));
+    this._el_253 = import4.createRenderElement(this.renderer,this._el_251,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(253,129,6));
+    this._text_254 = this.renderer.createText(this._el_251,' nodejs/node-gyp #Installation\n						',this.debug(254,129,88));
+    this._el_255 = import4.createRenderElement(this.renderer,this._el_251,'span',new import4.InlineArray2(2,'class','icon'),this.debug(255,130,6));
+    this._el_256 = import4.createRenderElement(this.renderer,this._el_255,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(256,130,25));
+    this._text_257 = this.renderer.createText(this._el_251,'\n					',this.debug(257,130,74));
+    this._text_258 = this.renderer.createText(this._el_249,'\n				',this.debug(258,131,9));
+    this._text_259 = this.renderer.createText(this._el_8,'\n				',this.debug(259,132,8));
+    this._el_260 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(260,133,4));
+    this._text_261 = this.renderer.createText(this._el_260,'\n					',this.debug(261,133,7));
+    this._el_262 = import4.createRenderElement(this.renderer,this._el_260,'a',new import4.InlineArray4(4,'href','https://github.com/Microsoft/nodejs-guidelines/blob/master/windows-environment.md#compiling-native-addon-modules','target','_blank'),this.debug(262,134,5));
+    this._text_263 = this.renderer.createText(this._el_262,'\n						',this.debug(263,135,22));
+    this._el_264 = import4.createRenderElement(this.renderer,this._el_262,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(264,136,6));
+    this._text_265 = this.renderer.createText(this._el_262,' Microsoft\'s Node.js Guidelines for\n						Windows #compiling-native-addon-modules\n						',this.debug(265,136,88));
+    this._el_266 = import4.createRenderElement(this.renderer,this._el_262,'span',new import4.InlineArray2(2,'class','icon'),this.debug(266,138,6));
+    this._el_267 = import4.createRenderElement(this.renderer,this._el_266,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(267,138,25));
+    this._text_268 = this.renderer.createText(this._el_262,'\n					',this.debug(268,138,74));
+    this._text_269 = this.renderer.createText(this._el_260,'\n				',this.debug(269,139,9));
+    this._text_270 = this.renderer.createText(this._el_8,'\n\n				',this.debug(270,140,8));
+    this._el_271 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(271,142,4));
+    this._text_272 = this.renderer.createText(this._el_271,'\n					',this.debug(272,142,27));
+    this._el_273 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(273,143,5));
+    this._el_274 = import4.createRenderElement(this.renderer,this._el_273,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/1.jpg'),this.debug(274,143,32));
+    this._text_275 = this.renderer.createText(this._el_271,'\n					',this.debug(275,143,177));
+    this._el_276 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(276,144,5));
+    this._el_277 = import4.createRenderElement(this.renderer,this._el_276,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/2.jpg'),this.debug(277,144,32));
+    this._text_278 = this.renderer.createText(this._el_271,'\n					',this.debug(278,144,177));
+    this._el_279 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(279,145,5));
+    this._el_280 = import4.createRenderElement(this.renderer,this._el_279,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/3.jpg'),this.debug(280,145,32));
+    this._text_281 = this.renderer.createText(this._el_271,'\n					',this.debug(281,145,177));
+    this._el_282 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(282,146,5));
+    this._el_283 = import4.createRenderElement(this.renderer,this._el_282,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/4.jpg'),this.debug(283,146,32));
+    this._text_284 = this.renderer.createText(this._el_271,'\n					',this.debug(284,146,177));
+    this._el_285 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(285,147,5));
+    this._el_286 = import4.createRenderElement(this.renderer,this._el_285,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/5.jpg'),this.debug(286,147,32));
+    this._text_287 = this.renderer.createText(this._el_271,'\n					',this.debug(287,147,177));
+    this._el_288 = import4.createRenderElement(this.renderer,this._el_271,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(288,148,5));
+    this._el_289 = import4.createRenderElement(this.renderer,this._el_288,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudio/6.jpg'),this.debug(289,148,32));
+    this._text_290 = this.renderer.createText(this._el_271,'\n				',this.debug(290,148,177));
+    this._text_291 = this.renderer.createText(this._el_8,'\n				',this.debug(291,149,9));
+    this._el_292 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(292,150,4));
+    this._text_293 = this.renderer.createText(this._el_8,'\n				',this.debug(293,150,22));
+    this._el_294 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(294,151,4));
+    this._text_295 = this.renderer.createText(this._el_294,'※画像をクリックすると拡大表示します。',this.debug(295,151,7));
+    this._text_296 = this.renderer.createText(this._el_8,'\n\n				',this.debug(296,151,30));
+    this._el_297 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(297,153,4));
+    this._text_298 = this.renderer.createText(this._el_8,'\n				',this.debug(298,153,8));
+    this._el_299 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(299,154,4));
+    this._text_300 = this.renderer.createText(this._el_299,'Windows 10 SDK',this.debug(300,154,8));
+    this._text_301 = this.renderer.createText(this._el_8,'\n				',this.debug(301,154,27));
+    this._el_302 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(302,155,4));
+    this._text_303 = this.renderer.createText(this._el_8,'\n\n				',this.debug(303,155,8));
+    this._el_304 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(304,157,4));
+    this._text_305 = this.renderer.createText(this._el_304,'Microsoft\'s Node.js Guidelines for Windows によると、SDK も必要とのことですので、インストールします。',this.debug(305,157,7));
+    this._text_306 = this.renderer.createText(this._el_8,'\n				',this.debug(306,157,85));
+    this._el_307 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(307,158,4));
+    this._text_308 = this.renderer.createText(this._el_307,'\n					',this.debug(308,158,7));
+    this._el_309 = import4.createRenderElement(this.renderer,this._el_307,'a',new import4.InlineArray4(4,'href','https://developer.microsoft.com/ja-jp/windows/downloads/windows-10-sdk','target','_blank'),this.debug(309,159,5));
+    this._text_310 = this.renderer.createText(this._el_309,'\n						',this.debug(310,159,102));
+    this._el_311 = import4.createRenderElement(this.renderer,this._el_309,'img',new import4.InlineArray8(6,'height','18px','src','https://developer.microsoft.com/favicon.ico','width','18px'),this.debug(311,160,6));
+    this._text_312 = this.renderer.createText(this._el_309,' Windows 10 SDK\n						',this.debug(312,160,90));
+    this._el_313 = import4.createRenderElement(this.renderer,this._el_309,'span',new import4.InlineArray2(2,'class','icon'),this.debug(313,161,6));
+    this._el_314 = import4.createRenderElement(this.renderer,this._el_313,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(314,161,25));
+    this._text_315 = this.renderer.createText(this._el_309,'\n					',this.debug(315,161,74));
+    this._text_316 = this.renderer.createText(this._el_307,'\n				',this.debug(316,162,9));
+    this._text_317 = this.renderer.createText(this._el_8,'\n\n				',this.debug(317,163,8));
+    this._el_318 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(318,165,4));
+    this._text_319 = this.renderer.createText(this._el_318,'\n					',this.debug(319,165,27));
+    this._el_320 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(320,166,5));
+    this._el_321 = import4.createRenderElement(this.renderer,this._el_320,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/1.jpg'),this.debug(321,166,32));
+    this._text_322 = this.renderer.createText(this._el_318,'\n					',this.debug(322,166,175));
+    this._el_323 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(323,167,5));
+    this._el_324 = import4.createRenderElement(this.renderer,this._el_323,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/2.jpg'),this.debug(324,167,32));
+    this._text_325 = this.renderer.createText(this._el_318,'\n					',this.debug(325,167,175));
+    this._el_326 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(326,168,5));
+    this._el_327 = import4.createRenderElement(this.renderer,this._el_326,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/3.jpg'),this.debug(327,168,32));
+    this._text_328 = this.renderer.createText(this._el_318,'\n					',this.debug(328,168,175));
+    this._el_329 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(329,169,5));
+    this._el_330 = import4.createRenderElement(this.renderer,this._el_329,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/4.jpg'),this.debug(330,169,32));
+    this._text_331 = this.renderer.createText(this._el_318,'\n					',this.debug(331,169,175));
+    this._el_332 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(332,170,5));
+    this._el_333 = import4.createRenderElement(this.renderer,this._el_332,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/5.jpg'),this.debug(333,170,32));
+    this._text_334 = this.renderer.createText(this._el_318,'\n					',this.debug(334,170,175));
+    this._el_335 = import4.createRenderElement(this.renderer,this._el_318,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(335,171,5));
+    this._el_336 = import4.createRenderElement(this.renderer,this._el_335,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/windowssdk/6.jpg'),this.debug(336,171,32));
+    this._text_337 = this.renderer.createText(this._el_318,'\n				',this.debug(337,171,175));
+    this._text_338 = this.renderer.createText(this._el_8,'\n				',this.debug(338,172,9));
+    this._el_339 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(339,173,4));
+    this._text_340 = this.renderer.createText(this._el_8,'\n				',this.debug(340,173,22));
+    this._el_341 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(341,174,4));
+    this._text_342 = this.renderer.createText(this._el_341,'※画像をクリックすると拡大表示します。',this.debug(342,174,7));
+    this._text_343 = this.renderer.createText(this._el_8,'\n\n				',this.debug(343,174,30));
+    this._el_344 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(344,176,4));
+    this._text_345 = this.renderer.createText(this._el_8,'\n				',this.debug(345,176,8));
+    this._el_346 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(346,177,4));
+    this._text_347 = this.renderer.createText(this._el_346,'nodist',this.debug(347,177,8));
+    this._text_348 = this.renderer.createText(this._el_8,'\n				',this.debug(348,177,19));
+    this._el_349 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(349,178,4));
+    this._text_350 = this.renderer.createText(this._el_8,'\n\n				',this.debug(350,178,8));
+    this._el_351 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(351,180,4));
+    this._text_352 = this.renderer.createText(this._el_351,'Macでは nodebrew を利用しますが、Windows では nodist を利用します。',this.debug(352,180,7));
+    this._text_353 = this.renderer.createText(this._el_8,'\n				',this.debug(353,180,59));
+    this._el_354 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(354,181,4));
+    this._text_355 = this.renderer.createText(this._el_354,'\n					',this.debug(355,181,7));
+    this._el_356 = import4.createRenderElement(this.renderer,this._el_354,'a',new import4.InlineArray4(4,'href','https://github.com/marcelklehr/nodist#installation','target','_blank'),this.debug(356,182,5));
+    this._text_357 = this.renderer.createText(this._el_356,'\n						',this.debug(357,182,82));
+    this._el_358 = import4.createRenderElement(this.renderer,this._el_356,'img',new import4.InlineArray8(6,'height','18px','src','https://assets-cdn.github.com/favicon.ico','width','18px'),this.debug(358,183,6));
+    this._text_359 = this.renderer.createText(this._el_356,' marcelklehr/nodist #Installation\n						',this.debug(359,183,88));
+    this._el_360 = import4.createRenderElement(this.renderer,this._el_356,'span',new import4.InlineArray2(2,'class','icon'),this.debug(360,184,6));
+    this._el_361 = import4.createRenderElement(this.renderer,this._el_360,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(361,184,25));
+    this._text_362 = this.renderer.createText(this._el_356,'\n					',this.debug(362,184,74));
+    this._text_363 = this.renderer.createText(this._el_354,'\n				',this.debug(363,185,9));
+    this._text_364 = this.renderer.createText(this._el_8,'\n\n				',this.debug(364,186,8));
+    this._el_365 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(365,188,4));
+    this._text_366 = this.renderer.createText(this._el_365,'\n					',this.debug(366,188,27));
+    this._el_367 = import4.createRenderElement(this.renderer,this._el_365,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(367,189,5));
+    this._el_368 = import4.createRenderElement(this.renderer,this._el_367,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/1.jpg'),this.debug(368,189,32));
+    this._text_369 = this.renderer.createText(this._el_365,'\n					',this.debug(369,189,171));
+    this._el_370 = import4.createRenderElement(this.renderer,this._el_365,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(370,190,5));
+    this._el_371 = import4.createRenderElement(this.renderer,this._el_370,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/2.jpg'),this.debug(371,190,32));
+    this._text_372 = this.renderer.createText(this._el_365,'\n					',this.debug(372,190,171));
+    this._el_373 = import4.createRenderElement(this.renderer,this._el_365,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(373,191,5));
+    this._el_374 = import4.createRenderElement(this.renderer,this._el_373,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/3.jpg'),this.debug(374,191,32));
+    this._text_375 = this.renderer.createText(this._el_365,'\n					',this.debug(375,191,171));
+    this._el_376 = import4.createRenderElement(this.renderer,this._el_365,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(376,192,5));
+    this._el_377 = import4.createRenderElement(this.renderer,this._el_376,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/4.jpg'),this.debug(377,192,32));
+    this._text_378 = this.renderer.createText(this._el_365,'\n					',this.debug(378,192,171));
+    this._el_379 = import4.createRenderElement(this.renderer,this._el_365,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(379,193,5));
+    this._el_380 = import4.createRenderElement(this.renderer,this._el_379,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/nodist/5.jpg'),this.debug(380,193,32));
+    this._text_381 = this.renderer.createText(this._el_365,'\n				',this.debug(381,193,171));
+    this._text_382 = this.renderer.createText(this._el_8,'\n				',this.debug(382,194,9));
+    this._el_383 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(383,195,4));
+    this._text_384 = this.renderer.createText(this._el_8,'\n				',this.debug(384,195,22));
+    this._el_385 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(385,196,4));
+    this._text_386 = this.renderer.createText(this._el_385,'※画像をクリックすると拡大表示します。',this.debug(386,196,7));
+    this._text_387 = this.renderer.createText(this._el_8,'\n\n				',this.debug(387,196,30));
+    this._el_388 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(388,198,4));
+    this._text_389 = this.renderer.createText(this._el_388,'インストール後、環境変数にPATHを追加します。',this.debug(389,198,7));
+    this._text_390 = this.renderer.createText(this._el_8,'\n				',this.debug(390,198,35));
+    this._el_391 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(391,199,4));
+    this._text_392 = this.renderer.createText(this._el_391,'\n					また、npm を動かすため、~/.bash_profile に次の設定を追記します。',this.debug(392,199,7));
+    this._el_393 = import4.createRenderElement(this.renderer,this._el_391,'br',import4.EMPTY_INLINE_ARRAY,this.debug(393,200,47));
+    this._text_394 = this.renderer.createText(this._el_391,'\n					',this.debug(394,200,51));
+    this._el_395 = import4.createRenderElement(this.renderer,this._el_391,'code',import4.EMPTY_INLINE_ARRAY,this.debug(395,201,5));
+    this._text_396 = this.renderer.createText(this._el_395,'set NODIST_X64=0',this.debug(396,201,11));
+    this._el_397 = import4.createRenderElement(this.renderer,this._el_391,'br',import4.EMPTY_INLINE_ARRAY,this.debug(397,201,34));
+    this._text_398 = this.renderer.createText(this._el_391,'\n					',this.debug(398,201,38));
+    this._el_399 = import4.createRenderElement(this.renderer,this._el_391,'code',import4.EMPTY_INLINE_ARRAY,this.debug(399,202,5));
+    this._text_400 = this.renderer.createText(this._el_399,'npm config set python "Python.exeのPATH"',this.debug(400,202,11));
+    this._el_401 = import4.createRenderElement(this.renderer,this._el_391,'br',import4.EMPTY_INLINE_ARRAY,this.debug(401,202,57));
+    this._text_402 = this.renderer.createText(this._el_391,'\n					',this.debug(402,202,61));
+    this._el_403 = import4.createRenderElement(this.renderer,this._el_391,'code',import4.EMPTY_INLINE_ARRAY,this.debug(403,203,5));
+    this._text_404 = this.renderer.createText(this._el_403,'npm config set msvs_version 2015',this.debug(404,203,11));
+    this._el_405 = import4.createRenderElement(this.renderer,this._el_391,'br',import4.EMPTY_INLINE_ARRAY,this.debug(405,203,50));
+    this._text_406 = this.renderer.createText(this._el_391,'\n				',this.debug(406,203,54));
+    this._text_407 = this.renderer.createText(this._el_8,'\n\n				',this.debug(407,204,8));
+    this._el_408 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(408,206,4));
+    this._text_409 = this.renderer.createText(this._el_408,'\n					nodist,npm のバージョンを設定します。',this.debug(409,206,7));
+    this._el_410 = import4.createRenderElement(this.renderer,this._el_408,'br',import4.EMPTY_INLINE_ARRAY,this.debug(410,207,29));
+    this._text_411 = this.renderer.createText(this._el_408,'\n					',this.debug(411,207,33));
+    this._el_412 = import4.createRenderElement(this.renderer,this._el_408,'code',import4.EMPTY_INLINE_ARRAY,this.debug(412,208,5));
+    this._text_413 = this.renderer.createText(this._el_412,'nodist 6.7.0',this.debug(413,208,11));
+    this._el_414 = import4.createRenderElement(this.renderer,this._el_408,'br',import4.EMPTY_INLINE_ARRAY,this.debug(414,208,30));
+    this._text_415 = this.renderer.createText(this._el_408,'\n					',this.debug(415,208,34));
+    this._el_416 = import4.createRenderElement(this.renderer,this._el_408,'code',import4.EMPTY_INLINE_ARRAY,this.debug(416,209,5));
+    this._text_417 = this.renderer.createText(this._el_416,'nodist npm 3.10.8',this.debug(417,209,11));
+    this._el_418 = import4.createRenderElement(this.renderer,this._el_408,'br',import4.EMPTY_INLINE_ARRAY,this.debug(418,209,35));
+    this._text_419 = this.renderer.createText(this._el_408,'\n				',this.debug(419,209,39));
+    this._text_420 = this.renderer.createText(this._el_8,'\n\n				',this.debug(420,210,8));
+    this._el_421 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(421,212,4));
+    this._text_422 = this.renderer.createText(this._el_421,'\n					node,nodist,npm のバージョンを確認します。',this.debug(422,212,7));
+    this._el_423 = import4.createRenderElement(this.renderer,this._el_421,'br',import4.EMPTY_INLINE_ARRAY,this.debug(423,213,34));
+    this._text_424 = this.renderer.createText(this._el_421,'\n					',this.debug(424,213,38));
+    this._el_425 = import4.createRenderElement(this.renderer,this._el_421,'code',import4.EMPTY_INLINE_ARRAY,this.debug(425,214,5));
+    this._text_426 = this.renderer.createText(this._el_425,'nodist',this.debug(426,214,11));
+    this._el_427 = import4.createRenderElement(this.renderer,this._el_421,'br',import4.EMPTY_INLINE_ARRAY,this.debug(427,214,24));
+    this._text_428 = this.renderer.createText(this._el_421,' > 6.7.0 (global: 6.7.0)',this.debug(428,214,28));
+    this._el_429 = import4.createRenderElement(this.renderer,this._el_421,'br',import4.EMPTY_INLINE_ARRAY,this.debug(429,214,52));
+    this._text_430 = this.renderer.createText(this._el_421,'\n					',this.debug(430,214,56));
+    this._el_431 = import4.createRenderElement(this.renderer,this._el_421,'code',import4.EMPTY_INLINE_ARRAY,this.debug(431,215,5));
+    this._text_432 = this.renderer.createText(this._el_431,'nodist npm',this.debug(432,215,11));
+    this._el_433 = import4.createRenderElement(this.renderer,this._el_421,'br',import4.EMPTY_INLINE_ARRAY,this.debug(433,215,28));
+    this._text_434 = this.renderer.createText(this._el_421,' > 3.10.8 (global: 3.10.8)',this.debug(434,215,32));
+    this._el_435 = import4.createRenderElement(this.renderer,this._el_421,'br',import4.EMPTY_INLINE_ARRAY,this.debug(435,215,58));
+    this._text_436 = this.renderer.createText(this._el_421,'\n				',this.debug(436,215,62));
+    this._text_437 = this.renderer.createText(this._el_8,'\n\n				',this.debug(437,216,8));
+    this._el_438 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(438,218,4));
+    this._text_439 = this.renderer.createText(this._el_8,'\n				',this.debug(439,218,8));
+    this._el_440 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(440,219,4));
+    this._text_441 = this.renderer.createText(this._el_440,'angular-cli',this.debug(441,219,8));
+    this._text_442 = this.renderer.createText(this._el_8,'\n				',this.debug(442,219,24));
+    this._el_443 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(443,220,4));
+    this._text_444 = this.renderer.createText(this._el_8,'\n\n				',this.debug(444,220,8));
+    this._el_445 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(445,222,4));
+    this._text_446 = this.renderer.createText(this._el_445,'以下コマンドを実行し、angular-cli をインストールします。',this.debug(446,222,7));
+    this._text_447 = this.renderer.createText(this._el_8,'\n				',this.debug(447,222,45));
+    this._el_448 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(448,223,4));
+    this._text_449 = this.renderer.createText(this._el_448,'\n					',this.debug(449,223,7));
+    this._el_450 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(450,224,5));
+    this._text_451 = this.renderer.createText(this._el_450,'npm cache clean',this.debug(451,224,11));
+    this._el_452 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(452,224,33));
+    this._text_453 = this.renderer.createText(this._el_448,'\n					',this.debug(453,224,37));
+    this._el_454 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(454,225,5));
+    this._text_455 = this.renderer.createText(this._el_454,'npm install -g angular-cli',this.debug(455,225,11));
+    this._el_456 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(456,225,44));
+    this._text_457 = this.renderer.createText(this._el_448,'\n					',this.debug(457,225,48));
+    this._el_458 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(458,226,5));
+    this._text_459 = this.renderer.createText(this._el_458,'npm cache clean',this.debug(459,226,11));
+    this._el_460 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(460,226,33));
+    this._text_461 = this.renderer.createText(this._el_448,'\n					',this.debug(461,226,37));
+    this._el_462 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(462,227,5));
+    this._text_463 = this.renderer.createText(this._el_462,'npm install -g node-gyp',this.debug(463,227,11));
+    this._el_464 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(464,227,41));
+    this._text_465 = this.renderer.createText(this._el_448,'\n					',this.debug(465,227,45));
+    this._el_466 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(466,228,5));
+    this._text_467 = this.renderer.createText(this._el_466,'npm install -g node-pre-gyp',this.debug(467,228,11));
+    this._el_468 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(468,228,45));
+    this._text_469 = this.renderer.createText(this._el_448,'\n					',this.debug(469,228,49));
+    this._el_470 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(470,229,5));
+    this._text_471 = this.renderer.createText(this._el_470,'npm install -g angular-cli',this.debug(471,229,11));
+    this._el_472 = import4.createRenderElement(this.renderer,this._el_448,'br',import4.EMPTY_INLINE_ARRAY,this.debug(472,229,44));
+    this._text_473 = this.renderer.createText(this._el_448,'\n					',this.debug(473,229,48));
+    this._el_474 = import4.createRenderElement(this.renderer,this._el_448,'code',import4.EMPTY_INLINE_ARRAY,this.debug(474,230,5));
+    this._text_475 = this.renderer.createText(this._el_474,'ng --help',this.debug(475,230,11));
+    this._text_476 = this.renderer.createText(this._el_448,'\n				',this.debug(476,230,27));
+    this._text_477 = this.renderer.createText(this._el_8,'\n				',this.debug(477,231,8));
+    this._el_478 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(478,232,4));
+    this._text_479 = this.renderer.createText(this._el_478,'※確認方法はなんでもいいですが、今回はヘルプ表示で確認。',this.debug(479,232,7));
+    this._text_480 = this.renderer.createText(this._el_8,'\n\n				',this.debug(480,232,39));
+    this._el_481 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(481,234,4));
+    this._text_482 = this.renderer.createText(this._el_8,'\n				',this.debug(482,234,8));
+    this._el_483 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(483,235,4));
+    this._text_484 = this.renderer.createText(this._el_483,'Visual Studio Code',this.debug(484,235,8));
+    this._text_485 = this.renderer.createText(this._el_8,'\n				',this.debug(485,235,31));
+    this._el_486 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(486,236,4));
+    this._text_487 = this.renderer.createText(this._el_8,'\n\n				',this.debug(487,236,8));
+    this._el_488 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(488,238,4));
+    this._text_489 = this.renderer.createText(this._el_488,'エディタは基本的になんでもよいです。',this.debug(489,238,7));
+    this._text_490 = this.renderer.createText(this._el_8,'\n				',this.debug(490,238,29));
+    this._el_491 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(491,239,4));
+    this._text_492 = this.renderer.createText(this._el_491,'今回はその場のノリで、Visual Studio Code を使ってみます。',this.debug(492,239,7));
+    this._text_493 = this.renderer.createText(this._el_8,'\n				',this.debug(493,239,49));
+    this._el_494 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(494,240,4));
+    this._text_495 = this.renderer.createText(this._el_494,'\n					',this.debug(495,240,7));
+    this._el_496 = import4.createRenderElement(this.renderer,this._el_494,'a',new import4.InlineArray4(4,'href','https://code.visualstudio.com/','target','_blank'),this.debug(496,241,5));
+    this._text_497 = this.renderer.createText(this._el_496,'\n						',this.debug(497,241,62));
+    this._el_498 = import4.createRenderElement(this.renderer,this._el_496,'img',new import4.InlineArray8(6,'height','18px','src','https://code.visualstudio.com/images/favicon.ico','width','18px'),this.debug(498,242,6));
+    this._text_499 = this.renderer.createText(this._el_496,' Visual Studio Code\n						',this.debug(499,242,95));
+    this._el_500 = import4.createRenderElement(this.renderer,this._el_496,'span',new import4.InlineArray2(2,'class','icon'),this.debug(500,243,6));
+    this._el_501 = import4.createRenderElement(this.renderer,this._el_500,'i',new import4.InlineArray2(2,'class','fa fa-external-link-square'),this.debug(501,243,25));
+    this._text_502 = this.renderer.createText(this._el_496,'\n					',this.debug(502,243,74));
+    this._text_503 = this.renderer.createText(this._el_494,'\n				',this.debug(503,244,9));
+    this._text_504 = this.renderer.createText(this._el_8,'\n\n				',this.debug(504,245,8));
+    this._el_505 = import4.createRenderElement(this.renderer,this._el_8,'ul',new import4.InlineArray2(2,'class','thumbnails'),this.debug(505,247,4));
+    this._text_506 = this.renderer.createText(this._el_505,'\n					',this.debug(506,247,27));
+    this._el_507 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(507,248,5));
+    this._el_508 = import4.createRenderElement(this.renderer,this._el_507,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/1.jpg'),this.debug(508,248,32));
+    this._text_509 = this.renderer.createText(this._el_505,'\n					',this.debug(509,248,181));
+    this._el_510 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(510,249,5));
+    this._el_511 = import4.createRenderElement(this.renderer,this._el_510,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/2.jpg'),this.debug(511,249,32));
+    this._text_512 = this.renderer.createText(this._el_505,'\n					',this.debug(512,249,181));
+    this._el_513 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(513,250,5));
+    this._el_514 = import4.createRenderElement(this.renderer,this._el_513,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/3.jpg'),this.debug(514,250,32));
+    this._text_515 = this.renderer.createText(this._el_505,'\n					',this.debug(515,250,181));
+    this._el_516 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(516,251,5));
+    this._el_517 = import4.createRenderElement(this.renderer,this._el_516,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/4.jpg'),this.debug(517,251,32));
+    this._text_518 = this.renderer.createText(this._el_505,'\n					',this.debug(518,251,181));
+    this._el_519 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(519,252,5));
+    this._el_520 = import4.createRenderElement(this.renderer,this._el_519,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/5.jpg'),this.debug(520,252,32));
+    this._text_521 = this.renderer.createText(this._el_505,'\n					',this.debug(521,252,181));
+    this._el_522 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(522,253,5));
+    this._el_523 = import4.createRenderElement(this.renderer,this._el_522,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/6.jpg'),this.debug(523,253,32));
+    this._text_524 = this.renderer.createText(this._el_505,'\n					',this.debug(524,253,181));
+    this._el_525 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(525,254,5));
+    this._el_526 = import4.createRenderElement(this.renderer,this._el_525,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/7.jpg'),this.debug(526,254,32));
+    this._text_527 = this.renderer.createText(this._el_505,'\n					',this.debug(527,254,181));
+    this._el_528 = import4.createRenderElement(this.renderer,this._el_505,'li',new import4.InlineArray2(2,'class','thumbnail-list'),this.debug(528,255,5));
+    this._el_529 = import4.createRenderElement(this.renderer,this._el_528,'img',new import4.InlineArray4(4,'class','thumbnail-image','src','http://cdn.banana-juice.com/angular/img/install/visualstudiocode/8.jpg'),this.debug(529,255,32));
+    this._text_530 = this.renderer.createText(this._el_505,'\n				',this.debug(530,255,181));
+    this._text_531 = this.renderer.createText(this._el_8,'\n				',this.debug(531,256,9));
+    this._el_532 = import4.createRenderElement(this.renderer,this._el_8,'br',new import4.InlineArray2(2,'class','clear'),this.debug(532,257,4));
+    this._text_533 = this.renderer.createText(this._el_8,'\n				',this.debug(533,257,22));
+    this._el_534 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(534,258,4));
+    this._text_535 = this.renderer.createText(this._el_534,'※画像をクリックすると拡大表示します。',this.debug(535,258,7));
+    this._text_536 = this.renderer.createText(this._el_8,'\n\n				',this.debug(536,258,30));
+    this._el_537 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(537,260,4));
+    this._text_538 = this.renderer.createText(this._el_537,'起動が早いのでちょっとした開発には良さそうです。',this.debug(538,260,7));
+    this._text_539 = this.renderer.createText(this._el_8,'\n\n				',this.debug(539,260,35));
+    this._el_540 = import4.createRenderElement(this.renderer,this._el_8,'div',new import4.InlineArray4(4,'class','modal animated','id','image-modal'),this.debug(540,262,4));
+    this._text_541 = this.renderer.createText(this._el_540,'\n					',this.debug(541,262,49));
+    this._el_542 = import4.createRenderElement(this.renderer,this._el_540,'div',new import4.InlineArray2(2,'class','modal-background'),this.debug(542,263,5));
+    this._text_543 = this.renderer.createText(this._el_540,'\n					',this.debug(543,263,71));
+    this._el_544 = import4.createRenderElement(this.renderer,this._el_540,'div',new import4.InlineArray2(2,'class','modal-content'),this.debug(544,264,5));
+    this._text_545 = this.renderer.createText(this._el_544,'\n						',this.debug(545,264,32));
+    this._el_546 = import4.createRenderElement(this.renderer,this._el_544,'p',new import4.InlineArray2(2,'class','image'),this.debug(546,265,6));
+    this._text_547 = this.renderer.createText(this._el_546,'\n							',this.debug(547,265,23));
+    this._el_548 = import4.createRenderElement(this.renderer,this._el_546,'img',new import4.InlineArray2(2,'src',''),this.debug(548,266,7));
+    this._text_549 = this.renderer.createText(this._el_546,'\n						',this.debug(549,266,21));
+    this._text_550 = this.renderer.createText(this._el_544,'\n					',this.debug(550,267,10));
+    this._text_551 = this.renderer.createText(this._el_540,'\n					',this.debug(551,268,11));
+    this._el_552 = import4.createRenderElement(this.renderer,this._el_540,'button',new import4.InlineArray2(2,'class','modal-close'),this.debug(552,269,5));
+    this._text_553 = this.renderer.createText(this._el_540,'\n				',this.debug(553,269,72));
+    this._text_554 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(554,270,10));
+    this._el_555 = import4.createRenderElement(this.renderer,this._el_8,'next-nav',import4.EMPTY_INLINE_ARRAY,this.debug(555,272,8));
+    this.compView_555 = new import17.View_NextNavComponent0(this.viewUtils,this,555,this._el_555);
+    this._NextNavComponent_555_3 = new import17.Wrapper_NextNavComponent(this.parentView.injectorGet(import18.NextNavService,this.parentIndex));
+    this.compView_555.create(this._NextNavComponent_555_3.context);
+    this._text_556 = this.renderer.createText(this._el_8,'\n			',this.debug(556,272,29));
+    this._text_557 = this.renderer.createText(this._el_4,'\n			',this.debug(557,273,9));
+    this._text_558 = this.renderer.createText(this._el_4,'\n		',this.debug(558,274,21));
+    this._text_559 = this.renderer.createText(this._el_2,'\n\n	',this.debug(559,275,12));
+    this._text_560 = this.renderer.createText(this._el_0,'\n	',this.debug(560,277,7));
+    this._text_561 = this.renderer.createText(this._el_0,'\n',this.debug(561,278,21));
+    this._text_562 = this.renderer.createText(parentRenderNode,'\n',this.debug(562,279,10));
+    this._el_563 = import4.createRenderElement(this.renderer,parentRenderNode,'link',new import4.InlineArray4(4,'href','https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css','rel','stylesheet'),this.debug(563,280,0));
+    var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_89,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_89));
+    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_92,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_92));
+    var disposable_2:Function = import4.subscribeToRenderElement(this,this._el_95,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_95));
+    var disposable_3:Function = import4.subscribeToRenderElement(this,this._el_98,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_98));
+    var disposable_4:Function = import4.subscribeToRenderElement(this,this._el_101,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_101));
+    var disposable_5:Function = import4.subscribeToRenderElement(this,this._el_104,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_104));
+    var disposable_6:Function = import4.subscribeToRenderElement(this,this._el_107,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_107));
+    var disposable_7:Function = import4.subscribeToRenderElement(this,this._el_110,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_110));
+    var disposable_8:Function = import4.subscribeToRenderElement(this,this._el_148,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_148));
+    var disposable_9:Function = import4.subscribeToRenderElement(this,this._el_151,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_151));
+    var disposable_10:Function = import4.subscribeToRenderElement(this,this._el_154,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_154));
+    var disposable_11:Function = import4.subscribeToRenderElement(this,this._el_157,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_157));
+    var disposable_12:Function = import4.subscribeToRenderElement(this,this._el_160,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_160));
+    var disposable_13:Function = import4.subscribeToRenderElement(this,this._el_163,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_163));
+    var disposable_14:Function = import4.subscribeToRenderElement(this,this._el_166,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_166));
+    var disposable_15:Function = import4.subscribeToRenderElement(this,this._el_203,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_203));
+    var disposable_16:Function = import4.subscribeToRenderElement(this,this._el_206,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_206));
+    var disposable_17:Function = import4.subscribeToRenderElement(this,this._el_209,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_209));
+    var disposable_18:Function = import4.subscribeToRenderElement(this,this._el_212,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_212));
+    var disposable_19:Function = import4.subscribeToRenderElement(this,this._el_215,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_215));
+    var disposable_20:Function = import4.subscribeToRenderElement(this,this._el_274,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_274));
+    var disposable_21:Function = import4.subscribeToRenderElement(this,this._el_277,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_277));
+    var disposable_22:Function = import4.subscribeToRenderElement(this,this._el_280,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_280));
+    var disposable_23:Function = import4.subscribeToRenderElement(this,this._el_283,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_283));
+    var disposable_24:Function = import4.subscribeToRenderElement(this,this._el_286,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_286));
+    var disposable_25:Function = import4.subscribeToRenderElement(this,this._el_289,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_289));
+    var disposable_26:Function = import4.subscribeToRenderElement(this,this._el_321,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_321));
+    var disposable_27:Function = import4.subscribeToRenderElement(this,this._el_324,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_324));
+    var disposable_28:Function = import4.subscribeToRenderElement(this,this._el_327,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_327));
+    var disposable_29:Function = import4.subscribeToRenderElement(this,this._el_330,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_330));
+    var disposable_30:Function = import4.subscribeToRenderElement(this,this._el_333,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_333));
+    var disposable_31:Function = import4.subscribeToRenderElement(this,this._el_336,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_336));
+    var disposable_32:Function = import4.subscribeToRenderElement(this,this._el_368,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_368));
+    var disposable_33:Function = import4.subscribeToRenderElement(this,this._el_371,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_371));
+    var disposable_34:Function = import4.subscribeToRenderElement(this,this._el_374,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_374));
+    var disposable_35:Function = import4.subscribeToRenderElement(this,this._el_377,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_377));
+    var disposable_36:Function = import4.subscribeToRenderElement(this,this._el_380,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_380));
+    var disposable_37:Function = import4.subscribeToRenderElement(this,this._el_508,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_508));
+    var disposable_38:Function = import4.subscribeToRenderElement(this,this._el_511,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_511));
+    var disposable_39:Function = import4.subscribeToRenderElement(this,this._el_514,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_514));
+    var disposable_40:Function = import4.subscribeToRenderElement(this,this._el_517,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_517));
+    var disposable_41:Function = import4.subscribeToRenderElement(this,this._el_520,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_520));
+    var disposable_42:Function = import4.subscribeToRenderElement(this,this._el_523,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_523));
+    var disposable_43:Function = import4.subscribeToRenderElement(this,this._el_526,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_526));
+    var disposable_44:Function = import4.subscribeToRenderElement(this,this._el_529,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_529));
+    var disposable_45:Function = import4.subscribeToRenderElement(this,this._el_542,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_542));
+    var disposable_46:Function = import4.subscribeToRenderElement(this,this._el_552,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_552));
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1,
@@ -1968,22 +1867,22 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_5,
       this._el_6,
       this._text_7,
-      this._text_8,
-      this._el_9,
-      this._text_10,
+      this._el_8,
+      this._text_9,
+      this._el_10,
       this._text_11,
-      this._el_12,
-      this._text_13,
-      this._el_14,
-      this._text_15,
-      this._el_16,
-      this._text_17,
+      this._text_12,
+      this._el_13,
+      this._text_14,
+      this._anchor_15,
+      this._text_16,
+      this._el_17,
       this._text_18,
       this._el_19,
       this._text_20,
-      this._anchor_21,
-      this._text_22,
-      this._el_23,
+      this._text_21,
+      this._el_22,
+      this._text_23,
       this._text_24,
       this._el_25,
       this._text_26,
@@ -1993,18 +1892,18 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_30,
       this._el_31,
       this._text_32,
-      this._text_33,
-      this._el_34,
+      this._el_33,
+      this._text_34,
       this._text_35,
-      this._text_36,
-      this._el_37,
-      this._text_38,
-      this._el_39,
-      this._text_40,
+      this._el_36,
+      this._text_37,
+      this._el_38,
+      this._text_39,
+      this._el_40,
       this._text_41,
-      this._el_42,
-      this._text_43,
-      this._el_44,
+      this._text_42,
+      this._el_43,
+      this._text_44,
       this._text_45,
       this._el_46,
       this._text_47,
@@ -2024,34 +1923,34 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_61,
       this._text_62,
       this._text_63,
-      this._el_64,
-      this._text_65,
+      this._text_64,
+      this._el_65,
       this._text_66,
       this._el_67,
       this._text_68,
       this._text_69,
-      this._text_70,
-      this._el_71,
-      this._text_72,
-      this._el_73,
+      this._el_70,
+      this._text_71,
+      this._el_72,
+      this._text_73,
       this._text_74,
-      this._text_75,
-      this._el_76,
-      this._text_77,
-      this._el_78,
-      this._text_79,
+      this._el_75,
+      this._text_76,
+      this._el_77,
+      this._text_78,
+      this._el_79,
       this._text_80,
       this._el_81,
-      this._text_82,
-      this._el_83,
+      this._el_82,
+      this._text_83,
       this._text_84,
-      this._el_85,
-      this._text_86,
-      this._el_87,
+      this._text_85,
+      this._el_86,
+      this._text_87,
       this._el_88,
-      this._text_89,
+      this._el_89,
       this._text_90,
-      this._text_91,
+      this._el_91,
       this._el_92,
       this._text_93,
       this._el_94,
@@ -2072,45 +1971,45 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_109,
       this._el_110,
       this._text_111,
-      this._el_112,
+      this._text_112,
       this._el_113,
       this._text_114,
       this._el_115,
-      this._el_116,
+      this._text_116,
       this._text_117,
-      this._text_118,
-      this._el_119,
-      this._text_120,
-      this._el_121,
+      this._el_118,
+      this._text_119,
+      this._el_120,
+      this._text_121,
       this._text_122,
-      this._text_123,
-      this._el_124,
-      this._text_125,
-      this._el_126,
+      this._el_123,
+      this._text_124,
+      this._el_125,
+      this._text_126,
       this._text_127,
-      this._text_128,
-      this._el_129,
+      this._el_128,
+      this._text_129,
       this._text_130,
       this._el_131,
       this._text_132,
-      this._text_133,
-      this._el_134,
-      this._text_135,
+      this._el_133,
+      this._text_134,
+      this._el_135,
       this._text_136,
       this._el_137,
-      this._text_138,
-      this._el_139,
+      this._el_138,
+      this._text_139,
       this._text_140,
-      this._el_141,
-      this._text_142,
-      this._el_143,
-      this._el_144,
-      this._text_145,
+      this._text_141,
+      this._el_142,
+      this._text_143,
+      this._text_144,
+      this._el_145,
       this._text_146,
-      this._text_147,
+      this._el_147,
       this._el_148,
       this._text_149,
-      this._text_150,
+      this._el_150,
       this._el_151,
       this._text_152,
       this._el_153,
@@ -2128,44 +2027,44 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_165,
       this._el_166,
       this._text_167,
-      this._el_168,
+      this._text_168,
       this._el_169,
       this._text_170,
       this._el_171,
-      this._el_172,
+      this._text_172,
       this._text_173,
-      this._text_174,
-      this._el_175,
-      this._text_176,
-      this._el_177,
+      this._el_174,
+      this._text_175,
+      this._el_176,
+      this._text_177,
       this._text_178,
-      this._text_179,
-      this._el_180,
-      this._text_181,
-      this._el_182,
+      this._el_179,
+      this._text_180,
+      this._el_181,
+      this._text_182,
       this._text_183,
-      this._text_184,
-      this._el_185,
-      this._text_186,
-      this._el_187,
+      this._el_184,
+      this._text_185,
+      this._el_186,
+      this._text_187,
       this._text_188,
-      this._text_189,
-      this._el_190,
-      this._text_191,
-      this._el_192,
-      this._text_193,
+      this._el_189,
+      this._text_190,
+      this._el_191,
+      this._text_192,
+      this._el_193,
       this._text_194,
       this._el_195,
-      this._text_196,
-      this._el_197,
+      this._el_196,
+      this._text_197,
       this._text_198,
-      this._el_199,
-      this._text_200,
-      this._el_201,
+      this._text_199,
+      this._el_200,
+      this._text_201,
       this._el_202,
-      this._text_203,
+      this._el_203,
       this._text_204,
-      this._text_205,
+      this._el_205,
       this._el_206,
       this._text_207,
       this._el_208,
@@ -2177,66 +2076,66 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_214,
       this._el_215,
       this._text_216,
-      this._el_217,
+      this._text_217,
       this._el_218,
       this._text_219,
       this._el_220,
-      this._el_221,
+      this._text_221,
       this._text_222,
-      this._text_223,
-      this._el_224,
-      this._text_225,
-      this._el_226,
+      this._el_223,
+      this._text_224,
+      this._el_225,
+      this._text_226,
       this._text_227,
-      this._text_228,
-      this._el_229,
-      this._text_230,
-      this._el_231,
+      this._el_228,
+      this._text_229,
+      this._el_230,
+      this._text_231,
       this._text_232,
-      this._text_233,
-      this._el_234,
-      this._text_235,
-      this._el_236,
-      this._text_237,
+      this._el_233,
+      this._text_234,
+      this._el_235,
+      this._text_236,
+      this._el_237,
       this._text_238,
       this._el_239,
-      this._text_240,
-      this._el_241,
+      this._el_240,
+      this._text_241,
       this._text_242,
-      this._el_243,
-      this._text_244,
-      this._el_245,
+      this._text_243,
+      this._el_244,
+      this._text_245,
       this._el_246,
       this._text_247,
       this._text_248,
-      this._text_249,
-      this._el_250,
-      this._text_251,
-      this._el_252,
-      this._text_253,
+      this._el_249,
+      this._text_250,
+      this._el_251,
+      this._text_252,
+      this._el_253,
       this._text_254,
       this._el_255,
-      this._text_256,
-      this._el_257,
+      this._el_256,
+      this._text_257,
       this._text_258,
-      this._el_259,
-      this._text_260,
-      this._el_261,
+      this._text_259,
+      this._el_260,
+      this._text_261,
       this._el_262,
       this._text_263,
-      this._text_264,
+      this._el_264,
       this._text_265,
       this._el_266,
-      this._text_267,
-      this._el_268,
+      this._el_267,
+      this._text_268,
       this._text_269,
-      this._el_270,
-      this._text_271,
-      this._el_272,
+      this._text_270,
+      this._el_271,
+      this._text_272,
       this._el_273,
-      this._text_274,
+      this._el_274,
       this._text_275,
-      this._text_276,
+      this._el_276,
       this._el_277,
       this._text_278,
       this._el_279,
@@ -2251,39 +2150,39 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_288,
       this._el_289,
       this._text_290,
-      this._el_291,
+      this._text_291,
       this._el_292,
       this._text_293,
       this._el_294,
-      this._el_295,
+      this._text_295,
       this._text_296,
-      this._text_297,
-      this._el_298,
-      this._text_299,
-      this._el_300,
+      this._el_297,
+      this._text_298,
+      this._el_299,
+      this._text_300,
       this._text_301,
-      this._text_302,
-      this._el_303,
-      this._text_304,
-      this._el_305,
+      this._el_302,
+      this._text_303,
+      this._el_304,
+      this._text_305,
       this._text_306,
-      this._text_307,
-      this._el_308,
-      this._text_309,
-      this._el_310,
-      this._text_311,
+      this._el_307,
+      this._text_308,
+      this._el_309,
+      this._text_310,
+      this._el_311,
       this._text_312,
       this._el_313,
-      this._text_314,
-      this._el_315,
+      this._el_314,
+      this._text_315,
       this._text_316,
-      this._el_317,
-      this._text_318,
-      this._el_319,
+      this._text_317,
+      this._el_318,
+      this._text_319,
       this._el_320,
-      this._text_321,
+      this._el_321,
       this._text_322,
-      this._text_323,
+      this._el_323,
       this._el_324,
       this._text_325,
       this._el_326,
@@ -2298,39 +2197,39 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_335,
       this._el_336,
       this._text_337,
-      this._el_338,
+      this._text_338,
       this._el_339,
       this._text_340,
       this._el_341,
-      this._el_342,
+      this._text_342,
       this._text_343,
-      this._text_344,
-      this._el_345,
-      this._text_346,
-      this._el_347,
+      this._el_344,
+      this._text_345,
+      this._el_346,
+      this._text_347,
       this._text_348,
-      this._text_349,
-      this._el_350,
-      this._text_351,
-      this._el_352,
+      this._el_349,
+      this._text_350,
+      this._el_351,
+      this._text_352,
       this._text_353,
-      this._text_354,
-      this._el_355,
-      this._text_356,
-      this._el_357,
-      this._text_358,
+      this._el_354,
+      this._text_355,
+      this._el_356,
+      this._text_357,
+      this._el_358,
       this._text_359,
       this._el_360,
-      this._text_361,
-      this._el_362,
+      this._el_361,
+      this._text_362,
       this._text_363,
-      this._el_364,
-      this._text_365,
-      this._el_366,
+      this._text_364,
+      this._el_365,
+      this._text_366,
       this._el_367,
-      this._text_368,
+      this._el_368,
       this._text_369,
-      this._text_370,
+      this._el_370,
       this._el_371,
       this._text_372,
       this._el_373,
@@ -2342,20 +2241,20 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._el_379,
       this._el_380,
       this._text_381,
-      this._el_382,
+      this._text_382,
       this._el_383,
       this._text_384,
       this._el_385,
-      this._el_386,
+      this._text_386,
       this._text_387,
-      this._text_388,
-      this._el_389,
+      this._el_388,
+      this._text_389,
       this._text_390,
       this._el_391,
       this._text_392,
-      this._text_393,
-      this._el_394,
-      this._text_395,
+      this._el_393,
+      this._text_394,
+      this._el_395,
       this._text_396,
       this._el_397,
       this._text_398,
@@ -2367,12 +2266,12 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_404,
       this._el_405,
       this._text_406,
-      this._el_407,
-      this._text_408,
-      this._el_409,
-      this._text_410,
-      this._el_411,
-      this._text_412,
+      this._text_407,
+      this._el_408,
+      this._text_409,
+      this._el_410,
+      this._text_411,
+      this._el_412,
       this._text_413,
       this._el_414,
       this._text_415,
@@ -2380,12 +2279,12 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_417,
       this._el_418,
       this._text_419,
-      this._el_420,
-      this._text_421,
-      this._el_422,
-      this._text_423,
-      this._el_424,
-      this._text_425,
+      this._text_420,
+      this._el_421,
+      this._text_422,
+      this._el_423,
+      this._text_424,
+      this._el_425,
       this._text_426,
       this._el_427,
       this._text_428,
@@ -2397,49 +2296,49 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_434,
       this._el_435,
       this._text_436,
-      this._el_437,
-      this._text_438,
-      this._el_439,
-      this._text_440,
-      this._el_441,
+      this._text_437,
+      this._el_438,
+      this._text_439,
+      this._el_440,
+      this._text_441,
       this._text_442,
-      this._text_443,
-      this._el_444,
-      this._text_445,
-      this._el_446,
+      this._el_443,
+      this._text_444,
+      this._el_445,
+      this._text_446,
       this._text_447,
-      this._text_448,
-      this._el_449,
-      this._text_450,
-      this._el_451,
-      this._text_452,
-      this._el_453,
-      this._text_454,
-      this._el_455,
-      this._text_456,
-      this._el_457,
-      this._text_458,
-      this._el_459,
-      this._text_460,
-      this._el_461,
-      this._text_462,
-      this._el_463,
-      this._text_464,
-      this._el_465,
-      this._text_466,
-      this._el_467,
-      this._text_468,
-      this._el_469,
-      this._text_470,
-      this._el_471,
-      this._text_472,
-      this._el_473,
-      this._text_474,
-      this._el_475,
+      this._el_448,
+      this._text_449,
+      this._el_450,
+      this._text_451,
+      this._el_452,
+      this._text_453,
+      this._el_454,
+      this._text_455,
+      this._el_456,
+      this._text_457,
+      this._el_458,
+      this._text_459,
+      this._el_460,
+      this._text_461,
+      this._el_462,
+      this._text_463,
+      this._el_464,
+      this._text_465,
+      this._el_466,
+      this._text_467,
+      this._el_468,
+      this._text_469,
+      this._el_470,
+      this._text_471,
+      this._el_472,
+      this._text_473,
+      this._el_474,
+      this._text_475,
       this._text_476,
-      this._el_477,
-      this._text_478,
-      this._el_479,
+      this._text_477,
+      this._el_478,
+      this._text_479,
       this._text_480,
       this._el_481,
       this._text_482,
@@ -2453,112 +2352,77 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       this._text_490,
       this._el_491,
       this._text_492,
-      this._el_493,
-      this._text_494,
+      this._text_493,
+      this._el_494,
       this._text_495,
       this._el_496,
       this._text_497,
-      this._text_498,
-      this._el_499,
-      this._text_500,
+      this._el_498,
+      this._text_499,
+      this._el_500,
       this._el_501,
       this._text_502,
-      this._el_503,
+      this._text_503,
       this._text_504,
       this._el_505,
-      this._el_506,
-      this._text_507,
-      this._text_508,
+      this._text_506,
+      this._el_507,
+      this._el_508,
       this._text_509,
       this._el_510,
-      this._text_511,
-      this._el_512,
+      this._el_511,
+      this._text_512,
       this._el_513,
-      this._text_514,
-      this._el_515,
+      this._el_514,
+      this._text_515,
       this._el_516,
-      this._text_517,
-      this._el_518,
+      this._el_517,
+      this._text_518,
       this._el_519,
-      this._text_520,
-      this._el_521,
+      this._el_520,
+      this._text_521,
       this._el_522,
-      this._text_523,
-      this._el_524,
+      this._el_523,
+      this._text_524,
       this._el_525,
-      this._text_526,
-      this._el_527,
+      this._el_526,
+      this._text_527,
       this._el_528,
-      this._text_529,
-      this._el_530,
-      this._el_531,
-      this._text_532,
-      this._el_533,
+      this._el_529,
+      this._text_530,
+      this._text_531,
+      this._el_532,
+      this._text_533,
       this._el_534,
       this._text_535,
       this._text_536,
       this._el_537,
       this._text_538,
-      this._el_539,
-      this._text_540,
+      this._text_539,
+      this._el_540,
       this._text_541,
       this._el_542,
       this._text_543,
-      this._text_544,
-      this._el_545,
-      this._text_546,
-      this._el_547,
-      this._text_548,
-      this._el_549,
+      this._el_544,
+      this._text_545,
+      this._el_546,
+      this._text_547,
+      this._el_548,
+      this._text_549,
       this._text_550,
-      this._el_551,
-      this._text_552,
-      this._el_553,
+      this._text_551,
+      this._el_552,
+      this._text_553,
       this._text_554,
-      this._text_555,
+      this._el_555,
       this._text_556,
-      this._el_557,
+      this._text_557,
       this._text_558,
       this._text_559,
-      this._el_560,
+      this._text_560,
       this._text_561,
-      this._el_562,
-      this._text_563,
-      this._text_564,
-      this._el_565,
-      this._text_566,
-      this._el_567,
-      this._text_568,
-      this._el_569,
-      this._text_570,
-      this._el_571,
-      this._el_572,
-      this._text_573,
-      this._el_574,
-      this._text_575,
-      this._text_576,
-      this._text_577,
-      this._text_578,
-      this._el_579,
-      this._text_580,
-      this._el_581,
-      this._text_582,
-      this._el_583,
-      this._text_584,
-      this._text_585,
-      this._el_586,
-      this._el_587,
-      this._text_588,
-      this._text_589,
-      this._text_590,
-      this._text_591,
-      this._text_592,
-      this._text_593,
-      this._text_594,
-      this._text_595,
-      this._text_596,
-      this._text_597,
-      this._el_598
+      this._text_562,
+      this._el_563
     ]
     ),[
       disposable_0,
@@ -2607,50 +2471,69 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
       disposable_43,
       disposable_44,
       disposable_45,
-      disposable_46,
-      disposable_47,
-      disposable_48
+      disposable_46
     ]
     );
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.TemplateRef) && (21 === requestNodeIndex))) { return this._TemplateRef_21_5; }
-    if (((token === import11.NgIf) && (21 === requestNodeIndex))) { return this._NgIf_21_6.context; }
-    if (((token === import12.RouterLinkWithHref) && ((569 <= requestNodeIndex) && (requestNodeIndex <= 576)))) { return this._RouterLinkWithHref_569_3.context; }
-    if (((token === import12.RouterLinkWithHref) && ((581 <= requestNodeIndex) && (requestNodeIndex <= 588)))) { return this._RouterLinkWithHref_581_3.context; }
+    if (((token === import10.ArticleHeaderComponent) && (6 === requestNodeIndex))) { return this._ArticleHeaderComponent_6_3.context; }
+    if (((token === import11.TemplateRef) && (15 === requestNodeIndex))) { return this._TemplateRef_15_5; }
+    if (((token === import12.NgIf) && (15 === requestNodeIndex))) { return this._NgIf_15_6.context; }
+    if (((token === import13.NextNavComponent) && (555 === requestNodeIndex))) { return this._NextNavComponent_555_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(21,17,13);
-    const currVal_21_0_0:any = this.context.display;
-    this._NgIf_21_6.check_ngIf(currVal_21_0_0,throwOnChange,false);
-    this._NgIf_21_6.ngDoCheck(this,this._anchor_21,throwOnChange);
-    this.debug(569,282,33);
-    const currVal_569_0_0:any = '/eco-system.html';
-    this._RouterLinkWithHref_569_3.check_routerLink(currVal_569_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_569_3.ngDoCheck(this,this._el_569,throwOnChange);
-    this.debug(581,288,34);
-    const currVal_581_0_0:any = '/new-project.html';
-    this._RouterLinkWithHref_581_3.check_routerLink(currVal_581_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_581_3.ngDoCheck(this,this._el_581,throwOnChange);
-    this._vc_21.detectChangesInNestedViews(throwOnChange);
-    this._RouterLinkWithHref_569_3.checkHost(this,this,this._el_569,throwOnChange);
-    this._RouterLinkWithHref_581_3.checkHost(this,this,this._el_581,throwOnChange);
+    this.debug(6,4,22);
+    const currVal_6_0_0:any = this.context.title;
+    this._ArticleHeaderComponent_6_3.check_title(currVal_6_0_0,throwOnChange,false);
+    this.debug(6,4,38);
+    const currVal_6_0_1:any = this.context.date;
+    this._ArticleHeaderComponent_6_3.check_date(currVal_6_0_1,throwOnChange,false);
+    this._ArticleHeaderComponent_6_3.ngDoCheck(this,this._el_6,throwOnChange);
+    this.debug(15,12,13);
+    const currVal_15_0_0:any = this.context.display;
+    this._NgIf_15_6.check_ngIf(currVal_15_0_0,throwOnChange,false);
+    this._NgIf_15_6.ngDoCheck(this,this._anchor_15,throwOnChange);
+    this.debug(555,272,8);
+    this._NextNavComponent_555_3.ngDoCheck(this,this._el_555,throwOnChange);
+    this._vc_15.detectChangesInNestedViews(throwOnChange);
+    this.compView_6.detectChanges(throwOnChange);
+    this.compView_555.detectChanges(throwOnChange);
   }
   destroyInternal():void {
-    this._vc_21.destroyNestedViews();
-    this.debug(21,17,8);
-    this._RouterLinkWithHref_569_3.ngOnDestroy();
-    this.debug(569,282,6);
-    this._RouterLinkWithHref_581_3.ngOnDestroy();
+    this._vc_15.destroyNestedViews();
+    this.compView_6.destroy();
+    this.compView_555.destroy();
+    this.debug(6,4,6);
+    this.debug(15,12,8);
   }
   createEmbeddedViewInternal(nodeIndex:number):import1.AppView<any> {
-    if ((nodeIndex == 21)) { return new View_InstallComponent1(this.viewUtils,this,21,this._anchor_21,this._vc_21); }
+    if ((nodeIndex == 15)) { return new View_InstallComponent1(this.viewUtils,this,15,this._anchor_15,this._vc_15); }
     return (null as any);
   }
+  handleEvent_89(eventName:string,$event:any):boolean {
+    this.debug(89,50,32);
+    this.markPathToRootAsCheckOnce();
+    var result:boolean = true;
+    if ((eventName == 'click')) {
+      const pd_sub_0:any = ((<any>this.context.showOriginalImage($event)) !== false);
+      result = (pd_sub_0 && result);
+    }
+    return result;
+  }
+  handleEvent_92(eventName:string,$event:any):boolean {
+    this.debug(92,51,32);
+    this.markPathToRootAsCheckOnce();
+    var result:boolean = true;
+    if ((eventName == 'click')) {
+      const pd_sub_0:any = ((<any>this.context.showOriginalImage($event)) !== false);
+      result = (pd_sub_0 && result);
+    }
+    return result;
+  }
   handleEvent_95(eventName:string,$event:any):boolean {
-    this.debug(95,55,32);
+    this.debug(95,52,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2660,7 +2543,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_98(eventName:string,$event:any):boolean {
-    this.debug(98,56,32);
+    this.debug(98,53,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2670,7 +2553,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_101(eventName:string,$event:any):boolean {
-    this.debug(101,57,32);
+    this.debug(101,54,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2680,7 +2563,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_104(eventName:string,$event:any):boolean {
-    this.debug(104,58,32);
+    this.debug(104,55,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2690,7 +2573,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_107(eventName:string,$event:any):boolean {
-    this.debug(107,59,32);
+    this.debug(107,56,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2700,7 +2583,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_110(eventName:string,$event:any):boolean {
-    this.debug(110,60,32);
+    this.debug(110,57,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2709,8 +2592,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_113(eventName:string,$event:any):boolean {
-    this.debug(113,61,32);
+  handleEvent_148(eventName:string,$event:any):boolean {
+    this.debug(148,77,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2719,8 +2602,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_116(eventName:string,$event:any):boolean {
-    this.debug(116,62,32);
+  handleEvent_151(eventName:string,$event:any):boolean {
+    this.debug(151,78,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2730,7 +2613,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_154(eventName:string,$event:any):boolean {
-    this.debug(154,82,32);
+    this.debug(154,79,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2740,7 +2623,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_157(eventName:string,$event:any):boolean {
-    this.debug(157,83,32);
+    this.debug(157,80,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2750,7 +2633,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_160(eventName:string,$event:any):boolean {
-    this.debug(160,84,32);
+    this.debug(160,81,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2760,7 +2643,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_163(eventName:string,$event:any):boolean {
-    this.debug(163,85,32);
+    this.debug(163,82,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2770,7 +2653,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_166(eventName:string,$event:any):boolean {
-    this.debug(166,86,32);
+    this.debug(166,83,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2779,8 +2662,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_169(eventName:string,$event:any):boolean {
-    this.debug(169,87,32);
+  handleEvent_203(eventName:string,$event:any):boolean {
+    this.debug(203,104,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2789,8 +2672,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_172(eventName:string,$event:any):boolean {
-    this.debug(172,88,32);
+  handleEvent_206(eventName:string,$event:any):boolean {
+    this.debug(206,105,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2800,7 +2683,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_209(eventName:string,$event:any):boolean {
-    this.debug(209,109,32);
+    this.debug(209,106,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2810,7 +2693,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_212(eventName:string,$event:any):boolean {
-    this.debug(212,110,32);
+    this.debug(212,107,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2820,7 +2703,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_215(eventName:string,$event:any):boolean {
-    this.debug(215,111,32);
+    this.debug(215,108,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2829,8 +2712,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_218(eventName:string,$event:any):boolean {
-    this.debug(218,112,32);
+  handleEvent_274(eventName:string,$event:any):boolean {
+    this.debug(274,143,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2839,8 +2722,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_221(eventName:string,$event:any):boolean {
-    this.debug(221,113,32);
+  handleEvent_277(eventName:string,$event:any):boolean {
+    this.debug(277,144,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2850,7 +2733,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_280(eventName:string,$event:any):boolean {
-    this.debug(280,148,32);
+    this.debug(280,145,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2860,7 +2743,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_283(eventName:string,$event:any):boolean {
-    this.debug(283,149,32);
+    this.debug(283,146,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2870,7 +2753,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_286(eventName:string,$event:any):boolean {
-    this.debug(286,150,32);
+    this.debug(286,147,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2880,7 +2763,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_289(eventName:string,$event:any):boolean {
-    this.debug(289,151,32);
+    this.debug(289,148,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2889,8 +2772,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_292(eventName:string,$event:any):boolean {
-    this.debug(292,152,32);
+  handleEvent_321(eventName:string,$event:any):boolean {
+    this.debug(321,166,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2899,8 +2782,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_295(eventName:string,$event:any):boolean {
-    this.debug(295,153,32);
+  handleEvent_324(eventName:string,$event:any):boolean {
+    this.debug(324,167,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2910,7 +2793,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_327(eventName:string,$event:any):boolean {
-    this.debug(327,171,32);
+    this.debug(327,168,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2920,7 +2803,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_330(eventName:string,$event:any):boolean {
-    this.debug(330,172,32);
+    this.debug(330,169,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2930,7 +2813,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_333(eventName:string,$event:any):boolean {
-    this.debug(333,173,32);
+    this.debug(333,170,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2940,7 +2823,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_336(eventName:string,$event:any):boolean {
-    this.debug(336,174,32);
+    this.debug(336,171,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2949,8 +2832,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_339(eventName:string,$event:any):boolean {
-    this.debug(339,175,32);
+  handleEvent_368(eventName:string,$event:any):boolean {
+    this.debug(368,189,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2959,8 +2842,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_342(eventName:string,$event:any):boolean {
-    this.debug(342,176,32);
+  handleEvent_371(eventName:string,$event:any):boolean {
+    this.debug(371,190,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2970,7 +2853,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_374(eventName:string,$event:any):boolean {
-    this.debug(374,194,32);
+    this.debug(374,191,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2980,7 +2863,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_377(eventName:string,$event:any):boolean {
-    this.debug(377,195,32);
+    this.debug(377,192,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2990,7 +2873,7 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     return result;
   }
   handleEvent_380(eventName:string,$event:any):boolean {
-    this.debug(380,196,32);
+    this.debug(380,193,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -2999,8 +2882,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_383(eventName:string,$event:any):boolean {
-    this.debug(383,197,32);
+  handleEvent_508(eventName:string,$event:any):boolean {
+    this.debug(508,248,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3009,8 +2892,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_386(eventName:string,$event:any):boolean {
-    this.debug(386,198,32);
+  handleEvent_511(eventName:string,$event:any):boolean {
+    this.debug(511,249,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3019,8 +2902,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_513(eventName:string,$event:any):boolean {
-    this.debug(513,253,32);
+  handleEvent_514(eventName:string,$event:any):boolean {
+    this.debug(514,250,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3029,8 +2912,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_516(eventName:string,$event:any):boolean {
-    this.debug(516,254,32);
+  handleEvent_517(eventName:string,$event:any):boolean {
+    this.debug(517,251,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3039,8 +2922,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_519(eventName:string,$event:any):boolean {
-    this.debug(519,255,32);
+  handleEvent_520(eventName:string,$event:any):boolean {
+    this.debug(520,252,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3049,8 +2932,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_522(eventName:string,$event:any):boolean {
-    this.debug(522,256,32);
+  handleEvent_523(eventName:string,$event:any):boolean {
+    this.debug(523,253,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3059,8 +2942,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_525(eventName:string,$event:any):boolean {
-    this.debug(525,257,32);
+  handleEvent_526(eventName:string,$event:any):boolean {
+    this.debug(526,254,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3069,8 +2952,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_528(eventName:string,$event:any):boolean {
-    this.debug(528,258,32);
+  handleEvent_529(eventName:string,$event:any):boolean {
+    this.debug(529,255,32);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3079,28 +2962,8 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_531(eventName:string,$event:any):boolean {
-    this.debug(531,259,32);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    if ((eventName == 'click')) {
-      const pd_sub_0:any = ((<any>this.context.showOriginalImage($event)) !== false);
-      result = (pd_sub_0 && result);
-    }
-    return result;
-  }
-  handleEvent_534(eventName:string,$event:any):boolean {
-    this.debug(534,260,32);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    if ((eventName == 'click')) {
-      const pd_sub_0:any = ((<any>this.context.showOriginalImage($event)) !== false);
-      result = (pd_sub_0 && result);
-    }
-    return result;
-  }
-  handleEvent_547(eventName:string,$event:any):boolean {
-    this.debug(547,268,5);
+  handleEvent_542(eventName:string,$event:any):boolean {
+    this.debug(542,263,5);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
@@ -3109,28 +2972,14 @@ export class View_InstallComponent0 extends import1.DebugAppView<import0.Install
     }
     return result;
   }
-  handleEvent_557(eventName:string,$event:any):boolean {
-    this.debug(557,274,5);
+  handleEvent_552(eventName:string,$event:any):boolean {
+    this.debug(552,269,5);
     this.markPathToRootAsCheckOnce();
     var result:boolean = true;
     if ((eventName == 'click')) {
       const pd_sub_0:any = ((<any>this.context.hideOriginalImage()) !== false);
       result = (pd_sub_0 && result);
     }
-    return result;
-  }
-  handleEvent_569(eventName:string,$event:any):boolean {
-    this.debug(569,282,6);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    result = (this._RouterLinkWithHref_569_3.handleEvent(eventName,$event) && result);
-    return result;
-  }
-  handleEvent_581(eventName:string,$event:any):boolean {
-    this.debug(581,288,6);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    result = (this._RouterLinkWithHref_581_3.handleEvent(eventName,$event) && result);
     return result;
   }
 }
@@ -3139,11 +2988,11 @@ class View_InstallComponent1 extends import1.DebugAppView<any> {
   _el_0:any;
   compView_0:import1.AppView<import19.AdsenseComponent>;
   _AdsenseComponent_0_3:import20.Wrapper_AdsenseComponent;
-  constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any,declaredViewContainer:import13.ViewContainer) {
+  constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any,declaredViewContainer:import15.ViewContainer) {
     super(View_InstallComponent1,renderType_InstallComponent,import6.ViewType.EMBEDDED,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_InstallComponent1,declaredViewContainer);
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
-    this._el_0 = import4.createRenderElement(this.renderer,(null as any),'ads',import4.EMPTY_INLINE_ARRAY,this.debug(0,17,8));
+    this._el_0 = import4.createRenderElement(this.renderer,(null as any),'ads',import4.EMPTY_INLINE_ARRAY,this.debug(0,12,8));
     this.compView_0 = new import20.View_AdsenseComponent0(this.viewUtils,this,0,this._el_0);
     this._AdsenseComponent_0_3 = new import20.Wrapper_AdsenseComponent();
     this.compView_0.create(this._AdsenseComponent_0_3.context);
@@ -3155,7 +3004,7 @@ class View_InstallComponent1 extends import1.DebugAppView<any> {
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(0,17,8);
+    this.debug(0,12,8);
     this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
     this.compView_0.detectChanges(throwOnChange);
   }

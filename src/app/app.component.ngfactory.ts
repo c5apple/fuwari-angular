@@ -14,14 +14,14 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './app.component.css.shim';
-import * as import10 from './parts/header.component';
+import * as import9 from './app.component.scss.shim';
+import * as import10 from './header/header.component';
 import * as import11 from '@angular/router/src/directives/router_outlet';
-import * as import12 from './parts/footer.component';
-import * as import13 from './parts/header.component.ngfactory';
+import * as import12 from './footer/footer.component';
+import * as import13 from './header/header.component.ngfactory';
 import * as import14 from '@angular/core/src/linker/view_container';
 import * as import15 from '../../node_modules/@angular/router/src/directives/router_outlet.ngfactory';
-import * as import16 from './parts/footer.component.ngfactory';
+import * as import16 from './footer/footer.component.ngfactory';
 import * as import17 from '@angular/router/src/router_outlet_map';
 import * as import18 from '@angular/core/src/linker/component_factory_resolver';
 export class Wrapper_AppComponent {
@@ -87,89 +87,77 @@ class View_AppComponent_Host0 extends import1.DebugAppView<any> {
 export const AppComponentNgFactory:import8.ComponentFactory<import0.AppComponent> = new import8.ComponentFactory<import0.AppComponent>('app-root',View_AppComponent_Host0,import0.AppComponent);
 const styles_AppComponent:any[] = [import9.styles];
 const nodeDebugInfos_AppComponent0:import2.StaticNodeDebugInfo[] = [
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo([import10.HeaderComponent],import10.HeaderComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo([import11.RouterOutlet],(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.FooterComponent],import12.FooterComponent,{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
+  new import2.StaticNodeDebugInfo([import12.FooterComponent],import12.FooterComponent,{})
 ]
 ;
 var renderType_AppComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/app.component.html',0,import5.ViewEncapsulation.Emulated,styles_AppComponent,{});
 export class View_AppComponent0 extends import1.DebugAppView<import0.AppComponent> {
   _el_0:any;
+  compView_0:import1.AppView<import10.HeaderComponent>;
+  _HeaderComponent_0_3:import13.Wrapper_HeaderComponent;
   _text_1:any;
   _el_2:any;
-  compView_2:import1.AppView<import10.HeaderComponent>;
-  _HeaderComponent_2_3:import13.Wrapper_HeaderComponent;
+  /*private*/ _vc_2:import14.ViewContainer;
+  _RouterOutlet_2_5:import15.Wrapper_RouterOutlet;
   _text_3:any;
   _el_4:any;
-  /*private*/ _vc_4:import14.ViewContainer;
-  _RouterOutlet_4_5:import15.Wrapper_RouterOutlet;
-  _text_5:any;
-  _el_6:any;
-  compView_6:import1.AppView<import12.FooterComponent>;
-  _FooterComponent_6_3:import16.Wrapper_FooterComponent;
-  _text_7:any;
+  compView_4:import1.AppView<import12.FooterComponent>;
+  _FooterComponent_4_3:import16.Wrapper_FooterComponent;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_AppComponent0,renderType_AppComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_AppComponent0);
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
     const parentRenderNode:any = this.renderer.createViewRoot(this.parentElement);
-    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'div',new import4.InlineArray2(2,'id','main'),this.debug(0,0,0));
-    this._text_1 = this.renderer.createText(this._el_0,'\n	',this.debug(1,0,15));
-    this._el_2 = import4.createRenderElement(this.renderer,this._el_0,'app-header',import4.EMPTY_INLINE_ARRAY,this.debug(2,1,1));
-    this.compView_2 = new import13.View_HeaderComponent0(this.viewUtils,this,2,this._el_2);
-    this._HeaderComponent_2_3 = new import13.Wrapper_HeaderComponent();
-    this.compView_2.create(this._HeaderComponent_2_3.context);
-    this._text_3 = this.renderer.createText(this._el_0,'\n\n	',this.debug(3,1,26));
-    this._el_4 = import4.createRenderElement(this.renderer,this._el_0,'router-outlet',import4.EMPTY_INLINE_ARRAY,this.debug(4,3,1));
-    this._vc_4 = new import14.ViewContainer(4,0,this,this._el_4);
-    this._RouterOutlet_4_5 = new import15.Wrapper_RouterOutlet(this.parentView.injectorGet(import17.RouterOutletMap,this.parentIndex),this._vc_4.vcRef,this.parentView.injectorGet(import18.ComponentFactoryResolver,this.parentIndex),(null as any));
-    this._text_5 = this.renderer.createText(this._el_0,'\n\n	',this.debug(5,3,32));
-    this._el_6 = import4.createRenderElement(this.renderer,this._el_0,'app-footer',import4.EMPTY_INLINE_ARRAY,this.debug(6,5,1));
-    this.compView_6 = new import16.View_FooterComponent0(this.viewUtils,this,6,this._el_6);
-    this._FooterComponent_6_3 = new import16.Wrapper_FooterComponent();
-    this.compView_6.create(this._FooterComponent_6_3.context);
-    this._text_7 = this.renderer.createText(this._el_0,'\n',this.debug(7,5,26));
+    this._el_0 = import4.createRenderElement(this.renderer,parentRenderNode,'app-header',import4.EMPTY_INLINE_ARRAY,this.debug(0,0,0));
+    this.compView_0 = new import13.View_HeaderComponent0(this.viewUtils,this,0,this._el_0);
+    this._HeaderComponent_0_3 = new import13.Wrapper_HeaderComponent();
+    this.compView_0.create(this._HeaderComponent_0_3.context);
+    this._text_1 = this.renderer.createText(parentRenderNode,'\n',this.debug(1,0,25));
+    this._el_2 = import4.createRenderElement(this.renderer,parentRenderNode,'router-outlet',import4.EMPTY_INLINE_ARRAY,this.debug(2,1,0));
+    this._vc_2 = new import14.ViewContainer(2,(null as any),this,this._el_2);
+    this._RouterOutlet_2_5 = new import15.Wrapper_RouterOutlet(this.parentView.injectorGet(import17.RouterOutletMap,this.parentIndex),this._vc_2.vcRef,this.parentView.injectorGet(import18.ComponentFactoryResolver,this.parentIndex),(null as any));
+    this._text_3 = this.renderer.createText(parentRenderNode,'\n',this.debug(3,1,31));
+    this._el_4 = import4.createRenderElement(this.renderer,parentRenderNode,'app-footer',import4.EMPTY_INLINE_ARRAY,this.debug(4,2,0));
+    this.compView_4 = new import16.View_FooterComponent0(this.viewUtils,this,4,this._el_4);
+    this._FooterComponent_4_3 = new import16.Wrapper_FooterComponent();
+    this.compView_4.create(this._FooterComponent_4_3.context);
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1,
       this._el_2,
       this._text_3,
-      this._el_4,
-      this._text_5,
-      this._el_6,
-      this._text_7
+      this._el_4
     ]
     ),(null as any));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.HeaderComponent) && (2 === requestNodeIndex))) { return this._HeaderComponent_2_3.context; }
-    if (((token === import11.RouterOutlet) && (4 === requestNodeIndex))) { return this._RouterOutlet_4_5.context; }
-    if (((token === import12.FooterComponent) && (6 === requestNodeIndex))) { return this._FooterComponent_6_3.context; }
+    if (((token === import10.HeaderComponent) && (0 === requestNodeIndex))) { return this._HeaderComponent_0_3.context; }
+    if (((token === import11.RouterOutlet) && (2 === requestNodeIndex))) { return this._RouterOutlet_2_5.context; }
+    if (((token === import12.FooterComponent) && (4 === requestNodeIndex))) { return this._FooterComponent_4_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(2,1,1);
-    this._HeaderComponent_2_3.ngDoCheck(this,this._el_2,throwOnChange);
-    this.debug(4,3,1);
-    this._RouterOutlet_4_5.ngDoCheck(this,this._el_4,throwOnChange);
-    this.debug(6,5,1);
-    this._FooterComponent_6_3.ngDoCheck(this,this._el_6,throwOnChange);
-    this._vc_4.detectChangesInNestedViews(throwOnChange);
-    this.compView_2.detectChanges(throwOnChange);
-    this.compView_6.detectChanges(throwOnChange);
+    this.debug(0,0,0);
+    this._HeaderComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
+    this.debug(2,1,0);
+    this._RouterOutlet_2_5.ngDoCheck(this,this._el_2,throwOnChange);
+    this.debug(4,2,0);
+    this._FooterComponent_4_3.ngDoCheck(this,this._el_4,throwOnChange);
+    this._vc_2.detectChangesInNestedViews(throwOnChange);
+    this.compView_0.detectChanges(throwOnChange);
+    this.compView_4.detectChanges(throwOnChange);
   }
   destroyInternal():void {
-    this._vc_4.destroyNestedViews();
-    this.compView_2.destroy();
-    this.compView_6.destroy();
-    this.debug(2,1,1);
-    this._RouterOutlet_4_5.ngOnDestroy();
-    this.debug(4,3,1);
+    this._vc_2.destroyNestedViews();
+    this.compView_0.destroy();
+    this.compView_4.destroy();
+    this.debug(0,0,0);
+    this._RouterOutlet_2_5.ngOnDestroy();
+    this.debug(2,1,0);
   }
 }

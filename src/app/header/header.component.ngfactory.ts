@@ -14,7 +14,7 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './header.component.css.shim';
+import * as import9 from './header.component.scss.shim';
 import * as import10 from '@angular/router/src/directives/router_link';
 import * as import11 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
 import * as import12 from '@angular/router/src/router';
@@ -144,7 +144,7 @@ const nodeDebugInfos_HeaderComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_HeaderComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/parts/header.component.html',0,import5.ViewEncapsulation.Emulated,styles_HeaderComponent,{});
+var renderType_HeaderComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/header/header.component.html',0,import5.ViewEncapsulation.Emulated,styles_HeaderComponent,{});
 export class View_HeaderComponent0 extends import1.DebugAppView<import0.HeaderComponent> {
   _el_0:any;
   _text_1:any;

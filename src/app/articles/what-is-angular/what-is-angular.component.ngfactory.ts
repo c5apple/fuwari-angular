@@ -14,18 +14,18 @@ import * as import5 from '@angular/core/src/metadata/view';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/linker/component_factory';
-import * as import9 from './what-is-angular.component.css.shim';
-import * as import10 from '@angular/core/src/linker/template_ref';
-import * as import11 from '@angular/common/src/directives/ng_if';
-import * as import12 from '@angular/router/src/directives/router_link';
-import * as import13 from '@angular/core/src/linker/view_container';
-import * as import14 from '../../../node_modules/@angular/common/src/directives/ng_if.ngfactory';
-import * as import15 from '../../../node_modules/@angular/router/src/directives/router_link.ngfactory';
-import * as import16 from '@angular/router/src/router';
-import * as import17 from '@angular/router/src/router_state';
-import * as import18 from '@angular/common/src/location/location_strategy';
-import * as import19 from '../parts/adsense.component';
-import * as import20 from '../parts/adsense.component.ngfactory';
+import * as import9 from './what-is-angular.component.scss.shim';
+import * as import10 from '../../shared/article-header/article-header.component';
+import * as import11 from '@angular/core/src/linker/template_ref';
+import * as import12 from '@angular/common/src/directives/ng_if';
+import * as import13 from '../../shared/next-nav/next-nav.component';
+import * as import14 from '../../shared/article-header/article-header.component.ngfactory';
+import * as import15 from '@angular/core/src/linker/view_container';
+import * as import16 from '../../../../node_modules/@angular/common/src/directives/ng_if.ngfactory';
+import * as import17 from '../../shared/next-nav/next-nav.component.ngfactory';
+import * as import18 from '../../shared/next-nav/next-nav.service';
+import * as import19 from '../../shared/adsense/adsense.component';
+import * as import20 from '../../shared/adsense/adsense.component.ngfactory';
 export class Wrapper_WhatIsAngularComponent {
   /*private*/ _eventHandler:Function;
   context:import0.WhatIsAngularComponent;
@@ -96,13 +96,7 @@ const nodeDebugInfos_WhatIsAngularComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import10.ArticleHeaderComponent],import10.ArticleHeaderComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -115,8 +109,8 @@ const nodeDebugInfos_WhatIsAngularComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo([
-    import10.TemplateRef,
-    import11.NgIf
+    import11.TemplateRef,
+    import12.NgIf
   ]
   ,(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -196,37 +190,7 @@ const nodeDebugInfos_WhatIsAngularComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo([import12.RouterLinkWithHref],(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
-  new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
+  new import2.StaticNodeDebugInfo([import13.NextNavComponent],import13.NextNavComponent,{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{}),
@@ -235,7 +199,7 @@ const nodeDebugInfos_WhatIsAngularComponent0:import2.StaticNodeDebugInfo[] = [
   new import2.StaticNodeDebugInfo(([] as any[]),(null as any),{})
 ]
 ;
-var renderType_WhatIsAngularComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/what-is-angular.component.html',0,import5.ViewEncapsulation.Emulated,styles_WhatIsAngularComponent,{});
+var renderType_WhatIsAngularComponent:import3.RenderComponentType = import4.createRenderComponentType('C:/fuwari-angular/src/app/articles/what-is-angular/what-is-angular.component.html',0,import5.ViewEncapsulation.Emulated,styles_WhatIsAngularComponent,{});
 export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.WhatIsAngularComponent> {
   _el_0:any;
   _text_1:any;
@@ -244,39 +208,41 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
   _el_4:any;
   _text_5:any;
   _el_6:any;
+  compView_6:import1.AppView<import10.ArticleHeaderComponent>;
+  _ArticleHeaderComponent_6_3:import14.Wrapper_ArticleHeaderComponent;
   _text_7:any;
-  _text_8:any;
-  _el_9:any;
-  _text_10:any;
+  _el_8:any;
+  _text_9:any;
+  _el_10:any;
   _text_11:any;
-  _el_12:any;
-  _text_13:any;
-  _el_14:any;
+  _text_12:any;
+  _el_13:any;
+  _text_14:any;
   _text_15:any;
   _el_16:any;
   _text_17:any;
-  _text_18:any;
-  _el_19:any;
-  _text_20:any;
+  _anchor_18:any;
+  /*private*/ _vc_18:import15.ViewContainer;
+  _TemplateRef_18_5:any;
+  _NgIf_18_6:import16.Wrapper_NgIf;
+  _text_19:any;
+  _el_20:any;
   _text_21:any;
   _el_22:any;
   _text_23:any;
-  _anchor_24:any;
-  /*private*/ _vc_24:import13.ViewContainer;
-  _TemplateRef_24_5:any;
-  _NgIf_24_6:import14.Wrapper_NgIf;
-  _text_25:any;
-  _el_26:any;
-  _text_27:any;
-  _el_28:any;
+  _text_24:any;
+  _el_25:any;
+  _text_26:any;
+  _el_27:any;
+  _text_28:any;
   _text_29:any;
-  _text_30:any;
-  _el_31:any;
-  _text_32:any;
-  _el_33:any;
+  _el_30:any;
+  _text_31:any;
+  _el_32:any;
+  _text_33:any;
   _text_34:any;
-  _text_35:any;
-  _el_36:any;
+  _el_35:any;
+  _text_36:any;
   _text_37:any;
   _el_38:any;
   _text_39:any;
@@ -284,103 +250,67 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
   _el_41:any;
   _text_42:any;
   _text_43:any;
-  _el_44:any;
-  _text_45:any;
+  _text_44:any;
+  _el_45:any;
   _text_46:any;
   _el_47:any;
   _text_48:any;
   _text_49:any;
-  _text_50:any;
-  _el_51:any;
-  _text_52:any;
-  _el_53:any;
-  _text_54:any;
+  _el_50:any;
+  _text_51:any;
+  _el_52:any;
+  _text_53:any;
+  _el_54:any;
   _text_55:any;
   _el_56:any;
   _text_57:any;
-  _el_58:any;
-  _text_59:any;
-  _el_60:any;
-  _text_61:any;
-  _el_62:any;
+  _text_58:any;
+  _el_59:any;
+  _text_60:any;
+  _el_61:any;
+  _text_62:any;
   _text_63:any;
-  _text_64:any;
-  _el_65:any;
+  _el_64:any;
+  _text_65:any;
   _text_66:any;
   _el_67:any;
   _text_68:any;
   _text_69:any;
   _el_70:any;
   _text_71:any;
-  _text_72:any;
-  _el_73:any;
+  _el_72:any;
+  _text_73:any;
   _text_74:any;
-  _text_75:any;
-  _el_76:any;
+  _el_75:any;
+  _text_76:any;
   _text_77:any;
   _el_78:any;
   _text_79:any;
-  _text_80:any;
-  _el_81:any;
+  _el_80:any;
+  _text_81:any;
   _text_82:any;
-  _text_83:any;
-  _el_84:any;
-  _text_85:any;
-  _el_86:any;
-  _text_87:any;
+  _el_83:any;
+  _text_84:any;
+  _el_85:any;
+  _text_86:any;
+  _el_87:any;
   _text_88:any;
   _el_89:any;
   _text_90:any;
-  _el_91:any;
-  _text_92:any;
-  _el_93:any;
-  _text_94:any;
-  _el_95:any;
-  _text_96:any;
+  _text_91:any;
+  _el_92:any;
+  _text_93:any;
+  _el_94:any;
+  _text_95:any;
+  _el_96:any;
+  compView_96:import1.AppView<import13.NextNavComponent>;
+  _NextNavComponent_96_3:import17.Wrapper_NextNavComponent;
   _text_97:any;
-  _el_98:any;
+  _text_98:any;
   _text_99:any;
-  _el_100:any;
+  _text_100:any;
   _text_101:any;
-  _el_102:any;
-  _text_103:any;
-  _el_104:any;
-  _text_105:any;
-  _text_106:any;
-  _el_107:any;
-  _text_108:any;
-  _el_109:any;
-  _text_110:any;
-  _el_111:any;
-  _RouterLinkWithHref_111_3:import15.Wrapper_RouterLinkWithHref;
-  _text_112:any;
-  _el_113:any;
-  _el_114:any;
-  _text_115:any;
-  _el_116:any;
-  _text_117:any;
-  _text_118:any;
-  _text_119:any;
-  _text_120:any;
-  _el_121:any;
-  _text_122:any;
-  _el_123:any;
-  _RouterLinkWithHref_123_3:import15.Wrapper_RouterLinkWithHref;
-  _text_124:any;
-  _el_125:any;
-  _text_126:any;
-  _text_127:any;
-  _el_128:any;
-  _el_129:any;
-  _text_130:any;
-  _text_131:any;
-  _text_132:any;
-  _text_133:any;
-  _text_134:any;
-  _text_135:any;
-  _text_136:any;
-  _text_137:any;
-  _text_138:any;
+  _text_102:any;
   constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_WhatIsAngularComponent0,renderType_WhatIsAngularComponent,import6.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_WhatIsAngularComponent0);
   }
@@ -392,146 +322,112 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
     this._text_3 = this.renderer.createText(this._el_2,'\n\n    ',this.debug(3,1,25));
     this._el_4 = import4.createRenderElement(this.renderer,this._el_2,'article',new import4.InlineArray2(2,'class','article '),this.debug(4,3,4));
     this._text_5 = this.renderer.createText(this._el_4,'\n      ',this.debug(5,3,30));
-    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'p',new import4.InlineArray2(2,'class','subtitle is-4'),this.debug(6,4,6));
-    this._text_7 = this.renderer.createText(this._el_6,'\n        2016/11/9\n      ',this.debug(7,4,31));
-    this._text_8 = this.renderer.createText(this._el_4,'\n      ',this.debug(8,6,10));
-    this._el_9 = import4.createRenderElement(this.renderer,this._el_4,'h1',new import4.InlineArray2(2,'class','title is-2'),this.debug(9,7,6));
-    this._text_10 = this.renderer.createText(this._el_9,'\n        Angularって何？\n      ',this.debug(10,7,29));
-    this._text_11 = this.renderer.createText(this._el_4,'\n      ',this.debug(11,9,11));
-    this._el_12 = import4.createRenderElement(this.renderer,this._el_4,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(12,10,6));
-    this._text_13 = this.renderer.createText(this._el_4,'\n      ',this.debug(13,10,10));
-    this._el_14 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(14,11,6));
-    this._text_15 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(15,11,37));
-    this._el_16 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(16,13,8));
-    this._text_17 = this.renderer.createText(this._el_16,'W3C Web Components をフレームワーク化したもの。',this.debug(17,13,11));
-    this._text_18 = this.renderer.createText(this._el_14,'\n        ',this.debug(18,13,48));
-    this._el_19 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(19,14,8));
-    this._text_20 = this.renderer.createText(this._el_19,'SPA (Single-Page Application) を作ることができる。',this.debug(20,14,11));
-    this._text_21 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(21,14,55));
-    this._el_22 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(22,16,8));
-    this._text_23 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(23,16,12));
-    this._anchor_24 = this.renderer.createTemplateAnchor(this._el_14,this.debug(24,18,8));
-    this._vc_24 = new import13.ViewContainer(24,14,this,this._anchor_24);
-    this._TemplateRef_24_5 = new import10.TemplateRef_(this,24,this._anchor_24);
-    this._NgIf_24_6 = new import14.Wrapper_NgIf(this._vc_24.vcRef,this._TemplateRef_24_5);
-    this._text_25 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(25,18,35));
-    this._el_26 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(26,20,8));
-    this._text_27 = this.renderer.createText(this._el_14,'\n        ',this.debug(27,20,12));
-    this._el_28 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(28,21,8));
-    this._text_29 = this.renderer.createText(this._el_28,'W3C Web Components って何？',this.debug(29,21,12));
-    this._text_30 = this.renderer.createText(this._el_14,'\n        ',this.debug(30,21,40));
-    this._el_31 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(31,22,8));
-    this._text_32 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(32,22,12));
-    this._el_33 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(33,24,8));
-    this._text_34 = this.renderer.createText(this._el_33,'Web を部品化する仕組み。',this.debug(34,24,11));
-    this._text_35 = this.renderer.createText(this._el_14,'\n        ',this.debug(35,24,29));
-    this._el_36 = import4.createRenderElement(this.renderer,this._el_14,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(36,25,8));
-    this._text_37 = this.renderer.createText(this._el_36,'\n          ',this.debug(37,25,12));
-    this._el_38 = import4.createRenderElement(this.renderer,this._el_36,'li',import4.EMPTY_INLINE_ARRAY,this.debug(38,26,10));
-    this._text_39 = this.renderer.createText(this._el_38,'Custom Element ・・・ 独自タグを定義する',this.debug(39,26,14));
-    this._text_40 = this.renderer.createText(this._el_36,'\n          ',this.debug(40,26,47));
-    this._el_41 = import4.createRenderElement(this.renderer,this._el_36,'li',import4.EMPTY_INLINE_ARRAY,this.debug(41,27,10));
-    this._text_42 = this.renderer.createText(this._el_41,'HTML Template ・・・ HTMLを部品化する',this.debug(42,27,14));
-    this._text_43 = this.renderer.createText(this._el_36,'\n          ',this.debug(43,27,47));
-    this._el_44 = import4.createRenderElement(this.renderer,this._el_36,'li',import4.EMPTY_INLINE_ARRAY,this.debug(44,28,10));
-    this._text_45 = this.renderer.createText(this._el_44,'HTML Import ・・・ 部品化したHTMLを取り込む',this.debug(45,28,14));
-    this._text_46 = this.renderer.createText(this._el_36,'\n          ',this.debug(46,28,49));
-    this._el_47 = import4.createRenderElement(this.renderer,this._el_36,'li',import4.EMPTY_INLINE_ARRAY,this.debug(47,29,10));
-    this._text_48 = this.renderer.createText(this._el_47,'Shadow DOM (Scoped CSS) ・・・ DOMをカプセル化する',this.debug(48,29,14));
-    this._text_49 = this.renderer.createText(this._el_36,'\n        ',this.debug(49,29,58));
-    this._text_50 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(50,30,13));
-    this._el_51 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(51,32,8));
-    this._text_52 = this.renderer.createText(this._el_14,'\n        ',this.debug(52,32,12));
-    this._el_53 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(53,33,8));
-    this._text_54 = this.renderer.createText(this._el_53,'W3C Web Components のイメージ',this.debug(54,33,12));
-    this._text_55 = this.renderer.createText(this._el_14,'\n        ',this.debug(55,33,41));
-    this._el_56 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(56,34,8));
-    this._text_57 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(57,34,12));
-    this._el_58 = import4.createRenderElement(this.renderer,this._el_14,'img',new import4.InlineArray8(6,'height','402px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/w3c_web_components.png','width','615px'),this.debug(58,36,8));
-    this._text_59 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(59,36,127));
-    this._el_60 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(60,38,8));
-    this._text_61 = this.renderer.createText(this._el_14,'\n        ',this.debug(61,38,12));
-    this._el_62 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(62,39,8));
-    this._text_63 = this.renderer.createText(this._el_62,'SPA (Single-Page Application) って何？',this.debug(63,39,12));
-    this._text_64 = this.renderer.createText(this._el_14,'\n        ',this.debug(64,39,51));
-    this._el_65 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(65,40,8));
-    this._text_66 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(66,40,12));
-    this._el_67 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(67,42,8));
-    this._text_68 = this.renderer.createText(this._el_67,'ひとつのページで完結したWebアプリケーション。',this.debug(68,42,11));
-    this._text_69 = this.renderer.createText(this._el_14,'\n        ',this.debug(69,42,39));
-    this._el_70 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(70,43,8));
-    this._text_71 = this.renderer.createText(this._el_70,'ページ遷移はせず、DOM操作により切り替える。',this.debug(71,43,11));
-    this._text_72 = this.renderer.createText(this._el_14,'\n        ',this.debug(72,43,38));
-    this._el_73 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(73,44,8));
-    this._text_74 = this.renderer.createText(this._el_73,'サーバとのやり取りは、REST や WebSocket などで行う。',this.debug(74,44,11));
-    this._text_75 = this.renderer.createText(this._el_14,'\n        ',this.debug(75,44,49));
-    this._el_76 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(76,45,8));
-    this._text_77 = this.renderer.createText(this._el_14,'\n        ',this.debug(77,45,12));
-    this._el_78 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(78,46,8));
-    this._text_79 = this.renderer.createText(this._el_78,'対比されるのは、MPA (Multi-Page Application）。',this.debug(79,46,11));
-    this._text_80 = this.renderer.createText(this._el_14,'\n        ',this.debug(80,46,52));
-    this._el_81 = import4.createRenderElement(this.renderer,this._el_14,'p',import4.EMPTY_INLINE_ARRAY,this.debug(81,47,8));
-    this._text_82 = this.renderer.createText(this._el_81,'MPA は従来のWebアプリケーション。',this.debug(82,47,11));
-    this._text_83 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(83,47,35));
-    this._el_84 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(84,49,8));
-    this._text_85 = this.renderer.createText(this._el_14,'\n        ',this.debug(85,49,12));
-    this._el_86 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(86,50,8));
-    this._text_87 = this.renderer.createText(this._el_86,'SPA と MPA のイメージ比較',this.debug(87,50,12));
-    this._text_88 = this.renderer.createText(this._el_14,'\n        ',this.debug(88,50,34));
-    this._el_89 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(89,51,8));
-    this._text_90 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(90,51,12));
-    this._el_91 = import4.createRenderElement(this.renderer,this._el_14,'img',new import4.InlineArray8(6,'height','507px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/spa_vs_mpa_by_image.png','width','792px'),this.debug(91,53,8));
-    this._text_92 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(92,53,128));
-    this._el_93 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(93,55,8));
-    this._text_94 = this.renderer.createText(this._el_14,'\n        ',this.debug(94,55,12));
-    this._el_95 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(95,56,8));
-    this._text_96 = this.renderer.createText(this._el_95,'SPA と MPA のアーキテクチャ比較',this.debug(96,56,12));
-    this._text_97 = this.renderer.createText(this._el_14,'\n        ',this.debug(97,56,37));
-    this._el_98 = import4.createRenderElement(this.renderer,this._el_14,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(98,57,8));
-    this._text_99 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(99,57,12));
-    this._el_100 = import4.createRenderElement(this.renderer,this._el_14,'img',new import4.InlineArray8(6,'height','445px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/spa_vs_mpa_by_architecture.png','width','547px'),this.debug(100,59,8));
-    this._text_101 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(101,59,135));
-    this._el_102 = import4.createRenderElement(this.renderer,this._el_14,'br',import4.EMPTY_INLINE_ARRAY,this.debug(102,61,8));
-    this._text_103 = this.renderer.createText(this._el_14,'\n        ',this.debug(103,61,12));
-    this._el_104 = import4.createRenderElement(this.renderer,this._el_14,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(104,62,8));
-    this._text_105 = this.renderer.createText(this._el_104,'続きは...',this.debug(105,62,12));
-    this._text_106 = this.renderer.createText(this._el_14,'\n\n        ',this.debug(106,62,23));
-    this._el_107 = import4.createRenderElement(this.renderer,this._el_14,'nav',new import4.InlineArray2(2,'class','tile is-ancestor'),this.debug(107,64,8));
-    this._text_108 = this.renderer.createText(this._el_107,'\n          ',this.debug(108,64,38));
-    this._el_109 = import4.createRenderElement(this.renderer,this._el_107,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(109,65,10));
-    this._text_110 = this.renderer.createText(this._el_109,'\n            ',this.debug(110,65,50));
-    this._el_111 = import4.createRenderElement(this.renderer,this._el_109,'a',new import4.InlineArray8(6,'class','button','href','/','routerLink','/'),this.debug(111,66,12));
-    this._RouterLinkWithHref_111_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_112 = this.renderer.createText(this._el_111,'\n              ',this.debug(112,66,54));
-    this._el_113 = import4.createRenderElement(this.renderer,this._el_111,'span',new import4.InlineArray2(2,'class','icon'),this.debug(113,67,14));
-    this._el_114 = import4.createRenderElement(this.renderer,this._el_113,'i',new import4.InlineArray2(2,'class','fa fa-angle-left'),this.debug(114,67,33));
-    this._text_115 = this.renderer.createText(this._el_111,'\n              ',this.debug(115,67,72));
-    this._el_116 = import4.createRenderElement(this.renderer,this._el_111,'span',import4.EMPTY_INLINE_ARRAY,this.debug(116,68,14));
-    this._text_117 = this.renderer.createText(this._el_116,'ふわりAngular',this.debug(117,68,20));
-    this._text_118 = this.renderer.createText(this._el_111,'\n            ',this.debug(118,68,37));
-    this._text_119 = this.renderer.createText(this._el_109,'\n          ',this.debug(119,69,16));
-    this._text_120 = this.renderer.createText(this._el_107,'\n          ',this.debug(120,70,16));
-    this._el_121 = import4.createRenderElement(this.renderer,this._el_107,'div',new import4.InlineArray2(2,'class','tile is-parent is-vertical'),this.debug(121,71,10));
-    this._text_122 = this.renderer.createText(this._el_121,'\n            ',this.debug(122,71,50));
-    this._el_123 = import4.createRenderElement(this.renderer,this._el_121,'a',new import4.InlineArray8(6,'class','button','href','/eco-system.html','routerLink','/eco-system.html'),this.debug(123,72,12));
-    this._RouterLinkWithHref_123_3 = new import15.Wrapper_RouterLinkWithHref(this.parentView.injectorGet(import16.Router,this.parentIndex),this.parentView.injectorGet(import17.ActivatedRoute,this.parentIndex),this.parentView.injectorGet(import18.LocationStrategy,this.parentIndex));
-    this._text_124 = this.renderer.createText(this._el_123,'\n              ',this.debug(124,72,84));
-    this._el_125 = import4.createRenderElement(this.renderer,this._el_123,'span',import4.EMPTY_INLINE_ARRAY,this.debug(125,73,14));
-    this._text_126 = this.renderer.createText(this._el_125,'Angularエコシステム',this.debug(126,73,20));
-    this._text_127 = this.renderer.createText(this._el_123,'\n              ',this.debug(127,73,40));
-    this._el_128 = import4.createRenderElement(this.renderer,this._el_123,'span',new import4.InlineArray2(2,'class','icon'),this.debug(128,74,14));
-    this._el_129 = import4.createRenderElement(this.renderer,this._el_128,'i',new import4.InlineArray2(2,'class','fa fa-angle-right'),this.debug(129,74,33));
-    this._text_130 = this.renderer.createText(this._el_123,'\n            ',this.debug(130,74,73));
-    this._text_131 = this.renderer.createText(this._el_121,'\n          ',this.debug(131,75,16));
-    this._text_132 = this.renderer.createText(this._el_107,'\n        ',this.debug(132,76,16));
-    this._text_133 = this.renderer.createText(this._el_14,'\n      ',this.debug(133,77,14));
-    this._text_134 = this.renderer.createText(this._el_4,'\n      ',this.debug(134,78,12));
-    this._text_135 = this.renderer.createText(this._el_4,'\n    ',this.debug(135,79,24));
-    this._text_136 = this.renderer.createText(this._el_2,'\n\n  ',this.debug(136,80,14));
-    this._text_137 = this.renderer.createText(this._el_0,'\n  ',this.debug(137,82,8));
-    this._text_138 = this.renderer.createText(this._el_0,'\n',this.debug(138,83,22));
-    var disposable_0:Function = import4.subscribeToRenderElement(this,this._el_111,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_111));
-    var disposable_1:Function = import4.subscribeToRenderElement(this,this._el_123,new import4.InlineArray2(2,'click',(null as any)),this.eventHandler(this.handleEvent_123));
+    this._el_6 = import4.createRenderElement(this.renderer,this._el_4,'article-header',import4.EMPTY_INLINE_ARRAY,this.debug(6,4,6));
+    this.compView_6 = new import14.View_ArticleHeaderComponent0(this.viewUtils,this,6,this._el_6);
+    this._ArticleHeaderComponent_6_3 = new import14.Wrapper_ArticleHeaderComponent();
+    this.compView_6.create(this._ArticleHeaderComponent_6_3.context);
+    this._text_7 = this.renderer.createText(this._el_4,'\n\n      ',this.debug(7,4,69));
+    this._el_8 = import4.createRenderElement(this.renderer,this._el_4,'div',new import4.InlineArray2(2,'class','content is-medium'),this.debug(8,6,6));
+    this._text_9 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(9,6,37));
+    this._el_10 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(10,8,8));
+    this._text_11 = this.renderer.createText(this._el_10,'W3C Web Components をフレームワーク化したもの。',this.debug(11,8,11));
+    this._text_12 = this.renderer.createText(this._el_8,'\n        ',this.debug(12,8,48));
+    this._el_13 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(13,9,8));
+    this._text_14 = this.renderer.createText(this._el_13,'SPA（Single-Page Application）を作ることができる。',this.debug(14,9,11));
+    this._text_15 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(15,9,53));
+    this._el_16 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(16,11,8));
+    this._text_17 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(17,11,12));
+    this._anchor_18 = this.renderer.createTemplateAnchor(this._el_8,this.debug(18,13,8));
+    this._vc_18 = new import15.ViewContainer(18,8,this,this._anchor_18);
+    this._TemplateRef_18_5 = new import11.TemplateRef_(this,18,this._anchor_18);
+    this._NgIf_18_6 = new import16.Wrapper_NgIf(this._vc_18.vcRef,this._TemplateRef_18_5);
+    this._text_19 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(19,13,35));
+    this._el_20 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(20,15,8));
+    this._text_21 = this.renderer.createText(this._el_8,'\n        ',this.debug(21,15,12));
+    this._el_22 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(22,16,8));
+    this._text_23 = this.renderer.createText(this._el_22,'W3C Web Components って何？',this.debug(23,16,12));
+    this._text_24 = this.renderer.createText(this._el_8,'\n        ',this.debug(24,16,40));
+    this._el_25 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(25,17,8));
+    this._text_26 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(26,17,12));
+    this._el_27 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(27,19,8));
+    this._text_28 = this.renderer.createText(this._el_27,'Web を部品化するしくみ。',this.debug(28,19,11));
+    this._text_29 = this.renderer.createText(this._el_8,'\n        ',this.debug(29,19,29));
+    this._el_30 = import4.createRenderElement(this.renderer,this._el_8,'ul',import4.EMPTY_INLINE_ARRAY,this.debug(30,20,8));
+    this._text_31 = this.renderer.createText(this._el_30,'\n          ',this.debug(31,20,12));
+    this._el_32 = import4.createRenderElement(this.renderer,this._el_30,'li',import4.EMPTY_INLINE_ARRAY,this.debug(32,21,10));
+    this._text_33 = this.renderer.createText(this._el_32,'Custom Element … 独自タグを定義する',this.debug(33,21,14));
+    this._text_34 = this.renderer.createText(this._el_30,'\n          ',this.debug(34,21,45));
+    this._el_35 = import4.createRenderElement(this.renderer,this._el_30,'li',import4.EMPTY_INLINE_ARRAY,this.debug(35,22,10));
+    this._text_36 = this.renderer.createText(this._el_35,'HTML Template … HTMLを部品化する',this.debug(36,22,14));
+    this._text_37 = this.renderer.createText(this._el_30,'\n          ',this.debug(37,22,45));
+    this._el_38 = import4.createRenderElement(this.renderer,this._el_30,'li',import4.EMPTY_INLINE_ARRAY,this.debug(38,23,10));
+    this._text_39 = this.renderer.createText(this._el_38,'HTML Imports … 部品化したHTMLを取り込む',this.debug(39,23,14));
+    this._text_40 = this.renderer.createText(this._el_30,'\n          ',this.debug(40,23,48));
+    this._el_41 = import4.createRenderElement(this.renderer,this._el_30,'li',import4.EMPTY_INLINE_ARRAY,this.debug(41,24,10));
+    this._text_42 = this.renderer.createText(this._el_41,'Shadow DOM（Scoped CSS） … DOMをカプセル化する',this.debug(42,24,14));
+    this._text_43 = this.renderer.createText(this._el_30,'\n        ',this.debug(43,24,55));
+    this._text_44 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(44,25,13));
+    this._el_45 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(45,27,8));
+    this._text_46 = this.renderer.createText(this._el_8,'\n        ',this.debug(46,27,12));
+    this._el_47 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(47,28,8));
+    this._text_48 = this.renderer.createText(this._el_47,'W3C Web Components のイメージ',this.debug(48,28,12));
+    this._text_49 = this.renderer.createText(this._el_8,'\n        ',this.debug(49,28,41));
+    this._el_50 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(50,29,8));
+    this._text_51 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(51,29,12));
+    this._el_52 = import4.createRenderElement(this.renderer,this._el_8,'img',new import4.InlineArray8(6,'height','402px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/w3c_web_components.png','width','615px'),this.debug(52,31,8));
+    this._text_53 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(53,31,127));
+    this._el_54 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(54,33,8));
+    this._text_55 = this.renderer.createText(this._el_8,'\n        ',this.debug(55,33,12));
+    this._el_56 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(56,34,8));
+    this._text_57 = this.renderer.createText(this._el_56,'SPA（Single-Page Application）って何？',this.debug(57,34,12));
+    this._text_58 = this.renderer.createText(this._el_8,'\n        ',this.debug(58,34,49));
+    this._el_59 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(59,35,8));
+    this._text_60 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(60,35,12));
+    this._el_61 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(61,37,8));
+    this._text_62 = this.renderer.createText(this._el_61,'ひとつのページで完結したWebアプリケーション。',this.debug(62,37,11));
+    this._text_63 = this.renderer.createText(this._el_8,'\n        ',this.debug(63,37,39));
+    this._el_64 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(64,38,8));
+    this._text_65 = this.renderer.createText(this._el_64,'ページ遷移はせず、DOM操作により切り替える。',this.debug(65,38,11));
+    this._text_66 = this.renderer.createText(this._el_8,'\n        ',this.debug(66,38,38));
+    this._el_67 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(67,39,8));
+    this._text_68 = this.renderer.createText(this._el_67,'サーバとのやりとりは、REST や WebSocket などで行う。',this.debug(68,39,11));
+    this._text_69 = this.renderer.createText(this._el_8,'\n        ',this.debug(69,39,49));
+    this._el_70 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(70,40,8));
+    this._text_71 = this.renderer.createText(this._el_8,'\n        ',this.debug(71,40,12));
+    this._el_72 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(72,41,8));
+    this._text_73 = this.renderer.createText(this._el_72,'対比されるのは、MPA (Multi-Page Application）。',this.debug(73,41,11));
+    this._text_74 = this.renderer.createText(this._el_8,'\n        ',this.debug(74,41,52));
+    this._el_75 = import4.createRenderElement(this.renderer,this._el_8,'p',import4.EMPTY_INLINE_ARRAY,this.debug(75,42,8));
+    this._text_76 = this.renderer.createText(this._el_75,'MPA は従来のWebアプリケーション。',this.debug(76,42,11));
+    this._text_77 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(77,42,35));
+    this._el_78 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(78,44,8));
+    this._text_79 = this.renderer.createText(this._el_8,'\n        ',this.debug(79,44,12));
+    this._el_80 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(80,45,8));
+    this._text_81 = this.renderer.createText(this._el_80,'SPA と MPA のイメージ比較',this.debug(81,45,12));
+    this._text_82 = this.renderer.createText(this._el_8,'\n        ',this.debug(82,45,34));
+    this._el_83 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(83,46,8));
+    this._text_84 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(84,46,12));
+    this._el_85 = import4.createRenderElement(this.renderer,this._el_8,'img',new import4.InlineArray8(6,'height','507px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/spa_vs_mpa_by_image.png','width','792px'),this.debug(85,48,8));
+    this._text_86 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(86,48,128));
+    this._el_87 = import4.createRenderElement(this.renderer,this._el_8,'br',import4.EMPTY_INLINE_ARRAY,this.debug(87,50,8));
+    this._text_88 = this.renderer.createText(this._el_8,'\n        ',this.debug(88,50,12));
+    this._el_89 = import4.createRenderElement(this.renderer,this._el_8,'h3',import4.EMPTY_INLINE_ARRAY,this.debug(89,51,8));
+    this._text_90 = this.renderer.createText(this._el_89,'SPA と MPA のアーキテクチャ比較',this.debug(90,51,12));
+    this._text_91 = this.renderer.createText(this._el_8,'\n        ',this.debug(91,51,37));
+    this._el_92 = import4.createRenderElement(this.renderer,this._el_8,'hr',import4.EMPTY_INLINE_ARRAY,this.debug(92,52,8));
+    this._text_93 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(93,52,12));
+    this._el_94 = import4.createRenderElement(this.renderer,this._el_8,'img',new import4.InlineArray8(6,'height','445px','src','http://cdn.banana-juice.com/angular/img/what-is-angular/spa_vs_mpa_by_architecture.png','width','547px'),this.debug(94,54,8));
+    this._text_95 = this.renderer.createText(this._el_8,'\n\n        ',this.debug(95,54,135));
+    this._el_96 = import4.createRenderElement(this.renderer,this._el_8,'next-nav',import4.EMPTY_INLINE_ARRAY,this.debug(96,56,8));
+    this.compView_96 = new import17.View_NextNavComponent0(this.viewUtils,this,96,this._el_96);
+    this._NextNavComponent_96_3 = new import17.Wrapper_NextNavComponent(this.parentView.injectorGet(import18.NextNavService,this.parentIndex));
+    this.compView_96.create(this._NextNavComponent_96_3.context);
+    this._text_97 = this.renderer.createText(this._el_8,'\n      ',this.debug(97,56,29));
+    this._text_98 = this.renderer.createText(this._el_4,'\n      ',this.debug(98,57,12));
+    this._text_99 = this.renderer.createText(this._el_4,'\n    ',this.debug(99,58,24));
+    this._text_100 = this.renderer.createText(this._el_2,'\n\n  ',this.debug(100,59,14));
+    this._text_101 = this.renderer.createText(this._el_0,'\n  ',this.debug(101,61,8));
+    this._text_102 = this.renderer.createText(this._el_0,'\n',this.debug(102,62,22));
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
       this._text_1,
@@ -541,35 +437,35 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
       this._text_5,
       this._el_6,
       this._text_7,
-      this._text_8,
-      this._el_9,
-      this._text_10,
+      this._el_8,
+      this._text_9,
+      this._el_10,
       this._text_11,
-      this._el_12,
-      this._text_13,
-      this._el_14,
+      this._text_12,
+      this._el_13,
+      this._text_14,
       this._text_15,
       this._el_16,
       this._text_17,
-      this._text_18,
-      this._el_19,
-      this._text_20,
+      this._anchor_18,
+      this._text_19,
+      this._el_20,
       this._text_21,
       this._el_22,
       this._text_23,
-      this._anchor_24,
-      this._text_25,
-      this._el_26,
-      this._text_27,
-      this._el_28,
+      this._text_24,
+      this._el_25,
+      this._text_26,
+      this._el_27,
+      this._text_28,
       this._text_29,
-      this._text_30,
-      this._el_31,
-      this._text_32,
-      this._el_33,
+      this._el_30,
+      this._text_31,
+      this._el_32,
+      this._text_33,
       this._text_34,
-      this._text_35,
-      this._el_36,
+      this._el_35,
+      this._text_36,
       this._text_37,
       this._el_38,
       this._text_39,
@@ -577,157 +473,104 @@ export class View_WhatIsAngularComponent0 extends import1.DebugAppView<import0.W
       this._el_41,
       this._text_42,
       this._text_43,
-      this._el_44,
-      this._text_45,
+      this._text_44,
+      this._el_45,
       this._text_46,
       this._el_47,
       this._text_48,
       this._text_49,
-      this._text_50,
-      this._el_51,
-      this._text_52,
-      this._el_53,
-      this._text_54,
+      this._el_50,
+      this._text_51,
+      this._el_52,
+      this._text_53,
+      this._el_54,
       this._text_55,
       this._el_56,
       this._text_57,
-      this._el_58,
-      this._text_59,
-      this._el_60,
-      this._text_61,
-      this._el_62,
+      this._text_58,
+      this._el_59,
+      this._text_60,
+      this._el_61,
+      this._text_62,
       this._text_63,
-      this._text_64,
-      this._el_65,
+      this._el_64,
+      this._text_65,
       this._text_66,
       this._el_67,
       this._text_68,
       this._text_69,
       this._el_70,
       this._text_71,
-      this._text_72,
-      this._el_73,
+      this._el_72,
+      this._text_73,
       this._text_74,
-      this._text_75,
-      this._el_76,
+      this._el_75,
+      this._text_76,
       this._text_77,
       this._el_78,
       this._text_79,
-      this._text_80,
-      this._el_81,
+      this._el_80,
+      this._text_81,
       this._text_82,
-      this._text_83,
-      this._el_84,
-      this._text_85,
-      this._el_86,
-      this._text_87,
+      this._el_83,
+      this._text_84,
+      this._el_85,
+      this._text_86,
+      this._el_87,
       this._text_88,
       this._el_89,
       this._text_90,
-      this._el_91,
-      this._text_92,
-      this._el_93,
-      this._text_94,
-      this._el_95,
-      this._text_96,
+      this._text_91,
+      this._el_92,
+      this._text_93,
+      this._el_94,
+      this._text_95,
+      this._el_96,
       this._text_97,
-      this._el_98,
+      this._text_98,
       this._text_99,
-      this._el_100,
+      this._text_100,
       this._text_101,
-      this._el_102,
-      this._text_103,
-      this._el_104,
-      this._text_105,
-      this._text_106,
-      this._el_107,
-      this._text_108,
-      this._el_109,
-      this._text_110,
-      this._el_111,
-      this._text_112,
-      this._el_113,
-      this._el_114,
-      this._text_115,
-      this._el_116,
-      this._text_117,
-      this._text_118,
-      this._text_119,
-      this._text_120,
-      this._el_121,
-      this._text_122,
-      this._el_123,
-      this._text_124,
-      this._el_125,
-      this._text_126,
-      this._text_127,
-      this._el_128,
-      this._el_129,
-      this._text_130,
-      this._text_131,
-      this._text_132,
-      this._text_133,
-      this._text_134,
-      this._text_135,
-      this._text_136,
-      this._text_137,
-      this._text_138
+      this._text_102
     ]
-    ),[
-      disposable_0,
-      disposable_1
-    ]
-    );
+    ),(null as any));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import10.TemplateRef) && (24 === requestNodeIndex))) { return this._TemplateRef_24_5; }
-    if (((token === import11.NgIf) && (24 === requestNodeIndex))) { return this._NgIf_24_6.context; }
-    if (((token === import12.RouterLinkWithHref) && ((111 <= requestNodeIndex) && (requestNodeIndex <= 118)))) { return this._RouterLinkWithHref_111_3.context; }
-    if (((token === import12.RouterLinkWithHref) && ((123 <= requestNodeIndex) && (requestNodeIndex <= 130)))) { return this._RouterLinkWithHref_123_3.context; }
+    if (((token === import10.ArticleHeaderComponent) && (6 === requestNodeIndex))) { return this._ArticleHeaderComponent_6_3.context; }
+    if (((token === import11.TemplateRef) && (18 === requestNodeIndex))) { return this._TemplateRef_18_5; }
+    if (((token === import12.NgIf) && (18 === requestNodeIndex))) { return this._NgIf_18_6.context; }
+    if (((token === import13.NextNavComponent) && (96 === requestNodeIndex))) { return this._NextNavComponent_96_3.context; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(24,18,13);
-    const currVal_24_0_0:any = this.context.display;
-    this._NgIf_24_6.check_ngIf(currVal_24_0_0,throwOnChange,false);
-    this._NgIf_24_6.ngDoCheck(this,this._anchor_24,throwOnChange);
-    this.debug(111,66,24);
-    const currVal_111_0_0:any = '/';
-    this._RouterLinkWithHref_111_3.check_routerLink(currVal_111_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_111_3.ngDoCheck(this,this._el_111,throwOnChange);
-    this.debug(123,72,39);
-    const currVal_123_0_0:any = '/eco-system.html';
-    this._RouterLinkWithHref_123_3.check_routerLink(currVal_123_0_0,throwOnChange,false);
-    this._RouterLinkWithHref_123_3.ngDoCheck(this,this._el_123,throwOnChange);
-    this._vc_24.detectChangesInNestedViews(throwOnChange);
-    this._RouterLinkWithHref_111_3.checkHost(this,this,this._el_111,throwOnChange);
-    this._RouterLinkWithHref_123_3.checkHost(this,this,this._el_123,throwOnChange);
+    this.debug(6,4,22);
+    const currVal_6_0_0:any = this.context.title;
+    this._ArticleHeaderComponent_6_3.check_title(currVal_6_0_0,throwOnChange,false);
+    this.debug(6,4,38);
+    const currVal_6_0_1:any = this.context.date;
+    this._ArticleHeaderComponent_6_3.check_date(currVal_6_0_1,throwOnChange,false);
+    this._ArticleHeaderComponent_6_3.ngDoCheck(this,this._el_6,throwOnChange);
+    this.debug(18,13,13);
+    const currVal_18_0_0:any = this.context.display;
+    this._NgIf_18_6.check_ngIf(currVal_18_0_0,throwOnChange,false);
+    this._NgIf_18_6.ngDoCheck(this,this._anchor_18,throwOnChange);
+    this.debug(96,56,8);
+    this._NextNavComponent_96_3.ngDoCheck(this,this._el_96,throwOnChange);
+    this._vc_18.detectChangesInNestedViews(throwOnChange);
+    this.compView_6.detectChanges(throwOnChange);
+    this.compView_96.detectChanges(throwOnChange);
   }
   destroyInternal():void {
-    this._vc_24.destroyNestedViews();
-    this.debug(24,18,8);
-    this._RouterLinkWithHref_111_3.ngOnDestroy();
-    this.debug(111,66,12);
-    this._RouterLinkWithHref_123_3.ngOnDestroy();
+    this._vc_18.destroyNestedViews();
+    this.compView_6.destroy();
+    this.compView_96.destroy();
+    this.debug(6,4,6);
+    this.debug(18,13,8);
   }
   createEmbeddedViewInternal(nodeIndex:number):import1.AppView<any> {
-    if ((nodeIndex == 24)) { return new View_WhatIsAngularComponent1(this.viewUtils,this,24,this._anchor_24,this._vc_24); }
+    if ((nodeIndex == 18)) { return new View_WhatIsAngularComponent1(this.viewUtils,this,18,this._anchor_18,this._vc_18); }
     return (null as any);
-  }
-  handleEvent_111(eventName:string,$event:any):boolean {
-    this.debug(111,66,12);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    result = (this._RouterLinkWithHref_111_3.handleEvent(eventName,$event) && result);
-    return result;
-  }
-  handleEvent_123(eventName:string,$event:any):boolean {
-    this.debug(123,72,12);
-    this.markPathToRootAsCheckOnce();
-    var result:boolean = true;
-    result = (this._RouterLinkWithHref_123_3.handleEvent(eventName,$event) && result);
-    return result;
   }
 }
 const nodeDebugInfos_WhatIsAngularComponent1:import2.StaticNodeDebugInfo[] = [new import2.StaticNodeDebugInfo([import19.AdsenseComponent],import19.AdsenseComponent,{})];
@@ -735,11 +578,11 @@ class View_WhatIsAngularComponent1 extends import1.DebugAppView<any> {
   _el_0:any;
   compView_0:import1.AppView<import19.AdsenseComponent>;
   _AdsenseComponent_0_3:import20.Wrapper_AdsenseComponent;
-  constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any,declaredViewContainer:import13.ViewContainer) {
+  constructor(viewUtils:import4.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any,declaredViewContainer:import15.ViewContainer) {
     super(View_WhatIsAngularComponent1,renderType_WhatIsAngularComponent,import6.ViewType.EMBEDDED,viewUtils,parentView,parentIndex,parentElement,import7.ChangeDetectorStatus.CheckAlways,nodeDebugInfos_WhatIsAngularComponent1,declaredViewContainer);
   }
   createInternal(rootSelector:string):import8.ComponentRef<any> {
-    this._el_0 = import4.createRenderElement(this.renderer,(null as any),'ads',import4.EMPTY_INLINE_ARRAY,this.debug(0,18,8));
+    this._el_0 = import4.createRenderElement(this.renderer,(null as any),'ads',import4.EMPTY_INLINE_ARRAY,this.debug(0,13,8));
     this.compView_0 = new import20.View_AdsenseComponent0(this.viewUtils,this,0,this._el_0);
     this._AdsenseComponent_0_3 = new import20.Wrapper_AdsenseComponent();
     this.compView_0.create(this._AdsenseComponent_0_3.context);
@@ -751,7 +594,7 @@ class View_WhatIsAngularComponent1 extends import1.DebugAppView<any> {
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
-    this.debug(0,18,8);
+    this.debug(0,13,8);
     this._AdsenseComponent_0_3.ngDoCheck(this,this._el_0,throwOnChange);
     this.compView_0.detectChanges(throwOnChange);
   }
