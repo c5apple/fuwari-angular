@@ -12,9 +12,8 @@ import { TodosComponent } from './todos/todos.component';
 
 import { ArticleHeaderComponent } from '../shared/article-header/article-header.component';
 import { AdsenseComponent } from '../shared/adsense/adsense.component';
-import { NextNavComponent } from '../shared/next-nav/next-nav.component';
 
-import { NextNavService } from '../shared/next-nav/next-nav.service';
+import { NextNavModule } from '../shared/next-nav/next-nav.module';
 
 import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.routes';
 
@@ -22,13 +21,13 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
   imports: [
     CommonModule,
     ArticlesRoutingModule,
-    AdsenseModule
+    AdsenseModule,
+    NextNavModule
   ],
   declarations: [
     ArticlesComponent,
     AdsenseComponent,
     ArticleHeaderComponent,
-    NextNavComponent,
     WhatIsAngularComponent,
     EcoSystemComponent,
     InstallComponent,
@@ -36,8 +35,7 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
     TodosComponent
   ],
   providers: [
-    ArticlesRoutingProviders,
-    NextNavService
+    ArticlesRoutingProviders
   ],
 })
 export class ArticlesModule { }

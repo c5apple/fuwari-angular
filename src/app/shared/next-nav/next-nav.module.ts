@@ -19,6 +19,8 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from '../../articles/
     NextNavService,
     ArticlesRoutingProviders
   ],
-
+  exports: [
+    NextNavComponent
+  ]
 })
 export class NextNavModule { }
