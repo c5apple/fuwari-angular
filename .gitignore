@@ -4,6 +4,8 @@
 /dist
 /tmp
 /.tmp
+*.ngfactory.ts
+*.shim.ts
 
 # dependencies
 /node_modules
