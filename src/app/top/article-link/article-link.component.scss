@@ -1,0 +1,13 @@
+.date {
+  margin-top: 14px;
+  font-size: 11px;
+
+  &:before {
+    content: "-";
+    margin-right: 5px;
+  }
+  &:after {
+    content: "-";
+    margin-left: 5px;
+  }
+}

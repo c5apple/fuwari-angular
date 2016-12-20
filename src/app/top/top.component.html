@@ -1,159 +1,39 @@
 <section class="section">
 	<div class="container">
-		<div class="tile is-ancestor">
 
-			<div class="tile is-parent is-vertical is-4">
-				<div class="card is-fullwidth">
-					<a href="/what-is-angular.html" routerLink="/what-is-angular.html">
-						<header class="card-header">
-							<h3 class="card-header-title">Angularって何？</h3>
-							<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-						</header>
-					</a>
-					<div class="card-content">
-						<div class="content">
-							<p>
-								"W3C Web Components" って何？
-								<br> "SPA（Single-Page Application）" って何？
-							</p>
-							<p class="date">2016/11/9</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		<app-article-link [href]="'/what-is-angular.html'" [title]="'Angularって何？'" [discription]="'<p>W3C Web Components って何？</p><p>SPA（Single-Page Application）って何？</p>'"
+			[date]="'2016/11/9'"></app-article-link>
 
-			<div class="tile is-parent is-vertical is-4">
-				<div class="card is-fullwidth">
-					<a href="/eco-system.html" routerLink="/eco-system.html">
-						<header class="card-header">
-							<h3 class="card-header-title">Angularエコシステム</h3>
-							<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-						</header>
-					</a>
-					<div class="card-content">
-						<div class="content">
-							<p>同封のものたち</p>
-							<ul>
-								<li>Angular CLI</li>
-								<li>NativeScript ... etc</li>
-							</ul>
-							<p class="date">2016/11/10</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		<app-article-link [href]="'/eco-system.html'" [title]="'Angularエコシステム'" [discription]="'<p>同封のものたち</p>
+			<ul>
+				<li>Angular CLI</li>
+				<li>NativeScript ... etc</li>
+			</ul>'" [date]="'2016/11/10'"></app-article-link>
 
-		</div>
+		<app-article-link [href]="'/install.html'" [title]="'必要なツールをインストールしよう'" [discription]="'<p>※for Windows10</p>
+			<ul>
+				<li>Git bash</li>
+				<li>Python2.7</li>
+				<li>Ruby</li>
+				<li>Visual Studio 2015 Community</li>
+				<li>Windows 10 SDK</li>
+				<li>nodist, Node.js</li>
+				<li>angular-cli</li>
+				<li>Visual Studio Code</li>
+			</ul>'" [date]="'2016/11/20'"></app-article-link>
 
-		<div class="tile is-ancestor">
-			<div class="tile is-parent is-8">
-				<div class="card is-fullwidth">
-					<a href="/install.html" routerLink="/install.html">
-						<header class="card-header">
-							<h3 class="card-header-title">必要なツールをインストールしよう</h3>
-							<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-						</header>
-					</a>
-					<div class="card-content">
-						<div class="content">
-							<p>※for Windows10</p>
-							<ul>
-								<li>Git bash</li>
-								<li>Python2.7</li>
-								<li>Ruby</li>
-								<li>Visual Studio 2015 Community</li>
-								<li>Windows 10 SDK</li>
-								<li>nodist, Node.js</li>
-								<li>angular-cli</li>
-								<li>Visual Studio Code</li>
-							</ul>
-							<p class="date">2016/11/20</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<app-article-link [href]="'/new-project.html'" [title]="'プロジェクトを作ってみよう'" [discription]="'<p><code>ng new</code> してプロジェクトを作る。</p>
+			<p><code>ng build</code> してビルドする。</p>
+			<p><code>ng serve</code> してブラウザで確認する。</p>'" [date]="'2016/11/22'"></app-article-link>
 
-		<div class="tile is-ancestor">
+		<app-article-link [href]="'/todos.html'" [title]="'TODOリストを作ってみよう'" [discription]="'<p>簡単なアプリケーションを作ってみる。</p>
+			<p>app.component を修正する。</p>'" [date]="'2016/12/01'"></app-article-link>
 
-			<div class="tile is-parent is-vertical is-4">
-				<div class="card is-fullwidth">
-					<a href="/new-project.html" routerLink="/new-project.html">
-						<header class="card-header">
-							<h3 class="card-header-title">プロジェクトを作ってみよう</h3>
-							<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-						</header>
-					</a>
-					<div class="card-content">
-						<div class="content">
-							<p><code>ng new</code> してプロジェクトを作る。</p>
-							<p><code>ng build</code> してビルドする。</p>
-							<p><code>ng serve</code> してブラウザで確認する。</p>
-							<p class="date">2016/11/22</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		<app-article-link [href]="''" [title]="'コンポーネント分割してみよう ※未作成'" [discription]="'<p><code>ng generate</code> して部品を自動生成する。</p>
+			<p><code>@Input()</code>,<code>@Output()</code> でデータやイベントを送受信する。</p>'" [date]="''"></app-article-link>
 
-			<div class="tile is-parent is-vertical is-4">
-				<div class="card is-fullwidth">
-					<a href="/todos.html" routerLink="/todos.html">
-						<header class="card-header">
-							<h3 class="card-header-title">TODOリストを作ってみよう</h3>
-							<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-						</header>
-					</a>
-					<div class="card-content">
-						<div class="content">
-							<p>簡単なアプリケーションを作ってみる。</p>
-							<p>app.component を修正する。</p>
-							<p class="date">2016/12/01</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		<app-article-link [href]="''" [title]="'テストしてみよう ※未作成'" [discription]="'<p><code>ng test</code> でユニットテストをする。</p>'" [date]="''"></app-article-link>
 
-		</div>
-
-		<div class="tile is-ancestor">
-
-			<div class="tile is-parent is-vertical is-8">
-				<div class="card is-fullwidth">
-					<header class="card-header">
-						<h3 class="card-header-title">コンポーネント分割してみよう ※未作成</h3>
-						<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-					</header>
-					<div class="card-content">
-						<div class="content">
-							<p><code>ng generate</code> して部品を自動生成する。</p>
-							<p><code>@Input()</code>,<code>@Output()</code> でデータやイベントを送受信する。</p>
-							<p class="date">xxxx/xx/xx</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="tile is-ancestor">
-
-			<div class="tile is-parent is-vertical is-8">
-				<div class="card is-fullwidth">
-					<header class="card-header">
-						<h3 class="card-header-title">テストしてみよう ※未作成</h3>
-						<span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-					</header>
-					<div class="card-content">
-						<div class="content">
-							<p><code>ng test</code> でユニットテストをする。</p>
-							<p class="date">xxxx/xx/xx</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<!-- /.tile .ancestor -->
 	</div>
 	<!-- /.container -->
 </section>
