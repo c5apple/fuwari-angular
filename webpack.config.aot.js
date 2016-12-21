@@ -41,7 +41,7 @@ module.exports = {
         loader: 'file?name=images/[name].[hash].[ext]'
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         loader: 'raw-loader'
       }
     ]
@@ -49,8 +49,8 @@ module.exports = {
 
   plugins: [
     new ngtools.AotPlugin({
-      tsConfigPath: './',
-      entryModule: './src/app.module#AppModule'
+      tsConfigPath: './tsconfig.aot.json',
+      entryModule: './src/app/app.module#AppModule'
     }),
     // new webpack.ProgressPlugin(),
     new webpack.ContextReplacementPlugin(

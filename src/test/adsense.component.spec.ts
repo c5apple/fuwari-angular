@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AdsenseComponent } from '../app/parts/adsense.component';
+import { AdsenseComponent } from '../app/shared/adsense/adsense.component';
 
 describe('AdsenseComponent', () => {
   let component: AdsenseComponent;

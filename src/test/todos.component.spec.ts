@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { TodosComponent } from '../app/articles/todos.component';
+import { TodosComponent } from '../app/articles/todos/todos.component';
 
 describe('Component: Todos', () => {
   it('should create an instance', () => {

@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { Component, DebugElement } from '@angular/core';
 
-import { EcoSystemComponent } from '../app/articles/eco-system.component';
+import { EcoSystemComponent } from '../app/articles/eco-system/eco-system.component';
 
 @Component({
   selector: 'ads',
