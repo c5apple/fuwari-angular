@@ -1,0 +1,185 @@
+<article class="article ">
+  <article-header [title]="title" [date]="date"></article-header>
+
+  <div class="content is-medium">
+
+    <p>前回、<a href="/todos.html" routerLink="/todos.html">TODOリストを作ってみよう</a>では簡単なアプリケーションを作成しました。</p>
+    <p>今回はロジック部分をDI化（Dependency Injection）するため、サービスクラスを作ってみます。</p>
+    <p>サービスを作ることで、ほかのコンポーネントでも同じ処理が使えるようになりますし、何よりユニットテストが楽になります。</p>
+
+    <br>
+
+    <ads *ngIf="display"></ads>
+
+    <p>次の流れでサービスを作成します。</p>
+
+    <ul>
+      <li>データモデルクラスを作成する</li>
+      <li>サービスクラスを<code>@Injectable()</code>で作成する</li>
+      <li>モジュールにて利用宣言（providers）をする</li>
+      <li>コンポーネントにて利用宣言（Constructor Injection）</li>
+    </ul>
+
+    <br>
+    <h3>データモデルクラスを<code>ng generate class</code>で作成する</h3>
+    <hr>
+
+    <p>サービスとは直接関係ありませんが、データモデルクラスを先に作っておきます。</p>
+    <p><code>ng generate class [クラス名]</code>を実行してください</p>
+
+    <div class="console">
+      $ ng generate class todo
+      <br>installing class
+      <br>&nbsp;<span class="green">create</span> src\app\todo.ts
+    </div>
+
+    <p>クラスファイルが自動生成されたら、app.component.ts から Todoクラスを移植します。</p>
+
+    <p>todo.ts</p>
+
+    <pre class="prettyprint linenums"><code class="lang-js">export class Todo ｛
+  title: string;
+  desc: string;
+｝
+</code></pre>
+
+    <br>
+    <h3>サービスクラスを<code>@Injectable()</code>で作成する</h3>
+    <hr>
+
+    <p>サービスクラスの作成は、<code>ng generate service [サービス名]</code>で行います。</p>
+
+    <div class="console">
+      $ ng generate service todo
+      <br>installing service
+      <br>&nbsp;<span class="green">create</span> src\app\todo.service.spec.ts
+      <br>&nbsp;<span class="green">create</span> src\app\todo.service.ts
+      <br>&nbsp;<span class="yellow">WARNING</span> Service is generated but not provided, it must be provided to be used
+    </div>
+
+    <p>コンソールに「サービスを作ったけど利用宣言されてないよ。使いたかったら利用宣言してね」と警告が出ていますね。</p>
+    <p>こちらは後ほどモジュールの修正を行いますので、まずはサービスクラスの移植を行います。</p>
+
+    <p>todo.service.ts</p>
+
+    <pre class="prettyprint linenums"><code class="lang-js">import ｛ Injectable ｝ from '@angular/core';
+import ｛ Todo ｝ from './todo';
+&nbsp;
+@Injectable()
+export class TodoService ｛
+&nbsp;
+  private todos: Todo[] = [];
+&nbsp;
+  constructor() ｛ ｝
+&nbsp;
+  public get list(): Todo[] ｛
+    return this.todos;
+  ｝
+  public add(todo: Todo): void ｛
+    this.todos.push(todo);
+  ｝
+  public delete(index: number): void ｛
+    this.todos.splice(index, 1);
+  ｝
+｝</code></pre>
+
+    <br>
+    <h3>モジュールにて利用宣言（providers）をする</h3>
+    <hr>
+
+    <p>先ほどコンソールに警告が出ていたように、作成したサービスを利用するための宣言をする必要があります。</p>
+
+    <p>app.module.ts の providers にサービスクラスを定義します。</p>
+
+    <p>app.module.ts</p>
+
+    <pre class="prettyprint linenums"><code class="lang-js">import ｛ BrowserModule ｝ from '@angular/platform-browser';
+import ｛ NgModule ｝ from '@angular/core';
+import ｛ FormsModule ｝ from '@angular/forms';
+import ｛ HttpModule ｝ from '@angular/http';
+&nbsp;
+import ｛ AppComponent ｝ from './app.component';
+import ｛ TodoService ｝ from './todo.service';
+&nbsp;
+@NgModule(｛
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [TodoService],
+  bootstrap: [AppComponent]
+｝)
+export class AppModule ｛ ｝</code></pre>
+
+    <br>
+    <h3>コンポーネントにて利用宣言（Constructor Injection）</h3>
+    <hr>
+
+    <p>最後に app.component.ts からサービスを利用するよう修正しましょう。</p>
+
+    <p>ポイントは、コンストラクタにて宣言する（Constructor Injection）ことです。</p>
+
+    <p>app.component.ts</p>
+
+    <pre class="prettyprint linenums:22"><code class="lang-js">import ｛ Component ｝ from '@angular/core';
+import ｛ Todo ｝ from './todo';
+import ｛ TodoService ｝ from './todo.service';
+&nbsp;
+@Component(｛
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+｝)
+export class AppComponent ｛
+&nbsp;
+  constructor(
+    private todoService: TodoService
+  ) ｛ ｝
+&nbsp;
+  private todo: Todo;
+  private todos: Todo[];
+
+  ngOnInit(): void ｛
+    this.todo = new Todo;
+    this.todos = this.todoService.list;
+  ｝
+  public onSubmit(): void ｛
+    this.todoService.add(this.todo);
+    this.todo = new Todo;
+  ｝
+  public onDelete(index: number): void ｛
+    this.todoService.delete(index);
+  ｝
+｝</code></pre>
+
+    <p>以上で移植が完了です。</p>
+
+    <br>
+    <h3>動作を確認する。</h3>
+    <hr>
+
+    <p>コードを保存して、<code>ng serve</code>で動かしてみましょう。</p>
+
+    <p>動作自体はサービスを作る前と変わらないことが確認できるかと思います。</p>
+
+    <p>動作は変わりませんが、サービスを作ることで画面とビジネスロジックの分離ができました。</p>
+
+    <p>例えば、APIを呼ぶ処理やローカルストレージを利用する処理など、サービスに書くことになるでしょう。</p>
+
+    <p>ソースコードはGitHubに登録しておきますので参考にしてください。</p>
+
+    <p>
+      <a href="https://github.com/c5apple/angular2-todos/issues/1" target="_blank">
+        <img src="https://assets-cdn.github.com/favicon.ico" width="18px" height="18px" /> c5apple/angular2-todos/issues/1
+        <span class="icon"><i class="fa fa-external-link-square"></i></span>
+      </a>
+    </p>
+
+    <next-nav></next-nav>
+  </div>
+  <!-- /.content -->
+</article>

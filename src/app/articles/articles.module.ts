@@ -9,6 +9,7 @@ import { EcoSystemComponent } from './eco-system/eco-system.component';
 import { InstallComponent } from './install/install.component';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { TodosComponent } from './todos/todos.component';
+import { ServiceComponent } from './service/service.component';
 
 import { ArticleHeaderComponent } from '../shared/article-header/article-header.component';
 import { AdsenseComponent } from '../shared/adsense/adsense.component';
@@ -32,7 +33,8 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
     EcoSystemComponent,
     InstallComponent,
     NewProjectComponent,
-    TodosComponent
+    TodosComponent,
+    ServiceComponent
   ],
   providers: [
     ArticlesRoutingProviders

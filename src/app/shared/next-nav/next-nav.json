@@ -45,7 +45,17 @@
       "name": "プロジェクトを作ってみよう"
     },
     "nextLink": {
+      "href": "/service.html",
+      "name": "サービスを使おう"
+    }
+  },
+  "service.html": {
+    "prefLink": {
       "href": "/todos.html",
+      "name": "TODOリストを作ってみよう"
+    },
+    "nextLink": {
+      "href": "/service.html",
       "name": "コンポーネント分割してみよう※未作成"
     }
   }

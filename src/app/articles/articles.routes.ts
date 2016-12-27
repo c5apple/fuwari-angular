@@ -8,6 +8,7 @@ import { EcoSystemComponent } from './eco-system/eco-system.component';
 import { InstallComponent } from './install/install.component';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { TodosComponent } from './todos/todos.component';
+import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,11 @@ const routes: Routes = [
         path: 'todos.html',
         component: TodosComponent,
         data: { title: 'TODOリストを作ってみよう - ふわりAngular' }
+      },
+      {
+        path: 'service.html',
+        component: ServiceComponent,
+        data: { title: 'サービスを使おう - ふわりAngular' }
       }
     ]
   }
