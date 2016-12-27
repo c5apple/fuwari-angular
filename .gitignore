@@ -6,7 +6,9 @@
 /.tmp
 /bin
 *.ngfactory.ts
+*.ngsummary.json
 *.shim.ts
+*.shim.ngstyle.ts
 
 # dependencies
 /node_modules
