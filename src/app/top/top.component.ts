@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ArticlesService } from '../articles/articles.service';
 
 @Component({
   selector: 'app-top',
@@ -7,11 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopComponent implements OnInit {
 
-  constructor() {
+  public articleLinks: any[] = [];
+
+  constructor(private articlesService: ArticlesService) {
   }
 
   ngOnInit() {
     window.scrollTo(0, 0);
+
+    this.articleLinks = this.articlesService.links;
   }
 
 }

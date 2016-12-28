@@ -11,6 +11,8 @@ import { TopComponent } from './top/top.component';
 import { ArticlesModule } from './articles/articles.module';
 import { ArticleLinkComponent } from './top/article-link/article-link.component';
 
+import { ArticlesService } from './articles/articles.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,7 @@ import { ArticleLinkComponent } from './top/article-link/article-link.component'
     AppRoutingModule,
     ArticlesModule
   ],
-  providers: [],
+  providers: [ArticlesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

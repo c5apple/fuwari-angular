@@ -8,12 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ArticleLinkComponent implements OnInit {
   @Input() title: string;
   @Input() href: string;
-  @Input() discription: string;
+  @Input() discriptions: string[];
   @Input() date: string;
+  discription: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.discription = this.discriptions.join('');
   }
 
 }

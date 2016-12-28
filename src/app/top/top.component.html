@@ -1,42 +1,8 @@
 <section class="section">
 	<div class="container">
-
-		<app-article-link [href]="'/what-is-angular.html'" [title]="'Angularって何？'" [discription]="'<p>W3C Web Components って何？</p><p>SPA（Single-Page Application）って何？</p>'"
-			[date]="'2016/11/9'"></app-article-link>
-
-		<app-article-link [href]="'/eco-system.html'" [title]="'Angularエコシステム'" [discription]="'<p>同封のものたち</p>
-			<ul>
-				<li>Angular CLI</li>
-				<li>NativeScript ... etc</li>
-			</ul>'" [date]="'2016/11/10'"></app-article-link>
-
-		<app-article-link [href]="'/install.html'" [title]="'必要なツールをインストールしよう'" [discription]="'<p>※for Windows10</p>
-			<ul>
-				<li>Git bash</li>
-				<li>Python2.7</li>
-				<li>Ruby</li>
-				<li>Visual Studio 2015 Community</li>
-				<li>Windows 10 SDK</li>
-				<li>nodist, Node.js</li>
-				<li>angular-cli</li>
-				<li>Visual Studio Code</li>
-			</ul>'" [date]="'2016/11/20'"></app-article-link>
-
-		<app-article-link [href]="'/new-project.html'" [title]="'プロジェクトを作ってみよう'" [discription]="'<p><code>ng new</code> してプロジェクトを作る。</p>
-			<p><code>ng build</code> してビルドする。</p>
-			<p><code>ng serve</code> してブラウザで確認する。</p>'" [date]="'2016/11/22'"></app-article-link>
-
-		<app-article-link [href]="'/todos.html'" [title]="'TODOリストを作ってみよう'" [discription]="'<p>簡単なアプリケーションを作ってみる。</p>
-			<p>app.component を修正する。</p>'" [date]="'2016/12/01'"></app-article-link>
-
-		<app-article-link [href]="'/service.html'" [title]="'サービスを使おう'" [discription]="'<p><code>ng generate service</code> してサービスクラスを作成する。</p>
-			<p><code>ng generate class</code> してクラスを作成する。</p>'" [date]="'2016/12/28'"></app-article-link>
-
-		<app-article-link [href]="''" [title]="'コンポーネント分割してみよう ※未作成'" [discription]="'<p><code>ng generate</code> して部品を自動生成する。</p>
-			<p><code>@Input()</code>,<code>@Output()</code> でデータやイベントを送受信する。</p>'" [date]="''"></app-article-link>
-
-		<app-article-link [href]="''" [title]="'テストしてみよう ※未作成'" [discription]="'<p><code>ng test</code> でユニットテストをする。</p>'" [date]="''"></app-article-link>
-
+		<ng-container *ngFor="let articleLink of articleLinks">
+			<app-article-link [href]="articleLink.href" [title]="articleLink.title" [discriptions]="articleLink.discriptions" [date]="articleLink.date"></app-article-link>
+		</ng-container>
 	</div>
 	<!-- /.container -->
 </section>

@@ -6,12 +6,12 @@
     <div class="tile is-parent is-vertical" *ngIf="prefLink">
       <a href="{{prefLink.href}}" routerLink="{{prefLink.href}}" class="button">
         <span class="icon"><i class="fa fa-angle-left"></i></span>
-        <span>{{prefLink.name}}</span>
+        <span>{{prefLink.title}}</span>
       </a>
     </div>
     <div class="tile is-parent is-vertical" *ngIf="nextLink">
       <a href="{{nextLink.href}}" routerLink="{{nextLink.href}}" class="button">
-        <span>{{nextLink.name}}</span>
+        <span>{{nextLink.title}}</span>
         <span class="icon"><i class="fa fa-angle-right"></i></span>
       </a>
     </div>
