@@ -1,6 +1,6 @@
 import { FuwariAngularPage } from './app.po';
 
-describe('fuwari-angular App', function() {
+describe('fuwari-angular App', () => {
   let page: FuwariAngularPage;
 
   beforeEach(() => {
