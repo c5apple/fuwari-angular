@@ -12,7 +12,7 @@ import { TodosComponent } from './todos/todos.component';
 import { ServiceComponent } from './service/service.component';
 
 import { ArticleHeaderComponent } from '../shared/article-header/article-header.component';
-import { AdsenseComponent } from '../shared/adsense/adsense.component';
+import { MyAdsenseComponent } from '../shared/adsense/my-adsense.component';
 
 import { NextNavModule } from '../shared/next-nav/next-nav.module';
 
@@ -22,12 +22,15 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
   imports: [
     CommonModule,
     ArticlesRoutingModule,
-    AdsenseModule,
+    AdsenseModule.forRoot({
+      adClient: 'ca-pub-4398400415874126',
+      adSlot: 7651079037
+    }),
     NextNavModule
   ],
   declarations: [
     ArticlesComponent,
-    AdsenseComponent,
+    MyAdsenseComponent,
     ArticleHeaderComponent,
     WhatIsAngularComponent,
     EcoSystemComponent,
