@@ -20,7 +20,9 @@ do
   sedstr="s/<title>.*$/${title}/g"
   sedstr="${sedstr};s/<meta name=\"description\".*$/${description}/g"
   sedstr="${sedstr};s/${URL}/${URL}${name}/g"
-  sedstr="${sedstr};s/src=\"inline.js/src=\"${CDNURL}inline.js/g"
+  sedstr="${sedstr};s/src=\"inline./src=\"${CDNURL}inline./g"
+  sedstr="${sedstr};s/src=\"polyfills./src=\"${CDNURL}polyfills./g"
+  sedstr="${sedstr};s/src=\"vendor./src=\"${CDNURL}vendor./g"
   sedstr="${sedstr};s/src=\"main./src=\"${CDNURL}main./g"
 
   cat $DISTDIR/index.html | sed -e "${sedstr}" > $DISTDIR/$name
