@@ -1,10 +1,33 @@
 <section class="section">
 	<div class="container">
-		<ng-container *ngFor="let articleLink of articleLinks">
-			<app-article-link [href]="articleLink.href" [title]="articleLink.title" [discriptions]="articleLink.discriptions" [date]="articleLink.date"></app-article-link>
-		</ng-container>
+		<div class="content">
+			<h3>● Hello ふわりAngular!!</h3>
+			<p>このサイトはAngular開発者によるAngular開発者のためのAngularのサイトです。</p>
+			<p>初心者向けの情報がメインですので、Angularを触ったことがない方がアプリを作れるようになれたら嬉しいです。</p>
+
+			<h3>● Angular って何??</h3>
+			<div class="tile is-ancestor">
+				<app-article-link [id]="1"></app-article-link>
+				<app-article-link [id]="2"></app-article-link>
+			</div>
+
+			<h3>● Hello World してみよう</h3>
+			<div class="tile is-ancestor">
+				<app-article-link [id]="3"></app-article-link>
+				<app-article-link [id]="4"></app-article-link>
+			</div>
+
+			<h3>● アプリを作ってみよう</h3>
+			<div class="tile is-ancestor">
+				<app-article-link [id]="5"></app-article-link>
+			</div>
+			<div class="tile is-ancestor">
+				<app-article-link [id]="6"></app-article-link>
+				<app-article-link [id]="7"></app-article-link>
+				<app-article-link [id]="8"></app-article-link>
+			</div>
+		</div>
 	</div>
-	<!-- /.container -->
 </section>
 
 <section class="section">

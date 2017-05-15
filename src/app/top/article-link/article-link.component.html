@@ -1,17 +1,15 @@
-<div class="tile is-ancestor">
-  <div class="tile is-parent is-vertical is-8">
-    <div class="card is-fullwidth">
-      <a href="{{href}}" routerLink="{{href}}">
-        <header class="card-header">
-          <h3 class="card-header-title">{{title}}</h3>
-          <span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
-        </header>
-      </a>
-      <div class="card-content">
-        <div class="content">
-          <div [innerHtml]="discription"></div>
-          <p class="date" *ngIf="date">{{date}}</p>
-        </div>
+<div class="tile is-parent is-vertical is-{{columnSize}}">
+  <div class="card is-fullwidth">
+    <a href="{{href}}" routerLink="{{href}}">
+      <header class="card-header">
+        <h4 class="card-header-title" [style.margin-bottom]="0">{{title}}</h4>
+        <span class="card-header-icon"><i class="fa fa-angle-right"></i></span>
+      </header>
+    </a>
+    <div class="card-content">
+      <div class="content">
+        <div [innerHtml]="discription"></div>
+        <p class="date" *ngIf="date">{{date}}</p>
       </div>
     </div>
   </div>
