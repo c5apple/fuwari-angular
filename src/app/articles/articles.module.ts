@@ -16,7 +16,7 @@ import { MyAdsenseComponent } from '../shared/adsense/my-adsense.component';
 
 import { NextNavModule } from '../shared/next-nav/next-nav.module';
 
-import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.routes';
+import { ArticlesRoutingModule } from './articles.routes';
 
 @NgModule({
   imports: [
@@ -39,8 +39,6 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from './articles.rout
     TodosComponent,
     ServiceComponent
   ],
-  providers: [
-    ArticlesRoutingProviders
-  ],
+  providers: [],
 })
 export class ArticlesModule { }

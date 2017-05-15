@@ -49,6 +49,9 @@ const routes: Routes = [
   }
 ];
 
-export const ArticlesRoutingProviders: any[] = [];
-
-export const ArticlesRoutingModule: ModuleWithProviders = RouterModule.forChild(routes);
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
+  providers: []
+})
+export class ArticlesRoutingModule { }

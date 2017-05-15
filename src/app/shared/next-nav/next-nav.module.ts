@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { NextNavComponent } from './next-nav.component';
 
-import { ArticlesRoutingProviders, ArticlesRoutingModule } from '../../articles/articles.routes';
+import { ArticlesRoutingModule } from '../../articles/articles.routes';
 
 @NgModule({
   imports: [
@@ -14,9 +14,7 @@ import { ArticlesRoutingProviders, ArticlesRoutingModule } from '../../articles/
   declarations: [
     NextNavComponent
   ],
-  providers: [
-    ArticlesRoutingProviders
-  ],
+  providers: [],
   exports: [
     NextNavComponent
   ]
