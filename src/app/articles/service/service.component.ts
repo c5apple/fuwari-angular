@@ -7,8 +7,6 @@ import { Component, AfterViewInit } from '@angular/core';
 })
 export class ServiceComponent implements AfterViewInit {
 
-  public display: boolean = 'localhost' !== location.hostname;
-
   public title: string;
   public date: Date;
 

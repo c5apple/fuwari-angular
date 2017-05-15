@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhatIsAngularComponent implements OnInit {
 
-  public display: boolean = 'localhost' !== location.hostname;
-
   public title: string;
   public date: Date;
 

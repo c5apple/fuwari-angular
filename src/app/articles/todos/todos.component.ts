@@ -7,8 +7,6 @@ import { Component, AfterViewInit } from '@angular/core';
 })
 export class TodosComponent implements AfterViewInit {
 
-  public display: boolean = 'localhost' !== location.hostname;
-
   public title: string;
   public date: Date;
 
