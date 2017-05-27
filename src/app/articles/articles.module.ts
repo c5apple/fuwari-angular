@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AdsenseModule } from 'ng2-adsense';
 
 import { ArticlesComponent } from './articles.component';
 
@@ -12,9 +11,10 @@ import { TodosComponent } from './todos/todos.component';
 import { ServiceComponent } from './service/service.component';
 
 import { ArticleHeaderComponent } from '../shared/article-header/article-header.component';
-import { MyAdsenseComponent } from '../shared/adsense/my-adsense.component';
+import { MyAdsenseModule } from '../shared/adsense/my-adsense.module';
 
 import { NextNavModule } from '../shared/next-nav/next-nav.module';
+import { SideNavModule } from '../shared/side-nav/side-nav.module';
 
 import { ArticlesRoutingModule } from './articles.routes';
 
@@ -22,15 +22,12 @@ import { ArticlesRoutingModule } from './articles.routes';
   imports: [
     CommonModule,
     ArticlesRoutingModule,
-    AdsenseModule.forRoot({
-      adClient: 'ca-pub-4398400415874126',
-      adSlot: 7651079037
-    }),
-    NextNavModule
+    NextNavModule,
+    SideNavModule,
+    MyAdsenseModule,
   ],
   declarations: [
     ArticlesComponent,
-    MyAdsenseComponent,
     ArticleHeaderComponent,
     WhatIsAngularComponent,
     EcoSystemComponent,
