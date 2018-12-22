@@ -3,8 +3,8 @@
 BASEDIR=`dirname $0`
 DISTDIR=$BASEDIR/../dist
 
-URL="http:\/\/www.banana-juice.com\/angular\/"
-CDNURL="http:\/\/cdn.banana-juice.com\/angular\/js\/"
+URL="https:\/\/www.banana-juice.com\/angular\/"
+CDNURL="https:\/\/cdn.banana-juice.com\/angular\/js\/"
 
 csvfile=$BASEDIR/../src/meta.csv
 for line in `cat ${csvfile} | sed -e '1d'`

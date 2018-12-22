@@ -1,6 +1,6 @@
 # FuwariAngular
 
-[ふわりAngular(http://www.banana-juice.com/angular/)](http://www.banana-juice.com/angular/)
+[ふわりAngular(https://www.banana-juice.com/angular/)](https://www.banana-juice.com/angular/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
 
