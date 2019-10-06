@@ -12,6 +12,8 @@ import { ArticlesModule } from './articles/articles.module';
 import { ArticleLinkComponent } from './top/article-link/article-link.component';
 
 import { ArticlesService } from './articles/articles.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { ArticlesService } from './articles/articles.service';
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    ArticlesModule
+    ArticlesModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [ArticlesService],
   bootstrap: [AppComponent]
