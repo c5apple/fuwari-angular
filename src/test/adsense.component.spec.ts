@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AdsenseComponent } from '../app/shared/adsense/adsense.component';
+import { MyAdsenseComponent } from '../app/shared/adsense/my-adsense.component';
 
 describe('AdsenseComponent', () => {
-  let component: AdsenseComponent;
-  let fixture: ComponentFixture<AdsenseComponent>;
+  let component: MyAdsenseComponent;
+  let fixture: ComponentFixture<MyAdsenseComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdsenseComponent ]
+      declarations: [ MyAdsenseComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdsenseComponent);
+    fixture = TestBed.createComponent(MyAdsenseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

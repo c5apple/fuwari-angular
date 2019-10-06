@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SideNavComponent } from './side-nav.component';
 import { ArticlesRoutingModule } from '../../articles/articles.routes';
-import { MyAdsenseModule } from 'app/shared/adsense/my-adsense.module';
+import { MyAdsenseModule } from '../adsense/my-adsense.module';
 
 @NgModule({
   imports: [
