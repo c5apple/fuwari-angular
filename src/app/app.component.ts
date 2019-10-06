@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,17 @@ export class AppComponent {
   constructor(
     titleService: Title,
     router: Router,
-    activatedRoute: ActivatedRoute
+    activatedRoute: ActivatedRoute,
+    private swUpdate: SwUpdate
   ) {
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        // 強制更新
+        window.location.reload(true);
+      });
+      // Check for new version
+      this.swUpdate.checkForUpdate();
+    }
     router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         let title = this.getTitle(router.routerState, router.routerState.root).join('-');
