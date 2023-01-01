@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideNavComponent } from './side-nav.component';
+import { EcoSystemComponent } from './eco-system.component';
 
-describe('SideNavComponent', () => {
-  let component: SideNavComponent;
-  let fixture: ComponentFixture<SideNavComponent>;
+describe('EcoSystemComponent', () => {
+  let component: EcoSystemComponent;
+  let fixture: ComponentFixture<EcoSystemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SideNavComponent ]
+      declarations: [ EcoSystemComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SideNavComponent);
+    fixture = TestBed.createComponent(EcoSystemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

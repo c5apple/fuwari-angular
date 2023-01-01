@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class ArticlesService {
 
   public articleLinks: any[] = [
@@ -103,11 +105,11 @@ export class ArticlesService {
     return this.articleLinks;
   }
 
-  public navLinks(nowHref: string): Object {
+  public navLinks(nowHref: string): { prefLink: string, nextLink: string } {
     let nowArticle = this.articleLinks.filter(item => item.href === nowHref)[0];
     return {
-      'prefLink': this.articleLinks.filter(item => item.id === nowArticle.id - 1)[0],
-      'nextLink': this.articleLinks.filter(item => item.id === nowArticle.id + 1)[0]
+      prefLink: this.articleLinks.filter(item => item.id === nowArticle.id - 1)[0],
+      nextLink: this.articleLinks.filter(item => item.id === nowArticle.id + 1)[0]
     };
   }
 

@@ -18,7 +18,7 @@ export class AppComponent {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
         // 強制更新
-        window.location.reload(true);
+        window.location.reload();
       });
       // Check for new version
       this.swUpdate.checkForUpdate();

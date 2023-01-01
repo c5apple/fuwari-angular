@@ -7,13 +7,13 @@ import { ArticlesService } from '../../articles/articles.service';
   styleUrls: ['./article-link.component.scss']
 })
 export class ArticleLinkComponent implements OnInit {
-  @Input() id: number;
-  @Input() title: string;
-  @Input() href: string;
-  @Input() discriptions: string[];
-  @Input() date: string;
-  discription: string;
-  @Input() columnSize: number;
+  @Input() id: number = 0;
+  @Input() title: string = '';
+  @Input() href: string = '';
+  @Input() discriptions: string[] = [];
+  @Input() date: string = '';
+  discription: string = '';
+  @Input() columnSize: number = 0;
 
   constructor(private service: ArticlesService) { }
 

@@ -11,17 +11,17 @@ import { ArticlesService } from '../../articles/articles.service';
 })
 export class NextNavComponent implements OnInit {
 
-  public prefLink: Link;
-  public nextLink: Link;
+  public prefLink?: Link;
+  public nextLink?: Link;
 
   constructor(private articlesService: ArticlesService) {
   }
 
   ngOnInit() {
-    let navLink = this.articlesService.navLinks('/'.concat(window.location.pathname.split('/').pop()));
+    let navLink = this.articlesService.navLinks('/'.concat(window.location.pathname.split('/').pop() || ''));
     if (navLink !== undefined) {
-      if (navLink['prefLink']) this.prefLink = new Link(navLink['prefLink']);
-      if (navLink['nextLink']) this.nextLink = new Link(navLink['nextLink']);
+      if (navLink['prefLink']) this.prefLink = new Link(navLink.prefLink);
+      if (navLink['nextLink']) this.nextLink = new Link(navLink.nextLink);
     }
   }
 }

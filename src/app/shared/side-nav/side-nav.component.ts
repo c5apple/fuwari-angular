@@ -9,8 +9,8 @@ import { ArticlesService } from '../../articles/articles.service';
 })
 export class SideNavComponent implements OnInit {
 
-  links: any[];
-  locationPath: string;
+  links: any[] = [];
+  locationPath: string = '';
 
   constructor(
     private articlesService: ArticlesService

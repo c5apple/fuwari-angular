@@ -22,16 +22,25 @@ export class InstallComponent implements OnInit {
   public showOriginalImage(element: any): void {
     let modal = document.getElementById('image-modal');
 
-    modal.className = 'modal animated fadeIn is-active';
-    modal.querySelector('img').src = element.target.src;
+    if (modal) {
+      modal.className = 'modal animated fadeIn is-active';
+      const img = modal.querySelector('img');
+      if (img) {
+        img.src = element.target.src;
+      }
+    }
   }
 
   public hideOriginalImage(): void {
     let modal = document.getElementById('image-modal');
 
-    modal.className = 'modal animated fadeOut is-active';
-    setTimeout(() => {
-      modal.className = 'modal animated';
-    }, 800);
+    if (modal) {
+      modal.className = 'modal animated fadeOut is-active';
+      setTimeout(() => {
+        if (modal) {
+          modal.className = 'modal animated';
+        }
+      }, 800);
+    }
   }
 }

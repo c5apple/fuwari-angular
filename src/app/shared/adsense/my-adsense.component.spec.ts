@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideNavComponent } from './side-nav.component';
+import { MyAdsenseComponent } from './my-adsense.component';
 
-describe('SideNavComponent', () => {
-  let component: SideNavComponent;
-  let fixture: ComponentFixture<SideNavComponent>;
+describe('MyAdsenseComponent', () => {
+  let component: MyAdsenseComponent;
+  let fixture: ComponentFixture<MyAdsenseComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SideNavComponent ]
+      declarations: [ MyAdsenseComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SideNavComponent);
+    fixture = TestBed.createComponent(MyAdsenseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

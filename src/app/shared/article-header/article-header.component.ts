@@ -8,14 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ArticleHeaderComponent implements OnInit {
 
   @Input()
-  public title: string;
+  public title?: string;
 
   @Input()
-  public date: Date;
+  public date?: Date;
 
-  public formatedDate: string;
+  public formatedDate?: string;
 
   ngOnInit() {
-    this.formatedDate = this.date.getFullYear() + '/' + (this.date.getMonth() + 1) + '/' + this.date.getDate();
+    this.formatedDate = this.date ? this.date.getFullYear() + '/' + (this.date.getMonth() + 1) + '/' + this.date.getDate() : '';
   }
 }
