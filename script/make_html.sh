@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASEDIR=`dirname $0`
-DISTDIR=$BASEDIR/../dist/fuwari-angular
+DISTDIR=$BASEDIR/../dist/angular
 
 URL="https:\/\/www.banana-juice.com\/angular\/"
 CDNURL="https:\/\/cdn.banana-juice.com\/angular\/js\/"
